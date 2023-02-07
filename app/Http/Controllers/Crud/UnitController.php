@@ -36,7 +36,7 @@ class UnitController extends CrudController
      */
     public function show(Unit $unit): UnitResource
     {
-        return $unit->load('language')->resource();
+        return $unit->load('language', 'lessons')->resource();
     }
 
     /**

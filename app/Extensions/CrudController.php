@@ -2,11 +2,10 @@
 
 namespace App\Extensions;
 
-use App\Http\Controllers\Controller as BaseController;
 use Illuminate\Database\Eloquent\Model;
 use UnexpectedValueException;
 
-abstract class CrudController extends BaseController
+abstract class CrudController extends Controller
 {
     /**
      * Model FQN, when the Controller is not named {$model}Controller.
@@ -15,7 +14,7 @@ abstract class CrudController extends BaseController
 
     public function __construct()
     {
-        $this->authorizeResource($this->getModel());
+        // $this->authorizeResource($this->getModel());
 
         $this->middleware('throttle:5,1')->only(['store', 'update', 'destroy']);
     }

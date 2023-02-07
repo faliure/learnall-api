@@ -7,6 +7,7 @@
     "require": {
         "php": "^8.0.2",
         "faliure/laravel-resourceable": "^1.0.0",
+        "guzzlehttp/guzzle": "^7.5",
         "jamesgordo/php-csv-parser": "^1.0",
         "laravel/framework": "^9.19",
         "laravel/sanctum": "^3.2",
@@ -19,7 +20,6 @@
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.0.1",
-        "laravel/valet": "^3.3",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.1",
         "phpunit/phpunit": "^9.5.10",

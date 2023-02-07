@@ -36,7 +36,7 @@ class LessonController extends CrudController
      */
     public function show(Lesson $lesson): LessonResource
     {
-        return $lesson->load('unit')->resource();
+        return $lesson->load('unit', 'exercises')->resource();
     }
 
     /**

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use App\Extensions\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Hash;
@@ -21,7 +21,7 @@ class TokenController extends Controller
         }
 
         return response()->json([
-            'token' => $user->createToken($request->device_name)->plainTextToken,
+            'token' => $user->createToken($request->device)->plainTextToken,
         ]);
     }
 }

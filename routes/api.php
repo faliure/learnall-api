@@ -1,14 +1,15 @@
 <?php
 
 use App\Http\Controllers\Auth\TokenController;
-use App\Http\Controllers\Crud\CategoryController;
-use App\Http\Controllers\Crud\ExerciseController;
-use App\Http\Controllers\Crud\LanguageController;
-use App\Http\Controllers\Crud\LessonController;
-use App\Http\Controllers\Crud\SentenceController;
-use App\Http\Controllers\Crud\UnitController;
-use App\Http\Controllers\Crud\UserController;
-use App\Http\Controllers\Crud\WordController;
+use App\Http\Controllers\Crud\CategoryController as CrudCategoryController;
+use App\Http\Controllers\Crud\ExerciseController as CrudExerciseController;
+use App\Http\Controllers\Crud\LanguageController as CrudLanguageController;
+use App\Http\Controllers\Crud\LessonController as CrudLessonController;
+use App\Http\Controllers\Crud\SentenceController as CrudSentenceController;
+use App\Http\Controllers\Crud\UnitController as CrudUnitController;
+use App\Http\Controllers\Crud\UserController as CrudUserController;
+use App\Http\Controllers\Crud\WordController as CrudWordController;
+use App\Http\Controllers\LanguageController;
 use App\Http\Resources\UserResource;
 use Illuminate\Support\Facades\Route;
 
@@ -37,12 +38,14 @@ Route::middleware('auth:sanctum')->group(function () {
  * CRUD Actions
  */
 Route::apiResources([
-    '/exercises'  => ExerciseController::class,
-    '/languages'  => LanguageController::class,
-    '/lessons'    => LessonController::class,
-    '/sentences'  => SentenceController::class,
-    '/units'      => UnitController::class,
-    '/users'      => UserController::class,
-    '/words'      => WordController::class,
-    '/categories' => CategoryController::class,
+    '/exercises'  => CrudExerciseController::class,
+    '/languages'  => CrudLanguageController::class,
+    '/lessons'    => CrudLessonController::class,
+    '/sentences'  => CrudSentenceController::class,
+    '/units'      => CrudUnitController::class,
+    '/users'      => CrudUserController::class,
+    '/words'      => CrudWordController::class,
+    '/categories' => CrudCategoryController::class,
 ]);
+
+Route::get('languages/{language}/word', [LanguageController::class, 'word']);
