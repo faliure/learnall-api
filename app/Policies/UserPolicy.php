@@ -29,7 +29,7 @@ class UserPolicy
     /**
      * Determine whether the user can create models.
      */
-    public function create(User $user): Response|bool
+    public function create(?User $user): Response|bool
     {
         return true;
     }

@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\Auth\TokenController;
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Crud\CategoryController as CrudCategoryController;
 use App\Http\Controllers\Crud\ExerciseController as CrudExerciseController;
 use App\Http\Controllers\Crud\LanguageController as CrudLanguageController;
@@ -10,7 +10,6 @@ use App\Http\Controllers\Crud\UnitController as CrudUnitController;
 use App\Http\Controllers\Crud\UserController as CrudUserController;
 use App\Http\Controllers\Crud\WordController as CrudWordController;
 use App\Http\Controllers\LanguageController;
-use App\Http\Resources\UserResource;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,14 +24,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', fn () => "LearnAll API v1");
+Route::get('/ping', fn () => "Pong!");
 
-Route::get('ping', fn () => "Pong!");
-
-Route::post('/auth/sanctum', TokenController::class);
-
-Route::middleware('auth:sanctum')->group(function () {
-    Route::get('/me', fn () => new UserResource(me()));
-});
+Route::controller(AuthController::class)->group(function () {
+    Route::get('/auth', 'show');
+    Route::post('/auth', 'store')->withoutMiddleware('auth:sanctum');
+    Route::put('/auth', 'update');
+    Route::delete('/auth', 'destroy');
+})->middleware('auth:sanctum');
 
 /**
  * CRUD Actions

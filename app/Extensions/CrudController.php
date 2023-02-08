@@ -16,7 +16,7 @@ abstract class CrudController extends Controller
     {
         // $this->authorizeResource($this->getModel());
 
-        $this->middleware('throttle:5,1')->only(['store', 'update', 'destroy']);
+        $this->middleware('throttle:60,1')->only(['store', 'update', 'destroy']);
     }
 
     /**

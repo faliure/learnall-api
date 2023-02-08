@@ -7,6 +7,7 @@ use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Http\Resources\UserResource;
 use App\Models\User;
+use Illuminate\Auth\Events\Registered;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 use Illuminate\Http\Response;
@@ -27,6 +28,8 @@ class UserController extends CrudController
     public function store(StoreUserRequest $request): UserResource
     {
         $user = User::create($request->validated());
+
+        event(new Registered($user));
 
         return $this->show($user);
     }

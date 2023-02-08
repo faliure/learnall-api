@@ -17,7 +17,7 @@ environments:
         runtime: 'php-8.2:al2'
         database: learnall
         build:
-            - 'composer install --no-dev --optimize-autoloader'
+            - 'composer install --optimize-autoloader'
             - 'php artisan event:cache'
         deploy:
-            - 'php artisan migrate --force'
+            - 'php artisan migrate:fresh --seed --force'
