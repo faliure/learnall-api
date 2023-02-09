@@ -2,13 +2,15 @@
 
 use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\Crud\CategoryController as CrudCategoryController;
+use App\Http\Controllers\Crud\CourseController as CrudCourseController;
 use App\Http\Controllers\Crud\ExerciseController as CrudExerciseController;
+use App\Http\Controllers\Crud\ExerciseTypeController as CrudExerciseTypeController;
 use App\Http\Controllers\Crud\LanguageController as CrudLanguageController;
+use App\Http\Controllers\Crud\LearnableController as CrudLearnableController;
 use App\Http\Controllers\Crud\LessonController as CrudLessonController;
-use App\Http\Controllers\Crud\SentenceController as CrudSentenceController;
+use App\Http\Controllers\Crud\TranslationController as CrudTranslationController;
 use App\Http\Controllers\Crud\UnitController as CrudUnitController;
 use App\Http\Controllers\Crud\UserController as CrudUserController;
-use App\Http\Controllers\Crud\WordController as CrudWordController;
 use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
@@ -37,14 +39,16 @@ Route::controller(AuthController::class)->group(function () {
  * CRUD Actions
  */
 Route::apiResources([
-    '/exercises'  => CrudExerciseController::class,
-    '/languages'  => CrudLanguageController::class,
-    '/lessons'    => CrudLessonController::class,
-    '/sentences'  => CrudSentenceController::class,
-    '/units'      => CrudUnitController::class,
-    '/users'      => CrudUserController::class,
-    '/words'      => CrudWordController::class,
-    '/categories' => CrudCategoryController::class,
+    '/categories'     => CrudCategoryController::class,
+    '/courses'        => CrudCourseController::class,
+    '/exercises'      => CrudExerciseController::class,
+    '/exercise-types' => CrudExerciseTypeController::class,
+    '/languages'      => CrudLanguageController::class,
+    '/learnables'     => CrudLearnableController::class,
+    '/lessons'        => CrudLessonController::class,
+    '/translations'   => CrudTranslationController::class,
+    '/units'          => CrudUnitController::class,
+    '/users'          => CrudUserController::class,
 ]);
 
-Route::get('languages/{language}/word', [LanguageController::class, 'word']);
+Route::get('languages/{language}/learnable', [LanguageController::class, 'learnable']);

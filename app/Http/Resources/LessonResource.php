@@ -18,10 +18,13 @@ class LessonResource extends Resource
             'id'          => $this->id,
             'name'        => $this->name,
             'description' => $this->description,
-            'language_id' => $this->unit->language_id,
-            'language'    => $this->unit->language->longName,
-            'unit'        => new UnitResource($this->whenLoaded('unit')),
+            'motivation'  => $this->motivation,
+            '#units'      => $this->whenCounted('units'),
+            '#exercises'  => $this->whenCounted('exercises'),
+            'units'       => UnitResource::collection($this->whenLoaded('units')),
             'exercises'   => ExerciseResource::collection($this->whenLoaded('exercises')),
+            'created_at'  => $this->created_at->toDateTimeString(),
+            'updated_at'  => $this->updated_at->toDateTimeString(),
         ];
     }
 }

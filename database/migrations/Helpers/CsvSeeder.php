@@ -14,8 +14,6 @@ class CsvSeeder
         $parser->setDelimeter($delimiter);
         $parser->parse();
 
-        return collect($parser->all())
-            ->map(fn ($item) => (array) $item)
-            ->map(fn ($item) => array_map('trim', $item));
+        return rcollect($parser->all())->map->map(fn ($value) => trim($value));
     }
 };

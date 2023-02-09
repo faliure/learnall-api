@@ -9,20 +9,13 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Lesson extends Model
 {
-    public function language(): BelongsTo
+    public function units(): BelongsToMany
     {
-        return $this->unit->language();
-    }
-
-    public function unit(): BelongsTo
-    {
-        return $this->belongsTo(Unit::class);
+        return $this->belongsToMany(Unit::class);
     }
 
     public function exercises(): BelongsToMany
     {
-        return $this->belongsToMany(Exercise::class)
-            ->using(ExerciseLesson::class)
-            ->withTimestamps();
+        return $this->belongsToMany(Exercise::class);
     }
 }

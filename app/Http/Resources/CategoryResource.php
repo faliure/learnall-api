@@ -15,10 +15,20 @@ class CategoryResource extends Resource
     public function toArray($request)
     {
         return [
-            'name'      => $this->name,
-            'slug'      => $this->slug,
-            'words'     => $this->whenCounted('words'),
-            'sentences' => $this->whenCounted('sentences'),
+            'id'           => $this->id,
+            'name'         => $this->name,
+            'slug'         => $this->slug,
+            'desrcription' => $this->description,
+            'motivation'   => $this->motivation,
+            '#learnables'  => $this->whenCounted('learnables'),
+            '#words'       => $this->whenCounted('words'),
+            '#expressions' => $this->whenCounted('expressions'),
+            '#sentences'   => $this->whenCounted('sentences'),
+            '#exercises'   => $this->whenCounted('exercises'),
+            'learnables'   => LearnableResource::collection($this->whenLoaded('learnables')),
+            'exercises'    => ExerciseResource::collection($this->whenLoaded('exercises')),
+            'created_at'   => $this->created_at->toDateTimeString(),
+            'updated_at'   => $this->updated_at->toDateTimeString(),
         ];
     }
 }

@@ -94,6 +94,11 @@ function implementsInterface(object|string $class, string $interface): bool
     return in_array($interface, class_implements($class));
 }
 
+function rcollect(mixed $items)
+{
+    return collect($items)->recursive();
+}
+
 /******************************************************************************
  *** Enum Tools ***************************************************************
  *****************************************************************************/

@@ -28,7 +28,7 @@ class ExerciseLesson extends Pivot
             $exercise = Exercise::find($pivot->{$pivot->getForeignKey()});
             $lesson   = Lesson::find($pivot->{$pivot->getOtherKey()});
 
-            if ($exercise->language_id !== $lesson->language->id) {
+            if ($exercise->language_id !== $lesson->unit->language_id) {
                 throw new InvalidRelationException(
                     'Cannot add Execise to Lesson of a different language ' .
                     "(Excercise #{$exercise->id} | Lesson #{$lesson->id})"
