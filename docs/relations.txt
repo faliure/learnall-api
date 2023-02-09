@@ -1,0 +1,59 @@
+Language
+	HasMany		Language (variants)
+	HasMany		Courses (to)
+	HasMany		Courses (from)
+	HasMany		Units
+	HasMany		Lessons
+	HasMany 	Exercises
+	HasMany		Learnables (with subclasses words, expressions, sentences)
+	HasMany 	Translations (from)
+
+Course
+	BelongsTo 	Language (to)
+	BelongsTo 	Language (from)
+	BelongsToMany 	Units
+
+Unit
+	BelongsTo	Language
+	BelongsToMany	Courses
+	BelongsToMany 	Lessons
+
+Lesson
+	BelongsToMany	Units
+	BelongsToMany 	Exercises
+
+ExerciseType
+	HasMany		Exercises
+
+Exercise
+	BelongsTo 	Language
+	BelongsTo 	ExerciseType
+	BelongsToMany 	Lessons
+	BelongsToMany	Learnables
+	MorphToMany 	Categories
+
+Learnable
+	BelongsTo 	Language
+	HasMany		Learnables (related, with subclasses words, expressions, sentences)
+	BelongsToMany	Exercises
+	HasMany 	Translations
+	MorphToMany 	Categories
+
+Translation
+	BelongsTo	Learnable
+	BelongsTo	Language (to)
+
+Category
+	MorphsTo 	Categorizables (Exercise, Learnable)
+
+
+----------------------------------------------------------------------
+
+ExerciseType <defines the specs of an exercise depending on its type>
+	type = WriteDown
+	type = Translate
+	type = TranslateBack
+	type = SelectImage
+	type = SelectWords
+
+Authoritative translations should never be regex

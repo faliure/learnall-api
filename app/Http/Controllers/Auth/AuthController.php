@@ -13,13 +13,6 @@ use Illuminate\Validation\ValidationException;
 
 class AuthController extends Controller
 {
-    public function show(Request $request)
-    {
-        return response()->json([
-            'user' => $request->user()->resource(),
-        ]);
-    }
-
     public function store(LoginRequest $request): JsonResponse
     {
         $user = User::firstWhere('email', $request->email);
@@ -36,6 +29,13 @@ class AuthController extends Controller
         ]);
     }
 
+    public function show(Request $request)
+    {
+        return response()->json([
+            'user' => $request->user()->resource(),
+        ]);
+    }
+
     public function update(Request $request): JsonResponse
     {
         $current = $request->user()->currentAccessToken();
@@ -49,7 +49,7 @@ class AuthController extends Controller
 
     public function destroy(Request $request): JsonResponse
     {
-        $request->user()->currentAccessToken()->delete();
+        $request->user()?->currentAccessToken()?->delete();
 
         return response()->json([], Response::HTTP_NO_CONTENT);
     }

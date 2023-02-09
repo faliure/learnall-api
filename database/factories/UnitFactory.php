@@ -19,9 +19,9 @@ class UnitFactory extends Factory
     {
         return [
             'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
-            'slug'        => $this->faker->slug(2),
             'name'        => $this->faker->sentence(2),
             'description' => $this->faker->sentence(),
+            'motivation'  => $this->faker->sentence(),
         ];
     }
 }

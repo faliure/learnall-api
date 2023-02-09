@@ -16,11 +16,21 @@ class ExerciseResource extends Resource
     {
         return [
             'id'          => $this->id,
-            'question'    => $this->question,
-            'answer'      => $this->answer,
-            'language_id' => $this->language_id,
-            'language'    => $this->language->longName,
+            'definition'  => $this->definition,
+            'description' => $this->description,
+            'motivation'  => $this->motivation,
+            'language_id' => $this->whenNotLoaded('language', $this->language_id),
+            'type_id'     => $this->whenNotLoaded('type', $this->type_id),
+            '#learnables' => $this->whenCounted('learnables'),
+            '#lessons'    => $this->whenCounted('lessons'),
+            '#categories' => $this->whenCounted('categories'),
+            'language'    => LanguageResource::make($this->whenLoaded('language')),
+            'type'        => ExerciseTypeResource::make($this->whenLoaded('type')),
+            'learnables'  => LearnableResource::collection($this->whenLoaded('learnables')),
             'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),
+            'categories'  => CategoryResource::collection($this->whenLoaded('categories')),
+            'created_at'  => $this->created_at->toDateTimeString(),
+            'updated_at'  => $this->updated_at->toDateTimeString(),
         ];
     }
 }

@@ -7,8 +7,10 @@ use App\Models\Language;
 
 class LanguageController extends Controller
 {
-    public function word(Language $language)
+    public function learnable(Language $language)
     {
-        return $language->words()->inRandomOrder()->first()->resource();
+        return $language->learnables()->whereHas('translation')
+            ->inRandomOrder()->first()
+            ->load('translation')->resource();
     }
 }

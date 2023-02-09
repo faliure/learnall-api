@@ -3,6 +3,7 @@
 namespace App\Extensions;
 
 use Illuminate\Http\Resources\Json\JsonResource as BaseJsonResource;
+use Illuminate\Http\Resources\MissingValue;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
@@ -43,6 +44,40 @@ class Resource extends BaseJsonResource
         }
 
         return Arr::only($this->resolve(), $attributes);
+    }
+
+    /**
+     * Retrieve a value if a relationship has not been loaded.
+     *
+     * @param  string  $relationship
+     * @param  mixed  $value
+     * @param  mixed  $default
+     * @return \Illuminate\Http\Resources\MissingValue|mixed
+     */
+    public function whenNotLoaded($relationship, $value = null, $default = null)
+    {
+        if (func_num_args() < 3) {
+            $default = new MissingValue;
+        }
+
+        return $this->whenLoaded($relationship, $default, $value);
+    }
+
+    /**
+     * Retrieve a value if a relationship count has not been loaded.
+     *
+     * @param  string  $relationship
+     * @param  mixed  $value
+     * @param  mixed  $default
+     * @return \Illuminate\Http\Resources\MissingValue|mixed
+     */
+    public function whenNotCounted($relationship, $value = null, $default = null)
+    {
+        if (func_num_args() < 3) {
+            $default = new MissingValue;
+        }
+
+        return $this->whenCounted($relationship, $default, $value);
     }
 
     /**

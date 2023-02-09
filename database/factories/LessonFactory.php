@@ -2,7 +2,6 @@
 
 namespace Database\Factories;
 
-use App\Models\Unit;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -18,9 +17,9 @@ class LessonFactory extends Factory
     public function definition()
     {
         return [
-            'unit_id'     => Unit::factory(),
             'name'        => $this->faker->sentence(3),
             'description' => $this->faker->sentence(),
+            'motivation'  => $this->faker->sentence(),
         ];
     }
 }

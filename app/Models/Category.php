@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Relations\MorphToMany;
 
 class Category extends Model
 {
-    public function words(): MorphToMany
+    public function learnables(): MorphToMany
     {
-        return $this->morphedByMany(Word::class, 'categorizable');
+        return $this->morphedByMany(Learnable::class, 'categorizable');
     }
 
-    public function sentences(): MorphToMany
+    public function exercises(): MorphToMany
     {
-        return $this->morphedByMany(Sentence::class, 'categorizable');
+        return $this->morphedByMany(Exercise::class, 'categorizable');
     }
 }

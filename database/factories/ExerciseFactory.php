@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Models\Exercise;
+use App\Models\ExerciseType;
 use App\Models\Language;
 use App\Models\Lesson;
 use App\Models\Unit;
@@ -21,9 +22,11 @@ class ExerciseFactory extends Factory
     public function definition()
     {
         return [
+            'type_id'     => ExerciseType::inRandomOrder()->first()->id ?? ExerciseType::factory(),
+            'definition'  => [$this->faker->word() => $this->faker->sentence()],
             'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
-            'question'    => $this->faker->sentence(),
-            'answer'      => $this->faker->sentence(),
+            'description' => $this->faker->sentence(),
+            'motivation'  => $this->faker->sentence(),
         ];
     }
 
@@ -40,13 +43,13 @@ class ExerciseFactory extends Factory
             $unit = Unit::where($constraint)->inRandomOrder()->first()
                 ?? Unit::factory()->create($constraint);
 
-            if (random_int(0, 1)) { // Throw a coin: attach or create new Lesson?
-                $lesson = $unit->lessons()->inRandomOrder()->first();
-            }
+            // if (random_int(0, 1)) { // Throw a coin: attach or create new Lesson?
+            //     $lesson = $unit->lessons()->inRandomOrder()->first();
+            // }
 
-            $exercise->lessons()->attach(
-                ($lesson ?? Lesson::factory()->create([ 'unit_id' => $unit->id ]))->id
-            );
+            // $exercise->lessons()->attach(
+            //     ($lesson ?? Lesson::factory()->create([ 'unit_id' => $unit->id ]))->id
+            // );
         });
     }
 }

@@ -2,39 +2,49 @@
 
 namespace App\Models;
 
-use App\Enums\WordType;
 use App\Extensions\Model;
-use Illuminate\Database\Eloquent\Casts\Attribute;
+use App\Models\Traits\HasLearnables;
+use App\Models\Traits\Mutators\LanguageMutators;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Language extends Model
 {
-    public function words(): HasMany
-    {
-        return $this->hasMany(Word::class);
-    }
-
-    public function sentences(): HasMany
-    {
-        return $this->hasMany(Sentence::class);
-    }
-
-    public function expressions(): HasMany
-    {
-        return $this->hasMany(Word::class)
-            ->where('type', WordType::Expression);
-    }
+    use HasLearnables;
+    use LanguageMutators;
 
     public function variants(): HasMany
     {
-        return $this->hasMany(Language::class, 'name', 'name')
+        return $this->hasMany(Language::class, 'code', 'code')
             ->where('id', '!=', $this->id);
     }
 
-    public function longName(): Attribute
+    public function courses(): HasMany
     {
-        $region = $this->region ?? 'Standard';
+        return $this->hasMany(Course::class);
+    }
 
-        return Attribute::get(fn () => "{$this->name} ({$region})");
+    public function coursesFrom(): HasMany
+    {
+        return $this->hasMany(Course::class, 'from_language');
+    }
+
+    public function units(): HasMany
+    {
+        return $this->hasMany(Unit::class);
+    }
+
+    public function lessons(): HasMany
+    {
+        return $this->hasMany(Lesson::class);
+    }
+
+    public function exercises(): HasMany
+    {
+        return $this->hasMany(Exercise::class);
+    }
+
+    public function translations(): HasMany
+    {
+        return $this->hasMany(Translation::class);
     }
 }

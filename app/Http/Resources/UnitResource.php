@@ -16,12 +16,17 @@ class UnitResource extends Resource
     {
         return [
             'id'          => $this->id,
-            'slug'        => $this->slug,
             'name'        => $this->name,
             'description' => $this->description,
-            'language_id' => $this->language_id,
-            'language'    => $this->language->longName,
+            'motivation'  => $this->motivation,
+            'language_id' => $this->whenNotLoaded('language', $this->language_id),
+            'courses#'    => $this->whenCounted('courses'),
+            'lessons#'    => $this->whenCounted('lessons'),
+            'language'    => LanguageResource::make($this->whenLoaded('language')),
+            'courses'     => CourseResource::collection($this->whenLoaded('courses')),
             'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),
+            'created_at'  => $this->created_at->toDateTimeString(),
+            'updated_at'  => $this->updated_at->toDateTimeString(),
         ];
     }
 }

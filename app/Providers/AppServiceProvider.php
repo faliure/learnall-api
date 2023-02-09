@@ -2,6 +2,10 @@
 
 namespace App\Providers;
 
+use App\Models\Exercise;
+use App\Models\Learnable;
+use App\Models\User;
+use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\ServiceProvider;
 
@@ -28,5 +32,11 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         JsonResource::withoutWrapping();
+
+        Relation::enforceMorphMap([
+            'Exercise'  => Exercise::class,
+            'Learnable' => Learnable::class,
+            'User'      => User::class,
+        ]);
     }
 }
