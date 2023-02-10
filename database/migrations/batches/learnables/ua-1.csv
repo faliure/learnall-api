@@ -32,7 +32,7 @@ learnable|type|translation
 зазвичай|adverb|usually
 зараз|adverb|now
 звичайно|adverb|of course
-звідки|adverb|where (from)
+звідки|adverb|from where, where from
 інколи|adverb|sometimes
 коли-небудь|adverb|sometime
 колись|adverb|once
@@ -133,7 +133,7 @@ conjunction|conjunction|that, what (conjunction)
 блог|noun|blog
 борщ|noun|borsch
 брат|noun|brother
-будинок|noun|house
+будинок|noun|house,building
 бутерброд|noun|sandwich
 вареники|noun|dumplings
 вебдизайн|noun|web design
@@ -270,7 +270,7 @@ conjunction|conjunction|that, what (conjunction)
 пальто|noun|coat
 пенсіонер|noun|pensioner
 перекладач|noun|translator
-персонал|noun|personnel
+персонал|noun|personnel, staff
 письменник|noun|writer
 питання|noun|question
 піаніно|noun|piano
@@ -435,11 +435,11 @@ conjunction|conjunction|that, what (conjunction)
 шістсот|number|six hundred
 шість|number|six
 без|preposition|without
-в|preposition|in
+в|preposition|in, on, to
 для|preposition|for
-на|preposition|on
+на|preposition|on, in, at
 про|preposition|about
-у|preposition|in
+у|preposition|in, on, to
 ваш|pronoun|your (s. formal, pl.)
 ви|pronoun|you (pl. or s. formal)
 він|pronoun|he
@@ -495,5 +495,5 @@ conjunction|conjunction|that, what (conjunction)
 фотографувати|verb|to photograph
 хотіти|verb|to want
 читати|verb|to read
-немає|adverb|no, none, there is no
+немає|adverb|no, none, no, there isn't, there is no
 вибачте|interjection|sorry
