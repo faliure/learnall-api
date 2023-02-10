@@ -7,6 +7,40 @@ use App\Extensions\Resource;
 class LanguageResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'variants',
+        'courses',
+        'coursesFrom',
+        'units',
+        'exercises',
+        'learnables',
+        'words',
+        'expressions',
+        'sentences',
+        'translations',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableCounts = [
+        'variants',
+        'courses',
+        'coursesFrom',
+        'units',
+        'exercises',
+        'learnables',
+        'words',
+        'expressions',
+        'sentences',
+        'translations',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -25,7 +59,6 @@ class LanguageResource extends Resource
             '#courses'      => $this->whenCounted('courses'),
             '#coursesFrom'  => $this->whenCounted('coursesFrom'),
             '#units'        => $this->whenCounted('units'),
-            '#lessons'      => $this->whenCounted('lessons'),
             '#exercises'    => $this->whenCounted('exercises'),
             '#learnables'   => $this->whenCounted('learnables'),
             '#words'        => $this->whenCounted('words'),
@@ -36,7 +69,6 @@ class LanguageResource extends Resource
             'courses'       => CourseResource::collection($this->whenLoaded('courses')),
             'coursesFrom'   => CourseResource::collection($this->whenLoaded('coursesFrom')),
             'units'         => UnitResource::collection($this->whenLoaded('units')),
-            'lessons'       => LessonResource::collection($this->whenLoaded('lessons')),
             'exercises'     => ExerciseResource::collection($this->whenLoaded('exercises')),
             'learnables'    => LearnableResource::collection($this->whenLoaded('learnables')),
             'words'         => LearnableResource::collection($this->whenLoaded('words')),

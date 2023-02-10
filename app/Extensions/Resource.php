@@ -13,7 +13,33 @@ class Resource extends BaseJsonResource
     /**
      * Defines which method to fetch the definition from, instead of toArray().
      */
-    protected $customType = null;
+    protected ?string $customType = null;
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableCounts = [];
+
+    /**
+     * Resolve the resource to an array.
+     *
+     * @param  \Illuminate\Http\Request|null  $request
+     * @return array
+     */
+    public function resolve($request = null)
+    {
+        $this->loadLoadableRelations($request);
+        $this->loadLoadableCounts($request);
+
+        return parent::resolve($request);
+    }
 
     /**
      * Transform the resource into a custom array, if the type is defined,
@@ -103,6 +129,40 @@ class Resource extends BaseJsonResource
     public function getCustomType(): string
     {
         return $this->customType;
+    }
+
+    protected function loadLoadableRelations($request)
+    {
+        if (! is_callable([$this->resource, 'load'])) {
+            return;
+        }
+
+        $requested = in_array('*', Arr::wrap($request->with))
+            ? $this->loadableRelations
+            : $request->get('with', []);
+
+        $loadRelations = array_intersect($this->loadableRelations, $requested);
+
+        foreach ($loadRelations as $relation) {
+            $this->resource->load($relation);
+        }
+    }
+
+    protected function loadLoadableCounts($request)
+    {
+        if (! is_callable([$this->resource, 'loadCount'])) {
+            return;
+        }
+
+        $requested = in_array('*', Arr::wrap($request->count))
+            ? $this->loadableCounts
+            : $request->get('count', []);
+
+        $loadCounts = array_intersect($this->loadableCounts, $requested);
+
+        foreach ($loadCounts as $relation) {
+            $this->resource->loadCount($relation);
+        }
     }
 
     protected function getCustomTypeDefinitionMethod(): ?string
