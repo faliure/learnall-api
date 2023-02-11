@@ -192,6 +192,8 @@ return new class extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('languages');
         Schema::dropIfExists('courses');
         Schema::dropIfExists('units');
@@ -207,5 +209,7 @@ return new class extends Migration
         Schema::dropIfExists('exercise_learnable');
         Schema::dropIfExists('learnable_learnable');
         Schema::dropIfExists('categorizables');
+
+        Schema::enableForeignKeyConstraints();
     }
 };
