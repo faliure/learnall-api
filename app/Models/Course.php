@@ -7,6 +7,7 @@ use App\Extensions\Model;
 use App\Models\Traits\Mutators\CourseMutators;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Course extends Model
 {
@@ -20,6 +21,11 @@ class Course extends Model
     public function users(): BelongsToMany
     {
         return $this->belongsToMany(User::class);
+    }
+
+    public function activeUsers(): HasMany
+    {
+        return $this->hasMany(User::class, 'active_course');
     }
 
     public function language(): BelongsTo
