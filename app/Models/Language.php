@@ -2,14 +2,13 @@
 
 namespace App\Models;
 
+use App\Enums\LearnableType;
 use App\Extensions\Model;
-use App\Models\Traits\HasLearnables;
 use App\Models\Traits\Mutators\LanguageMutators;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Language extends Model
 {
-    use HasLearnables;
     use LanguageMutators;
 
     public function variants(): HasMany
@@ -41,6 +40,29 @@ class Language extends Model
     public function exercises(): HasMany
     {
         return $this->hasMany(Exercise::class);
+    }
+
+    public function learnables(): HasMany
+    {
+        return $this->hasMany(Learnable::class);
+    }
+
+    public function words(): HasMany
+    {
+        return $this->learnables()->whereNotIn('type', [
+            LearnableType::Expression,
+            LearnableType::Sentence,
+        ]);
+    }
+
+    public function expressions(): HasMany
+    {
+        return $this->learnables()->where('type', LearnableType::Expression);
+    }
+
+    public function sentences(): HasMany
+    {
+        return $this->learnables()->where('type', LearnableType::Sentence);
     }
 
     public function translations(): HasMany

@@ -2,10 +2,10 @@
 
 namespace App\Models;
 
+use App\Enums\LearnableType;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLesson;
 use App\Models\Traits\Categorizable;
-use App\Models\Traits\HasLearnables;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsArrayObject;
 use Illuminate\Database\Eloquent\Collection;
@@ -15,7 +15,6 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Exercise extends Model
 {
     use Categorizable;
-    use HasLearnables;
 
     protected $casts = [
         'definition' => AsArrayObject::class,
@@ -36,6 +35,29 @@ class Exercise extends Model
         return $this->belongsToMany(Lesson::class)
             ->using(ExerciseLesson::class)
             ->withTimestamps();
+    }
+
+    public function learnables(): BelongsToMany
+    {
+        return $this->belongsToMany(Learnable::class);
+    }
+
+    public function words(): BelongsToMany
+    {
+        return $this->learnables()->whereNotIn('type', [
+            LearnableType::Expression,
+            LearnableType::Sentence,
+        ]);
+    }
+
+    public function expressions(): BelongsToMany
+    {
+        return $this->learnables()->where('type', LearnableType::Expression);
+    }
+
+    public function sentences(): BelongsToMany
+    {
+        return $this->learnables()->where('type', LearnableType::Sentence);
     }
 
     public function units(): Builder
