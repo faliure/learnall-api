@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreCourseRequest;
 use App\Http\Requests\UpdateCourseRequest;
 use App\Http\Resources\CourseResource;
@@ -16,7 +17,7 @@ class CourseController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Course::resources();
     }
@@ -28,13 +29,13 @@ class CourseController extends CrudController
     {
         $course = Course::create($request->validated());
 
-        return $this->show($course);
+        return $course->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Course $course): CourseResource
+    public function show(CrudRequest $request, Course $course): CourseResource
     {
         return $course->resource();
     }
@@ -46,7 +47,7 @@ class CourseController extends CrudController
     {
         $course->update($request->validated());
 
-        return $this->show($course);
+        return $course->resource();
     }
 
     /**

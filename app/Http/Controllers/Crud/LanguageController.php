@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreLanguageRequest;
 use App\Http\Requests\UpdateLanguageRequest;
 use App\Http\Resources\LanguageResource;
@@ -16,7 +17,7 @@ class LanguageController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Language::resources();
     }
@@ -28,13 +29,13 @@ class LanguageController extends CrudController
     {
         $language = Language::create($request->validated());
 
-        return $this->show($language);
+        return $language->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Language $language): LanguageResource
+    public function show(CrudRequest $request, Language $language): LanguageResource
     {
         return $language->resource();
     }
@@ -46,7 +47,7 @@ class LanguageController extends CrudController
     {
         $language->update($request->validated());
 
-        return $this->show($language);
+        return $language->resource();
     }
 
     /**

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreLearnableRequest;
 use App\Http\Requests\UpdateLearnableRequest;
 use App\Http\Resources\LearnableResource;
@@ -16,7 +17,7 @@ class LearnableController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Learnable::resources();
     }
@@ -28,13 +29,13 @@ class LearnableController extends CrudController
     {
         $learnable = Learnable::create($request->validated());
 
-        return $this->show($learnable);
+        return $learnable->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Learnable $learnable): LearnableResource
+    public function show(CrudRequest $request, Learnable $learnable): LearnableResource
     {
         return $learnable->resource();
     }
@@ -46,7 +47,7 @@ class LearnableController extends CrudController
     {
         $learnable->update($request->validated());
 
-        return $this->show($learnable);
+        return $learnable->resource();
     }
 
     /**

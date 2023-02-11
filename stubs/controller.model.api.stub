@@ -3,6 +3,7 @@
 namespace {{ namespace }}\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Resources\{{ model }}Resource;
 use {{ namespacedModel }};
 use {{ namespacedRequests }}
@@ -15,11 +16,9 @@ class {{ class }} extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return {{ model }}::resources();
-        // or
-        return {{ model }}::resourcesQuery()->with('relation')->get();
     }
 
     /**
@@ -29,17 +28,15 @@ class {{ class }} extends CrudController
     {
         ${{ modelVariable }} = {{ model }}::create($request->validated());
 
-        return $this->show(${{ modelVariable }});
+        return ${{ modelVariable }}->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show({{ model }} ${{ modelVariable }}): {{ model }}Resource
+    public function show(CrudRequest $request, {{ model }} ${{ modelVariable }}): {{ model }}Resource
     {
         return ${{ modelVariable }}->resource();
-        // or
-        return ${{ modelVariable }}->load('relation')->resource();
     }
 
     /**
@@ -49,7 +46,7 @@ class {{ class }} extends CrudController
     {
         ${{ modelVariable }}->update($request->validated());
 
-        return $this->show(${{ modelVariable }});
+        return ${{ modelVariable }}->resource();
     }
 
     /**

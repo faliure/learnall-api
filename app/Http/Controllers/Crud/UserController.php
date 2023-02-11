@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreUserRequest;
 use App\Http\Requests\UpdateUserRequest;
 use App\Http\Resources\UserResource;
@@ -17,7 +18,7 @@ class UserController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return User::resources();
     }
@@ -31,13 +32,13 @@ class UserController extends CrudController
 
         event(new Registered($user));
 
-        return $this->show($user);
+        return $user->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(User $user): UserResource
+    public function show(CrudRequest $request, User $user): UserResource
     {
         return $user->resource();
     }
@@ -49,7 +50,7 @@ class UserController extends CrudController
     {
         $user->update($request->validated());
 
-        return $this->show($user);
+        return $user->resource();
     }
 
     /**

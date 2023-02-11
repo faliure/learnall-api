@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreExerciseTypeRequest;
 use App\Http\Requests\UpdateExerciseTypeRequest;
 use App\Http\Resources\ExerciseTypeResource;
@@ -16,7 +17,7 @@ class ExerciseTypeController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return ExerciseType::resources();
     }
@@ -28,13 +29,13 @@ class ExerciseTypeController extends CrudController
     {
         $exerciseType = ExerciseType::create($request->validated());
 
-        return $this->show($exerciseType);
+        return $exerciseType->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(ExerciseType $exerciseType): ExerciseTypeResource
+    public function show(CrudRequest $request, ExerciseType $exerciseType): ExerciseTypeResource
     {
         return $exerciseType->resource();
     }
@@ -46,7 +47,7 @@ class ExerciseTypeController extends CrudController
     {
         $exerciseType->update($request->validated());
 
-        return $this->show($exerciseType);
+        return $exerciseType->resource();
     }
 
     /**
