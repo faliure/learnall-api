@@ -18,7 +18,7 @@ class CategoryController extends CrudController
      */
     public function index(): ResourceCollection
     {
-        return Category::resourcesQuery()->withCount('learnables')->get();
+        return Category::resources();
     }
 
     /**
@@ -36,7 +36,7 @@ class CategoryController extends CrudController
      */
     public function show(Category $category): CategoryResource
     {
-        return $category->loadCount('learnables')->resource();
+        return $category->resource();
     }
 
     /**

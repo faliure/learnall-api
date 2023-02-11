@@ -9,8 +9,11 @@ class LanguageController extends Controller
 {
     public function learnable(Language $language)
     {
-        return $language->learnables()->whereHas('translation')
-            ->inRandomOrder()->first()
-            ->load('translation')->resource();
+        return $language->learnables()
+            ->whereHas('translation')
+            ->inRandomOrder()
+            ->first()
+            ->load('translation')
+            ->resource();
     }
 }

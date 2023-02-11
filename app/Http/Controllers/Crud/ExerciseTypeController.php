@@ -36,7 +36,7 @@ class ExerciseTypeController extends CrudController
      */
     public function show(ExerciseType $exerciseType): ExerciseTypeResource
     {
-        return $exerciseType->loadCount('exercises')->resource();
+        return $exerciseType->resource();
     }
 
     /**

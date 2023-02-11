@@ -18,9 +18,7 @@ class LearnableController extends CrudController
      */
     public function index(): ResourceCollection
     {
-        return Learnable::resourcesQuery()
-            ->with('language', 'translation')
-            ->get();
+        return Learnable::resources();
     }
 
     /**
@@ -38,9 +36,7 @@ class LearnableController extends CrudController
      */
     public function show(Learnable $learnable): LearnableResource
     {
-        return $learnable
-            ->load('language', 'translation', 'translations')
-            ->resource();
+        return $learnable->resource();
     }
 
     /**

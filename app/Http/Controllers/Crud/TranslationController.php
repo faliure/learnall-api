@@ -36,7 +36,7 @@ class TranslationController extends CrudController
      */
     public function show(Translation $translation): TranslationResource
     {
-        return $translation->load('language', 'learnable')->resource();
+        return $translation->resource();
     }
 
     /**
