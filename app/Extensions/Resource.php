@@ -113,8 +113,9 @@ class Resource extends BaseJsonResource
     {
         if ($resource instanceof Collection) {
             $resolver = static::make($resource);
-            $resolver->loadLoadableRelations(request());
-            $resolver->loadLoadableCounts(request());
+
+            app()->call($resolver->loadLoadableRelations(...));
+            app()->call($resolver->loadLoadableCounts(...));
         }
 
         return parent::collection($resource);
@@ -172,6 +173,8 @@ class Resource extends BaseJsonResource
             ? $this->loadableRelations
             : $request->get('with', []);
 
+        $request->offsetUnset('with');
+
         $loadRelations = array_intersect($this->loadableRelations, $requested);
 
         foreach ($loadRelations as $relation) {
@@ -187,6 +190,8 @@ class Resource extends BaseJsonResource
         $requested = in_array('*', Arr::wrap($request->count))
             ? $this->loadableCounts
             : $request->get('count', []);
+
+        $request->offsetUnset('count');
 
         $loadCounts = array_intersect($this->loadableCounts, $requested);
 
