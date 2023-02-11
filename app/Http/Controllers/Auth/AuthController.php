@@ -32,7 +32,7 @@ class AuthController extends Controller
     public function show(Request $request)
     {
         return response()->json([
-            'user' => $request->user()->resource(),
+            'user' => $request->user()?->resource(),
         ]);
     }
 
