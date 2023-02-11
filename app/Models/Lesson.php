@@ -3,8 +3,6 @@
 namespace App\Models;
 
 use App\Extensions\Model;
-use App\Models\Pivots\ExerciseLesson;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Lesson extends Model
