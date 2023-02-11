@@ -18,7 +18,7 @@ class ExerciseController extends CrudController
      */
     public function index(): ResourceCollection
     {
-        return Exercise::resourcesQuery()->with('language')->get();
+        return Exercise::resources();
     }
 
     /**
@@ -36,7 +36,7 @@ class ExerciseController extends CrudController
      */
     public function show(Exercise $exercise): ExerciseResource
     {
-        return $exercise->load('language')->resource();
+        return $exercise->resource();
     }
 
     /**

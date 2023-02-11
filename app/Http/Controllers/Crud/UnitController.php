@@ -18,7 +18,7 @@ class UnitController extends CrudController
      */
     public function index(): ResourceCollection
     {
-        return Unit::resourcesQuery()->with('language')->get();
+        return Unit::resources();
     }
 
     /**
@@ -36,7 +36,7 @@ class UnitController extends CrudController
      */
     public function show(Unit $unit): UnitResource
     {
-        return $unit->load('language', 'lessons')->resource();
+        return $unit->resource();
     }
 
     /**
