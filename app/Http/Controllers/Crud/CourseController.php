@@ -18,7 +18,7 @@ class CourseController extends CrudController
      */
     public function index(): ResourceCollection
     {
-        return Course::resourcesQuery()->with('language')->get();
+        return Course::resources();
     }
 
     /**
@@ -36,7 +36,7 @@ class CourseController extends CrudController
      */
     public function show(Course $course): CourseResource
     {
-        return $course->load('language')->loadCount('units')->resource();
+        return $course->resource();
     }
 
     /**

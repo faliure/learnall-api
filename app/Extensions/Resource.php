@@ -2,11 +2,17 @@
 
 namespace App\Extensions;
 
+use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Database\Eloquent\Collection;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\Resources\Json\JsonResource as BaseJsonResource;
 use Illuminate\Http\Resources\MissingValue;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use InvalidArgumentException;
+use JsonSerializable;
 
 class Resource extends BaseJsonResource
 {
@@ -16,48 +22,14 @@ class Resource extends BaseJsonResource
     protected ?string $customType = null;
 
     /**
-     * Define which relations can be dinamically loaded if the request includes
-     * them in a 'with' list.
+     * On-demand loadable relations.
      */
-    protected $loadableRelations = [];
+    protected array $loadableRelations = [];
 
     /**
-     * Define which relations can be dinamically loaded if the request includes
-     * them in a 'with' list.
+     * On-demand loadable relations.
      */
-    protected $loadableCounts = [];
-
-    /**
-     * Resolve the resource to an array.
-     *
-     * @param  \Illuminate\Http\Request|null  $request
-     * @return array
-     */
-    public function resolve($request = null)
-    {
-        $this->loadLoadableRelations($request);
-        $this->loadLoadableCounts($request);
-
-        return parent::resolve($request);
-    }
-
-    /**
-     * Transform the resource into a custom array, if the type is defined,
-     * or the default JsonResource representation if the type is undefined.
-     *
-     * Notice that, if toArray is defined on the child, this won't be called.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
-     */
-    public function toArray($request)
-    {
-        if (! $customToArray = $this->getCustomTypeDefinitionMethod()) {
-            return parent::toArray($request);
-        }
-
-        return $this->$customToArray($request);
-    }
+    protected array $loadableCounts = [];
 
     /**
      * Manually define which fields defined in the toArray method
@@ -80,10 +52,10 @@ class Resource extends BaseJsonResource
      * @param  mixed  $default
      * @return \Illuminate\Http\Resources\MissingValue|mixed
      */
-    public function whenNotLoaded($relationship, $value = null, $default = null)
+    public function whenNotLoaded(string $relationship, $value = null, $default = null)
     {
         if (func_num_args() < 3) {
-            $default = new MissingValue;
+            $default = new MissingValue();
         }
 
         return $this->whenLoaded($relationship, $default, $value);
@@ -97,13 +69,21 @@ class Resource extends BaseJsonResource
      * @param  mixed  $default
      * @return \Illuminate\Http\Resources\MissingValue|mixed
      */
-    public function whenNotCounted($relationship, $value = null, $default = null)
+    public function whenNotCounted(string $relationship, $value = null, $default = null)
     {
         if (func_num_args() < 3) {
-            $default = new MissingValue;
+            $default = new MissingValue();
         }
 
         return $this->whenCounted($relationship, $default, $value);
+    }
+
+    /**
+     * Get the preset custom type, or null if not defined.
+     */
+    public function getCustomType(): ?string
+    {
+        return $this->customType;
     }
 
     /**
@@ -126,17 +106,68 @@ class Resource extends BaseJsonResource
         return $this;
     }
 
-    public function getCustomType(): string
+    /**
+     * Create a new anonymous resource collection.
+     */
+    public static function collection($resource): AnonymousResourceCollection
     {
-        return $this->customType;
-    }
-
-    protected function loadLoadableRelations($request)
-    {
-        if (! is_callable([$this->resource, 'load'])) {
-            return;
+        if ($resource instanceof Collection) {
+            $resolver = static::make($resource);
+            $resolver->loadLoadableRelations(request());
+            $resolver->loadLoadableCounts(request());
         }
 
+        return parent::collection($resource);
+    }
+
+    /**
+     * Resolve the resource to an array.
+     *
+     * @param  \Illuminate\Http\Request|null  $request
+     */
+    public function resolve($request = null): array
+    {
+        if ($this->resource instanceof Model) {
+            $this->loadLoadableRelations($request);
+            $this->loadLoadableCounts($request);
+        }
+
+        return parent::resolve($request);
+    }
+
+    /**
+     * Transform the resource into a custom array, if the type is defined,
+     * or the default JsonResource representation if the type is undefined.
+     *
+     * Notice that, if toArray is defined on the child, this won't be called.
+     */
+    public function toArray(Request $request): array|Arrayable|JsonSerializable
+    {
+        if (! $customToArray = $this->getCustomTypeDefinitionMethod()) {
+            return parent::toArray($request);
+        }
+
+        return $this->$customToArray($request);
+    }
+
+    /**
+     * Get the method to call, instead of toArray, if this reasource
+     * has a custom type.
+     */
+    private function getCustomTypeDefinitionMethod(): ?string
+    {
+        if (is_null($this->customType)) {
+            return null;
+        }
+
+        return Str::camel("to_{$this->customType}_array");
+    }
+
+    /**
+     * Load auto-loadable relations for this resource.
+     */
+    private function loadLoadableRelations(Request $request): void
+    {
         $requested = in_array('*', Arr::wrap($request->with))
             ? $this->loadableRelations
             : $request->get('with', []);
@@ -148,12 +179,11 @@ class Resource extends BaseJsonResource
         }
     }
 
-    protected function loadLoadableCounts($request)
+    /**
+     * Load auto-loadable counts for this resource.
+     */
+    private function loadLoadableCounts(Request $request): void
     {
-        if (! is_callable([$this->resource, 'loadCount'])) {
-            return;
-        }
-
         $requested = in_array('*', Arr::wrap($request->count))
             ? $this->loadableCounts
             : $request->get('count', []);
@@ -163,14 +193,5 @@ class Resource extends BaseJsonResource
         foreach ($loadCounts as $relation) {
             $this->resource->loadCount($relation);
         }
-    }
-
-    protected function getCustomTypeDefinitionMethod(): ?string
-    {
-        if (is_null($this->customType)) {
-            return null;
-        }
-
-        return Str::camel("to_{$this->customType}_array");
     }
 }
