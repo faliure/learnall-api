@@ -52,6 +52,7 @@ class LanguageResource extends Resource
             'subcode'       => $this->subcode,
             'name'          => $this->name,
             'region'        => $this->region,
+            'flag'          => $this->flag,
             'fullName'      => $this->fullName,
             '#variants'     => $this->whenCounted('variants'),
             '#courses'      => $this->whenCounted('courses'),
