@@ -31,6 +31,7 @@ class User extends Authenticatable implements Resourceable
         'name',
         'email',
         'password',
+        'active_course',
     ];
 
     /**
