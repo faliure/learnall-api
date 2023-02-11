@@ -7,6 +7,26 @@ use App\Extensions\Resource;
 class UnitResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'language',
+        'courses',
+        'lessons',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [
+        'language',
+        'courses',
+        'lessons',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -20,8 +40,8 @@ class UnitResource extends Resource
             'description' => $this->description,
             'motivation'  => $this->motivation,
             'language_id' => $this->whenNotLoaded('language', $this->language_id),
-            'courses#'    => $this->whenCounted('courses'),
-            'lessons#'    => $this->whenCounted('lessons'),
+            '#courses'    => $this->whenCounted('courses'),
+            '#lessons'    => $this->whenCounted('lessons'),
             'language'    => LanguageResource::make($this->whenLoaded('language')),
             'courses'     => CourseResource::collection($this->whenLoaded('courses')),
             'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),

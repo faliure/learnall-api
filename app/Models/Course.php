@@ -17,6 +17,11 @@ class Course extends Model
         'enabled'    => 'boolean',
     ];
 
+    public function users(): BelongsToMany
+    {
+        return $this->belongsToMany(User::class);
+    }
+
     public function language(): BelongsTo
     {
         return $this->belongsTo(Language::class);

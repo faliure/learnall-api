@@ -7,6 +7,22 @@ use App\Extensions\Resource;
 class UserResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'courses',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [
+        'courses',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -18,6 +34,8 @@ class UserResource extends Resource
             'id'          => $this->id,
             'name'        => $this->name,
             'email'       => $this->email,
+            '#courses'     => $this->whenCounted('courses'),
+            'courses'     => CourseResource::collection($this->whenLoaded('courses')),
         ];
     }
 }

@@ -25,7 +25,7 @@ class LanguageResource extends Resource
 
     /**
      * Define which relations can be dinamically loaded if the request includes
-     * them in a 'with' list.
+     * them in a 'count' list.
      */
     protected $loadableCounts = [
         'variants',
