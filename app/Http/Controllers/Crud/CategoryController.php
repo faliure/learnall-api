@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreCategoryRequest;
 use App\Http\Requests\UpdateCategoryRequest;
 use App\Http\Resources\CategoryResource;
@@ -16,7 +17,7 @@ class CategoryController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Category::resources();
     }
@@ -28,13 +29,13 @@ class CategoryController extends CrudController
     {
         $category = Category::create($request->validated());
 
-        return $this->show($category);
+        return $category->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Category $category): CategoryResource
+    public function show(CrudRequest $request, Category $category): CategoryResource
     {
         return $category->resource();
     }
@@ -46,7 +47,7 @@ class CategoryController extends CrudController
     {
         $category->update($request->validated());
 
-        return $this->show($category);
+        return $category->resource();
     }
 
     /**

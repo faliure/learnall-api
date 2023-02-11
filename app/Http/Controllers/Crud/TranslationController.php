@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreTranslationRequest;
 use App\Http\Requests\UpdateTranslationRequest;
 use App\Http\Resources\TranslationResource;
@@ -16,7 +17,7 @@ class TranslationController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Translation::resources();
     }
@@ -28,13 +29,13 @@ class TranslationController extends CrudController
     {
         $translation = Translation::create($request->validated());
 
-        return $this->show($translation);
+        return $translation->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Translation $translation): TranslationResource
+    public function show(CrudRequest $request, Translation $translation): TranslationResource
     {
         return $translation->resource();
     }
@@ -46,7 +47,7 @@ class TranslationController extends CrudController
     {
         $translation->update($request->validated());
 
-        return $this->show($translation);
+        return $translation->resource();
     }
 
     /**

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
+use App\Extensions\CrudRequest;
 use App\Http\Requests\StoreUnitRequest;
 use App\Http\Requests\UpdateUnitRequest;
 use App\Http\Resources\UnitResource;
@@ -16,7 +17,7 @@ class UnitController extends CrudController
     /**
      * Display a listing of the resource.
      */
-    public function index(): ResourceCollection
+    public function index(CrudRequest $request): ResourceCollection
     {
         return Unit::resources();
     }
@@ -28,13 +29,13 @@ class UnitController extends CrudController
     {
         $unit = Unit::create($request->validated());
 
-        return $this->show($unit);
+        return $unit->resource();
     }
 
     /**
      * Display the specified resource.
      */
-    public function show(Unit $unit): UnitResource
+    public function show(CrudRequest $request, Unit $unit): UnitResource
     {
         return $unit->resource();
     }
@@ -46,7 +47,7 @@ class UnitController extends CrudController
     {
         $unit->update($request->validated());
 
-        return $this->show($unit);
+        return $unit->resource();
     }
 
     /**
