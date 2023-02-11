@@ -7,6 +7,31 @@ use App\Extensions\Resource;
 class LearnableResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'language',
+        'related',
+        'exercises',
+        'translation',
+        'translations',
+        'categories',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [
+        'language',
+        'related',
+        'exercises',
+        'translations',
+        'categories',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request

@@ -7,6 +7,18 @@ use App\Extensions\Resource;
 class {{ class }} extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -14,6 +26,8 @@ class {{ class }} extends Resource
      */
     public function toArray($request)
     {
-        return [];
+        return [
+            $this->getKeyName() => $this->getKey(),
+        ];
     }
 }

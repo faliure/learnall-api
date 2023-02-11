@@ -7,6 +7,24 @@ use App\Extensions\Resource;
 class TranslationResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'learnable',
+        'language',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [
+        'learnable',
+        'language',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request

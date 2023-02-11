@@ -7,6 +7,22 @@ use App\Extensions\Resource;
 class ExerciseTypeResource extends Resource
 {
     /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'with' list.
+     */
+    protected $loadableRelations = [
+        'exercises',
+    ];
+
+    /**
+     * Define which relations can be dinamically loaded if the request includes
+     * them in a 'count' list.
+     */
+    protected $loadableCounts = [
+        'exercises',
+    ];
+
+    /**
      * Transform the resource into an array.
      *
      * @param  \Illuminate\Http\Request  $request
