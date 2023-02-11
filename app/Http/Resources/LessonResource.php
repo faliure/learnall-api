@@ -3,34 +3,32 @@
 namespace App\Http\Resources;
 
 use App\Extensions\Resource;
+use Illuminate\Contracts\Support\Arrayable;
+use Illuminate\Http\Request;
+use JsonSerializable;
 
 class LessonResource extends Resource
 {
     /**
-     * Define which relations can be dinamically loaded if the request includes
-     * them in a 'with' list.
+     * On-demand loadable relations.
      */
-    protected $loadableRelations = [
+    protected array $loadableRelations = [
         'units',
         'exercises',
     ];
 
     /**
-     * Define which relations can be dinamically loaded if the request includes
-     * them in a 'count' list.
+     * On-demand loadable counts.
      */
-    protected $loadableCounts = [
+    protected array $loadableCounts = [
         'units',
         'exercises',
     ];
 
     /**
      * Transform the resource into an array.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return array|\Illuminate\Contracts\Support\Arrayable|\JsonSerializable
      */
-    public function toArray($request)
+    public function toArray(Request $request): array|Arrayable|JsonSerializable
     {
         return [
             'id'          => $this->id,
