@@ -5,7 +5,7 @@
     "keywords": ["education", "school", "languages", "api"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "faliure/laravel-resourceable": "^1.0.0",
         "guzzlehttp/guzzle": "^7.5",
         "jamesgordo/php-csv-parser": "^1.0",
