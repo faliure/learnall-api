@@ -3,7 +3,7 @@ name: Deploy
 on:
   push:
     branches:
-      - production
+      - master
       - staging
 
 jobs:
@@ -32,6 +32,7 @@ jobs:
         run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Deploy Environment
-        run: vapor deploy ${{ github.ref_name }} --commit="${{ github.event.head_commit.id }}" --message="${{ github.event.head_commit.message }}"
+        run: vapor deploy ${{ env.VAPOR_ENV }} --commit="${{ github.event.head_commit.id }}" --message="${{ github.event.head_commit.message }}"
         env:
           VAPOR_API_TOKEN: ${{ secrets.VAPOR_API_TOKEN }}
+          VAPOR_ENV: ${{ github.ref == 'refs/heads/master' && 'production' || 'staging' }}
