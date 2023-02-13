@@ -18,6 +18,25 @@ class Model extends EloquentModel implements Resourceable
 
     protected $guarded = [];
 
+    protected static $enableGlobalScopes = true;
+
+    public static function enableGlobalScopes(): void
+    {
+        static::$enableGlobalScopes = true;
+    }
+
+    public static function disableGlobalScopes(): void
+    {
+        static::$enableGlobalScopes = false;
+    }
+
+    public function getGlobalScopes(): array
+    {
+        return static::$enableGlobalScopes
+            ? parent::getGlobalScopes()
+            : [];
+    }
+
     public static function rand(...$filters): ?static
     {
         return static::query()

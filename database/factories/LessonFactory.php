@@ -2,7 +2,13 @@
 
 namespace Database\Factories;
 
+use App\Extensions\Model;
+use App\Models\Exercise;
+use App\Models\ExerciseType;
 use App\Models\Language;
+use App\Models\Learnable;
+use App\Models\Lesson;
+use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -10,19 +16,42 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class LessonFactory extends Factory
 {
+    use CanBeDisabled;
+
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
             'name'        => $this->faker->sentence(3),
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
             'enabled'     => true,
-            'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
+            'language_id' => Language::rand()->id,
         ];
+    }
+
+    /**
+     * Configure the model factory.
+     */
+    public function configure(): self
+    {
+        Model::disableGlobalScopes();
+
+        return $this->afterCreating(function (Lesson $lesson) {
+            $learnables   = Learnable::where('language_id', $lesson->language_id)->pluck('id');
+            $perLearnable = ExerciseType::count() * 2;
+
+            $exercises = Exercise::factory()
+                ->count($learnables->count() * $perLearnable)
+                ->create([ 'language_id' => $lesson->language_id ]);
+
+            $lesson->exercises()->sync($exercises->pluck('id'));
+
+            $exercises->each(fn ($e, $key) => $e->learnables()->sync(
+                $learnables->get(intdiv($key, $perLearnable))
+            ));
+        });
     }
 }

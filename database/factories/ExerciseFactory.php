@@ -2,10 +2,12 @@
 
 namespace Database\Factories;
 
+use App\Extensions\Model;
 use App\Models\Exercise;
 use App\Models\ExerciseType;
 use App\Models\Language;
-use App\Models\Unit;
+use App\Models\Learnable;
+use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -13,17 +15,17 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class ExerciseFactory extends Factory
 {
+    use CanBeDisabled;
+
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
-            'type_id'     => ExerciseType::inRandomOrder()->first()->id ?? ExerciseType::factory(),
+            'type_id'     => ExerciseType::rand()->id,
             'definition'  => [$this->faker->word() => $this->faker->sentence()],
-            'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
+            'language_id' => Language::rand()->id,
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
             'enabled'     => true,
@@ -32,24 +34,11 @@ class ExerciseFactory extends Factory
 
     /**
      * Configure the model factory.
-     *
-     * @return $this
      */
-    public function configure()
+    public function configure(): self
     {
-        return $this->afterCreating(function (Exercise $exercise) {
-            $constraint = ['language_id' => $exercise->language_id];
+        Model::disableGlobalScopes();
 
-            $unit = Unit::where($constraint)->inRandomOrder()->first()
-                ?? Unit::factory()->create($constraint);
-
-            // if (random_int(0, 1)) { // Throw a coin: attach or create new Lesson?
-            //     $lesson = $unit->lessons()->inRandomOrder()->first();
-            // }
-
-            // $exercise->lessons()->attach(
-            //     ($lesson ?? Lesson::factory()->create([ 'unit_id' => $unit->id ]))->id
-            // );
-        });
+        return $this;
     }
 }

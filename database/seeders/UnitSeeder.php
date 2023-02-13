@@ -7,13 +7,8 @@ use Illuminate\Database\Seeder;
 
 class UnitSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
+    public function run(): void
     {
-        Unit::factory()->count(100)->create();
+        Unit::factory()->count(3)->create();
     }
 }

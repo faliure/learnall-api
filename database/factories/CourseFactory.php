@@ -3,8 +3,11 @@
 namespace Database\Factories;
 
 use App\Enums\CefrLevel;
+use App\Extensions\Model;
 use App\Models\Course;
 use App\Models\Language;
+use App\Models\Unit;
+use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -12,26 +15,32 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class CourseFactory extends Factory
 {
+    use CanBeDisabled;
+
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
-        do {
-            $lang1 = Language::inRandomOrder()->first()->id;
-            $lang2 = Language::where('language_id', '!=', $lang1)->inRandomOrder()->first()->id;
-        } while (Course::where([
-            'language_id'   => $lang1,
-            'from_language' => $lang2,
-        ])->exists());
-
         return [
-            'language_id'   => $lang1,
-            'from_language' => $lang2,
             'cefr_level'    => randEnumValue(CefrLevel::class),
             'enabled'       => true,
         ];
+    }
+
+    /**
+     * Configure the model factory.
+     */
+    public function configure(): self
+    {
+        Model::disableGlobalScopes();
+
+        return $this->afterCreating(function (Course $course) {
+            $units = Unit::factory()->count(5)->create([
+                'language_id' => $course->language_id,
+            ]);
+
+            $course->units()->sync($units->pluck('id'));
+        });
     }
 }

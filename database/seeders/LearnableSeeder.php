@@ -9,6 +9,6 @@ class LearnableSeeder extends Seeder
 {
     public function run()
     {
-        Learnable::factory()->count(10)->create();
+        Learnable::factory()->count(50)->create();
     }
 }

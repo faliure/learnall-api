@@ -2,8 +2,10 @@
 
 namespace Database\Factories;
 
+use App\Extensions\Model;
 use App\Models\Language;
 use App\Models\Learnable;
+use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -11,22 +13,41 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class TranslationFactory extends Factory
 {
+    use CanBeDisabled;
+
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
-        $authoritative = $this->faker->boolean();
+        $learnable = Learnable::rand();
+        $language  = Language::rand('id', '!=', $learnable->id);
 
         return [
             'translation'   => $this->faker->sentence(),
-            'learnable_id'  => Learnable::inRandomOrder()->first()->id ?? Learnable::factory(),
-            'language_id'   => Language::inRandomOrder()->first()->id ?? Language::factory(),
-            'authoritative' => $authoritative,
-            'is_regex'      => $authoritative ? false : $this->faker->boolean(),
+            'learnable_id'  => $learnable->id,
+            'language_id'   => $language->id,
+            'authoritative' => false,
+            'is_regex'      => $this->faker->boolean(),
             'enabled'       => true,
         ];
+    }
+
+    public function authoritative()
+    {
+        return $this->state(fn ($attributes) => [
+            'authoritative' => true,
+            'is_regex'      => false,
+        ]);
+    }
+
+    /**
+     * Configure the model factory.
+     */
+    public function configure(): self
+    {
+        Model::disableGlobalScopes();
+
+        return $this;
     }
 }

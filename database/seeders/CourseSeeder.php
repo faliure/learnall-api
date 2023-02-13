@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Course;
+use App\Models\Language;
 use Illuminate\Database\Seeder;
 
 class CourseSeeder extends Seeder
@@ -14,6 +15,17 @@ class CourseSeeder extends Seeder
      */
     public function run()
     {
-        Course::factory()->count(5)->create();
+        do {
+            $lang1 = Language::rand()->id;
+            $lang2 = Language::rand('id', '!=', $lang1)->id;
+        } while (Course::where([
+            'language_id'   => $lang1,
+            'from_language' => $lang2,
+        ])->exists());
+
+        return Course::factory()->create([
+            'language_id'   => $lang1,
+            'from_language' => $lang2,
+        ]);
     }
 }

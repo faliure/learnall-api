@@ -9,13 +9,6 @@ class UserSeeder extends Seeder
 {
     public function run()
     {
-        if (User::whereName('Luke Skywalker')->doesntExist()) {
-            User::factory()->create([
-                'name'  => 'Luke Skywalker',
-                'email' => 'luke@jedi.com',
-            ]);
-        }
-
-        User::factory()->count(5)->create();
+        User::factory()->count(3)->create();
     }
 }

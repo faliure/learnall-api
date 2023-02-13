@@ -2,6 +2,8 @@
 
 namespace Database\Factories;
 
+use App\Extensions\Model;
+use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -9,12 +11,12 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class ExerciseTypeFactory extends Factory
 {
+    use CanBeDisabled;
+
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
             'type'                     => $this->faker->unique()->word(),
@@ -25,5 +27,15 @@ class ExerciseTypeFactory extends Factory
             'spec'                     => [ $this->faker->word() => $this->faker->sentence() ],
             'enabled'                  => true,
         ];
+    }
+
+    /**
+     * Configure the model factory.
+     */
+    public function configure(): self
+    {
+        Model::disableGlobalScopes();
+
+        return $this;
     }
 }

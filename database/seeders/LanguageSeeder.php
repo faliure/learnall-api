@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Translation;
+use App\Models\Language;
 use Illuminate\Database\Seeder;
 
-class TranslationSeeder extends Seeder
+class LanguageSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,6 @@ class TranslationSeeder extends Seeder
      */
     public function run()
     {
-        Translation::factory()->count(50)->create();
+        Language::factory()->create();
     }
 }

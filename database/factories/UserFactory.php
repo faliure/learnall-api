@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Extensions\Model;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
@@ -12,10 +13,8 @@ class UserFactory extends Factory
 {
     /**
      * Define the model's default state.
-     *
-     * @return array<string, mixed>
      */
-    public function definition()
+    public function definition(): array
     {
         return [
             'name'              => fake()->name(),
@@ -36,5 +35,15 @@ class UserFactory extends Factory
         return $this->state(fn () => [
             'email_verified_at' => null,
         ]);
+    }
+
+    /**
+     * Configure the model factory.
+     */
+    public function configure(): self
+    {
+        Model::disableGlobalScopes();
+
+        return $this;
     }
 }
