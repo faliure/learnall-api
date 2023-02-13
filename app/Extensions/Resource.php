@@ -169,11 +169,11 @@ class Resource extends BaseJsonResource
      */
     private function loadLoadableRelations(Request $request): void
     {
-        $requested = in_array('*', Arr::wrap($request->with))
+        $requested = in_array('*', Arr::wrap($request->withRelations))
             ? $this->loadableRelations
-            : $request->get('with', []);
+            : $request->get('withRelations', []);
 
-        $request->offsetUnset('with');
+        $request->offsetUnset('withRelations');
 
         $loadRelations = array_intersect($this->loadableRelations, $requested);
 
@@ -187,11 +187,11 @@ class Resource extends BaseJsonResource
      */
     private function loadLoadableCounts(Request $request): void
     {
-        $requested = in_array('*', Arr::wrap($request->count))
+        $requested = in_array('*', Arr::wrap($request->withCounters))
             ? $this->loadableCounts
-            : $request->get('count', []);
+            : $request->get('withCounters', []);
 
-        $request->offsetUnset('count');
+        $request->offsetUnset('withCounters');
 
         $loadCounts = array_intersect($this->loadableCounts, $requested);
 
