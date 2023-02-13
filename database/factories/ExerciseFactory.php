@@ -5,7 +5,6 @@ namespace Database\Factories;
 use App\Models\Exercise;
 use App\Models\ExerciseType;
 use App\Models\Language;
-use App\Models\Lesson;
 use App\Models\Unit;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
