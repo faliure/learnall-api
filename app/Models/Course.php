@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Enums\CefrLevel;
 use App\Extensions\Model;
 use App\Models\Pivots\CourseUnit;
+use App\Models\Traits\Enableable;
 use App\Models\Traits\Mutators\CourseMutators;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -13,10 +14,10 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Course extends Model
 {
     use CourseMutators;
+    use Enableable;
 
     protected $casts = [
         'cefr_level' => CefrLevel::class,
-        'enabled'    => 'boolean',
     ];
 
     public function users(): BelongsToMany

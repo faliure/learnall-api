@@ -5,12 +5,14 @@ namespace App\Models;
 use App\Extensions\Model;
 use App\Models\Pivots\CourseUnit;
 use App\Models\Pivots\LessonUnit;
+use App\Models\Traits\Enableable;
 use App\Models\Traits\LearnedLanguageScope;
 use App\Models\Traits\Mutators\UnitMutators;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Unit extends Model
 {
+    use Enableable;
     use LearnedLanguageScope;
     use UnitMutators;
 

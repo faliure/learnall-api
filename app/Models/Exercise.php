@@ -7,6 +7,7 @@ use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\ExerciseLesson;
 use App\Models\Traits\Categorizable;
+use App\Models\Traits\Enableable;
 use App\Models\Traits\LearnedLanguageScope;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Casts\AsArrayObject;
@@ -17,6 +18,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 class Exercise extends Model
 {
     use Categorizable;
+    use Enableable;
     use LearnedLanguageScope;
 
     protected $casts = [

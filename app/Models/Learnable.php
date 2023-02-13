@@ -49,7 +49,6 @@ class Learnable extends Model
     {
         return $this->hasOne(Translation::class)->where([
             'authoritative' => true,
-            'enabled'       => true,
         ]);
     }
 }

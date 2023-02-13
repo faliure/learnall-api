@@ -5,11 +5,13 @@ namespace App\Models;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLesson;
 use App\Models\Pivots\LessonUnit;
+use App\Models\Traits\Enableable;
 use App\Models\Traits\LearnedLanguageScope;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Lesson extends Model
 {
+    use Enableable;
     use LearnedLanguageScope;
 
     public function units(): BelongsToMany
