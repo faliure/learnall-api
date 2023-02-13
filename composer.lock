@@ -619,16 +619,16 @@
         },
         {
             "name": "faliure/laravel-resourceable",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/faliure/laravel-resourceable.git",
-                "reference": "b457977396caa450636a6a5784336c4359dc6005"
+                "reference": "6695c887d2b2b08318d7c2bfeb3fd45e78405278"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/faliure/laravel-resourceable/zipball/b457977396caa450636a6a5784336c4359dc6005",
-                "reference": "b457977396caa450636a6a5784336c4359dc6005",
+                "url": "https://api.github.com/repos/faliure/laravel-resourceable/zipball/6695c887d2b2b08318d7c2bfeb3fd45e78405278",
+                "reference": "6695c887d2b2b08318d7c2bfeb3fd45e78405278",
                 "shasum": ""
             },
             "require": {
@@ -653,9 +653,9 @@
             "description": "Access a Model's underlying Resources from the Model itself",
             "support": {
                 "issues": "https://github.com/faliure/laravel-resourceable/issues",
-                "source": "https://github.com/faliure/laravel-resourceable/tree/1.0.0"
+                "source": "https://github.com/faliure/laravel-resourceable/tree/1.0.1"
             },
-            "time": "2023-02-04T12:25:42+00:00"
+            "time": "2023-02-13T14:43:05+00:00"
         },
         {
             "name": "filp/whoops",
