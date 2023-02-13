@@ -25,10 +25,13 @@ class LearnableLearnable extends Pivot
         parent::booted();
 
         static::creating(function (LearnableLearnable $pivot) {
-            if ($pivot->learnable->language_id !== $pivot->related->language_id) {
+            $learnable = Learnable::withoutGlobalScopes()->find($pivot->learnable_id);
+            $related   = Learnable::withoutGlobalScopes()->find($pivot->related_to);
+
+            if ($learnable->language_id !== $related->language_id) {
                 throw new InvalidRelationException(
                     'Cannot link Learnables with a different language ' .
-                    "(Learnable #{$pivot->learnable_id} | Related #{$pivot->related_to})"
+                    "(Learnable #{$learnable->id} | Related #{$related->id})"
                 );
             }
         });

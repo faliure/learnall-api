@@ -25,10 +25,13 @@ class CourseUnit extends Pivot
         parent::booted();
 
         static::creating(function (CourseUnit $pivot) {
-            if ($pivot->course->language_id !== $pivot->unit->language_id) {
+            $course = Course::withoutGlobalScopes()->find($pivot->course_id);
+            $unit   = Unit::withoutGlobalScopes()->find($pivot->unit_id);
+
+            if ($course->language_id !== $unit->language_id) {
                 throw new InvalidRelationException(
                     'Cannot link Courses and Units with a different language ' .
-                    "(Course #{$pivot->course_id} | Unit #{$pivot->unit_id})"
+                    "(Course #{$course->id} | Unit #{$unit->id})"
                 );
             }
         });

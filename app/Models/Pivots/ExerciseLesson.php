@@ -25,10 +25,13 @@ class ExerciseLesson extends Pivot
         parent::booted();
 
         static::creating(function (ExerciseLesson $pivot) {
-            if ($pivot->exercise->language_id !== $pivot->lesson->language_id) {
+            $exercise = Exercise::withoutGlobalScopes()->find($pivot->exercise_id);
+            $lesson   = Lesson::withoutGlobalScopes()->find($pivot->lesson_id);
+
+            if ($exercise->language_id !== $lesson->language_id) {
                 throw new InvalidRelationException(
                     'Cannot link Execises and Lessons with a different language ' .
-                    "(Excercise #{$pivot->exercise_id} | Lesson #{$pivot->lesson_id})"
+                    "(Excercise #{$exercise->id} | Lesson #{$lesson->id})"
                 );
             }
         });
