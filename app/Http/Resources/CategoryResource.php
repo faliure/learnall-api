@@ -52,8 +52,8 @@ class CategoryResource extends Resource
             'expressions'  => LearnableResource::collection($this->whenLoaded('expressions')),
             'sentences'    => LearnableResource::collection($this->whenLoaded('sentences')),
             'exercises'    => ExerciseResource::collection($this->whenLoaded('exercises')),
-            'created_at'   => $this->created_at->toDateTimeString(),
-            'updated_at'   => $this->updated_at->toDateTimeString(),
+            'created_at'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updated_at'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

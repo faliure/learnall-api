@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Course;
 use App\Models\ExerciseType;
 use App\Models\Language;
 use Database\Migrations\Helpers\LearnableSeeder;
@@ -20,6 +21,8 @@ return new class extends Migration
     {
         $this->seedLanguages();
 
+        $this->seedCourses();
+
         $this->seedLearnables();
 
         $this->seedExerciseTypes();
@@ -33,38 +36,92 @@ return new class extends Migration
                 'subcode' => null,
                 'name'    => 'English',
                 'region'  => null,
+                'flag'    => 'US',
             ],
             [
                 'code'    => 'es',
                 'subcode' => null,
                 'name'    => 'Spanish',
                 'region'  => 'Spain',
+                'flag'    => 'ES',
             ],
             [
                 'code'    => 'fr',
                 'subcode' => null,
                 'name'    => 'French',
                 'region'  => null,
+                'flag'    => 'FR',
             ],
             [
                 'code'    => 'pt',
                 'subcode' => 'br',
                 'name'    => 'Portuguese',
                 'region'  => 'Brazil',
-            ],
-            [
-                'code'    => 'ua',
-                'subcode' => null,
-                'name'    => 'Ukrainian',
-                'region'  => null,
+                'flag'    => 'BR',
             ],
             [
                 'code'    => 'it',
                 'subcode' => null,
                 'name'    => 'Italian',
                 'region'  => null,
+                'flag'    => 'IT',
+            ],
+            [
+                'code'    => 'ua',
+                'subcode' => null,
+                'name'    => 'Ukrainian',
+                'region'  => null,
+                'flag'    => 'UA',
             ],
         ], ['code', 'subcode'], ['name', 'region']);
+    }
+
+    public function seedCourses(): void
+    {
+        $languages = Language::pluck('id', 'code');
+
+        Course::insert([
+            [
+                'from_language' => $languages['en'],
+                'language_id'   => $languages['es'],
+                'enabled'       => true,
+            ],
+            [
+                'from_language' => $languages['en'],
+                'language_id'   => $languages['fr'],
+                'enabled'       => true,
+            ],
+            [
+                'from_language' => $languages['en'],
+                'language_id'   => $languages['pt'],
+                'enabled'       => false,
+            ],
+            [
+                'from_language' => $languages['en'],
+                'language_id'   => $languages['it'],
+                'enabled'       => false,
+            ],
+            [
+                'from_language' => $languages['en'],
+                'language_id'   => $languages['ua'],
+                'enabled'       => true,
+            ],
+            [
+                'from_language' => $languages['es'],
+                'language_id'   => $languages['en'],
+                'enabled'       => true,
+            ],
+            [
+                'from_language' => $languages['es'],
+                'language_id'   => $languages['fr'],
+                'enabled'       => true,
+            ],
+            [
+                'from_language' => $languages['ua'],
+                'language_id'   => $languages['en'],
+                'enabled'       => true,
+            ],
+        ]);
     }
 
     private function seedLearnables(): void

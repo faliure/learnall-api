@@ -18,7 +18,6 @@ class TranslationFactory extends Factory
      */
     public function definition()
     {
-        $enabled       = $this->faker->boolean(80);
         $authoritative = $this->faker->boolean();
 
         return [
@@ -27,8 +26,7 @@ class TranslationFactory extends Factory
             'language_id'   => Language::inRandomOrder()->first()->id ?? Language::factory(),
             'authoritative' => $authoritative,
             'is_regex'      => $authoritative ? false : $this->faker->boolean(),
-            'enabled'       => $enabled,
-            'enabled_at'    => $enabled ? now() : null,
+            'enabled'       => true,
         ];
     }
 }

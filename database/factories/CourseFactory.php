@@ -3,6 +3,7 @@
 namespace Database\Factories;
 
 use App\Enums\CefrLevel;
+use App\Models\Course;
 use App\Models\Language;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -18,17 +19,19 @@ class CourseFactory extends Factory
      */
     public function definition()
     {
-        $lang1 = Language::inRandomOrder()->first()->id ?? Language::factory();
-
         do {
-            $lang2 = Language::inRandomOrder()->first()->id ?? Language::factory();
-        } while ($lang1 === $lang2);
+            $lang1 = Language::inRandomOrder()->first()->id;
+            $lang2 = Language::where('language_id', '!=', $lang1)->inRandomOrder()->first()->id;
+        } while (Course::where([
+            'language_id'   => $lang1,
+            'from_language' => $lang2,
+        ])->exists());
 
         return [
             'language_id'   => $lang1,
             'from_language' => $lang2,
-            'enabled'       => $this->faker->boolean(90),
             'cefr_level'    => randEnumValue(CefrLevel::class),
+            'enabled'       => true,
         ];
     }
 }

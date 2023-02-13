@@ -23,6 +23,7 @@ class ExerciseTypeFactory extends Factory
             'requires_target_keyboard' => $this->faker->boolean(),
             'description'              => $this->faker->sentence(),
             'spec'                     => [ $this->faker->word() => $this->faker->sentence() ],
+            'enabled'                  => true,
         ];
     }
 }

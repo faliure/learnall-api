@@ -4,6 +4,8 @@ namespace App\Enums;
 
 enum CefrLevel: string
 {
+    case A0 = 'A0';
+
     case A1 = 'A1';
 
     case A2 = 'A2';

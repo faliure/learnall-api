@@ -52,8 +52,8 @@ class LearnableResource extends Resource
             'translation'   => TranslationResource::make($this->whenLoaded('translation')),
             'translations'  => TranslationResource::collection($this->whenLoaded('translations')),
             'categories'    => CategoryResource::collection($this->whenLoaded('categories')),
-            'created_at'    => $this->created_at->toDateTimeString(),
-            'updated_at'    => $this->updated_at->toDateTimeString(),
+            'created_at'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updated_at'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

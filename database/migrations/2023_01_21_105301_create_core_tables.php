@@ -23,16 +23,19 @@ return new class extends Migration
             $table->string('subcode', 2)->nullable()->comment('ISO-639-1 region subcode, e.g. "GB"');
             $table->string('name')->comment('ISO-639-1 Language base name, e.g. "English"');
             $table->string('region')->nullable()->comment('ISO-639-1 Region, e.g. "GB" (ommitted for "Standard")');
+            $table->string('flag', 3)->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['code', 'subcode']);
         });
 
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->foreignId('from_language')->constrained('languages')->cascadeOnDelete();
+            $table->string('cefr_level', 2)->default('A0');
             $table->boolean('enabled')->default(false);
-            $table->string('cefr_level', 2)->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -43,6 +46,7 @@ return new class extends Migration
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
+            $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -52,6 +56,8 @@ return new class extends Migration
             $table->string('name');
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
+            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
+            $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -64,6 +70,7 @@ return new class extends Migration
             $table->boolean('requires_target_keyboard')->default(false);
             $table->string('description');
             $table->json('spec');
+            $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -71,10 +78,11 @@ return new class extends Migration
         Schema::create('exercises', function (Blueprint $table) {
             $table->id();
             $table->json('definition')->nullable();
-            $table->foreignId('type_id')->constrained('exercise_types')->cascadeOnDelete();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
+            $table->foreignId('type_id')->constrained('exercise_types')->cascadeOnDelete();
+            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
+            $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -93,19 +101,17 @@ return new class extends Migration
         Schema::create('translations', function (Blueprint $table) {
             $table->id();
             $table->string('translation');
-            $table->foreignId('learnable_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
-            $table->boolean('authoritative')->nullable();
+            $table->boolean('authoritative')->nullable()->comment('TRUE/NULL, required for uniqueness');
             $table->boolean('is_regex')->default(false);
             $table->boolean('enabled')->default(false);
-            $table->timestamp('enabled_at')->nullable();
+            $table->foreignId('learnable_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
 
             $table->unique([
                 'learnable_id',
                 'language_id',
-                'enabled',
                 'authoritative',
             ], 'authoritative_unique');
         });
@@ -116,6 +122,7 @@ return new class extends Migration
             $table->string('slug')->unique();
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
+            $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -124,56 +131,67 @@ return new class extends Migration
          *** RELATIONS ********************************************************
          *********************************************************************/
 
-        Schema::create('course_unit', function (Blueprint $table) {
+        Schema::create('course_user', function (Blueprint $table) {
             $table->id();
             $table->foreignId('course_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete();
+            $table->timestamps();
+
+            $table->unique(['course_id', 'user_id']);
+        });
+
+        Schema::create('course_unit', function (Blueprint $table) {
+            $table->id();
             $table->string('motivation')->nullable();
+            $table->foreignId('course_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('lesson_unit', function (Blueprint $table) {
             $table->id();
+            $table->string('motivation')->nullable();
             $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
-            $table->string('motivation')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('exercise_lesson', function (Blueprint $table) {
             $table->id();
+            $table->string('motivation')->nullable();
             $table->foreignId('exercise_id')->constrained()->cascadeOnDelete();
             $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
-            $table->string('motivation')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('exercise_learnable', function (Blueprint $table) {
             $table->id();
+            $table->string('motivation')->nullable();
             $table->foreignId('exercise_id')->constrained()->cascadeOnDelete();
             $table->foreignId('learnable_id')->constrained()->cascadeOnDelete();
-            $table->string('motivation')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('learnable_learnable', function (Blueprint $table) {
             $table->id();
+            $table->string('relation_type')->nullable();
             $table->foreignId('learnable_id')->constrained()->cascadeOnDelete();
             $table->foreignId('related_to')->constrained('learnables')->cascadeOnDelete();
-            $table->string('relation_type')->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['learnable_id', 'related_to']);
         });
 
         Schema::create('categorizables', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
-            $table->morphs('categorizable');
             $table->string('motivation')->nullable();
+            $table->morphs('categorizable');
+            $table->foreignId('category_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
 
@@ -203,6 +221,8 @@ return new class extends Migration
         Schema::dropIfExists('learnables');
         Schema::dropIfExists('translations');
         Schema::dropIfExists('categories');
+
+        Schema::dropIfExists('course_user');
         Schema::dropIfExists('course_unit');
         Schema::dropIfExists('lesson_unit');
         Schema::dropIfExists('exercise_lesson');

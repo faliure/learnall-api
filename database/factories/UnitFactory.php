@@ -22,6 +22,7 @@ class UnitFactory extends Factory
             'name'        => $this->faker->sentence(2),
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
+            'enabled'     => true,
         ];
     }
 }

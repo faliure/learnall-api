@@ -34,16 +34,16 @@ class CourseResource extends Resource
     {
         return [
             'id'               => $this->id,
-            'enabled'          => $this->enabled,
-            'cefrLevel'        => $this->cefr_level?->value,
+            'cefrLevel'        => $this->cefr_level,
             'language_id'      => $this->whenNotLoaded('language', $this->language_id),
             'fromLanguage_id'  => $this->whenNotLoaded('fromLanguage', $this->from_language),
             '#units'           => $this->whenCounted('units'),
             'language'         => LanguageResource::make($this->whenLoaded('language')),
             'fromLanguage'     => LanguageResource::make($this->whenLoaded('fromLanguage')),
             'units'            => UnitResource::collection($this->whenLoaded('units')),
-            'created_at'       => $this->created_at->toDateTimeString(),
-            'updated_at'       => $this->updated_at->toDateTimeString(),
+            'enabled'          => $this->when($request->showEnabled, $this->enabled),
+            'created_at'       => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updated_at'       => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

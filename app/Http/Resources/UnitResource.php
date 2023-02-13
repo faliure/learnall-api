@@ -43,8 +43,9 @@ class UnitResource extends Resource
             'language'    => LanguageResource::make($this->whenLoaded('language')),
             'courses'     => CourseResource::collection($this->whenLoaded('courses')),
             'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),
-            'created_at'  => $this->created_at->toDateTimeString(),
-            'updated_at'  => $this->updated_at->toDateTimeString(),
+            'enabled'     => $this->when($request->showEnabled, $this->enabled),
+            'created_at'  => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updated_at'  => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

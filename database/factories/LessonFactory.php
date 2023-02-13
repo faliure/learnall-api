@@ -21,6 +21,7 @@ class LessonFactory extends Factory
             'name'        => $this->faker->sentence(3),
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
+            'enabled'     => true,
             'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
         ];
     }

@@ -57,8 +57,9 @@ class ExerciseResource extends Resource
             'sentences'    => LearnableResource::collection($this->whenLoaded('sentences')),
             'lessons'      => LessonResource::collection($this->whenLoaded('lessons')),
             'categories'   => CategoryResource::collection($this->whenLoaded('categories')),
-            'created_at'   => $this->created_at->toDateTimeString(),
-            'updated_at'   => $this->updated_at->toDateTimeString(),
+            'enabled'      => $this->when($request->showEnabled, $this->enabled),
+            'created_at'   => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updated_at'   => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

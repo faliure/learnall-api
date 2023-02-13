@@ -27,6 +27,7 @@ class ExerciseFactory extends Factory
             'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
+            'enabled'     => true,
         ];
     }
 
