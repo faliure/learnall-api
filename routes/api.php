@@ -11,7 +11,6 @@ use App\Http\Controllers\Crud\LessonController as CrudLessonController;
 use App\Http\Controllers\Crud\TranslationController as CrudTranslationController;
 use App\Http\Controllers\Crud\UnitController as CrudUnitController;
 use App\Http\Controllers\Crud\UserController as CrudUserController;
-use App\Http\Controllers\LanguageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -35,7 +34,7 @@ Route::controller(AuthController::class)->group(function () {
     Route::delete('/auth', 'destroy');
 })->middleware('auth:sanctum');
 
-Route::get('learnables/*', [LanguageController::class, 'learnable']);
+Route::get('learnables/*', [LearnableController::class, 'random']);
 
 /**
  * CRUD Actions

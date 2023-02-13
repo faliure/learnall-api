@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
 use App\Extensions\CrudRequest;
-use App\Http\Requests\StoreTranslationRequest;
-use App\Http\Requests\UpdateTranslationRequest;
+use App\Http\Requests\Crud\StoreTranslationRequest;
+use App\Http\Requests\Crud\UpdateTranslationRequest;
 use App\Http\Resources\TranslationResource;
 use App\Models\Translation;
 use Illuminate\Http\JsonResponse;

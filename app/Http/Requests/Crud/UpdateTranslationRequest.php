@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Requests;
+namespace App\Http\Requests\Crud;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class StoreUnitRequest extends FormRequest
+class UpdateTranslationRequest extends FormRequest
 {
     /**
      * Get the validation rules that apply to the request.

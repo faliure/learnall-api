@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
 use App\Extensions\CrudRequest;
-use App\Http\Requests\StoreLessonRequest;
-use App\Http\Requests\UpdateLessonRequest;
+use App\Http\Requests\Crud\StoreLessonRequest;
+use App\Http\Requests\Crud\UpdateLessonRequest;
 use App\Http\Resources\LessonResource;
 use App\Models\Lesson;
 use Illuminate\Http\JsonResponse;

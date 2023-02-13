@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
 use App\Extensions\CrudRequest;
-use App\Http\Requests\StoreUnitRequest;
-use App\Http\Requests\UpdateUnitRequest;
+use App\Http\Requests\Crud\StoreUnitRequest;
+use App\Http\Requests\Crud\UpdateUnitRequest;
 use App\Http\Resources\UnitResource;
 use App\Models\Unit;
 use Illuminate\Http\JsonResponse;

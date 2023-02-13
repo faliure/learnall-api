@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
 use App\Extensions\CrudRequest;
-use App\Http\Requests\StoreUserRequest;
-use App\Http\Requests\UpdateUserRequest;
+use App\Http\Requests\Crud\StoreUserRequest;
+use App\Http\Requests\Crud\UpdateUserRequest;
 use App\Http\Resources\UserResource;
 use App\Models\User;
 use Illuminate\Auth\Events\Registered;

@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Crud;
 
 use App\Extensions\CrudController;
 use App\Extensions\CrudRequest;
-use App\Http\Requests\StoreExerciseTypeRequest;
-use App\Http\Requests\UpdateExerciseTypeRequest;
+use App\Http\Requests\Crud\StoreExerciseTypeRequest;
+use App\Http\Requests\Crud\UpdateExerciseTypeRequest;
 use App\Http\Resources\ExerciseTypeResource;
 use App\Models\ExerciseType;
 use Illuminate\Http\JsonResponse;
