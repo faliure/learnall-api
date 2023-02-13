@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Enums\CefrLevel;
 use App\Extensions\Model;
+use App\Models\Pivots\CourseUnit;
 use App\Models\Traits\Mutators\CourseMutators;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
@@ -40,6 +41,8 @@ class Course extends Model
 
     public function units(): BelongsToMany
     {
-        return $this->belongsToMany(Unit::class);
+        return $this->belongsToMany(Unit::class)
+            ->using(CourseUnit::class)
+            ->withTimestamps();
     }
 }

@@ -4,6 +4,8 @@ namespace App\Models;
 
 use App\Enums\LearnableType;
 use App\Extensions\Model;
+use App\Models\Pivots\ExerciseLearnable;
+use App\Models\Pivots\LearnableLearnable;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\LearnedLanguageScope;
 use App\Models\Traits\Mutators\LearnableMutators;
@@ -28,12 +30,14 @@ class Learnable extends Model
             'learnable_learnable',
             'learnable_id',
             'related_to'
-        )->withPivot('relation_type');
+        )->using(LearnableLearnable::class)->withTimestamps();
     }
 
     public function exercises(): BelongsToMany
     {
-        return $this->belongsToMany(Exercise::class);
+        return $this->belongsToMany(Exercise::class)
+            ->using(ExerciseLearnable::class)
+            ->withTimestamps();
     }
 
     public function translations(): HasMany

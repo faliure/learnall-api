@@ -4,6 +4,7 @@ namespace App\Models;
 
 use App\Enums\LearnableType;
 use App\Extensions\Model;
+use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\ExerciseLesson;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\LearnedLanguageScope;
@@ -36,7 +37,9 @@ class Exercise extends Model
 
     public function learnables(): BelongsToMany
     {
-        return $this->belongsToMany(Learnable::class);
+        return $this->belongsToMany(Learnable::class)
+            ->using(ExerciseLearnable::class)
+            ->withTimestamps();
     }
 
     public function words(): BelongsToMany
