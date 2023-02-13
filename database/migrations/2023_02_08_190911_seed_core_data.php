@@ -8,10 +8,6 @@ use Illuminate\Database\Migrations\Migration;
 
 return new class extends Migration
 {
-    private const LANGUAGE_CODE    = 'ua';
-    private const TO_LANGUAGE_CODE = 'en';
-    private const BATCH_NAME       = 'ua-1';
-
     /**
      * Run the migrations.
      *
@@ -126,10 +122,9 @@ return new class extends Migration
 
     private function seedLearnables(): void
     {
-        $language   = Language::whereCode(self::LANGUAGE_CODE)->firstOrFail();
-        $toLanguage = Language::whereCode(self::TO_LANGUAGE_CODE)->firstOrFail();
+        $toLanguage = Language::whereCode('en')->firstOrFail();
 
-        (new LearnableSeeder())->seed($language, $toLanguage, self::BATCH_NAME);
+        (new LearnableSeeder())->seed($toLanguage, 'ua-1');
     }
 
     private function seedExerciseTypes()

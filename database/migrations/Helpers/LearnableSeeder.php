@@ -13,7 +13,7 @@ class LearnableSeeder extends CsvSeeder
     /**
      * Seed Learnables from a CSV file (within database/migrations/batches/learnables/$batchName.csv).
      */
-    public function seed(Language $language, Language $toLanguage, string $batchName, string $delimiter = "|"): void
+    public function seed(Language $toLanguage, string $batchName, string $delimiter = "|"): void
     {
         $pathToCsv = dirname(__DIR__) . '/batches/learnables/' . $batchName . '.csv';
 
@@ -21,7 +21,7 @@ class LearnableSeeder extends CsvSeeder
 
         $learnables = self::parseCsv($pathToCsv, $delimiter)
             ->map(fn (Collection $learnable, $i) => $learnable->merge([
-                'language_id'   => $language->id,
+                'language_id'   => $toLanguage->id,
                 'learnable_id'  => $i + $firstAvailableLearnableId,
                 'authoritative' => true,
                 'is_regex'      => false,
