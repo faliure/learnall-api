@@ -22,4 +22,4 @@ environments:
             - 'composer install --optimize-autoloader'
             - 'php artisan event:cache'
         deploy:
-            - 'php artisan migrate --seed'
+            - 'php artisan migrate'
