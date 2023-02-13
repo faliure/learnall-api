@@ -15,9 +15,9 @@ trait LearnedLanguageScope
 
     public static function bootLearnedLanguageScope()
     {
-        if (! $languageId = me()?->activeCourse()->pluck('language_id')->first()) {
-            return;
-        }
+        $scopingId = property_exists(static::class, 'useFromLanguageForScope')
+            ? me()?->activeCourse?->from_language
+            : me()?->activeCourse?->language_id;
 
         $table = (new static)->getTable();
 
@@ -25,7 +25,7 @@ trait LearnedLanguageScope
             'learnedLanguage',
             fn (Builder $builder) => $builder->where(
                 "$table.language_id",
-                $languageId
+                $scopingId
             )
         );
     }
