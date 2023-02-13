@@ -2,6 +2,7 @@
 
 namespace Database\Factories;
 
+use App\Models\Language;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
@@ -20,6 +21,7 @@ class LessonFactory extends Factory
             'name'        => $this->faker->sentence(3),
             'description' => $this->faker->sentence(),
             'motivation'  => $this->faker->sentence(),
+            'language_id' => Language::inRandomOrder()->first()->id ?? Language::factory(),
         ];
     }
 }

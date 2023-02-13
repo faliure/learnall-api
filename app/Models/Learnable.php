@@ -5,8 +5,8 @@ namespace App\Models;
 use App\Enums\LearnableType;
 use App\Extensions\Model;
 use App\Models\Traits\Categorizable;
+use App\Models\Traits\LearnedLanguageScope;
 use App\Models\Traits\Mutators\LearnableMutators;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -15,15 +15,11 @@ class Learnable extends Model
 {
     use Categorizable;
     use LearnableMutators;
+    use LearnedLanguageScope;
 
     protected $casts = [
         'type' => LearnableType::class,
     ];
-
-    public function language(): BelongsTo
-    {
-        return $this->belongsTo(Language::class);
-    }
 
     public function related(): BelongsToMany
     {
