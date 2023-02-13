@@ -13,7 +13,7 @@ class LearnableSeeder extends CsvSeeder
     /**
      * Seed Learnables from a CSV file (within database/migrations/batches/learnables/$batchName.csv).
      */
-    public function seed(Language $toLanguage, string $batchName, string $delimiter = "|"): void
+    public function seed(Language $language, Language $toLanguage, string $batchName, string $delimiter = "|"): void
     {
         $pathToCsv = dirname(__DIR__) . '/batches/learnables/' . $batchName . '.csv';
 
@@ -21,7 +21,8 @@ class LearnableSeeder extends CsvSeeder
 
         $learnables = self::parseCsv($pathToCsv, $delimiter)
             ->map(fn (Collection $learnable, $i) => $learnable->merge([
-                'language_id'   => $toLanguage->id,
+                'language_id'   => $language->id,
+                'to_language'   => $toLanguage->id,
                 'learnable_id'  => $i + $firstAvailableLearnableId,
                 'authoritative' => true,
                 'is_regex'      => false,
@@ -29,9 +30,16 @@ class LearnableSeeder extends CsvSeeder
             ]));
 
         $learnableData = $learnables->map->only('learnable', 'type', 'language_id')->toArray();
+
         DB::table('learnables')->insertOrIgnore($learnableData);
 
-        $translationData = $learnables->map->except('learnable', 'type')->toArray();
+        $translationData = $learnables->map(function ($learnable) {
+            $data = $learnable->toArray();
+            $data['language_id'] = $data['to_language'];
+            unset($data['learnable'], $data['type'], $data['to_language']);
+            return $data;
+        })->toArray();
+
         DB::table('translations')->insertOrIgnore($translationData);
     }
 };

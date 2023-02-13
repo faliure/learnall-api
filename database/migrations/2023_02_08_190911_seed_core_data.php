@@ -122,9 +122,10 @@ return new class extends Migration
 
     private function seedLearnables(): void
     {
-        $toLanguage = Language::whereCode('en')->firstOrFail();
+        $fromLanguage = Language::whereCode('ua')->firstOrFail();
+        $toLanguage   = Language::whereCode('en')->firstOrFail();
 
-        (new LearnableSeeder())->seed($toLanguage, 'ua-1');
+        (new LearnableSeeder())->seed($fromLanguage, $toLanguage, 'ua-1');
     }
 
     private function seedExerciseTypes()
