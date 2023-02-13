@@ -3,17 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Extensions\Controller;
-use App\Models\Language;
+use App\Models\Learnable;
 
 class LanguageController extends Controller
 {
-    public function learnable(Language $language)
+    public function learnable()
     {
-        return $language->learnables()
+        return Learnable::resourcesQuery()
             ->whereHas('translation')
             ->inRandomOrder()
-            ->first()
-            ->load('translation')
-            ->resource();
+            ->first();
     }
 }

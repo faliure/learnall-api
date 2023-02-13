@@ -35,6 +35,8 @@ Route::controller(AuthController::class)->group(function () {
     Route::delete('/auth', 'destroy');
 })->middleware('auth:sanctum');
 
+Route::get('learnables/*', [LanguageController::class, 'learnable']);
+
 /**
  * CRUD Actions
  */
@@ -50,5 +52,3 @@ Route::apiResources([
     '/units'          => CrudUnitController::class,
     '/users'          => CrudUserController::class,
 ]);
-
-Route::get('languages/{language}/learnable', [LanguageController::class, 'learnable']);
