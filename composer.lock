@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddd20fe34574bd2259993024a53e125b",
+    "content-hash": "c3f5033e3fc485c1945d5d3f69f326a7",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1380,12 +1380,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "67c19a72ca73b0efa3a744cbe72e34217b9a58b5"
+                "reference": "cc0d31ece9ff201a2484cf329e22afe8423af803"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/67c19a72ca73b0efa3a744cbe72e34217b9a58b5",
-                "reference": "67c19a72ca73b0efa3a744cbe72e34217b9a58b5",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/cc0d31ece9ff201a2484cf329e22afe8423af803",
+                "reference": "cc0d31ece9ff201a2484cf329e22afe8423af803",
                 "shasum": ""
             },
             "require": {
@@ -1571,7 +1571,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-10T15:25:48+00:00"
+            "time": "2023-02-12T20:40:10+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3094,12 +3094,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "8a58e984fe388ecc916c96e7f2eb67acb24a69a6"
+                "reference": "aff8e33eca5bf98ccf01a3bee40189ec6593f0d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/8a58e984fe388ecc916c96e7f2eb67acb24a69a6",
-                "reference": "8a58e984fe388ecc916c96e7f2eb67acb24a69a6",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/aff8e33eca5bf98ccf01a3bee40189ec6593f0d1",
+                "reference": "aff8e33eca5bf98ccf01a3bee40189ec6593f0d1",
                 "shasum": ""
             },
             "require": {
@@ -3197,7 +3197,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-12T01:20:37+00:00"
+            "time": "2023-02-13T13:24:54+00:00"
         },
         {
             "name": "pestphp/pest-plugin",
@@ -8927,7 +8927,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.1"
+        "php": "^8.2"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"

@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use App\Models\Unit;
 use Illuminate\Database\Seeder;
 
-class TranslationSeeder extends Seeder
+class UnitSeeder extends Seeder
 {
     /**
      * Run the database seeds.
