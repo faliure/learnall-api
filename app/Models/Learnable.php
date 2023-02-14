@@ -6,8 +6,8 @@ use App\Enums\LearnableType;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\LearnableLearnable;
+use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Categorizable;
-use App\Models\Traits\LearnedLanguageScope;
 use App\Models\Traits\Mutators\LearnableMutators;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -15,9 +15,9 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Learnable extends Model
 {
+    use BelongsToLanguage;
     use Categorizable;
     use LearnableMutators;
-    use LearnedLanguageScope;
 
     protected $casts = [
         'type' => LearnableType::class,

@@ -11,6 +11,7 @@ class LearnableController extends Controller
     public function random(LearnableRandomRequest $request)
     {
         $base = Learnable::resourcesQuery()
+            ->forLearnedLanguage()
             ->whereHas('translation')
             ->inRandomOrder();
 
