@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.258.8",
+            "version": "3.258.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3bb42aeb1e11f17b0ca7357385a427a438df35b1"
+                "reference": "1d42f8170ecc775a85e0efa96476caa2d4be13ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3bb42aeb1e11f17b0ca7357385a427a438df35b1",
-                "reference": "3bb42aeb1e11f17b0ca7357385a427a438df35b1",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1d42f8170ecc775a85e0efa96476caa2d4be13ae",
+                "reference": "1d42f8170ecc775a85e0efa96476caa2d4be13ae",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.8"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.258.9"
             },
-            "time": "2023-02-10T19:22:52+00:00"
+            "time": "2023-02-13T19:21:26+00:00"
         },
         {
             "name": "brick/math",
@@ -1380,16 +1380,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "cc0d31ece9ff201a2484cf329e22afe8423af803"
+                "reference": "a501fc23542b43988537cb18f20e4b04907399cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/cc0d31ece9ff201a2484cf329e22afe8423af803",
-                "reference": "cc0d31ece9ff201a2484cf329e22afe8423af803",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a501fc23542b43988537cb18f20e4b04907399cf",
+                "reference": "a501fc23542b43988537cb18f20e4b04907399cf",
                 "shasum": ""
             },
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11",
+                "composer-runtime-api": "^2.2",
                 "doctrine/inflector": "^2.0.5",
                 "dragonmantank/cron-expression": "^3.3.2",
                 "egulias/email-validator": "^3.2.1|^4.0",
@@ -1571,7 +1572,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-12T20:40:10+00:00"
+            "time": "2023-02-13T22:48:04+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3094,12 +3095,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pestphp/pest.git",
-                "reference": "aff8e33eca5bf98ccf01a3bee40189ec6593f0d1"
+                "reference": "c87aabf5d4d04ddd92cdb539b6014a82830c7319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pestphp/pest/zipball/aff8e33eca5bf98ccf01a3bee40189ec6593f0d1",
-                "reference": "aff8e33eca5bf98ccf01a3bee40189ec6593f0d1",
+                "url": "https://api.github.com/repos/pestphp/pest/zipball/c87aabf5d4d04ddd92cdb539b6014a82830c7319",
+                "reference": "c87aabf5d4d04ddd92cdb539b6014a82830c7319",
                 "shasum": ""
             },
             "require": {
@@ -3113,7 +3114,7 @@
                 "brianium/paratest": "<7.0.4"
             },
             "require-dev": {
-                "brianium/paratest": "^7.0.5",
+                "brianium/paratest": "^7.0.6",
                 "pestphp/pest-dev-tools": "^2.4.0",
                 "pestphp/pest-plugin-arch": "^2.0.0",
                 "symfony/process": "^6.2.5"
@@ -3197,7 +3198,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2023-02-13T13:24:54+00:00"
+            "time": "2023-02-14T08:57:04+00:00"
         },
         {
             "name": "pestphp/pest-plugin",

@@ -15,6 +15,16 @@ trait LearnedLanguageScope
 
     public static function bootLearnedLanguageScope()
     {
+        /**
+         * This may be a bug, but I cannot use me() [auth()->user()] here:
+         *
+         *   - auth()->user()->activeCourse returns the FIRST course ALWAYS
+         *   - User::find(auth()->user()->id)->activeCourse works as expected
+         *
+         * Then, if I pre-load the relation, it works the same in both cases...
+         */
+        me()?->load('activeCourse');
+
         $scopingId = property_exists(static::class, 'useFromLanguageForScope')
             ? me()?->activeCourse?->from_language
             : me()?->activeCourse?->language_id;
