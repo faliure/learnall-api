@@ -14,7 +14,10 @@ abstract class CrudController extends Controller
 
     public function __construct()
     {
-        // $this->authorizeResource($this->getModel());
+        $this->authorizeResource($this->getModel());
+
+        // https://laracasts.com/series/laravel-8-from-scratch/episodes/69
+        // $this->authorize('collaborator');
 
         $this->middleware('throttle:60,1')->only(['store', 'update', 'destroy']);
     }
