@@ -31,6 +31,4 @@ enum LearnableType: string
     case Sentence     = 'sentence';
 
     case Verb         = 'verb';
-
-    case Unknown      = 'unknown';
 }

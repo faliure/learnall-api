@@ -3,10 +3,7 @@
 use App\Models\Course;
 use App\Models\ExerciseType;
 use App\Models\Language;
-use Database\Migrations\Helpers\LearnableSeeder;
 use Illuminate\Database\Migrations\Migration;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\File;
 
 return new class extends Migration
 {
@@ -20,8 +17,6 @@ return new class extends Migration
         $this->seedLanguages();
 
         $this->seedCourses();
-
-        $this->seedLearnables();
 
         $this->seedExerciseTypes();
     }
@@ -196,18 +191,6 @@ return new class extends Migration
                 ->whereHas('language', fn ($q) => $q->where('code', $to))
                 ->update(['enabled' => true]);
         });
-    }
-
-    private function seedLearnables(): void
-    {
-        $fromLanguage = Language::whereCode('uk')->firstOrFail();
-        $toLanguage   = Language::whereCode('en')->firstOrFail();
-
-        (new LearnableSeeder())->seed($fromLanguage, $toLanguage, 'uk-1');
-
-        DB::connection()->getPdo()->exec(
-            File::get(__DIR__ . '/dumps/learnables-seed-1.sql'),
-        );
     }
 
     private function seedExerciseTypes()
