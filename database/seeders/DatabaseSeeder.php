@@ -14,9 +14,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategorySeeder::class,
             // UserSeeder::class,
-            LanguageSeeder::class,
+            // LanguageSeeder::class,
             // CourseSeeder::class,
-            // UnitSeeder::class,
+            UnitSeeder::class,
             // LessonSeeder::class,
             // LearnableSeeder::class,
             // TranslationSeeder::class,

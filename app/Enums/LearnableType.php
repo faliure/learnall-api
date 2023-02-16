@@ -12,17 +12,21 @@ enum LearnableType: string
 
     case Conjunction  = 'conjunction';
 
+    case Determiner   = 'determiner';
+
     case Expression   = 'expression';
 
     case Interjection = 'interjection';
 
     case Noun         = 'noun';
 
-    case Number       = 'number';
+    case Numeral      = 'numeral';
 
     case Preposition  = 'preposition';
 
     case Pronoun      = 'pronoun';
+
+    case ProperNoun   = 'proper noun';
 
     case Sentence     = 'sentence';
 

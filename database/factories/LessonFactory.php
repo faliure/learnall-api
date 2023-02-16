@@ -40,18 +40,14 @@ class LessonFactory extends Factory
         Model::disableGlobalScopes();
 
         return $this->afterCreating(function (Lesson $lesson) {
-            $learnables   = Learnable::where('language_id', $lesson->language_id)->pluck('id');
-            $perLearnable = ExerciseType::count() * 2;
-
             $exercises = Exercise::factory()
-                ->count($learnables->count() * $perLearnable)
-                ->create([ 'language_id' => $lesson->language_id ]);
+                ->count(10)
+                ->create([ 'language_id' => $lesson->language_id ])
+                ->each(fn ($exercise) => $exercise->learnables()->sync(
+                    Learnable::rand('language_id', $lesson->language_id)?->id
+                ));
 
             $lesson->exercises()->sync($exercises->pluck('id'));
-
-            $exercises->each(fn ($e, $key) => $e->learnables()->sync(
-                $learnables->get(intdiv($key, $perLearnable))
-            ));
         });
     }
 }

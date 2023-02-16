@@ -5,6 +5,8 @@ use App\Models\ExerciseType;
 use App\Models\Language;
 use Database\Migrations\Helpers\LearnableSeeder;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\File;
 
 return new class extends Migration
 {
@@ -63,69 +65,149 @@ return new class extends Migration
                 'flag'    => 'IT',
             ],
             [
-                'code'    => 'ua',
+                'code'    => 'uk',
                 'subcode' => null,
                 'name'    => 'Ukrainian',
                 'region'  => null,
                 'flag'    => 'UA',
+            ],
+            [
+                'code'    => 'ro',
+                'subcode' => null,
+                'name'    => 'Romanian',
+                'region'  => null,
+                'flag'    => 'RO',
+            ],
+            [
+                'code'    => 'la',
+                'subcode' => null,
+                'name'    => 'Latin',
+                'region'  => null,
+                'flag'    => 'VA',
+            ],
+            [
+                'code'    => 'cs',
+                'subcode' => null,
+                'name'    => 'Czech',
+                'region'  => null,
+                'flag'    => 'CZ',
+            ],
+            [
+                'code'    => 'ru',
+                'subcode' => null,
+                'name'    => 'Russian',
+                'region'  => null,
+                'flag'    => 'RU',
+            ],
+            [
+                'code'    => 'ja',
+                'subcode' => null,
+                'name'    => 'Japanese',
+                'region'  => null,
+                'flag'    => 'JP',
+            ],
+            [
+                'code'    => 'nl',
+                'subcode' => null,
+                'name'    => 'Dutch',
+                'region'  => null,
+                'flag'    => 'NL',
+            ],
+            [
+                'code'    => 'de',
+                'subcode' => null,
+                'name'    => 'German',
+                'region'  => null,
+                'flag'    => 'DE',
+            ],
+            [
+                'code'    => 'sv',
+                'subcode' => null,
+                'name'    => 'Swedish',
+                'region'  => null,
+                'flag'    => 'SE',
+            ],
+            [
+                'code'    => 'ca',
+                'subcode' => null,
+                'name'    => 'Catalan',
+                'region'  => null,
+                'flag'    => null, // No flag in the sprite... TODO
+            ],
+            [
+                'code'    => 'eo',
+                'subcode' => null,
+                'name'    => 'Esperanto',
+                'region'  => null,
+                'flag'    => null, // No flag in the sprite... TODO
+            ],
+            [
+                'code'    => 'hu',
+                'subcode' => null,
+                'name'    => 'Hungarian',
+                'region'  => null,
+                'flag'    => 'HU',
+            ],
+            [
+                'code'    => 'pl',
+                'subcode' => null,
+                'name'    => 'Polish',
+                'region'  => null,
+                'flag'    => 'PL',
             ],
         ], ['code', 'subcode'], ['name', 'region']);
     }
 
     public function seedCourses(): void
     {
-        $languages = Language::pluck('id', 'code');
+        Language::pluck('id', 'code')->each(function ($fromLanguage) {
+            Language::pluck('id', 'code')->each(function ($language) use ($fromLanguage) {
+                if ($fromLanguage !== $language) {
+                    Course::create([
+                        'from_language' => $fromLanguage,
+                        'language_id'   => $language,
+                        'enabled'       => false,
+                    ]);
+                }
+            });
+        });
 
-        Course::insert([
-            [
-                'from_language' => $languages['en'],
-                'language_id'   => $languages['es'],
-                'enabled'       => true,
-            ],
-            [
-                'from_language' => $languages['en'],
-                'language_id'   => $languages['fr'],
-                'enabled'       => true,
-            ],
-            [
-                'from_language' => $languages['en'],
-                'language_id'   => $languages['pt'],
-                'enabled'       => false,
-            ],
-            [
-                'from_language' => $languages['en'],
-                'language_id'   => $languages['it'],
-                'enabled'       => false,
-            ],
-            [
-                'from_language' => $languages['en'],
-                'language_id'   => $languages['ua'],
-                'enabled'       => true,
-            ],
-            [
-                'from_language' => $languages['es'],
-                'language_id'   => $languages['en'],
-                'enabled'       => true,
-            ],
-            [
-                'from_language' => $languages['es'],
-                'language_id'   => $languages['fr'],
-                'enabled'       => true,
-            ],
-            [
-                'from_language' => $languages['ua'],
-                'language_id'   => $languages['en'],
-                'enabled'       => true,
-            ],
-        ]);
+        collect([
+            ['en', 'es'],
+            ['en', 'fr'],
+            ['en', 'pt'],
+            ['en', 'it'],
+            ['en', 'uk'],
+            ['en', 'de'],
+            ['es', 'en'],
+            ['es', 'fr'],
+            ['es', 'pt'],
+            ['es', 'uk'],
+            ['it', 'en'],
+            ['fr', 'en'],
+            ['pt', 'en'],
+            ['uk', 'en'],
+            ['uk', 'es'],
+        ])->each(function ($toFrom) {
+            [ $to, $from ] = $toFrom;
+
+            Course::withoutGlobalScopes()
+                ->whereHas('fromLanguage', fn ($q) => $q->where('code', $from))
+                ->whereHas('language', fn ($q) => $q->where('code', $to))
+                ->update(['enabled' => true]);
+        });
     }
 
     private function seedLearnables(): void
     {
-        $fromLanguage = Language::whereCode('ua')->firstOrFail();
+        $fromLanguage = Language::whereCode('uk')->firstOrFail();
         $toLanguage   = Language::whereCode('en')->firstOrFail();
 
-        (new LearnableSeeder())->seed($fromLanguage, $toLanguage, 'ua-1');
+        (new LearnableSeeder())->seed($fromLanguage, $toLanguage, 'uk-1');
+
+        DB::connection()->getPdo()->exec(
+            File::get(__DIR__ . '/dumps/learnables-seed-1.sql'),
+        );
     }
 
     private function seedExerciseTypes()
