@@ -14,11 +14,6 @@ trait LanguageMutators
         return Attribute::set($this->mutateToLower(...));
     }
 
-    public function subcode(): Attribute
-    {
-        return Attribute::set($this->mutateToLower(...));
-    }
-
     public function name(): Attribute
     {
         return Attribute::set($this->mutateToUcwords(...));

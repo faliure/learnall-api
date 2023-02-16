@@ -19,15 +19,12 @@ return new class extends Migration
 
         Schema::create('languages', function (Blueprint $table) {
             $table->id();
-            $table->string('code', 2)->comment('ISO-639-1 root code, e.g. "en"');
-            $table->string('subcode', 2)->nullable()->comment('ISO-639-1 region subcode, e.g. "GB"');
+            $table->string('code', 2)->unique()->comment('ISO-639-1 root code, e.g. "en"');
             $table->string('name')->comment('ISO-639-1 Language base name, e.g. "English"');
             $table->string('region')->nullable()->comment('ISO-639-1 Region, e.g. "GB" (ommitted for "Standard")');
             $table->string('flag', 3)->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
-
-            $table->unique(['code', 'subcode']);
         });
 
         Schema::create('courses', function (Blueprint $table) {
@@ -90,12 +87,15 @@ return new class extends Migration
         Schema::create('learnables', function (Blueprint $table) {
             $table->id();
             $table->string('learnable');
-            $table->string('type', 32);
+            $table->string('type', 32)->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
 
             $table->unique(['learnable', 'language_id', 'type']);
+
+            $table->charset   = 'utf8';
+            $table->collation = 'utf8_bin';
         });
 
         Schema::create('translations', function (Blueprint $table) {

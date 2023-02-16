@@ -49,7 +49,6 @@ class LanguageResource extends Resource
         return [
             'id'            => $this->id,
             'code'          => $this->code,
-            'subcode'       => $this->subcode,
             'name'          => $this->name,
             'region'        => $this->region,
             'flag'          => $this->flag,

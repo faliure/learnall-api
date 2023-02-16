@@ -26,131 +26,113 @@ return new class extends Migration
         Language::upsert([
             [
                 'code'    => 'en',
-                'subcode' => null,
                 'name'    => 'English',
                 'region'  => null,
                 'flag'    => 'US',
             ],
             [
                 'code'    => 'es',
-                'subcode' => null,
                 'name'    => 'Spanish',
                 'region'  => 'Spain',
                 'flag'    => 'ES',
             ],
             [
                 'code'    => 'fr',
-                'subcode' => null,
                 'name'    => 'French',
                 'region'  => null,
                 'flag'    => 'FR',
             ],
             [
                 'code'    => 'pt',
-                'subcode' => 'br',
                 'name'    => 'Portuguese',
                 'region'  => 'Brazil',
                 'flag'    => 'BR',
             ],
             [
                 'code'    => 'it',
-                'subcode' => null,
                 'name'    => 'Italian',
                 'region'  => null,
                 'flag'    => 'IT',
             ],
             [
                 'code'    => 'uk',
-                'subcode' => null,
                 'name'    => 'Ukrainian',
                 'region'  => null,
                 'flag'    => 'UA',
             ],
             [
                 'code'    => 'ro',
-                'subcode' => null,
                 'name'    => 'Romanian',
                 'region'  => null,
                 'flag'    => 'RO',
             ],
             [
                 'code'    => 'la',
-                'subcode' => null,
                 'name'    => 'Latin',
                 'region'  => null,
                 'flag'    => 'VA',
             ],
             [
                 'code'    => 'cs',
-                'subcode' => null,
                 'name'    => 'Czech',
                 'region'  => null,
                 'flag'    => 'CZ',
             ],
             [
                 'code'    => 'ru',
-                'subcode' => null,
                 'name'    => 'Russian',
                 'region'  => null,
                 'flag'    => 'RU',
             ],
             [
                 'code'    => 'ja',
-                'subcode' => null,
                 'name'    => 'Japanese',
                 'region'  => null,
                 'flag'    => 'JP',
             ],
             [
                 'code'    => 'nl',
-                'subcode' => null,
                 'name'    => 'Dutch',
                 'region'  => null,
                 'flag'    => 'NL',
             ],
             [
                 'code'    => 'de',
-                'subcode' => null,
                 'name'    => 'German',
                 'region'  => null,
                 'flag'    => 'DE',
             ],
             [
                 'code'    => 'sv',
-                'subcode' => null,
                 'name'    => 'Swedish',
                 'region'  => null,
                 'flag'    => 'SE',
             ],
             [
                 'code'    => 'ca',
-                'subcode' => null,
                 'name'    => 'Catalan',
                 'region'  => null,
                 'flag'    => null, // No flag in the sprite... TODO
             ],
             [
                 'code'    => 'eo',
-                'subcode' => null,
                 'name'    => 'Esperanto',
                 'region'  => null,
                 'flag'    => null, // No flag in the sprite... TODO
             ],
             [
                 'code'    => 'hu',
-                'subcode' => null,
                 'name'    => 'Hungarian',
                 'region'  => null,
                 'flag'    => 'HU',
             ],
             [
                 'code'    => 'pl',
-                'subcode' => null,
                 'name'    => 'Polish',
                 'region'  => null,
                 'flag'    => 'PL',
             ],
-        ], ['code', 'subcode'], ['name', 'region']);
+        ], [ 'code' ], [ 'name', 'region' ]);
     }
 
     public function seedCourses(): void
