@@ -42,13 +42,14 @@ class Learnable extends Model
 
     public function translations(): HasMany
     {
-        return $this->hasMany(Translation::class);
+        return $this->hasMany(Translation::class)
+            ->forLearnedLanguage();
     }
 
     public function translation(): HasOne
     {
-        return $this->hasOne(Translation::class)->where([
-            'authoritative' => true,
-        ]);
+        return $this->hasOne(Translation::class)
+            ->forLearnedLanguage()
+            ->where([ 'authoritative' => true ]);
     }
 }
