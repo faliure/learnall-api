@@ -1,0 +1,6239 @@
+[
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "עדיפות",
+        "normalized": "`dypvt",
+        "translation": "preference, priority",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בעמדה",
+        "normalized": "b`mdh",
+        "translation": "in a position",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בהפתעה",
+        "normalized": "bhpt`h",
+        "translation": "as a surprise",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בכבוד",
+        "normalized": "bkbvd",
+        "translation": "with respect, in respect",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בחשיבות",
+        "normalized": "bkhshybvt",
+        "translation": "in priority",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בכיוון",
+        "normalized": "bkyvvn",
+        "translation": "in the direction",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בסכנה",
+        "normalized": "bsknh",
+        "translation": "in danger",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "בסיס",
+        "normalized": "bsys",
+        "translation": "basis, base",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "גישה",
+        "normalized": "gyshh",
+        "translation": "approach, attitude",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "העמדה",
+        "normalized": "h`mdh",
+        "translation": "the position, the viewpoint",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הבדל",
+        "normalized": "hbdl",
+        "translation": "difference",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הביטוי",
+        "normalized": "hbytvy",
+        "translation": "the expression",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הגישה",
+        "normalized": "hgyshh",
+        "translation": "the approach",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "ההבדל",
+        "normalized": "hhbdl",
+        "translation": "the difference",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "ההתנהגות",
+        "normalized": "hhtnhgvt",
+        "translation": "the behavior",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "ההומור",
+        "normalized": "hhvmvr",
+        "translation": "the humor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "החתימה",
+        "normalized": "hkhtymh",
+        "translation": "the signature, the autograph",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "החיוך",
+        "normalized": "hkhyvk",
+        "translation": "the smile",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הכוחות",
+        "normalized": "hkvkhvt",
+        "translation": "the powers, the forces",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הכיוון",
+        "normalized": "hkyvvn",
+        "translation": "the direction",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "המסורת",
+        "normalized": "hmsvrt",
+        "translation": "the tradition",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "האמת",
+        "normalized": "hmt",
+        "translation": "the truth",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הנאה",
+        "normalized": "hnh",
+        "translation": "pleasure",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הנפילה",
+        "normalized": "hnpylh",
+        "translation": "the fall",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הניסיון",
+        "normalized": "hnysyvn",
+        "translation": "the experience, the attempt, the trial",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הנזק",
+        "normalized": "hnzq",
+        "translation": "the damage",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הפסד",
+        "normalized": "hpsd",
+        "translation": "loss",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הפתעה",
+        "normalized": "hpt`h",
+        "translation": "surprise",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "השקר",
+        "normalized": "hshqr",
+        "translation": "the lie",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הסמל",
+        "normalized": "hsml",
+        "translation": "the symbol",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "התועלת",
+        "normalized": "htv`lt",
+        "translation": "the benefit",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הטובה",
+        "normalized": "htvbh",
+        "translation": "the favor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הומור",
+        "normalized": "hvmvr",
+        "translation": "humor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "היופי",
+        "normalized": "hyvpy",
+        "translation": "the beauty",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הזהות",
+        "normalized": "hzhvt",
+        "translation": "the identity",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "הזכרון",
+        "normalized": "hzkrvn",
+        "translation": "the memory",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "אחריות",
+        "normalized": "khryvt",
+        "translation": "responsibility",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "חשיבות",
+        "normalized": "khshybvt",
+        "translation": "importance",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "חוש",
+        "normalized": "khvsh",
+        "translation": "sense",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "כוח",
+        "normalized": "kvkh",
+        "translation": "power, force, strength",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "לרצח",
+        "normalized": "lrtskh",
+        "translation": "to the murder",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מהזהות",
+        "normalized": "mhzhvt",
+        "translation": "from the identity",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מאמץ",
+        "normalized": "mmts",
+        "translation": "effort, adopts, adopt",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מקור",
+        "normalized": "mqvr",
+        "translation": "source, origin",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מסורת",
+        "normalized": "msvrt",
+        "translation": "tradition",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מציאות",
+        "normalized": "mtsyvt",
+        "translation": "reality",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "מזל",
+        "normalized": "mzl",
+        "translation": "luck",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "נפילה",
+        "normalized": "npylh",
+        "translation": "fall, falling",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "ניצחון",
+        "normalized": "nytskhvn",
+        "translation": "win",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "פחד",
+        "normalized": "pkhd",
+        "translation": "fear",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "רשות",
+        "normalized": "rshvt",
+        "translation": "permission",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "שנאה",
+        "normalized": "shnh",
+        "translation": "hatred",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "שקרים",
+        "normalized": "shqrym",
+        "translation": "lies",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "ספק",
+        "normalized": "spq",
+        "translation": "doubt",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "סודות",
+        "normalized": "svdvt",
+        "translation": "secrets",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "תכונה",
+        "normalized": "tkvnh",
+        "translation": "trait, attribute, property",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "תשומת הלב",
+        "normalized": "tshvmt hlb",
+        "translation": "the attention",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "תשוקה",
+        "normalized": "tshvqh",
+        "translation": "passion",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "צל",
+        "normalized": "tsl",
+        "translation": "shade, shadow",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "תועלת",
+        "normalized": "tv`lt",
+        "translation": "benefit",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Abstract-Objects-2",
+        "learnable": "אופי",
+        "normalized": "vpy",
+        "translation": "nature, character",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "במצלמה",
+        "normalized": "bmtslmh",
+        "translation": "in the camera",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "בתסריט",
+        "normalized": "btsryt",
+        "translation": "in the script",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "בתיאטרון",
+        "normalized": "btytrvn",
+        "translation": "in the theater",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "באיור",
+        "normalized": "byvr",
+        "translation": "in the illustration",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הבמה",
+        "normalized": "hbmh",
+        "translation": "the stage",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הדמות",
+        "normalized": "hdmvt",
+        "translation": "the character",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הגלריה",
+        "normalized": "hglryh",
+        "translation": "the gallery",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "ההצגה",
+        "normalized": "hhtsgh",
+        "translation": "the show, the play",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "המכחול",
+        "normalized": "hmkkhvl",
+        "translation": "the paintbrush",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "המפיק",
+        "normalized": "hmpyq",
+        "translation": "the producer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "המפיקה",
+        "normalized": "hmpyqh",
+        "translation": "the producer (female)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הפַסל",
+        "normalized": "hpasl",
+        "translation": "the sculptor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הפֶסל",
+        "normalized": "hpesl",
+        "translation": "the sculpture",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "האפקטים",
+        "normalized": "hpqtym",
+        "translation": "the effects",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הפסקול",
+        "normalized": "hpsqvl",
+        "translation": "the soundtrack",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הקהל",
+        "normalized": "hqhl",
+        "translation": "the crowd",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הסגנון",
+        "normalized": "hsgnvn",
+        "translation": "the style",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הסרט",
+        "normalized": "hsrt",
+        "translation": "the movie",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "הציורים",
+        "normalized": "htsyvrym",
+        "translation": "the paintings",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "האולפנים",
+        "normalized": "hvlpnym",
+        "translation": "the studios",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "האוסף",
+        "normalized": "hvsp",
+        "translation": "the collection",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "האיור",
+        "normalized": "hyvr",
+        "translation": "the illustration",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "להצגה",
+        "normalized": "lhtsgh",
+        "translation": "to the play",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "לפסקול",
+        "normalized": "lpsqvl",
+        "translation": "to the soundtrack",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "לסטודיו",
+        "normalized": "lstvdyv",
+        "translation": "to the studio",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "מכחולים",
+        "normalized": "mkkhvlym",
+        "translation": "paintbrushes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "אמנות",
+        "normalized": "mnvt",
+        "translation": "art",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "אפקטים",
+        "normalized": "pqtym",
+        "translation": "effects",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "רקדניות",
+        "normalized": "rqdnyvt",
+        "translation": "dancers, dancers (f)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "ריקוד",
+        "normalized": "ryqvd",
+        "translation": "dance (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "שירה",
+        "normalized": "shyrh",
+        "translation": "poetry",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "ספרות",
+        "normalized": "sprvt",
+        "translation": "literature",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "צלם",
+        "normalized": "tslm",
+        "translation": "photograph, photographer, photograph (imp.), take a picture (imp.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "תסריט",
+        "normalized": "tsryt",
+        "translation": "script",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "צילום",
+        "normalized": "tsylvm",
+        "translation": "photography",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "אופנה",
+        "normalized": "vpnh",
+        "translation": "fashion",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Arts",
+        "learnable": "אוסף",
+        "normalized": "vsp",
+        "translation": "collection",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "גברים",
+        "normalized": "gbrym",
+        "translation": "men",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "הגברים",
+        "normalized": "hgbrym",
+        "translation": "the men, the men are",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "הילדים",
+        "normalized": "hyldym",
+        "translation": "the children, the kids",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "אנחנו",
+        "normalized": "nkhnv",
+        "translation": "we, we are",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "נשים",
+        "normalized": "nshym",
+        "translation": "women",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "רואות",
+        "normalized": "rvvt",
+        "translation": "see",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "רואים",
+        "normalized": "rvym",
+        "translation": "see",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "וגברים",
+        "normalized": "vgbrym",
+        "translation": "and men",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "ונשים",
+        "normalized": "vnshym",
+        "translation": "and women",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "וילדים",
+        "normalized": "vyldym",
+        "translation": "and children",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Basics",
+        "learnable": "ילדים",
+        "normalized": "yldym",
+        "translation": "children, boys, kids",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "עברית",
+        "normalized": "`bryt",
+        "translation": "Hebrew",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "בבקשה",
+        "normalized": "bbqshh",
+        "translation": "please, you are welcome, here you go",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "בהצלחה",
+        "normalized": "bhtslkhh",
+        "translation": "good luck",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "בסדר",
+        "normalized": "bsdr",
+        "translation": "ok, fine, alright",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "בתיאבון",
+        "normalized": "btybvn",
+        "translation": "bon appetit, enjoy your meal",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "להתראות",
+        "normalized": "lhtrvt",
+        "translation": "goodbye, see you later, bye",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "מה נשמע",
+        "normalized": "mh nshm`",
+        "translation": "how are you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "מה קורה",
+        "normalized": "mh qvrh",
+        "translation": "what's up, how are you, what is happening",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "מה שלומךְ",
+        "normalized": "mh shlvmk@",
+        "translation": "(addressing a female), how are you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "מה שלומךָ",
+        "normalized": "mh shlvmka",
+        "translation": "(addressing a male), how are you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "מזל טוב",
+        "normalized": "mzl tvb",
+        "translation": "congratulations",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "אנגלית",
+        "normalized": "nglyt",
+        "translation": "English",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "שלום",
+        "normalized": "shlvm",
+        "translation": "hello, peace",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "סליחה",
+        "normalized": "slykhh",
+        "translation": "excuse me, sorry, I am sorry, Pardon, forgiveness",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "טל",
+        "normalized": "tl",
+        "translation": "Tal, dew",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "תודה",
+        "normalized": "tvdh",
+        "translation": "thank you, thanks",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "תודה רבה",
+        "normalized": "tvdh rbh",
+        "translation": "thank you very much",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "אין בעד מה",
+        "normalized": "yn b`d mh",
+        "translation": "you are welcome",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Comparison",
+        "learnable": "ביותר",
+        "normalized": "byvtr",
+        "translation": "most, very",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Comparison",
+        "learnable": "הכי",
+        "normalized": "hky",
+        "translation": "the most",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Comparison",
+        "learnable": "פחות",
+        "normalized": "pkhvt",
+        "translation": "less, minus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Comparison",
+        "learnable": "יותר",
+        "normalized": "yvtr",
+        "translation": "more, any more, any longer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "עדיין",
+        "normalized": "`dyyn",
+        "translation": "still, yet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "אבל",
+        "normalized": "bl",
+        "translation": "but",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "כי",
+        "normalized": "ky",
+        "translation": "because",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "אלא",
+        "normalized": "l",
+        "translation": "but, but rather",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "אם",
+        "normalized": "m",
+        "translation": "if, whether",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "עוגת יום ההולדת",
+        "normalized": "`vgt yvm hhvldt",
+        "translation": "the birthday cake",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "עוגת יום הולדת",
+        "normalized": "`vgt yvm hvldt",
+        "translation": "a birthday cake",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "במשרד ראש הממשלה",
+        "normalized": "bmshrd rsh hmmshlh",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "בתי מלאכה",
+        "normalized": "bty mlkh",
+        "translation": "workshops",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "בתיבת הדואר",
+        "normalized": "btybt hdvr",
+        "translation": "in the mailbox",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "חגורת בטיחות",
+        "normalized": "khgvrt btykhvt",
+        "translation": "a safety belt, seat belt",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "חלון חדר האורחים",
+        "normalized": "khlvn khdr hvrkhym",
+        "translation": "...room, the window of the guest..",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "חלון חדר אורחים",
+        "normalized": "khlvn khdr vrkhym",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "חלונות חדר האורחים",
+        "normalized": "khlvnvt khdr hvrkhym",
+        "translation": "the guest room windows",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "כלִי הנשק",
+        "normalized": "kliy hnshq",
+        "translation": "the weapon",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "להפסקת אוכל",
+        "normalized": "lhpsqt vkl",
+        "translation": "for a lunch break",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "מברשות שיניים",
+        "normalized": "mbrshvt shynyym",
+        "translation": "toothbrushes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "מגדל השמירה",
+        "normalized": "mgdl hshmyrh",
+        "translation": "the watchtower",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "משחת השיניים",
+        "normalized": "mshkht hshynyym",
+        "translation": "the toothpaste",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "נהג המונית",
+        "normalized": "nhg hmvnyt",
+        "translation": "the taxi driver",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "פניית הפרסה",
+        "normalized": "pnyyt hprsh",
+        "translation": "the U-turn",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "פניית פרסה",
+        "normalized": "pnyyt prsh",
+        "translation": "U-turn",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "פסק זמן",
+        "normalized": "psq zmn",
+        "translation": "timeout",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "ארגז הכלים",
+        "normalized": "rgz hklym",
+        "translation": "the toolbox",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "ראש הממשלה",
+        "normalized": "rsh hmmshlh",
+        "translation": "the prime minister",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "שעון העצר",
+        "normalized": "sh`vn h`tsr",
+        "translation": "the stopwatch",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "שטיפת המוח",
+        "normalized": "shtypt hmvkh",
+        "translation": "the brainwashing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "שטיפת מוח",
+        "normalized": "shtypt mvkh",
+        "translation": "brainwashing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "שומרי הראש",
+        "normalized": "shvmry hrsh",
+        "translation": "the bodyguards",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "סכין הגילוח",
+        "normalized": "skyn hgylvkh",
+        "translation": "the razor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "תולעת ספרים",
+        "normalized": "tvl`t sprym",
+        "translation": "bookworm",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "תיבת הדואר",
+        "normalized": "tybt hdvr",
+        "translation": "mailbox",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Contruct-State-2",
+        "learnable": "אוצר המילים",
+        "normalized": "vtsr hmylym",
+        "translation": "the vocabulary",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "האלה",
+        "normalized": "hlh",
+        "translation": "these, those",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "האלו",
+        "normalized": "hlv",
+        "translation": "these, those",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "הזה",
+        "normalized": "hzh",
+        "translation": "this, that",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "הזאת",
+        "normalized": "hzt",
+        "translation": "this, that",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "כזה",
+        "normalized": "kzh",
+        "translation": "like this, such",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "אלה",
+        "normalized": "lh",
+        "translation": "these, those",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "אלו",
+        "normalized": "lv",
+        "translation": "these, these are, those",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "מדברים",
+        "normalized": "mdbrym",
+        "translation": "speak, talking, are talking, are speaking, speaking, talk",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "שומעים",
+        "normalized": "shvm`ym",
+        "translation": "hear, one can hear",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Determiners",
+        "learnable": "אוכלים",
+        "normalized": "vklym",
+        "translation": "eat, eating, are eating",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "גחלילית",
+        "normalized": "gkhlylyt",
+        "translation": "firefly",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "האדמדמים",
+        "normalized": "hdmdmym",
+        "translation": "reddish",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הדובון",
+        "normalized": "hdvbvn",
+        "translation": "teddy bear",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הגחליליות",
+        "normalized": "hgkhlylyvt",
+        "translation": "the fireflies",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "החתלתול",
+        "normalized": "hkhtltvl",
+        "translation": "the kitten",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "החזרזיר",
+        "normalized": "hkhzrzyr",
+        "translation": "the piglet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הכלבלב",
+        "normalized": "hklblb",
+        "translation": "the puppy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "המגבונים",
+        "normalized": "hmgbvnym",
+        "translation": "the towelettes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "המחשבון",
+        "normalized": "hmkhshbvn",
+        "translation": "the calculator",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הפילון",
+        "normalized": "hpylvn",
+        "translation": "the baby elephant",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הקטנטן",
+        "normalized": "hqtntn",
+        "translation": "tiny",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הקטנטנים",
+        "normalized": "hqtntnym",
+        "translation": "tiny, the little ones",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הספרון",
+        "normalized": "hsprvn",
+        "translation": "the booklet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הצלוחית",
+        "normalized": "htslvkhyt",
+        "translation": "the saucer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הידית",
+        "normalized": "hydyt",
+        "translation": "the handle",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "הילדון",
+        "normalized": "hyldvn",
+        "translation": "the little boy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "חתלתולים",
+        "normalized": "khtltvlym",
+        "translation": "kittens",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "חזרזיר",
+        "normalized": "khzrzyr",
+        "translation": "piglet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "כחלחל",
+        "normalized": "kkhlkhl",
+        "translation": "bluish",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "כלבלבים",
+        "normalized": "klblbym",
+        "translation": "puppies",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "מגבון",
+        "normalized": "mgbvn",
+        "translation": "towelette",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "מלונית",
+        "normalized": "mlvnyt",
+        "translation": "motel",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "קשיות",
+        "normalized": "qshyvt",
+        "translation": "drinking straw, drinking straws",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "שקית",
+        "normalized": "shqyt",
+        "translation": "bag",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "והחתלתול",
+        "normalized": "vhkhtltvl",
+        "translation": "and the kitten",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Diminutives",
+        "learnable": "והמחשבון",
+        "normalized": "vhmkhshbvn",
+        "translation": "and the calculator",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אתכם",
+        "normalized": "tkm",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אתכן",
+        "normalized": "tkn",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותה",
+        "normalized": "vth",
+        "translation": "her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותךְ",
+        "normalized": "vtk@",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותךָ",
+        "normalized": "vtka",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותם",
+        "normalized": "vtm",
+        "translation": "them, the same",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותן",
+        "normalized": "vtn",
+        "translation": "them, the same",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותנו",
+        "normalized": "vtnv",
+        "translation": "us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותו",
+        "normalized": "vtv",
+        "translation": "him, the same, it",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Direct-object",
+        "learnable": "אותי",
+        "normalized": "vty",
+        "translation": "me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Food-1",
+        "learnable": "כריך",
+        "normalized": "kryk",
+        "translation": "sandwich, a sandwich",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Food-1",
+        "learnable": "ארוחת ערב",
+        "normalized": "rvkht `rb",
+        "translation": "dinner",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Food-1",
+        "learnable": "ארוחת בוקר",
+        "normalized": "rvkht bvqr",
+        "translation": "breakfast",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Food-1",
+        "learnable": "ארוחת צהריים",
+        "normalized": "rvkht tshryym",
+        "translation": "lunch",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "אדוני",
+        "normalized": "dvny",
+        "translation": "sir",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "גברתי",
+        "normalized": "gbrty",
+        "translation": "ma'am, madam",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "הבה",
+        "normalized": "hbh",
+        "translation": "let us, let's",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "המגיע",
+        "normalized": "hmgy`",
+        "translation": "that arrives",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "התשמע",
+        "normalized": "htshm`",
+        "translation": "will you hear",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "היכן",
+        "normalized": "hykn",
+        "translation": "where, where are",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "כיצד",
+        "normalized": "kytsd",
+        "translation": "how",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "מדוע",
+        "normalized": "mdv`",
+        "translation": "why (formal)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "מאין",
+        "normalized": "myn",
+        "translation": "from where",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "אנא",
+        "normalized": "n",
+        "translation": "please (formal)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "נא",
+        "normalized": "n",
+        "translation": "please",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "אנו",
+        "normalized": "nv",
+        "translation": "we (formal)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "אשר",
+        "normalized": "shr",
+        "translation": "who",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "ולאן",
+        "normalized": "vln",
+        "translation": "and to where",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "אינם",
+        "normalized": "ynm",
+        "translation": "do not, are not",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Formal",
+        "learnable": "איננו",
+        "normalized": "ynnv",
+        "translation": "we cannot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אבקש",
+        "normalized": "bqsh",
+        "translation": "(I) will ask for, (I) will request",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אדע",
+        "normalized": "d`",
+        "translation": "(I) will know",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אגע",
+        "normalized": "g`",
+        "translation": "(I) will touch",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אחזור",
+        "normalized": "khzvr",
+        "translation": "(I) will return",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אמכור",
+        "normalized": "mkvr",
+        "translation": "(I) will sell",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ננצח",
+        "normalized": "nntskh",
+        "translation": "we will win",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "נשאל",
+        "normalized": "nshl",
+        "translation": "(we) will ask",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אפתח",
+        "normalized": "ptkh",
+        "translation": "(I) will open",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אקווה",
+        "normalized": "qvvh",
+        "translation": "(I) will hope",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "שנלמד",
+        "normalized": "shnlmd",
+        "translation": "that we will study",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תערבבו",
+        "normalized": "t`rbbv",
+        "translation": "(you) will mix, (you) will stir",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תחכה",
+        "normalized": "tkhkh",
+        "translation": "she will wait, you will wait",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תלַמדו",
+        "normalized": "tlamdv",
+        "translation": "you will teach",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תמשיך",
+        "normalized": "tmshyk",
+        "translation": "(she) will continue",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תקנה",
+        "normalized": "tqnh",
+        "translation": "(she) will buy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תסגור",
+        "normalized": "tsgvr",
+        "translation": "(you) will close, (you) will shut",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תשכח",
+        "normalized": "tshkkh",
+        "translation": "(you) will forget, (she) will forget",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אצליח",
+        "normalized": "tslykh",
+        "translation": "(I) will succeed, (I) will manage",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תציע",
+        "normalized": "ttsy`",
+        "translation": "(she) will suggest, (you) will suggest, (she) will offer, (you) will offer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "תוכלו",
+        "normalized": "tvklv",
+        "translation": "(you) will be able",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "אומַר",
+        "normalized": "vmar",
+        "translation": "(I) will tell",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יעבוד",
+        "normalized": "y`bvd",
+        "translation": "(he) will work",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יעצור",
+        "normalized": "y`tsvr",
+        "translation": "(he) will arrest, (he) will stop",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יעזור",
+        "normalized": "y`zvr",
+        "translation": "(he) will help",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יחליף",
+        "normalized": "ykhlyp",
+        "translation": "will replace",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ימלאו",
+        "normalized": "ymlv",
+        "translation": "will fill",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ימצאו",
+        "normalized": "ymtsv",
+        "translation": "(they) will find",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יקחו",
+        "normalized": "yqkhv",
+        "translation": "(they) will take",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יקרא",
+        "normalized": "yqr",
+        "translation": "(he) will call, (he) will read",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ירגישו",
+        "normalized": "yrgyshv",
+        "translation": "(they) will feel",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ירצו",
+        "normalized": "yrtsv",
+        "translation": "(they) will want",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ישבור",
+        "normalized": "yshbvr",
+        "translation": "(he) will break",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ישים",
+        "normalized": "yshym",
+        "translation": "(he) will put",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "ישימו",
+        "normalized": "yshymv",
+        "translation": "(they) will place",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יספרו",
+        "normalized": "ysprv",
+        "translation": "(they) will tell",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יתפללו",
+        "normalized": "ytpllv",
+        "translation": "(they) will pray",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Future-2",
+        "learnable": "יציעו",
+        "normalized": "ytsy`v",
+        "translation": "(they) will suggest, (they) will offer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בחנוכה",
+        "normalized": "bkhnvkh",
+        "translation": "in Hanukkah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "במשלוח המנות",
+        "normalized": "bmshlvkh hmnvt",
+        "translation": "in the Purim basket, in the mishloach manot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בפסח",
+        "normalized": "bpskh",
+        "translation": "on Passover",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בפורים",
+        "normalized": "bpvrym",
+        "translation": "On Purim",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בשבועות",
+        "normalized": "bshbv`vt",
+        "translation": "on Shavuot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בסוכה",
+        "normalized": "bsvkh",
+        "translation": "in the sukkah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "בימים הנוראים",
+        "normalized": "bymym hnvrym",
+        "translation": "in the High Holy Days",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "המצה",
+        "normalized": "hmtsh",
+        "translation": "the matza",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "הפסח",
+        "normalized": "hpskh",
+        "translation": "the Passover",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "הסופגניות",
+        "normalized": "hsvpgnyvt",
+        "translation": "the sufganiyot, the Hanukkah donuts",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "הימים הנוראים",
+        "normalized": "hymym hnvrym",
+        "translation": "the High Holy Days, the Days of Awe",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "חג",
+        "normalized": "khg",
+        "translation": "holiday",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "חגים",
+        "normalized": "khgym",
+        "translation": "holidays, festivals",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "חנוכה",
+        "normalized": "khnvkh",
+        "translation": "hanukkah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "חוגגים",
+        "normalized": "khvggym",
+        "translation": "celebrate",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "ליל הסדר",
+        "normalized": "lyl hsdr",
+        "translation": "the Passover Seder",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "משלוח מנות",
+        "normalized": "mshlvkh mnvt",
+        "translation": "mishloach manot, Purim basket",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "מצה",
+        "normalized": "mtsh",
+        "translation": "matza",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "ראש השנה",
+        "normalized": "rsh hshnh",
+        "translation": "Rosh Ha'shana, the Jewish New Year",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "סביבונים",
+        "normalized": "sbybvnym",
+        "translation": "sevivonim, dreidels",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "שבועות",
+        "normalized": "shbv`vt",
+        "translation": "shavuot, weeks, Shavuot (holiday)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "שמחת תורה",
+        "normalized": "shmkht tvrh",
+        "translation": "Simchat Torah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "סוכה",
+        "normalized": "svkh",
+        "translation": "sukkah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "סוכות",
+        "normalized": "svkvt",
+        "translation": "sukkot, Sukkot (holiday)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "סופגניות",
+        "normalized": "svpgnyvt",
+        "translation": "sufganiyot, Hanukkah donuts",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "ט\"ו בשבט",
+        "normalized": "t\" v bshbt",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "תשעה באב",
+        "normalized": "tsh`h bb",
+        "translation": "Tisha Be'Av, the Ninth of Av",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "צום",
+        "normalized": "tsvm",
+        "translation": "fasting, fast, fast (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "ופורים",
+        "normalized": "vpvrym",
+        "translation": "and Purim",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "אוזני המן",
+        "normalized": "vzny hmn",
+        "translation": "triangular filled pastry, Haman's ears, Hamantashen",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "יציאת מצרים",
+        "normalized": "ytsyt mtsrym",
+        "translation": "the Exodus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Jewish-Festivals",
+        "learnable": "יום כיפור",
+        "normalized": "yvm kypvr",
+        "translation": "Yom Kippur, the Day of Atonement",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אבא",
+        "normalized": "b",
+        "translation": "dad, father",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "בא",
+        "normalized": "b",
+        "translation": "coming, is coming, comes, came, come",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "באה",
+        "normalized": "bh",
+        "translation": "is coming, comes, came, come",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "האבא",
+        "normalized": "hb",
+        "translation": "the dad",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אהבה",
+        "normalized": "hbh",
+        "translation": "love",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "החלב",
+        "normalized": "hkhlb",
+        "translation": "milk, the milk, the milk is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "האם",
+        "normalized": "hm",
+        "translation": "is, do, does",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "האמא",
+        "normalized": "hm",
+        "translation": "the mom",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "הוא",
+        "normalized": "hv",
+        "translation": "he, (he) is, him, (it) is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "היא",
+        "normalized": "hy",
+        "translation": "she, her, it",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "היונה",
+        "normalized": "hyvnh",
+        "translation": "the dove, the pigeon",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "חלב",
+        "normalized": "khlb",
+        "translation": "milk",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "חם",
+        "normalized": "khm",
+        "translation": "hot (sg. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "לא",
+        "normalized": "l",
+        "translation": "not, is not, do not, didn't, does not, doesn't, don't, no, won't",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "לחם",
+        "normalized": "lkhm",
+        "translation": "bread",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אמא",
+        "normalized": "m",
+        "translation": "mom, mother, mum",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "מים",
+        "normalized": "mym",
+        "translation": "water",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אני",
+        "normalized": "ny",
+        "translation": "I, I am, me, i'm",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "את",
+        "normalized": "t",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אתה",
+        "normalized": "th",
+        "translation": "you, you are",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "או",
+        "normalized": "v",
+        "translation": "or",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "ואבא",
+        "normalized": "vb",
+        "translation": "and dad",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אוהב",
+        "normalized": "vhb",
+        "translation": "like, love, likes, loves",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "אוהבת",
+        "normalized": "vhbt",
+        "translation": "like, love, likes, loves",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "וחלב",
+        "normalized": "vkhlb",
+        "translation": "and milk",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "ולחם",
+        "normalized": "vlkhm",
+        "translation": "and bread, and a bread",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "ואמא",
+        "normalized": "vm",
+        "translation": "and mom",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "ואני",
+        "normalized": "vny",
+        "translation": "and I, and I am",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "יונה",
+        "normalized": "yvnh",
+        "translation": "dove, a dove, a pigeon, pigeon",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-1",
+        "learnable": "יין",
+        "normalized": "yyn",
+        "translation": "wine",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "דרך",
+        "normalized": "drk",
+        "translation": "way, through, road",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "גבר",
+        "normalized": "gbr",
+        "translation": "man, a man",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "אגוז",
+        "normalized": "gvz",
+        "translation": "nut, a nut",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הגבר",
+        "normalized": "hgbr",
+        "translation": "the man, the man is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הכלב",
+        "normalized": "hklb",
+        "translation": "the dog",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "המלך",
+        "normalized": "hmlk",
+        "translation": "the king",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "האוכל",
+        "normalized": "hvkl",
+        "translation": "the food",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הולך",
+        "normalized": "hvlk",
+        "translation": "is going, go, goes, is walking, walk, walks",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הולכת",
+        "normalized": "hvlkt",
+        "translation": "go, goes, is going, is walking, walk, walks",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הילד",
+        "normalized": "hyld",
+        "translation": "the boy, the boy is, the child, the kid",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "הילדה",
+        "normalized": "hyldh",
+        "translation": "the girl, the girl is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "האישה",
+        "normalized": "hyshh",
+        "translation": "the woman, the woman is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "כלב",
+        "normalized": "klb",
+        "translation": "dog, a dog",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "כן",
+        "normalized": "kn",
+        "translation": "yes, do, does",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "משאית",
+        "normalized": "mshyt",
+        "translation": "truck, a truck, a lorry, a van",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "רואָה",
+        "normalized": "rvah",
+        "translation": "see, sees",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "רואֶה",
+        "normalized": "rveh",
+        "translation": "see, sees, is seeing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "שמח",
+        "normalized": "shmkh",
+        "translation": "happy (sg. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "שותָה",
+        "normalized": "shvtah",
+        "translation": "drinking, drink, is drinking, drinks",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "שותֶה",
+        "normalized": "shvteh",
+        "translation": "drink, drinking, drinks, is drinking",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "אוכל",
+        "normalized": "vkl",
+        "translation": "eating, eat, food, eats, is eating",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "אוכלת",
+        "normalized": "vklt",
+        "translation": "eating, eats, is eating, eat",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "אורז",
+        "normalized": "vrz",
+        "translation": "rice",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "ילד",
+        "normalized": "yld",
+        "translation": "boy, a boy, a child, child",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "ילדה",
+        "normalized": "yldh",
+        "translation": "girl, a girl, child",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "אישה",
+        "normalized": "yshh",
+        "translation": "woman, a woman, wife",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "זה",
+        "normalized": "zh",
+        "translation": "it, that, this",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-2",
+        "learnable": "זאת",
+        "normalized": "zt",
+        "translation": "this is (feminine), that is (feminine), it is (feminine), that, this",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "עצוב",
+        "normalized": "`tsvb",
+        "translation": "sad",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "עוגה",
+        "normalized": "`vgh",
+        "translation": "cake, a cake",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "עוף",
+        "normalized": "`vp",
+        "translation": "chicken, a chicken",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "עיתון",
+        "normalized": "`ytvn",
+        "translation": "newspaper, a newspaper",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "הספר",
+        "normalized": "hspr",
+        "translation": "the book",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "התפוח",
+        "normalized": "htpvkh",
+        "translation": "the apple, the apple is",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "התפוז",
+        "normalized": "htpvz",
+        "translation": "the orange",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "חמוץ",
+        "normalized": "khmvts",
+        "translation": "sour",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "כיף",
+        "normalized": "kyp",
+        "translation": "fun",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "מתוק",
+        "normalized": "mtvq",
+        "translation": "sweet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "מיץ",
+        "normalized": "myts",
+        "translation": "juice",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "אפרסק",
+        "normalized": "prsq",
+        "translation": "peach, a peach",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "קורא",
+        "normalized": "qvr",
+        "translation": "reading, read, is reading, calls, is calling, reads",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "קוראת",
+        "normalized": "qvrt",
+        "translation": "reading, is reading, read, calls, is calling, reads",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "רע",
+        "normalized": "r`",
+        "translation": "bad (sg. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "רוצָה",
+        "normalized": "rvtsah",
+        "translation": "want, wants",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "רוצֶה",
+        "normalized": "rvtseh",
+        "translation": "want, wants, would like",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "ספר",
+        "normalized": "spr",
+        "translation": "book, a book",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "טעים",
+        "normalized": "t`ym",
+        "translation": "tasty, delicious",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "תפוח",
+        "normalized": "tpvkh",
+        "translation": "apple, an apple",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "תפוז",
+        "normalized": "tpvz",
+        "translation": "orange, an orange",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "טוב",
+        "normalized": "tvb",
+        "translation": "well, alright, good, ok",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Letters-3",
+        "learnable": "יפֶה",
+        "normalized": "ypeh",
+        "translation": "beautiful, beautiful (sg. masc.), nicely, handsome, nice, pretty",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "עצם",
+        "normalized": "`tsm",
+        "translation": "bone, object",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "עור",
+        "normalized": "`vr",
+        "translation": "skin",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "בהריון",
+        "normalized": "bhryvn",
+        "translation": "pregnant, in pregnancy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "בלחץ",
+        "normalized": "blkhts",
+        "translation": "stressed",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "במרפאה",
+        "normalized": "bmrph",
+        "translation": "in the clinic",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "בפה",
+        "normalized": "bph",
+        "translation": "in the mouth",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "בריאות",
+        "normalized": "bryvt",
+        "translation": "health",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "דם",
+        "normalized": "dm",
+        "translation": "blood",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "גב",
+        "normalized": "gb",
+        "translation": "back",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "גולגולת",
+        "normalized": "gvlgvlt",
+        "translation": "skull",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "העצמות",
+        "normalized": "h`tsmvt",
+        "translation": "the bones",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "העיניים",
+        "normalized": "h`ynyym",
+        "translation": "the eyes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הברך",
+        "normalized": "hbrk",
+        "translation": "the knee",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הברכיים",
+        "normalized": "hbrkyym",
+        "translation": "the knees",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הבטן",
+        "normalized": "hbtn",
+        "translation": "the stomach",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הדיאטות",
+        "normalized": "hdytvt",
+        "translation": "the diets",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הגולגולת",
+        "normalized": "hgvlgvlt",
+        "translation": "the skull",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הגוף",
+        "normalized": "hgvp",
+        "translation": "the body",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הגופות",
+        "normalized": "hgvpvt",
+        "translation": "the bodies",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הכאבים",
+        "normalized": "hkbym",
+        "translation": "the aches, the pains",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "החזה",
+        "normalized": "hkhzh",
+        "translation": "the chest",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הלב",
+        "normalized": "hlb",
+        "translation": "the heart",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הלידה",
+        "normalized": "hlydh",
+        "translation": "the birth",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "המחלות",
+        "normalized": "hmkhlvt",
+        "translation": "the diseases",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "המרפאה",
+        "normalized": "hmrph",
+        "translation": "the clinic",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "המרפקים",
+        "normalized": "hmrpqym",
+        "translation": "the elbows",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "המטופלת",
+        "normalized": "hmtvplt",
+        "translation": "the patient (f)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "האף",
+        "normalized": "hp",
+        "translation": "the nose",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "השפתיים",
+        "normalized": "hshptyym",
+        "translation": "the lips",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "השריר",
+        "normalized": "hshryr",
+        "translation": "the muscle",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "האצבע",
+        "normalized": "htsb`",
+        "translation": "the finger",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הצוואר",
+        "normalized": "htsvvr",
+        "translation": "the neck",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "הטיפול",
+        "normalized": "htypvl",
+        "translation": "the treatment",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "כאב",
+        "normalized": "kb",
+        "translation": "ache, pain",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "חלום",
+        "normalized": "khlvm",
+        "translation": "dream",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "חולֶה",
+        "normalized": "khvleh",
+        "translation": "sick",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "חולות",
+        "normalized": "khvlvt",
+        "translation": "sick",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "אחות",
+        "normalized": "khvt",
+        "translation": "sister, nurse",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "אחיות",
+        "normalized": "khyvt",
+        "translation": "nurses, sisters",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "כף היד",
+        "normalized": "kp hyd",
+        "translation": "the palm (of a hand)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "כפות רגליים",
+        "normalized": "kpvt rglyym",
+        "translation": "feet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "לכתף",
+        "normalized": "lktp",
+        "translation": "to the shoulder",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "לשון",
+        "normalized": "lshvn",
+        "translation": "tongue",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "מהטיפול",
+        "normalized": "mhtypvl",
+        "translation": "from the treatment",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "מחלות",
+        "normalized": "mkhlvt",
+        "translation": "diseases",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "מכף היד",
+        "normalized": "mkp hyd",
+        "translation": "from the palm (of a hand)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "מוחות",
+        "normalized": "mvkhvt",
+        "translation": "brains",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "ניתוח",
+        "normalized": "nytvkh",
+        "translation": "surgery, operation",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "פנים",
+        "normalized": "pnym",
+        "translation": "face",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "רגל",
+        "normalized": "rgl",
+        "translation": "leg, foot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "רפואה",
+        "normalized": "rpvh",
+        "translation": "medicine (profession), medical science, recovery",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "ראש",
+        "normalized": "rsh",
+        "translation": "head",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "שן",
+        "normalized": "shn",
+        "translation": "tooth",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "שיער",
+        "normalized": "shy`r",
+        "translation": "hair",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "סמים",
+        "normalized": "smym",
+        "translation": "drugs",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "סרטן",
+        "normalized": "srtn",
+        "translation": "crab, a crab, cancer (disease)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "תרופות",
+        "normalized": "trvpvt",
+        "translation": "medications",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "אצבעות",
+        "normalized": "tsb`vt",
+        "translation": "fingers",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "וירוסים",
+        "normalized": "vyrvsym",
+        "translation": "viruses",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "אוזניים",
+        "normalized": "vznyym",
+        "translation": "ears",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "איבר",
+        "normalized": "ybr",
+        "translation": "organ",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "איברים",
+        "normalized": "ybrym",
+        "translation": "organs",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "יד",
+        "normalized": "yd",
+        "translation": "hand",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Medical",
+        "learnable": "זרוע",
+        "normalized": "zrv`",
+        "translation": "arm",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "בגיטרה",
+        "normalized": "bgytrh",
+        "translation": "in the guitar",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "בלהקה",
+        "normalized": "blhqh",
+        "translation": "in a band",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "בנבל",
+        "normalized": "bnbl",
+        "translation": "in the harp",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "בפסנתר",
+        "normalized": "bpsntr",
+        "translation": "in the piano",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "גיטריסט",
+        "normalized": "gytryst",
+        "translation": "guitarist",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הבית",
+        "normalized": "hbyt",
+        "translation": "the house, the stanza, the verse",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הגיטריסט",
+        "normalized": "hgytryst",
+        "translation": "the guitarist",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "ההד",
+        "normalized": "hhd",
+        "translation": "the echo",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "החליל",
+        "normalized": "hkhlyl",
+        "translation": "the flute",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הלהקה",
+        "normalized": "hlhqh",
+        "translation": "the band",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "המלחין",
+        "normalized": "hmlkhyn",
+        "translation": "the composer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "המנגינה",
+        "normalized": "hmngynh",
+        "translation": "the tune, the melody",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "המנצח",
+        "normalized": "hmntskh",
+        "translation": "the (music) conductor",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "המפוחית",
+        "normalized": "hmpvkhyt",
+        "translation": "the harmonica",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "המוזיקה",
+        "normalized": "hmvzyqh",
+        "translation": "the music",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הנבל",
+        "normalized": "hnbl",
+        "translation": "the harp",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הפסנתר",
+        "normalized": "hpsntr",
+        "translation": "the piano",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הפזמון",
+        "normalized": "hpzmvn",
+        "translation": "the chorus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "האקורד",
+        "normalized": "hqvrd",
+        "translation": "the (music) chord",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הרמקול",
+        "normalized": "hrmqvl",
+        "translation": "the speaker",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "השיר",
+        "normalized": "hshyr",
+        "translation": "the song",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הסולם",
+        "normalized": "hsvlm",
+        "translation": "the ladder, the (musical) key, the (musical) scale",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הצליל",
+        "normalized": "htslyl",
+        "translation": "the sound, the note",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "היצירה",
+        "normalized": "hytsyrh",
+        "translation": "(music) work",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "הז'אנר",
+        "normalized": "hz'nr",
+        "translation": "the genre",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "חצוצרה",
+        "normalized": "khtsvtsrh",
+        "translation": "trumpet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "כלֵי נגינה",
+        "normalized": "kley ngynh",
+        "translation": "(musical) instruments",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "כלִי הנגינה",
+        "normalized": "kliy hngynh",
+        "translation": "the (musical) instrument",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "כנגן",
+        "normalized": "kngn",
+        "translation": "as a player (music)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "כנר",
+        "normalized": "knr",
+        "translation": "violinist",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "כינור",
+        "normalized": "kynvr",
+        "translation": "violin, fiddle",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "להופעה",
+        "normalized": "lhvp`h",
+        "translation": "to the show, to the performance",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "לכוון",
+        "normalized": "lkvvn",
+        "translation": "to tune (instruments)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "למיקרופון",
+        "normalized": "lmyqrvpvn",
+        "translation": "to the microphone",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "לנגן",
+        "normalized": "lngn",
+        "translation": "to play (an instrument)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "לפסנתר",
+        "normalized": "lpsntr",
+        "translation": "to the piano",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מהמיקרופון",
+        "normalized": "mhmyqrvpvn",
+        "translation": "from the microphone",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מכוונת",
+        "normalized": "mkvvnt",
+        "translation": "tunes (v)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מלחינות",
+        "normalized": "mlkhynvt",
+        "translation": "compose",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מלחינים",
+        "normalized": "mlkhynym",
+        "translation": "compose",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מנגן",
+        "normalized": "mngn",
+        "translation": "plays (an instrument)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מנצחים",
+        "normalized": "mntskhym",
+        "translation": "win, winning, beat, (music) conductors, is beating, is winning",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מפוחית",
+        "normalized": "mpvkhyt",
+        "translation": "harmonica",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "מתופפים",
+        "normalized": "mtvppym",
+        "translation": "drummers",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "נגנים",
+        "normalized": "ngnym",
+        "translation": "players (music)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "קונצרט",
+        "normalized": "qvntsrt",
+        "translation": "concert",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "אקורדים",
+        "normalized": "qvrdym",
+        "translation": "(music) chords",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "רמקולים",
+        "normalized": "rmqvlym",
+        "translation": "speakers",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "שירייך",
+        "normalized": "shyryyk",
+        "translation": "your songs",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "תופים",
+        "normalized": "tvpym",
+        "translation": "drums",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "והמתופפת",
+        "normalized": "vhmtvppt",
+        "translation": "and the drummer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "ים-תיכונית",
+        "normalized": "ym-tykvnyt",
+        "translation": "Mediterranean (adj.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Music",
+        "learnable": "זמרת",
+        "normalized": "zmrt",
+        "translation": "singer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל",
+        "normalized": "al",
+        "translation": "Do not",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תעמדו",
+        "normalized": "al t`mdv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תערבבי",
+        "normalized": "al t`rbby",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תעשו",
+        "normalized": "al t`shv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תדברו",
+        "normalized": "al tdbrv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תגיע",
+        "normalized": "al tgy`",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תהיו",
+        "normalized": "al thyv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תחכו",
+        "normalized": "al tkhkv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תחכי",
+        "normalized": "al tkhky",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תחליט",
+        "normalized": "al tkhlyt",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תחליטו",
+        "normalized": "al tkhlytv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תאכלי",
+        "normalized": "al tkly",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תלכו",
+        "normalized": "al tlkv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תאמרי",
+        "normalized": "al tmry",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תנסה",
+        "normalized": "al tnsh",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תנסו",
+        "normalized": "al tnsv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תפתח",
+        "normalized": "al tptkh",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תקשיב",
+        "normalized": "al tqshyb",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תרגישי",
+        "normalized": "al trgyshy",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תסבירו",
+        "normalized": "al tsbyrv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תסגרו",
+        "normalized": "al tsgrv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תסגרי",
+        "normalized": "al tsgry",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשכחי",
+        "normalized": "al tshkkhy",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשלחו",
+        "normalized": "al tshlkhv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשאלו",
+        "normalized": "al tshlv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשנו",
+        "normalized": "al tshnv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשתמשו",
+        "normalized": "al tshtmshv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשתו",
+        "normalized": "al tshtv",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תשתי",
+        "normalized": "al tshty",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תספרי",
+        "normalized": "al tspry",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תתעלמי",
+        "normalized": "al tt`lmy",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תתחילי",
+        "normalized": "al ttkhyly",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תיגעו",
+        "normalized": "al tyg`v",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תיקחי",
+        "normalized": "al tyqkhy",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Negative-Imperatives",
+        "learnable": "אַל תיתן",
+        "normalized": "al tytn",
+        "translation": "do not allow",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "בישול",
+        "normalized": "byshvl",
+        "translation": "cooking",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "דרישה",
+        "normalized": "dryshh",
+        "translation": "demand (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "דרישות",
+        "normalized": "dryshvt",
+        "translation": "demands",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הבישול",
+        "normalized": "hbyshvl",
+        "translation": "the cooking",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "ההתנצלות",
+        "normalized": "hhtntslvt",
+        "translation": "the apology",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "ההזמנה",
+        "normalized": "hhzmnh",
+        "translation": "the invitation",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "החשיבה",
+        "normalized": "hkhshybh",
+        "translation": "the thinking",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הליכה",
+        "normalized": "hlykh",
+        "translation": "walking",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "המכירה",
+        "normalized": "hmkyrh",
+        "translation": "the sale",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הפתיחה",
+        "normalized": "hptykhh",
+        "translation": "the opening",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הקנייה",
+        "normalized": "hqnyyh",
+        "translation": "the purchase",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הקריאה",
+        "normalized": "hqryh",
+        "translation": "the reading",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "השמיעה",
+        "normalized": "hshmy`h",
+        "translation": "the hearing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הסיפור",
+        "normalized": "hsypvr",
+        "translation": "the story",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הסיפורים",
+        "normalized": "hsypvrym",
+        "translation": "the stories",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "התנצלות",
+        "normalized": "htntslvt",
+        "translation": "apology",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הצפייה",
+        "normalized": "htspyyh",
+        "translation": "the watching",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "האימון",
+        "normalized": "hymvn",
+        "translation": "the training",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "הזמנה",
+        "normalized": "hzmnh",
+        "translation": "invitation",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "חשיבה",
+        "normalized": "khshybh",
+        "translation": "thinking (gerund)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "כתיבה",
+        "normalized": "ktybh",
+        "translation": "writing (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "למידה",
+        "normalized": "lmydh",
+        "translation": "learning",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "לסיפור",
+        "normalized": "lsypvr",
+        "translation": "to the story",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "לימוד",
+        "normalized": "lymvd",
+        "translation": "learning, study, studying (ger.), learning (ger.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "פתיחה",
+        "normalized": "ptykhh",
+        "translation": "opening",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "קנייה",
+        "normalized": "qnyyh",
+        "translation": "purchase, purchase (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "קריאה",
+        "normalized": "qryh",
+        "translation": "reading (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "ריצה",
+        "normalized": "rytsh",
+        "translation": "running",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "שמיעה",
+        "normalized": "shmy`h",
+        "translation": "hearing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Nouns:-VerbalNouns",
+        "learnable": "שינה",
+        "normalized": "shynh",
+        "translation": "sleep (n), sleeping",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-1",
+        "learnable": "הרבה",
+        "normalized": "hrbh",
+        "translation": "many, a lot of, lots of, greatly, much",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-1",
+        "learnable": "אחד",
+        "normalized": "khd",
+        "translation": "one (masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-1",
+        "learnable": "אחת",
+        "normalized": "kht",
+        "translation": "one (fem.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-1",
+        "learnable": "מדי",
+        "normalized": "mdy",
+        "translation": "too, much",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-2",
+        "learnable": "חלקי",
+        "normalized": "khlqy",
+        "translation": "divided by",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Numbers-2",
+        "learnable": "ועוד",
+        "normalized": "v`vd",
+        "translation": "plus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "People",
+        "learnable": "בן",
+        "normalized": "bn",
+        "translation": "son, years old (sg. masc.), boy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "People",
+        "learnable": "בנות",
+        "normalized": "bnvt",
+        "translation": "girls, daughters, years old (pl. fem.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "People",
+        "learnable": "בני",
+        "normalized": "bny",
+        "translation": "years old (pl. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "People",
+        "learnable": "בת",
+        "normalized": "bt",
+        "translation": "years old (sg. fem.), daughter",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Places",
+        "learnable": "הביתה",
+        "normalized": "hbyth",
+        "translation": "home, go home, to one's home",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "של",
+        "normalized": "shl",
+        "translation": "of, 's",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלה",
+        "normalized": "shlh",
+        "translation": "her, hers, its",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלהם",
+        "normalized": "shlhm",
+        "translation": "their, their(masculine), theirs",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלהן",
+        "normalized": "shlhn",
+        "translation": "their, their(feminine)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלךְ",
+        "normalized": "shlk@",
+        "translation": "your (sg. fem.), yours (sg. fem.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלךָ",
+        "normalized": "shlka",
+        "translation": "your (sg.masc.), yours (sg.masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלכם",
+        "normalized": "shlkm",
+        "translation": "your, yours, yours(p.m.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלכן",
+        "normalized": "shlkn",
+        "translation": "your, your(p.f.), yours",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלנו",
+        "normalized": "shlnv",
+        "translation": "our, ours",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלו",
+        "normalized": "shlv",
+        "translation": "his, its",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Possessives-1",
+        "learnable": "שלי",
+        "normalized": "shly",
+        "translation": "my, mine",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "עם",
+        "normalized": "`m",
+        "translation": "with",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בה",
+        "normalized": "bh",
+        "translation": "her, in her, at her, in it",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בנו",
+        "normalized": "bnv",
+        "translation": "us, at us, in us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בשבילה",
+        "normalized": "bshbylh",
+        "translation": "for her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בשבילנו",
+        "normalized": "bshbylnv",
+        "translation": "for us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בשבילו",
+        "normalized": "bshbylv",
+        "translation": "for him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בשבילי",
+        "normalized": "bshbyly",
+        "translation": "for me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בתוכה",
+        "normalized": "btvkh",
+        "translation": "inside it, inside her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בתוכנו",
+        "normalized": "btvknv",
+        "translation": "inside us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בתוכו",
+        "normalized": "btvkv",
+        "translation": "inside him, inside it (masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בתוכי",
+        "normalized": "btvky",
+        "translation": "inside me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בו",
+        "normalized": "bv",
+        "translation": "him, at him, in it (masc. nouns)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "בי",
+        "normalized": "by",
+        "translation": "me, in me, at me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "לידה",
+        "normalized": "lydh",
+        "translation": "next to her, birth",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "לידנו",
+        "normalized": "lydnv",
+        "translation": "next to us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "לידו",
+        "normalized": "lydv",
+        "translation": "next to him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "לידי",
+        "normalized": "lydy",
+        "translation": "next to me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "ממנה",
+        "normalized": "mmnh",
+        "translation": "from her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "ממנו",
+        "normalized": "mmnv",
+        "translation": "from him, than him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "ממני",
+        "normalized": "mmny",
+        "translation": "from me, than me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "מאיתנו",
+        "normalized": "mytnv",
+        "translation": "from us, of us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "נגדה",
+        "normalized": "ngdh",
+        "translation": "against her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "נגדנו",
+        "normalized": "ngdnv",
+        "translation": "against us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "נגדו",
+        "normalized": "ngdv",
+        "translation": "against him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "נגדי",
+        "normalized": "ngdy",
+        "translation": "against me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "איתה",
+        "normalized": "yth",
+        "translation": "with her",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "איתנו",
+        "normalized": "ytnv",
+        "translation": "with us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "איתו",
+        "normalized": "ytv",
+        "translation": "with him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-1",
+        "learnable": "איתי",
+        "normalized": "yty",
+        "translation": "with me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-2",
+        "learnable": "עליי",
+        "normalized": "`lyy",
+        "translation": "on me, I have to, I must",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-2",
+        "learnable": "אליו",
+        "normalized": "lyv",
+        "translation": "him, to him, towards him",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Prepositions-2",
+        "learnable": "אליי",
+        "normalized": "lyy",
+        "translation": "to me, towards me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "עם מי",
+        "normalized": "`m my",
+        "translation": "who with, with whom",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "בשביל מה",
+        "normalized": "bshbyl mh",
+        "translation": "what for",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "כמה",
+        "normalized": "kmh",
+        "translation": "how, how many, how much, a few, several",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "למה",
+        "normalized": "lmh",
+        "translation": "why",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "למי",
+        "normalized": "lmy",
+        "translation": "who, who to, who for, to whom",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "לאן",
+        "normalized": "ln",
+        "translation": "where, where to, wherever",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "מה",
+        "normalized": "mh",
+        "translation": "what, what is, what do, what are, what does",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "ממי",
+        "normalized": "mmy",
+        "translation": "who from",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "מתי",
+        "normalized": "mty",
+        "translation": "when",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "מי",
+        "normalized": "my",
+        "translation": "who, who is, who are, the one who, whoever",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "של מי",
+        "normalized": "shl my",
+        "translation": "whose",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "את מי",
+        "normalized": "t my",
+        "translation": "whom, whoever",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "איך",
+        "normalized": "yk",
+        "translation": "how, how is, how does, how are",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "אילו",
+        "normalized": "ylv",
+        "translation": "which, what, if",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "איפה",
+        "normalized": "yph",
+        "translation": "where, where is, where are, anywhere, where did",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "איזה",
+        "normalized": "yzh",
+        "translation": "what, which",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Questions",
+        "learnable": "איזו",
+        "normalized": "yzv",
+        "translation": "which, what",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "בהר הבית",
+        "normalized": "bhr hbyt",
+        "translation": "on the Temple Mount",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "בהר הזיתים",
+        "normalized": "bhr hzytym",
+        "translation": "on the Mount of Olives",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "באלוהים",
+        "normalized": "blvhym",
+        "translation": "in God",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "במערת המכפלה",
+        "normalized": "bm`rt hmkplh",
+        "translation": "in the Machpela Cave, ...riarchs, in the Cave of the Pat...",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "בודהיסטי",
+        "normalized": "bvdhysty",
+        "translation": "Buddhist",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "דתי",
+        "normalized": "dty",
+        "translation": "religious (sg. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "דתיה",
+        "normalized": "dtyh",
+        "translation": "religious",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "דתיות",
+        "normalized": "dtyvt",
+        "translation": "religious (f,p)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "דתיים",
+        "normalized": "dtyym",
+        "translation": "religious (pl. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "החילוני",
+        "normalized": "hkhylvny",
+        "translation": "the secular",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "הכותל המערבי",
+        "normalized": "hkvtl hm`rby",
+        "translation": "the Western Wall",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "האלוהים",
+        "normalized": "hlvhym",
+        "translation": "the God",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "המשיח",
+        "normalized": "hmshykh",
+        "translation": "the Messiah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "האמונה",
+        "normalized": "hmvnh",
+        "translation": "the faith, the belief",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "הנשמה",
+        "normalized": "hnshmh",
+        "translation": "the soul",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "הר הבית",
+        "normalized": "hr hbyt",
+        "translation": "The Temple Mount",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "הר הזיתים",
+        "normalized": "hr hzytym",
+        "translation": "the Mount of Olives",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "הר ציון",
+        "normalized": "hr tsyvn",
+        "translation": "Mount Zion",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "היהדות",
+        "normalized": "hyhdvt",
+        "translation": "Judaism",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "חילונים",
+        "normalized": "khylvnym",
+        "translation": "secular",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "חילוניות",
+        "normalized": "khylvnyvt",
+        "translation": "secular (f,p)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "כיפת הסלע",
+        "normalized": "kypt hsl`",
+        "translation": "The Dome of the Rock",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "אלָה",
+        "normalized": "lah",
+        "translation": "goddess",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "לכנסיית הקבר",
+        "normalized": "lknsyyt hqbr",
+        "translation": "to the Church of the H...",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "לאמונה",
+        "normalized": "lmvnh",
+        "translation": "to faith, to belief",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "לנצרות",
+        "normalized": "lntsrvt",
+        "translation": "for Christianity, to Christianity",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "אלים",
+        "normalized": "lym",
+        "translation": "gods",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "מלאך",
+        "normalized": "mlk",
+        "translation": "angel",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "מקדש",
+        "normalized": "mqdsh",
+        "translation": "temple",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "מקדשים",
+        "normalized": "mqdshym",
+        "translation": "temples",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "מסגד אל-אקצא",
+        "normalized": "msgd l-qts",
+        "translation": "Al-Aqsa Mosque",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "אמונה",
+        "normalized": "mvnh",
+        "translation": "faith, belief",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "מוסלמים",
+        "normalized": "mvslmym",
+        "translation": "Muslims",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "נשמה",
+        "normalized": "nshmh",
+        "translation": "soul",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "רוחני",
+        "normalized": "rvkhny",
+        "translation": "spiritual",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "רוחנית",
+        "normalized": "rvkhnyt",
+        "translation": "spiritual, spiritual (f,s)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "שאלוהים",
+        "normalized": "shlvhym",
+        "translation": "that God",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "אסלאם",
+        "normalized": "slm",
+        "translation": "islam",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "תפילה",
+        "normalized": "tpylh",
+        "translation": "prayer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "ונוצרים",
+        "normalized": "vnvtsrym",
+        "translation": "and Christians",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "וקדושה",
+        "normalized": "vqdvshh",
+        "translation": "and holy, and sacred",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "יהודי",
+        "normalized": "yhvdy",
+        "translation": "jew., Jew",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Religion",
+        "learnable": "יהודים",
+        "normalized": "yhvdym",
+        "translation": "Jews",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "המחקר",
+        "normalized": "hmkhqr",
+        "translation": "the research, the study",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "התזה",
+        "normalized": "htzh",
+        "translation": "the thesis",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "לשיטה",
+        "normalized": "lshyth",
+        "translation": "for the method, to the method",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "מדע",
+        "normalized": "md`",
+        "translation": "science",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "פרויקט",
+        "normalized": "prvyqt",
+        "translation": "project",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Science",
+        "learnable": "טכנולוגיה",
+        "normalized": "tknvlvgyh",
+        "translation": "technology",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "עמוד הבית",
+        "normalized": "`mvd hbyt",
+        "translation": "the homepage",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "ערוצים",
+        "normalized": "`rvtsym",
+        "translation": "channels",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "באגים",
+        "normalized": "bgym",
+        "translation": "bugs",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "בלוג",
+        "normalized": "blvg",
+        "translation": "blog",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "בקבצים",
+        "normalized": "bqbtsym",
+        "translation": "in the files",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "בולים",
+        "normalized": "bvlym",
+        "translation": "stamps",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "גלויה",
+        "normalized": "glvyh",
+        "translation": "postcard",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הדפדפן",
+        "normalized": "hdpdpn",
+        "translation": "the browser",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הגלויה",
+        "normalized": "hglvyh",
+        "translation": "the postcard",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "ההעלאות",
+        "normalized": "hh`lvt",
+        "translation": "the uploads",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "ההורדה",
+        "normalized": "hhvrdh",
+        "translation": "the download",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "החומרה",
+        "normalized": "hkhvmrh",
+        "translation": "the hardware",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "המחשב הנייד",
+        "normalized": "hmkhshb hnyyd",
+        "translation": "the laptop",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "המתכנתים",
+        "normalized": "hmtkntym",
+        "translation": "the programmers",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "המידע",
+        "normalized": "hmyd`",
+        "translation": "the information",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הנתונים",
+        "normalized": "hntvnym",
+        "translation": "the data",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הרובוט",
+        "normalized": "hrvbvt",
+        "translation": "the robot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "השלט",
+        "normalized": "hshlt",
+        "translation": "the remote control",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הסיסמא",
+        "normalized": "hsysm",
+        "translation": "the password",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "הטקסט",
+        "normalized": "htqst",
+        "translation": "the text",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "האתר",
+        "normalized": "htr",
+        "translation": "the site",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "התוכנה",
+        "normalized": "htvknh",
+        "translation": "the software",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "חיפוש",
+        "normalized": "khypvsh",
+        "translation": "search (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "להדליק",
+        "normalized": "lhdlyq",
+        "translation": "to light, to turn on",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "להודעה",
+        "normalized": "lhvd`h",
+        "translation": "to a message, for a message",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "להוריד",
+        "normalized": "lhvryd",
+        "translation": "to download",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "לכבות",
+        "normalized": "lkbvt",
+        "translation": "to turn off",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "לחדשות",
+        "normalized": "lkhdshvt",
+        "translation": "to the news",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "לרשת",
+        "normalized": "lrsht",
+        "translation": "to the network",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "לוחץ",
+        "normalized": "lvkhts",
+        "translation": "press, am clicking, am pressing, click",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "מעלֶה",
+        "normalized": "m`leh",
+        "translation": "uploads",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "מדליקה",
+        "normalized": "mdlyqh",
+        "translation": "turns on",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "מקלדות",
+        "normalized": "mqldvt",
+        "translation": "keyboards",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "מייל",
+        "normalized": "myyl",
+        "translation": "e-mail",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "רשתות",
+        "normalized": "rshtvt",
+        "translation": "networks",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "רובוט",
+        "normalized": "rvbvt",
+        "translation": "robot",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "שהאינטרנט",
+        "normalized": "shhyntrnt",
+        "translation": "that the internet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Tech-and-Comm",
+        "learnable": "תקשורת",
+        "normalized": "tqshvrt",
+        "translation": "communication, media",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "במערכת השמש",
+        "normalized": "bm`rkt hshmsh",
+        "translation": "in the solar system",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "גלקסיות",
+        "normalized": "glqsyvt",
+        "translation": "galaxies",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "גשושית",
+        "normalized": "gshvshyt",
+        "translation": "probe, probe (n)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "הגלקסיה",
+        "normalized": "hglqsyh",
+        "translation": "the galaxy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "הגשושית",
+        "normalized": "hgshvshyt",
+        "translation": "the probe",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "החור השחור",
+        "normalized": "hkhvr hshkhvr",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "הלוויין",
+        "normalized": "hlvvyyn",
+        "translation": "the satellite",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "המעבורת",
+        "normalized": "hm`bvrt",
+        "translation": "the shuttle",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "המסלול",
+        "normalized": "hmslvl",
+        "translation": "the path",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "השיגור",
+        "normalized": "hshygvr",
+        "translation": "the launch",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "האסטרונאוטיות",
+        "normalized": "hstrvnvtyvt",
+        "translation": "the astronauts",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "חללית",
+        "normalized": "khllyt",
+        "translation": "spaceship",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "חמה",
+        "normalized": "khmh",
+        "translation": "hot (sg. fem.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "לחלל החיצון",
+        "normalized": "lkhll hkhytsvn",
+        "translation": "to outer space",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "למכתש",
+        "normalized": "lmktsh",
+        "translation": "to the crater",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "ליקוי",
+        "normalized": "lyqvy",
+        "translation": "eclipse",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "מאדים",
+        "normalized": "mdym",
+        "translation": "Mars",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "מהחלל החיצון",
+        "normalized": "mhkhll hkhytsvn",
+        "translation": "from outer space",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "ממאדים",
+        "normalized": "mmdym",
+        "translation": "from Mars",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "מנוגה",
+        "normalized": "mnvgh",
+        "translation": "from Venus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "מטאורים",
+        "normalized": "mtvrym",
+        "translation": "meteors",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "נוגה",
+        "normalized": "nvgh",
+        "translation": "Venus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "שבתאי",
+        "normalized": "shbty",
+        "translation": "saturn",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "שביל החלב",
+        "normalized": "shbyl hkhlb",
+        "translation": "the Milky Way",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "צדק",
+        "normalized": "tsdq",
+        "translation": "Jupiter",
+        "partOfSpeech": null
+    },
+    {
+        "category": "The-Outer-Space",
+        "learnable": "ושבתאי",
+        "normalized": "vshbty",
+        "translation": "and Saturn",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לה",
+        "normalized": "lh",
+        "translation": "her, to her, it, it (feminine nouns)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "להם",
+        "normalized": "lhm",
+        "translation": "them, to them",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "להן",
+        "normalized": "lhn",
+        "translation": "to them",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לךְ",
+        "normalized": "lk@",
+        "translation": "you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לךָ",
+        "normalized": "lka",
+        "translation": "you, to you",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לכם",
+        "normalized": "lkm",
+        "translation": "you, to you (pl. masc.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לכן",
+        "normalized": "lkn",
+        "translation": "you, therefore",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לנו",
+        "normalized": "lnv",
+        "translation": "us, to us, for us",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לו",
+        "normalized": "lv",
+        "translation": "him, to him, for him, if",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לי",
+        "normalized": "ly",
+        "translation": "me, to me, for me",
+        "partOfSpeech": null
+    },
+    {
+        "category": "There-is",
+        "learnable": "לזה",
+        "normalized": "lzh",
+        "translation": "to it",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היה",
+        "normalized": "hyh",
+        "translation": "was, (he\/it) was, had, there was, would",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היה צריך",
+        "normalized": "hyh tsryk",
+        "translation": "should have",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היו",
+        "normalized": "hyv",
+        "translation": "were, (they) were",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היו יכולים",
+        "normalized": "hyv ykvlym",
+        "translation": "could",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היינו",
+        "normalized": "hyynv",
+        "translation": "we were, we have been, we would be",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היינו צריכים",
+        "normalized": "hyynv tsrykym",
+        "translation": "we should have",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "היינו יכולים",
+        "normalized": "hyynv ykvlym",
+        "translation": "we could have",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתְ",
+        "normalized": "hyyt@",
+        "translation": "you (s.f.) were, you (sg. fem.) would, you (s.f.) have been",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתָ",
+        "normalized": "hyyta",
+        "translation": "you (sg. masc.) were, you (sg. masc.) would, you (sg. masc.) have been",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתה",
+        "normalized": "hyyth",
+        "translation": "was, (she) was, (she) would, (she) had been, (she) has been",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתם",
+        "normalized": "hyytm",
+        "translation": "you have been, you were",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתן",
+        "normalized": "hyytn",
+        "translation": "you (pl.f) were, you (pl.f.) have been",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתי",
+        "normalized": "hyyty",
+        "translation": "I would, I was, I would be, I have been",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "הייתי יכול",
+        "normalized": "hyyty ykvl",
+        "translation": "could",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "אִילו",
+        "normalized": "iylv",
+        "translation": "if",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "לוּ",
+        "normalized": "lv'",
+        "translation": "if, if (cond.)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "לולא",
+        "normalized": "lvl",
+        "translation": "if it weren't  for, if not, were it not for",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Conditional",
+        "learnable": "אילולא",
+        "normalized": "ylvl",
+        "translation": "if it weren't for, were it not for, if not",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "אאבד",
+        "normalized": "bd",
+        "translation": "(I) will get lost",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "אהנה",
+        "normalized": "hnh",
+        "translation": "(I) will enjoy",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ניפגש",
+        "normalized": "nypgsh",
+        "translation": "we will meet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "שתיפגע",
+        "normalized": "shtypg`",
+        "translation": "that you will get hurt, that you will be hit",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "תיכנס",
+        "normalized": "tykns",
+        "translation": "you will enter, you will go in",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "תיפגש",
+        "normalized": "typgsh",
+        "translation": "(she) will meet up, you will meet up",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "תישלח",
+        "normalized": "tyshlkh",
+        "translation": "will be sent",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "תישאר",
+        "normalized": "tyshr",
+        "translation": "(she) will stay, you will stay",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ייגמר",
+        "normalized": "yygmr",
+        "translation": "will end, will be over",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ייפגעו",
+        "normalized": "yypg`v",
+        "translation": "will be hurt, will be hit",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ייפרד",
+        "normalized": "yyprd",
+        "translation": "he will split up, he will break up, he will separate",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ייפרדו",
+        "normalized": "yyprdv",
+        "translation": "they will split up, they will break up, they will separate",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "ייראה",
+        "normalized": "yyrh",
+        "translation": "will look, will seem",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Future-Nifal",
+        "learnable": "יישלח",
+        "normalized": "yyshlkh",
+        "translation": "will be sent",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לעבוד",
+        "normalized": "l`bvd",
+        "translation": "to work",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לעשות",
+        "normalized": "l`shvt",
+        "translation": "do, to do",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לעזור",
+        "normalized": "l`zvr",
+        "translation": "help, to help",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לבקר",
+        "normalized": "lbqr",
+        "translation": "to visit",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לבשל",
+        "normalized": "lbshl",
+        "translation": "to cook",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לבוא",
+        "normalized": "lbv",
+        "translation": "to come",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לדעת",
+        "normalized": "ld`t",
+        "translation": "to know",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לדבר",
+        "normalized": "ldbr",
+        "translation": "to speak, talk, to talk",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לגעת",
+        "normalized": "lg`t",
+        "translation": "touch, to touch",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לגור",
+        "normalized": "lgvr",
+        "translation": "to live, living",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "להגיד",
+        "normalized": "lhgyd",
+        "translation": "to tell, to say",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "להיות",
+        "normalized": "lhyvt",
+        "translation": "be, to be, to become, becoming, being",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לחזור",
+        "normalized": "lkhzvr",
+        "translation": "return, to return, to go back, come back",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לכתוב",
+        "normalized": "lktvb",
+        "translation": "to write, writing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "ללכת",
+        "normalized": "llkt",
+        "translation": "go, to go, should one go",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "למצוא",
+        "normalized": "lmtsv",
+        "translation": "to find",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לפתוח",
+        "normalized": "lptvkh",
+        "translation": "to open",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לקבל",
+        "normalized": "lqbl",
+        "translation": "to receive, to accept, to get",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לקחת",
+        "normalized": "lqkht",
+        "translation": "to take",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לקנות",
+        "normalized": "lqnvt",
+        "translation": "to buy, to purchase, buying",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לראות",
+        "normalized": "lrvt",
+        "translation": "see, to see, seeing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לרוץ",
+        "normalized": "lrvts",
+        "translation": "run, to run, running",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לסגור",
+        "normalized": "lsgvr",
+        "translation": "to close, to shut",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשחק",
+        "normalized": "lshkhq",
+        "translation": "to play",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשחות",
+        "normalized": "lshkhvt",
+        "translation": "to swim",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשלם",
+        "normalized": "lshlm",
+        "translation": "to pay",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשמוע",
+        "normalized": "lshmv`",
+        "translation": "hear, to hear",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשתות",
+        "normalized": "lshtvt",
+        "translation": "drink, to drink, drinking (gerund)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לשים",
+        "normalized": "lshym",
+        "translation": "to set, to place",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לתת",
+        "normalized": "ltt",
+        "translation": "to give",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לומר",
+        "normalized": "lvmr",
+        "translation": "to say, to tell",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "לישון",
+        "normalized": "lyshvn",
+        "translation": "sleep, to sleep",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לענות",
+        "normalized": "l`nvt",
+        "translation": "answer, to answer",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לעצור",
+        "normalized": "l`tsvr",
+        "translation": "to stop, to arrest",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לעזוב",
+        "normalized": "l`zvb",
+        "translation": "to leave",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לגרום",
+        "normalized": "lgrvm",
+        "translation": "to cause",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להבין",
+        "normalized": "lhbyn",
+        "translation": "to understand",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להגדיל",
+        "normalized": "lhgdyl",
+        "translation": "to increase, to enlarge, to make bigger",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להגדיר",
+        "normalized": "lhgdyr",
+        "translation": "define, to define",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להגיב",
+        "normalized": "lhgyb",
+        "translation": "respond, to respond, to react",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להגיש",
+        "normalized": "lhgysh",
+        "translation": "to serve, to submit, to hand in",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להחמיץ",
+        "normalized": "lhkhmyts",
+        "translation": "to miss",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להמשיך",
+        "normalized": "lhmshyk",
+        "translation": "to continue, to carry on",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להאמין",
+        "normalized": "lhmyn",
+        "translation": "believe, to believe",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להפסיד",
+        "normalized": "lhpsyd",
+        "translation": "to lose, losing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להרגיש",
+        "normalized": "lhrgysh",
+        "translation": "to feel",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להסביר",
+        "normalized": "lhsbyr",
+        "translation": "explain, to explain",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להשפיע",
+        "normalized": "lhshpy`",
+        "translation": "to affect, to influence, to have an effect (on)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להשתמש",
+        "normalized": "lhshtmsh",
+        "translation": "to use",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להסכים",
+        "normalized": "lhskym",
+        "translation": "to agree",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להתאושש",
+        "normalized": "lhtvshsh",
+        "translation": "to recover",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לאהוב",
+        "normalized": "lhvb",
+        "translation": "to love",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "להישאר",
+        "normalized": "lhyshr",
+        "translation": "to stay",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לִבנות",
+        "normalized": "libnvt",
+        "translation": "to build",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לחכות",
+        "normalized": "lkhkvt",
+        "translation": "to wait",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לחשוב",
+        "normalized": "lkhshvb",
+        "translation": "to think",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לכסות",
+        "normalized": "lksvt",
+        "translation": "to cover",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "למות",
+        "normalized": "lmvt",
+        "translation": "die, to die",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לנצח",
+        "normalized": "lntskh",
+        "translation": "to win, winning",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לפגוש",
+        "normalized": "lpgvsh",
+        "translation": "to meet",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לאפשר",
+        "normalized": "lpshr",
+        "translation": "to allow",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לפתח",
+        "normalized": "lptkh",
+        "translation": "to develop, developing",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לקרוא",
+        "normalized": "lqrv",
+        "translation": "to read, reading",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לשבור",
+        "normalized": "lshbvr",
+        "translation": "to break",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לשפר",
+        "normalized": "lshpr",
+        "translation": "improve, to improve",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לשקול",
+        "normalized": "lshqvl",
+        "translation": "to consider, to weigh",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לסרב",
+        "normalized": "lsrb",
+        "translation": "refuse, to refuse",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לסיים",
+        "normalized": "lsyym",
+        "translation": "to finish",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לטוס",
+        "normalized": "ltvs",
+        "translation": "to fly",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Verbs:-Infinitives-2",
+        "learnable": "לזכור",
+        "normalized": "lzkvr",
+        "translation": "to remember, remembering",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "עגבניות שרי",
+        "normalized": "`gbnyvt shry",
+        "translation": "cherry tomatoes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "עגבניית שרי",
+        "normalized": "`gbnyyt shry",
+        "translation": "cherry tomato",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "עלייה",
+        "normalized": "`lyyh",
+        "translation": "Aliyah",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "עולים חדשים",
+        "normalized": "`vlym khdshym",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "בחומוס",
+        "normalized": "bkhvmvs",
+        "translation": "in hummus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "בלאגן",
+        "normalized": "blgn",
+        "translation": "mess, chaos, mayhem",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "במבה",
+        "normalized": "bmbh",
+        "translation": "Bamba, (peanut butter snack)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "במצדה",
+        "normalized": "bmtsdh",
+        "translation": "in Masada",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "בקיסריה",
+        "normalized": "bqysryh",
+        "translation": "in Caesarea, at Caesarea",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "באילת",
+        "normalized": "bylt",
+        "translation": "in Eilat",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "בים האדום",
+        "normalized": "bym hdvm",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "ביסלי",
+        "normalized": "bysly",
+        "translation": "Bissli, (Israeli savoury snack)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "העולים החדשים",
+        "normalized": "h`vlym hkhdshym",
+        "translation": "the new olim",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הבלאגן",
+        "normalized": "hblgn",
+        "translation": "the mess, the chaos, the madness",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הכנרת",
+        "normalized": "hknrt",
+        "translation": "the Sea of Galilee, the Kinneret",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הנגב",
+        "normalized": "hngb",
+        "translation": "the Negev",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הפלאפל",
+        "normalized": "hplpl",
+        "translation": "the falafel",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הפיתה",
+        "normalized": "hpyth",
+        "translation": "the pita (bread), the pitta (bread)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "הקיבוץ",
+        "normalized": "hqybvts",
+        "translation": "the kibbutz",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "חומוס",
+        "normalized": "khvmvs",
+        "translation": "hummus",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "חיפה",
+        "normalized": "khyph",
+        "translation": "Haifa",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "לעגבניות שרי",
+        "normalized": "l`gbnyvt shry",
+        "translation": "to cherry tomatoes",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "לקיבוץ",
+        "normalized": "lqybvts",
+        "translation": "to the Kibbutz",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "לאולפן",
+        "normalized": "lvlpn",
+        "translation": "to the studio, to the Hebrew class, to the Ulpan",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "מטקות",
+        "normalized": "mtqvt",
+        "translation": "matkot, (beach paddle\/ball game)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "מזרחית",
+        "normalized": "mzrkhyt",
+        "translation": "Mizrahit, Mizrahi music",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "פיתות",
+        "normalized": "pytvt",
+        "translation": "pita breads",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "שקשוקה",
+        "normalized": "shqshvqh",
+        "translation": "Shakshuka, shakshouka, (eggs poached in sauce)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "טבריה",
+        "normalized": "tbryh",
+        "translation": "Tiberias",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "צברים",
+        "normalized": "tsbrym",
+        "translation": "sabras, (native Israelis)",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "ים המלח",
+        "normalized": "ym hmlkh",
+        "translation": null,
+        "partOfSpeech": null
+    },
+    {
+        "category": "Welcome-To-Israel",
+        "learnable": "יום העצמאות",
+        "normalized": "yvm h`tsmvt",
+        "translation": "Independence Day",
+        "partOfSpeech": null
+    }
+]

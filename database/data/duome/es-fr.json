@@ -1,0 +1,5427 @@
+[
+    {
+        "category": "Abstract-Objects",
+        "learnable": "choix",
+        "normalized": "choix",
+        "translation": "elección",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects",
+        "learnable": "progrès",
+        "normalized": "progres",
+        "translation": "progreso, progresos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects",
+        "learnable": "succès",
+        "normalized": "succes",
+        "translation": "éxito",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects-3",
+        "learnable": "accès",
+        "normalized": "acces",
+        "translation": "acceso",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects-3",
+        "learnable": "procès",
+        "normalized": "proces",
+        "translation": "proceso, juicio",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects-3",
+        "learnable": "repos",
+        "normalized": "repos",
+        "translation": "descanso, reposo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Abstract-Objects-3",
+        "learnable": "secours",
+        "normalized": "secours",
+        "translation": "socorros, auxilios",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "blonde",
+        "normalized": "blonde",
+        "translation": "rubia",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "bon",
+        "normalized": "bon",
+        "translation": "buen, bueno, rico",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "chaud",
+        "normalized": "chaud",
+        "translation": "caliente, caluroso",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "chaude",
+        "normalized": "chaude",
+        "translation": "caliente, calurosa",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "facile",
+        "normalized": "facile",
+        "translation": "fácil",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "fort",
+        "normalized": "fort",
+        "translation": "fuerte, grueso, importante",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "froid",
+        "normalized": "froid",
+        "translation": "frío",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "froide",
+        "normalized": "froide",
+        "translation": "fría",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "grand",
+        "normalized": "grand",
+        "translation": "grande, gran, alto",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "grande",
+        "normalized": "grande",
+        "translation": "grande, gran, alta",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "gros",
+        "normalized": "gros",
+        "translation": "gordos, gordo, gruesos, grueso",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "grosse",
+        "normalized": "grosse",
+        "translation": "gorda, gruesa, grande",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "jeune",
+        "normalized": "jeune",
+        "translation": "joven",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "joli",
+        "normalized": "joli",
+        "translation": "lindo, guapo, bonito, bello, hermoso",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "jolie",
+        "normalized": "jolie",
+        "translation": "guapa (être humain), hermosa, linda, bella, bonita, rica",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "léger",
+        "normalized": "leger",
+        "translation": "ligero, liviano",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "légère",
+        "normalized": "legere",
+        "translation": "ligera, liviana",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "liquide",
+        "normalized": "liquide",
+        "translation": "líquido, líquida",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "lourd",
+        "normalized": "lourd",
+        "translation": "pesado, cargado, grave",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "mauvais",
+        "normalized": "mauvais",
+        "translation": "mal, malo, malos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "mauvaise",
+        "normalized": "mauvaise",
+        "translation": "mala, malvada",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "noire",
+        "normalized": "noire",
+        "translation": "negra",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "nouveau",
+        "normalized": "nouveau",
+        "translation": "nuevo",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "nouvelle",
+        "normalized": "nouvelle",
+        "translation": "nueva, noticia (sustantivo)",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "parfait",
+        "normalized": "parfait",
+        "translation": "perfecto",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "parfaite",
+        "normalized": "parfaite",
+        "translation": "perfecta",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "petit",
+        "normalized": "petit",
+        "translation": "pequeño, chico, bajo",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "petite",
+        "normalized": "petite",
+        "translation": "pequeña, (estatura) baja",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "propre",
+        "normalized": "propre",
+        "translation": "limpia, limpio, (antepuesto al sust.) propia, (antepuesto al sust.) propio, (pospuesto al sust.) limpia, (pospuesto al sust.) limpio",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "ronde",
+        "normalized": "ronde",
+        "translation": "redonda",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "sale",
+        "normalized": "sale",
+        "translation": "(antepuesto al sust.) mal, (antepuesto al sust.) mala, (antepuesto al sust.) malo, (antepuesto al sust.) turbia, (antepuesto al sust.) turbio, (atributo) sucia, (atributo) sucio, (pospuesto al sust.) sucia, (pospuesto al sust.) sucio, sala",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "seul",
+        "normalized": "seul",
+        "translation": "solo, solamente, sólo",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-1",
+        "learnable": "seule",
+        "normalized": "seule",
+        "translation": "sola, sólo, solamente",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Adjectives-4",
+        "learnable": "certain",
+        "normalized": "certain",
+        "translation": "(atributo) seguro, (epíteto) cierto, cierto",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-4",
+        "learnable": "demi",
+        "normalized": "demi",
+        "translation": "media, medio",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjectives-4",
+        "learnable": "frais",
+        "normalized": "frais",
+        "translation": "fresco, frescos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjectives-4",
+        "learnable": "super",
+        "normalized": "super",
+        "translation": "genial",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjetivos-2",
+        "learnable": "bas",
+        "normalized": "bas",
+        "translation": "bajo, bajos, media, medias",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjetivos-2",
+        "learnable": "beaux",
+        "normalized": "beaux",
+        "translation": "lindos, guapos, hermosos, bellos, ricos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjetivos-2",
+        "learnable": "cette",
+        "normalized": "cette",
+        "translation": "esta, esa",
+        "partOfSpeech": "Feminine Determiner"
+    },
+    {
+        "category": "Adjetivos-2",
+        "learnable": "nouveaux",
+        "normalized": "nouveaux",
+        "translation": "nuevos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjetivos-2",
+        "learnable": "tard",
+        "normalized": "tard",
+        "translation": "tarde",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Adjetivos-3",
+        "learnable": "gras",
+        "normalized": "gras",
+        "translation": "gordo, grasos, grasoso, grueso",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adjetivos-3",
+        "learnable": "précis",
+        "normalized": "precis",
+        "translation": "preciso, precisos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "ailleurs",
+        "normalized": "ailleurs",
+        "translation": "en otro lugar, en otra parte",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "ainsi",
+        "normalized": "ainsi",
+        "translation": "así",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "après",
+        "normalized": "apres",
+        "translation": "después (adverbe), después de (preposition), detrás (de), tras (preposition)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "assez",
+        "normalized": "assez",
+        "translation": "bastante, lo bastante, suficiente, basta (interjección), lo suficiente, lo suficientemente, suficientemente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "aussi",
+        "normalized": "aussi",
+        "translation": "también",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "autant",
+        "normalized": "autant",
+        "translation": "tanto",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "autour",
+        "normalized": "autour",
+        "translation": "alrededor",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "beaucoup",
+        "normalized": "beaucoup",
+        "translation": "mucho",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "bien",
+        "normalized": "bien",
+        "translation": "bien, mucho",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "bientôt",
+        "normalized": "bientot",
+        "translation": "pronto",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "cependant",
+        "normalized": "cependant",
+        "translation": "sin embargo",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "ci",
+        "normalized": "ci",
+        "translation": null,
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "davantage",
+        "normalized": "davantage",
+        "translation": "más",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "dehors",
+        "normalized": "dehors",
+        "translation": "afuera",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "déjà",
+        "normalized": "deja",
+        "translation": "ya",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "dessus",
+        "normalized": "dessus",
+        "translation": "encima",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "encore",
+        "normalized": "encore",
+        "translation": "todavía, aún, otra vez",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "enfin",
+        "normalized": "enfin",
+        "translation": "por fin, en fin, al fin",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "ensuite",
+        "normalized": "ensuite",
+        "translation": "a continuación",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "environ",
+        "normalized": "environ",
+        "translation": "alrededor de, aproximadamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "évidemment",
+        "normalized": "evidemment",
+        "translation": "evidentemente, obviamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "exactement",
+        "normalized": "exactement",
+        "translation": "exactamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "ici",
+        "normalized": "ici",
+        "translation": "aquí, acá",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "là",
+        "normalized": "la",
+        "translation": "la",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "loin",
+        "normalized": "loin",
+        "translation": "lejos",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "longtemps",
+        "normalized": "longtemps",
+        "translation": "mucho tiempo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "lors",
+        "normalized": "lors",
+        "translation": null,
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "maintenant",
+        "normalized": "maintenant",
+        "translation": "ahora",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "mal",
+        "normalized": "mal",
+        "translation": "mal",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "mieux",
+        "normalized": "mieux",
+        "translation": "mejor",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "notamment",
+        "normalized": "notamment",
+        "translation": "especialmente, particularmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "parfois",
+        "normalized": "parfois",
+        "translation": "a veces",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "particulièrement",
+        "normalized": "particulierement",
+        "translation": "particularmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "partout",
+        "normalized": "partout",
+        "translation": "en todos lados, en todas partes, por todas partes, por todos lados",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "peu",
+        "normalized": "peu",
+        "translation": "poco, pocos, poca, pocas",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "plus",
+        "normalized": "plus",
+        "translation": "más, cuanto más, mientras más",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "plutôt",
+        "normalized": "plutot",
+        "translation": "más bien",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "postérieurement",
+        "normalized": "posterieurement",
+        "translation": "posteriormente, después",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "pourtant",
+        "normalized": "pourtant",
+        "translation": "sin embargo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "près",
+        "normalized": "pres",
+        "translation": "cerca",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "presque",
+        "normalized": "presque",
+        "translation": "casi",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "puis",
+        "normalized": "puis",
+        "translation": "luego, y luego, después, puedo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "rapidement",
+        "normalized": "rapidement",
+        "translation": "rápidamente, rápido (adv.), rápido",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "seulement",
+        "normalized": "seulement",
+        "translation": "sólo, solamente, solo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "simplement",
+        "normalized": "simplement",
+        "translation": "simplemente, sencillamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "souvent",
+        "normalized": "souvent",
+        "translation": "a menudo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "surtout",
+        "normalized": "surtout",
+        "translation": "sobre todo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "tant",
+        "normalized": "tant",
+        "translation": "tantas, tanto, tantos, tanta",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "tellement",
+        "normalized": "tellement",
+        "translation": "tan, tanto, tanta",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "tôt",
+        "normalized": "tot",
+        "translation": "temprano",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "toujours",
+        "normalized": "toujours",
+        "translation": "siempre, todavía",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "très",
+        "normalized": "tres",
+        "translation": "muy",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "trop",
+        "normalized": "trop",
+        "translation": "demasiado, demasiada",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "vite",
+        "normalized": "vite",
+        "translation": "rápido, deprisa, rápidamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "voici",
+        "normalized": "voici",
+        "translation": "he aquí, he acá",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "voilà",
+        "normalized": "voila",
+        "translation": "he ahí, he allí",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbios",
+        "learnable": "vraiment",
+        "normalized": "vraiment",
+        "translation": "realmente, verdaderamente, en serio [interj.], de verdad [interj.]",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "absolument",
+        "normalized": "absolument",
+        "translation": "absolutamente, completamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "actuellement",
+        "normalized": "actuellement",
+        "translation": "actualmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "alors",
+        "normalized": "alors",
+        "translation": "entonces, por eso",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "apparemment",
+        "normalized": "apparemment",
+        "translation": "aparentemente, al parecer",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "autrement",
+        "normalized": "autrement",
+        "translation": "de otra manera, de otro modo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "bref",
+        "normalized": "bref",
+        "translation": "resumiendo (adverbio), breve (adjetivo)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "certainement",
+        "normalized": "certainement",
+        "translation": "ciertamente, sin duda alguna",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "complètement",
+        "normalized": "completement",
+        "translation": "completamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "debout",
+        "normalized": "debout",
+        "translation": "de pie",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "dedans",
+        "normalized": "dedans",
+        "translation": "adentro",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "définitivement",
+        "normalized": "definitivement",
+        "translation": "definitivamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "derrière",
+        "normalized": "derriere",
+        "translation": "detrás (adverbe), detrás de (préposition), tras (préposition)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "dessous",
+        "normalized": "dessous",
+        "translation": "debajo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "devant",
+        "normalized": "devant",
+        "translation": "delante (adverbe), delante (adverbio), delante de (preposición), ante (preposición), delante de (préposition)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "directement",
+        "normalized": "directement",
+        "translation": "directamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "effectivement",
+        "normalized": "effectivement",
+        "translation": "efectivamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "ensemble",
+        "normalized": "ensemble",
+        "translation": "juntas, juntos",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "entièrement",
+        "normalized": "entierement",
+        "translation": "enteramente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "extrêmement",
+        "normalized": "extremement",
+        "translation": "extremadamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "facilement",
+        "normalized": "facilement",
+        "translation": "fácilmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "finalement",
+        "normalized": "finalement",
+        "translation": "finalmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "fortement",
+        "normalized": "fortement",
+        "translation": "sumamente, con fuerza, mucho",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "franchement",
+        "normalized": "franchement",
+        "translation": "francamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "fréquemment",
+        "normalized": "frequemment",
+        "translation": "frecuentemente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "généralement",
+        "normalized": "generalement",
+        "translation": "generalmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "gratuitement",
+        "normalized": "gratuitement",
+        "translation": "gratuitamente, gratis",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "haut",
+        "normalized": "haut",
+        "translation": "alto (adjetivo), alto (adverbio)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "heureusement",
+        "normalized": "heureusement",
+        "translation": "felizmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "immédiatement",
+        "normalized": "immediatement",
+        "translation": "inmediatamente, de inmediato",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "juste",
+        "normalized": "juste",
+        "translation": "justo, sólo, correcto, ajustada, ajustado, correcta, justa, solamente, solo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "légèrement",
+        "normalized": "legerement",
+        "translation": "ligeramente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "lentement",
+        "normalized": "lentement",
+        "translation": "despacio, lentamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "malheureusement",
+        "normalized": "malheureusement",
+        "translation": "desgraciadamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "même",
+        "normalized": "meme",
+        "translation": "mismo (adjectif), misma (adjectif), incluso (adverbe), misma (pronom), misma (pronombre), mismo (pronom), mismo (pronombre)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "naturellement",
+        "normalized": "naturellement",
+        "translation": "naturalmente, por naturaleza",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "normalement",
+        "normalized": "normalement",
+        "translation": "normalmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "parfaitement",
+        "normalized": "parfaitement",
+        "translation": "perfectamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "précisément",
+        "normalized": "precisement",
+        "translation": "precisamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "principalement",
+        "normalized": "principalement",
+        "translation": "principalmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "probablement",
+        "normalized": "probablement",
+        "translation": "probablemente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "quasiment",
+        "normalized": "quasiment",
+        "translation": "casi",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "rarement",
+        "normalized": "rarement",
+        "translation": "rara vez",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "récemment",
+        "normalized": "recemment",
+        "translation": "recién, recientemente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "réellement",
+        "normalized": "reellement",
+        "translation": "realmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "relativement",
+        "normalized": "relativement",
+        "translation": "relativamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "si",
+        "normalized": "si",
+        "translation": "si (conjunción), tan (adverbio), sí (adverbio)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "suffisamment",
+        "normalized": "suffisamment",
+        "translation": "suficientemente, lo suficiente, bastante",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "sûrement",
+        "normalized": "surement",
+        "translation": "seguramente, probablemente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "totalement",
+        "normalized": "totalement",
+        "translation": "totalmente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "tout",
+        "normalized": "tout",
+        "translation": "todo (adjectif), todo (adjetivo), muy (adverbe), muy (adverbio), todo, todo (pronom), todo (pronombre)",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Adverbs-2",
+        "learnable": "uniquement",
+        "normalized": "uniquement",
+        "translation": "únicamente",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Animals",
+        "learnable": "abeille",
+        "normalized": "abeille",
+        "translation": "abeja",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "animal",
+        "normalized": "animal",
+        "translation": "animal",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "araignée",
+        "normalized": "araignee",
+        "translation": "araña",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "baleine",
+        "normalized": "baleine",
+        "translation": "ballena",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "canard",
+        "normalized": "canard",
+        "translation": "pato",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "chatte",
+        "normalized": "chatte",
+        "translation": "gata",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "cheval",
+        "normalized": "cheval",
+        "translation": "caballo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "chien",
+        "normalized": "chien",
+        "translation": "perro",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "chienne",
+        "normalized": "chienne",
+        "translation": "perra",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "cochon",
+        "normalized": "cochon",
+        "translation": "cerdo, cochino, chancho, guarro, marrano",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "dauphin",
+        "normalized": "dauphin",
+        "translation": "delfín",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "éléphant",
+        "normalized": "elephant",
+        "translation": "elefante",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "fourmi",
+        "normalized": "fourmi",
+        "translation": "hormiga",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "insecte",
+        "normalized": "insecte",
+        "translation": "insecto",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "lion",
+        "normalized": "lion",
+        "translation": "león",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "loup",
+        "normalized": "loup",
+        "translation": "lobo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "mouche",
+        "normalized": "mouche",
+        "translation": "mosca",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "oiseau",
+        "normalized": "oiseau",
+        "translation": "pájaro, ave",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "ours",
+        "normalized": "ours",
+        "translation": "oso, osos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "papillon",
+        "normalized": "papillon",
+        "translation": "mariposa (féminin)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "requin",
+        "normalized": "requin",
+        "translation": "tiburón",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "serpent",
+        "normalized": "serpent",
+        "translation": "serpiente (fém.)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "singe",
+        "normalized": "singe",
+        "translation": "mono",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "souris",
+        "normalized": "souris",
+        "translation": "ratón (masc. singulier), ratones, ratones (masc. pluriel)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "tigre",
+        "normalized": "tigre",
+        "translation": "tigre",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "tortue",
+        "normalized": "tortue",
+        "translation": "tortuga",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "vache",
+        "normalized": "vache",
+        "translation": "vaca",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Animals",
+        "learnable": "zoo",
+        "normalized": "zoo",
+        "translation": "zoo, zoológico",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "a",
+        "normalized": "a",
+        "translation": "a, de, en, para, por",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "calme",
+        "normalized": "calme",
+        "translation": "calma, calmo, calmada, calmado",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "chat",
+        "normalized": "chat",
+        "translation": "gato",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "elle",
+        "normalized": "elle",
+        "translation": "(pronom tonique",
+        "partOfSpeech": "Feminine Pronoun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "enfant",
+        "normalized": "enfant",
+        "translation": "niño, niña",
+        "partOfSpeech": "Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "es",
+        "normalized": "es",
+        "translation": "eres, estás, anunciaron",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "est",
+        "normalized": "est",
+        "translation": "es, está, Este (punto cardinal)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "et",
+        "normalized": "et",
+        "translation": "y, e",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "femme",
+        "normalized": "femme",
+        "translation": "mujer",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "fille",
+        "normalized": "fille",
+        "translation": "chica",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "garçon",
+        "normalized": "garcon",
+        "translation": "chico",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "homme",
+        "normalized": "homme",
+        "translation": "hombre",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "il",
+        "normalized": "il",
+        "translation": "él",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "je",
+        "normalized": "je",
+        "translation": "yo",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "l'",
+        "normalized": "l'",
+        "translation": "el (artículo definido), la (pronombre), la (artículo definido), (",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "mange",
+        "normalized": "mange",
+        "translation": "come, como, come (imperativo, tú), cómete (imperativo), testsqdqsd",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "manges",
+        "normalized": "manges",
+        "translation": "comes, comas, te comes",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "noir",
+        "normalized": "noir",
+        "translation": "negro",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "orange",
+        "normalized": "orange",
+        "translation": "naranja (adjetivo), naranja (sustantivo), naranjada (adjetivo), naranjado (adjetivo)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "pomme",
+        "normalized": "pomme",
+        "translation": "manzana",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "riche",
+        "normalized": "riche",
+        "translation": "rico, rica",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "robe",
+        "normalized": "robe",
+        "translation": "vestido (masculin), color (hablando de un vino), pelaje (hablando de un caballo), toga (magistrado, ...)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "rouge",
+        "normalized": "rouge",
+        "translation": "rojo, roja",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "suis",
+        "normalized": "suis",
+        "translation": "soy, estoy, sigues, sigo, sigo a, sigues a",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "tu",
+        "normalized": "tu",
+        "translation": "callado (participe passé)",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Basics-1",
+        "learnable": "une",
+        "normalized": "une",
+        "translation": "una",
+        "partOfSpeech": "Feminine Determiner"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "aime",
+        "normalized": "aime",
+        "translation": "amo, ama, ame, le gusta, le gustan, le guste, le gusten, me gusta, me gustan, me guste, me gusten, quiera, quiere, quiero",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "aimons",
+        "normalized": "aimons",
+        "translation": "queremos, amamos, nos gusta, nos gustan",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "avez",
+        "normalized": "avez",
+        "translation": "(usted) tiene, (ustedes) tienen",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "avons",
+        "normalized": "avons",
+        "translation": "tenemos, hemos visto",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "calmes",
+        "normalized": "calmes",
+        "translation": "calmas, calmos, en calma, tranquilas, tranquilos",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "écris",
+        "normalized": "ecris",
+        "translation": "escribo, escribes",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "écrivent",
+        "normalized": "ecrivent",
+        "translation": "escriben, escriban",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "elles",
+        "normalized": "elles",
+        "translation": "(pronom tonique",
+        "partOfSpeech": "Feminine Pronoun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "enfants",
+        "normalized": "enfants",
+        "translation": "niños",
+        "partOfSpeech": "Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "êtes",
+        "normalized": "etes",
+        "translation": "son, (usted) es, (usted) está, (ustedes) están, (ustedes) son",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "femmes",
+        "normalized": "femmes",
+        "translation": "mujeres",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "filles",
+        "normalized": "filles",
+        "translation": "chicas, señoritas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "garçons",
+        "normalized": "garcons",
+        "translation": "chicos, muchachos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "hommes",
+        "normalized": "hommes",
+        "translation": "hombres",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "ils",
+        "normalized": "ils",
+        "translation": null,
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "j'",
+        "normalized": "j'",
+        "translation": null,
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "journal",
+        "normalized": "journal",
+        "translation": "periódico, diario, boletín de noticias, informativo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "les",
+        "normalized": "les",
+        "translation": "los, las",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "lettre",
+        "normalized": "lettre",
+        "translation": "carta, letra, letra (alfabeto)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "lisent",
+        "normalized": "lisent",
+        "translation": "leen",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "lisons",
+        "normalized": "lisons",
+        "translation": "leemos, leamos (imperative)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "lit",
+        "normalized": "lit",
+        "translation": "lee (verbo), cama (sustantivo)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "livre",
+        "normalized": "livre",
+        "translation": "libro (sustantivo), entrega (verbo), entrega",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "livres",
+        "normalized": "livres",
+        "translation": "libros, entregas (verbe)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "mangent",
+        "normalized": "mangent",
+        "translation": "comen, coman, se comen",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "mangeons",
+        "normalized": "mangeons",
+        "translation": "comemos, comamos (imperativo), nos comemos",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "mangez",
+        "normalized": "mangez",
+        "translation": "(usted) come, (usted) se come, (ustedes) comen, (ustedes) se comen, coma (impératif, usted), coman (impératif,ustedes)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "menu",
+        "normalized": "menu",
+        "translation": "menú",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "riches",
+        "normalized": "riches",
+        "translation": "ricos (de riqueza), ricas (de riqueza)",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "robes",
+        "normalized": "robes",
+        "translation": "vestidos (masculin), (caballo) pelajes (masc.), (magistrado, etc.) togas, (vino) colores (masc.)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "rouges",
+        "normalized": "rouges",
+        "translation": "rojos, rojas",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "sommes",
+        "normalized": "sommes",
+        "translation": "somos, estamos",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Basics-2",
+        "learnable": "sont",
+        "normalized": "sont",
+        "translation": "son, están",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Clothing",
+        "learnable": "chapeaux",
+        "normalized": "chapeaux",
+        "translation": "sombreros",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Clothing",
+        "learnable": "manteaux",
+        "normalized": "manteaux",
+        "translation": "abrigos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "bienvenue",
+        "normalized": "bienvenue",
+        "translation": "bienvenida",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "bonjour",
+        "normalized": "bonjour",
+        "translation": "buenos días",
+        "partOfSpeech": "Interjection"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "bonne",
+        "normalized": "bonne",
+        "translation": "buena, rica",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "ça",
+        "normalized": "ca",
+        "translation": "eso",
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "d'accord",
+        "normalized": "d'accord",
+        "translation": "de acuerdo, vale",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "désolé",
+        "normalized": "desole",
+        "translation": "lo siento, desolado (para lugares)",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "merci",
+        "normalized": "merci",
+        "translation": "gracias",
+        "partOfSpeech": "Interjection"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "non",
+        "normalized": "non",
+        "translation": "no",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "nuit",
+        "normalized": "nuit",
+        "translation": "noche",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "oui",
+        "normalized": "oui",
+        "translation": "sí",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "pardon",
+        "normalized": "pardon",
+        "translation": "perdón",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "salut",
+        "normalized": "salut",
+        "translation": "hola (interjección), chao (interjección), hola, saludo (sustantivo), salvación (sustantivo)",
+        "partOfSpeech": "Interjection"
+    },
+    {
+        "category": "Common-Phrases",
+        "learnable": "va",
+        "normalized": "va",
+        "translation": "va, queda (ropa), ve (impératif)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Communication",
+        "learnable": "avis",
+        "normalized": "avis",
+        "translation": "opinión, opiniones, aviso, avisos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Communication",
+        "learnable": "crier",
+        "normalized": "crier",
+        "translation": "gritar, chillar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Communication",
+        "learnable": "embrasser",
+        "normalized": "embrasser",
+        "translation": "abrazar, abarcar, besar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Communication",
+        "learnable": "imprimer",
+        "normalized": "imprimer",
+        "translation": "imprimir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Communication",
+        "learnable": "internet",
+        "normalized": "internet",
+        "translation": "Internet",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Communication",
+        "learnable": "propos",
+        "normalized": "propos",
+        "translation": "propósito",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Communication",
+        "learnable": "voix",
+        "normalized": "voix",
+        "translation": "voz, voces, votos",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "car",
+        "normalized": "car",
+        "translation": "ya que",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "comme",
+        "normalized": "comme",
+        "translation": "como, cómo (pregunta)",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "donc",
+        "normalized": "donc",
+        "translation": "así que, así pues, entonces, luego",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "lorsque",
+        "normalized": "lorsque",
+        "translation": "cuando",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "mais",
+        "normalized": "mais",
+        "translation": "pero, sino, sino que",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "ou",
+        "normalized": "ou",
+        "translation": "dónde, donde, adónde, en donde, en dónde",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "quand",
+        "normalized": "quand",
+        "translation": "cuando, cuándo",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "s'",
+        "normalized": "s'",
+        "translation": "se, si",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Conjunctions",
+        "learnable": "sinon",
+        "normalized": "sinon",
+        "translation": "si no, sino, entonces",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "aujourd'hui",
+        "normalized": "aujourd'hui",
+        "translation": "hoy",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "demain",
+        "normalized": "demain",
+        "translation": "mañana",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "fois",
+        "normalized": "fois",
+        "translation": "vez, veces",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "hier",
+        "normalized": "hier",
+        "translation": "ayer",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "mars",
+        "normalized": "mars",
+        "translation": "marzo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "mois",
+        "normalized": "mois",
+        "translation": "mes, meses",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "petit-déjeuner",
+        "normalized": "petit-dejeuner",
+        "translation": "desayuno",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "printemps",
+        "normalized": "printemps",
+        "translation": "primavera",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "rendez-vous",
+        "normalized": "rendez-vous",
+        "translation": "cita (féminin), citas",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Dates-and-time",
+        "learnable": "temps",
+        "normalized": "temps",
+        "translation": "tiempo, tiempos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "aucun",
+        "normalized": "aucun",
+        "translation": "ningún, ninguno",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "certains",
+        "normalized": "certains",
+        "translation": "algunos (pronombre), (atributo) seguros, (epíteto) ciertos",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "cet",
+        "normalized": "cet",
+        "translation": "este, ese",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "chaque",
+        "normalized": "chaque",
+        "translation": "cada",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "plusieurs",
+        "normalized": "plusieurs",
+        "translation": "varias, varios",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Determiners",
+        "learnable": "quelques",
+        "normalized": "quelques",
+        "translation": "algunos, algunas",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Directions",
+        "learnable": "nord",
+        "normalized": "nord",
+        "translation": "norte, Norte",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Directions",
+        "learnable": "ouest",
+        "normalized": "ouest",
+        "translation": "oeste, poniente",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Directions",
+        "learnable": "pas",
+        "normalized": "pas",
+        "translation": "paso, pasos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Directions",
+        "learnable": "sud",
+        "normalized": "sud",
+        "translation": "sur, Sur",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Econoia",
+        "learnable": "consommer",
+        "normalized": "consommer",
+        "translation": "consumir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Econoia",
+        "learnable": "louer",
+        "normalized": "louer",
+        "translation": "alquilar, arrendar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Econoia",
+        "learnable": "produire",
+        "normalized": "produire",
+        "translation": "producir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Education",
+        "learnable": "concours",
+        "normalized": "concours",
+        "translation": "concurso, concursos, oposiciones, oposición",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Education",
+        "learnable": "cours",
+        "normalized": "cours",
+        "translation": "corro, curso, corre, corre (imperativo), corres, cursos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Education",
+        "learnable": "étudier",
+        "normalized": "etudier",
+        "translation": "estudiar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Family",
+        "learnable": "fils",
+        "normalized": "fils",
+        "translation": "hijo, hijos, hilos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "haïr",
+        "normalized": "hair",
+        "translation": "odiar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "paix",
+        "normalized": "paix",
+        "translation": "paz",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "pleurer",
+        "normalized": "pleurer",
+        "translation": "llorar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "rêver",
+        "normalized": "rever",
+        "translation": "soñar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "rire",
+        "normalized": "rire",
+        "translation": "reír (verbe), risa (substantif), risa",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Feelings",
+        "learnable": "souffrir",
+        "normalized": "souffrir",
+        "translation": "sufrir, padecer (de)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Food",
+        "learnable": "alcool",
+        "normalized": "alcool",
+        "translation": "alcohol",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "avec",
+        "normalized": "avec",
+        "translation": "con",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Food",
+        "learnable": "baguette",
+        "normalized": "baguette",
+        "translation": "baguette, barra (de pan), batuta (bastón corto del director de orquesta)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "banane",
+        "normalized": "banane",
+        "translation": "plátano (masculin), banana, riñonera [bolsa], tupé [roquero]",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "beurre",
+        "normalized": "beurre",
+        "translation": "mantequilla (fém.)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "bière",
+        "normalized": "biere",
+        "translation": "cerveza",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "bœuf",
+        "normalized": "boeuf",
+        "translation": "carne de res, carne de buey, buey",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "boire",
+        "normalized": "boire",
+        "translation": "tomar, beber, tomarnos, beberme, bebernos, beberse, beberte, tomarme, tomarse, tomarte",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Food",
+        "learnable": "boisson",
+        "normalized": "boisson",
+        "translation": "bebida",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "boivent",
+        "normalized": "boivent",
+        "translation": "toman, beben, se beben, se toman",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Food",
+        "learnable": "bonbon",
+        "normalized": "bonbon",
+        "translation": "dulce",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "café",
+        "normalized": "cafe",
+        "translation": "café",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "carotte",
+        "normalized": "carotte",
+        "translation": "zanahoria",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "chocolat",
+        "normalized": "chocolat",
+        "translation": "chocolate",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "citron",
+        "normalized": "citron",
+        "translation": "limón",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "confiture",
+        "normalized": "confiture",
+        "translation": "mermelada",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "crêpe",
+        "normalized": "crepe",
+        "translation": "crepa, crepe, panqueque",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "cuisine",
+        "normalized": "cuisine",
+        "translation": "cocina (substantif), cocina (verbe), cocino (verbe), cocino",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Food",
+        "learnable": "du",
+        "normalized": "du",
+        "translation": "del (posesión), del (possession), {nada} (partitivo), {rien} (partitif)",
+        "partOfSpeech": "Masculine Preposition"
+    },
+    {
+        "category": "Food",
+        "learnable": "eau",
+        "normalized": "eau",
+        "translation": "agua",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "fromage",
+        "normalized": "fromage",
+        "translation": "queso",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "gâteau",
+        "normalized": "gateau",
+        "translation": "pastel",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "huile",
+        "normalized": "huile",
+        "translation": "aceite (masc.)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "jus",
+        "normalized": "jus",
+        "translation": "jugo, jugos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "lait",
+        "normalized": "lait",
+        "translation": "leche (femenino)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "manger",
+        "normalized": "manger",
+        "translation": "comer, comerse, comerme, comernos, comerte",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Food",
+        "learnable": "nourriture",
+        "normalized": "nourriture",
+        "translation": "comida, alimento",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "œuf",
+        "normalized": "oeuf",
+        "translation": "huevo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "oignon",
+        "normalized": "oignon",
+        "translation": "cebolla (fém.)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "pain",
+        "normalized": "pain",
+        "translation": "pan",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "poisson",
+        "normalized": "poisson",
+        "translation": "pescado, pez",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "poivre",
+        "normalized": "poivre",
+        "translation": "pimienta (fém.)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "porc",
+        "normalized": "porc",
+        "translation": "puerco, cerdo, chancho, guarro, marrano",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "poulet",
+        "normalized": "poulet",
+        "translation": "pollo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "raisin",
+        "normalized": "raisin",
+        "translation": "uva (féminin)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "repas",
+        "normalized": "repas",
+        "translation": "comida (fem.), comidas (fem.)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "riz",
+        "normalized": "riz",
+        "translation": "arroz",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "salade",
+        "normalized": "salade",
+        "translation": "ensalada, lechuga",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "sandwich",
+        "normalized": "sandwich",
+        "translation": "sándwich, emparedado, bocadillo, torta",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "sel",
+        "normalized": "sel",
+        "translation": "sal (féminin)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "soupe",
+        "normalized": "soupe",
+        "translation": "sopa",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "sucre",
+        "normalized": "sucre",
+        "translation": "azúcar",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "thé",
+        "normalized": "the",
+        "translation": "té",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "tomate",
+        "normalized": "tomate",
+        "translation": "tomate (substantif espagnol masculin)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "viande",
+        "normalized": "viande",
+        "translation": "carne",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Food",
+        "learnable": "vin",
+        "normalized": "vin",
+        "translation": "vino",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "animaux",
+        "normalized": "animaux",
+        "translation": "animales",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "bateaux",
+        "normalized": "bateaux",
+        "translation": "barcos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "bijoux",
+        "normalized": "bijoux",
+        "translation": "joyas (féminin)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "chevaux",
+        "normalized": "chevaux",
+        "translation": "caballos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "cheveux",
+        "normalized": "cheveux",
+        "translation": "pelo, cabellos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "dieux",
+        "normalized": "dieux",
+        "translation": "dioses",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "gâteaux",
+        "normalized": "gateaux",
+        "translation": "pasteles",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "genoux",
+        "normalized": "genoux",
+        "translation": "rodillas",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "jeux",
+        "normalized": "jeux",
+        "translation": "juegos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "journaux",
+        "normalized": "journaux",
+        "translation": "periódicos, diarios",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "morceaux",
+        "normalized": "morceaux",
+        "translation": "trozos, pedazos, piezas  (música)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "œufs",
+        "normalized": "oeufs",
+        "translation": "huevos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "oiseaux",
+        "normalized": "oiseaux",
+        "translation": "pájaros, aves",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "vieux",
+        "normalized": "vieux",
+        "translation": "viejo, viejos, antiguo, antiguos, vieja",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Irregular-Plurals",
+        "learnable": "yeux",
+        "normalized": "yeux",
+        "translation": "ojos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Maison",
+        "learnable": "nettoyer",
+        "normalized": "nettoyer",
+        "translation": "limpiar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Maison",
+        "learnable": "tapis",
+        "normalized": "tapis",
+        "translation": "alfombra, alfombras",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Materials",
+        "learnable": "argent",
+        "normalized": "argent",
+        "translation": "dinero, plata",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Materials",
+        "learnable": "bois",
+        "normalized": "bois",
+        "translation": "tomo, bebo, tomas, bebes, bosque (réunion d'arbres), madera (fém., matière), me bebo, me tomo, te bebes, te tomas",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "bras",
+        "normalized": "bras",
+        "translation": "brazo, brazos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "cas",
+        "normalized": "cas",
+        "translation": "caso, casos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "consulter",
+        "normalized": "consulter",
+        "translation": "consultar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Medical",
+        "learnable": "corps",
+        "normalized": "corps",
+        "translation": "cuerpo",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "dos",
+        "normalized": "dos",
+        "translation": "espalda",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "nez",
+        "normalized": "nez",
+        "translation": "nariz",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "os",
+        "normalized": "os",
+        "translation": "hueso, huesos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "poids",
+        "normalized": "poids",
+        "translation": "peso, pesos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Medical",
+        "learnable": "virus",
+        "normalized": "virus",
+        "translation": "virus",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Nature",
+        "learnable": "neiger",
+        "normalized": "neiger",
+        "translation": "nevar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Nature",
+        "learnable": "pleuvoir",
+        "normalized": "pleuvoir",
+        "translation": "llover",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "jamais",
+        "normalized": "jamais",
+        "translation": "nunca, jamás",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "n'",
+        "normalized": "n'",
+        "translation": "no",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "ne",
+        "normalized": "ne",
+        "translation": null,
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "ni",
+        "normalized": "ni",
+        "translation": "ni",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "personne",
+        "normalized": "personne",
+        "translation": "persona (sustantivo), nadie (pronombre indefinido)",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Negatives",
+        "learnable": "rien",
+        "normalized": "rien",
+        "translation": "nada (pronombre indefinido), nada",
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "cinq",
+        "normalized": "cinq",
+        "translation": "cinco",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "deux",
+        "normalized": "deux",
+        "translation": "dos",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "dix",
+        "normalized": "dix",
+        "translation": "diez",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "dix-huit",
+        "normalized": "dix-huit",
+        "translation": "dieciocho",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "douze",
+        "normalized": "douze",
+        "translation": "doce",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "huit",
+        "normalized": "huit",
+        "translation": "ocho",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "mille",
+        "normalized": "mille",
+        "translation": "mil",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "moins",
+        "normalized": "moins",
+        "translation": "menos",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "neuf",
+        "normalized": "neuf",
+        "translation": "nueve, nuevo",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "onze",
+        "normalized": "onze",
+        "translation": "once",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "quatorze",
+        "normalized": "quatorze",
+        "translation": "catorce",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "quatre",
+        "normalized": "quatre",
+        "translation": "cuatro",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "quatre-vingts",
+        "normalized": "quatre-vingts",
+        "translation": "ochenta",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "quinze",
+        "normalized": "quinze",
+        "translation": "quince",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "seize",
+        "normalized": "seize",
+        "translation": "dieciséis",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "sept",
+        "normalized": "sept",
+        "translation": "siete",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "six",
+        "normalized": "six",
+        "translation": "seis",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "taux",
+        "normalized": "taux",
+        "translation": "tasa, tasas",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "tiers",
+        "normalized": "tiers",
+        "translation": "tercio, tercios",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "treize",
+        "normalized": "treize",
+        "translation": "trece",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Numbers",
+        "learnable": "trois",
+        "normalized": "trois",
+        "translation": "tres",
+        "partOfSpeech": "Numeral"
+    },
+    {
+        "category": "Objects",
+        "learnable": "cadeaux",
+        "normalized": "cadeaux",
+        "translation": "regalos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Objects",
+        "learnable": "croix",
+        "normalized": "croix",
+        "translation": "cruz, cruces",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Occupations",
+        "learnable": "travaux",
+        "normalized": "travaux",
+        "translation": "trabajos, obras",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "People",
+        "learnable": "gens",
+        "normalized": "gens",
+        "translation": "gente",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "People",
+        "learnable": "héros",
+        "normalized": "heros",
+        "translation": "héroe, héroes",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "afrique",
+        "normalized": "afrique",
+        "translation": "África",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "allemagne",
+        "normalized": "allemagne",
+        "translation": "Alemania",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "amérique",
+        "normalized": "amerique",
+        "translation": "América, Estados Unidos",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "angleterre",
+        "normalized": "angleterre",
+        "translation": "Inglaterra",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "asie",
+        "normalized": "asie",
+        "translation": "Asia",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "bordeaux",
+        "normalized": "bordeaux",
+        "translation": "Burdeos",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "brésil",
+        "normalized": "bresil",
+        "translation": "Brasil",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "chine",
+        "normalized": "chine",
+        "translation": "China",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "espagne",
+        "normalized": "espagne",
+        "translation": "España",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "états-unis",
+        "normalized": "etats-unis",
+        "translation": "Estados Unidos",
+        "partOfSpeech": "Feminine Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "europe",
+        "normalized": "europe",
+        "translation": "Europa",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "france",
+        "normalized": "france",
+        "translation": "Francia",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "italie",
+        "normalized": "italie",
+        "translation": "Italia",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "paris",
+        "normalized": "paris",
+        "translation": "París",
+        "partOfSpeech": "Proper noun"
+    },
+    {
+        "category": "Places",
+        "learnable": "pays",
+        "normalized": "pays",
+        "translation": "país, países",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "baguettes",
+        "normalized": "baguettes",
+        "translation": "baguettes, barras (de pan), batutas (bastones corto del director de orquesta)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "bonnes",
+        "normalized": "bonnes",
+        "translation": "buenas",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "bons",
+        "normalized": "bons",
+        "translation": "buenos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "canards",
+        "normalized": "canards",
+        "translation": "patos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "chats",
+        "normalized": "chats",
+        "translation": "gatos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "chiennes",
+        "normalized": "chiennes",
+        "translation": "perras",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "chiens",
+        "normalized": "chiens",
+        "translation": "perros",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "citrons",
+        "normalized": "citrons",
+        "translation": "limones",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "crêpes",
+        "normalized": "crepes",
+        "translation": "crepas, crepes, panqueques",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "des",
+        "normalized": "des",
+        "translation": "en cuanto, desde (preposición), desde (preposition), cada vez que, cuando, una vez",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "éléphants",
+        "normalized": "elephants",
+        "translation": "elefantes",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "fraises",
+        "normalized": "fraises",
+        "translation": "fresas, frutillas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "frites",
+        "normalized": "frites",
+        "translation": "papas fritas, patatas fritas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "fruits",
+        "normalized": "fruits",
+        "translation": "frutas",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "grandes",
+        "normalized": "grandes",
+        "translation": "grandes, altas",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "grands",
+        "normalized": "grands",
+        "translation": "grandes, altos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "grosses",
+        "normalized": "grosses",
+        "translation": "gordas, gruesas, grandes",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "haricots",
+        "normalized": "haricots",
+        "translation": "porotos, frijoles, judías, alubias, ejotes",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "jeunes",
+        "normalized": "jeunes",
+        "translation": "jóvenes",
+        "partOfSpeech": "Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "légumes",
+        "normalized": "legumes",
+        "translation": "verduras",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "lettres",
+        "normalized": "lettres",
+        "translation": "cartas, letras",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "mots",
+        "normalized": "mots",
+        "translation": "palabras (féminin)",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "noms",
+        "normalized": "noms",
+        "translation": "nombres, apellidos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "pâtes",
+        "normalized": "pates",
+        "translation": "pasta, pastas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "petites",
+        "normalized": "petites",
+        "translation": "pequeñas, (estatura) bajas, bajas",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "petits",
+        "normalized": "petits",
+        "translation": "pequeños, (estatura) bajos",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "poissons",
+        "normalized": "poissons",
+        "translation": "pescados, peces",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "pommes",
+        "normalized": "pommes",
+        "translation": "manzanas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "recettes",
+        "normalized": "recettes",
+        "translation": "recetas, ingresos",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "roses",
+        "normalized": "roses",
+        "translation": "rosa (adjectif), rosa (adjetivo), rosas (nom), rosas (sustantivo)",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "sandwichs",
+        "normalized": "sandwichs",
+        "translation": "sándwiches, emparedados, bocadillos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "seules",
+        "normalized": "seules",
+        "translation": "solas, sólo, solamente",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "seuls",
+        "normalized": "seuls",
+        "translation": "solos, solamente, sólo",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Plurals",
+        "learnable": "verres",
+        "normalized": "verres",
+        "translation": "vasos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Politics",
+        "learnable": "discours",
+        "normalized": "discours",
+        "translation": "discurso",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Politics",
+        "learnable": "processus",
+        "normalized": "processus",
+        "translation": "proceso, procesos",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Politics",
+        "learnable": "voter",
+        "normalized": "voter",
+        "translation": "votar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "leur",
+        "normalized": "leur",
+        "translation": "su, se, les, suya, suyo",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "leurs",
+        "normalized": "leurs",
+        "translation": "sus, suyas, suyos",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "ma",
+        "normalized": "ma",
+        "translation": "mi",
+        "partOfSpeech": "Feminine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "mes",
+        "normalized": "mes",
+        "translation": "mis",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "mon",
+        "normalized": "mon",
+        "translation": "mi",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "nos",
+        "normalized": "nos",
+        "translation": "nuestros, nuestras",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "notre",
+        "normalized": "notre",
+        "translation": "nuestro, nuestra",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "sa",
+        "normalized": "sa",
+        "translation": "su",
+        "partOfSpeech": "Feminine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "ses",
+        "normalized": "ses",
+        "translation": "sus",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "son",
+        "normalized": "son",
+        "translation": "su, sonido",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "ta",
+        "normalized": "ta",
+        "translation": "tu",
+        "partOfSpeech": "Feminine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "tes",
+        "normalized": "tes",
+        "translation": "tus",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "ton",
+        "normalized": "ton",
+        "translation": "tu",
+        "partOfSpeech": "Masculine Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "vos",
+        "normalized": "vos",
+        "translation": "sus",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Possessives",
+        "learnable": "votre",
+        "normalized": "votre",
+        "translation": "su",
+        "partOfSpeech": "Determiner"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "à",
+        "normalized": "a",
+        "translation": "a, de, en, para, por",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "au",
+        "normalized": "au",
+        "translation": "al, en, en el, a, a la, de la, del, en la",
+        "partOfSpeech": "Masculine Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "aux",
+        "normalized": "aux",
+        "translation": "a los, en los, a las, a, de las, de los, en, en las",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "avant",
+        "normalized": "avant",
+        "translation": "(adjectif) delantera, (adjectif) delanteras, (adjectif) delantero, (adjectif) delanteros, (adjetivo) delantera, (adjetivo) delanteras, (adjetivo) delantero, (adjetivo) delanteros, (adverbe) antes, (adverbio) antes, (nom) parte delantera, (preposición) antes de, (preposición) antes que, (preposition) antes de, (preposition) antes que, (sust.) parte delantera, delanteras",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "chez",
+        "normalized": "chez",
+        "translation": null,
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "contre",
+        "normalized": "contre",
+        "translation": "contra, a cambio de",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "d'",
+        "normalized": "d'",
+        "translation": "de",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "d'après",
+        "normalized": "d'apres",
+        "translation": "según, de acuerdo con",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "dans",
+        "normalized": "dans",
+        "translation": "en, dentro, dentro de (+intervalo de tiempo (=",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "de",
+        "normalized": "de",
+        "translation": "de",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "depuis",
+        "normalized": "depuis",
+        "translation": "desde (preposición), desde entonces (cuando *depuis* es un adverbio)",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "dès",
+        "normalized": "des",
+        "translation": "en cuanto, desde (preposición), desde (preposition), cada vez que, cuando, una vez",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "durant",
+        "normalized": "durant",
+        "translation": "durante",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "en",
+        "normalized": "en",
+        "translation": "en, a, de eso, ahí, allá, allí, de esto, eso, lo",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "entre",
+        "normalized": "entre",
+        "translation": "entre, entro, entra",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "envers",
+        "normalized": "envers",
+        "translation": "con, hacia",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "jusqu'à",
+        "normalized": "jusqu'a",
+        "translation": "hasta",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "jusque",
+        "normalized": "jusque",
+        "translation": "hasta",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "malgré",
+        "normalized": "malgre",
+        "translation": "a pesar de",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "par",
+        "normalized": "par",
+        "translation": "por",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "parmi",
+        "normalized": "parmi",
+        "translation": "entre",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "pendant",
+        "normalized": "pendant",
+        "translation": "durante (préposition), por",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "pour",
+        "normalized": "pour",
+        "translation": "para, por",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "sans",
+        "normalized": "sans",
+        "translation": "sin",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "sauf",
+        "normalized": "sauf",
+        "translation": "salvo, sino",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "selon",
+        "normalized": "selon",
+        "translation": "según",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "sous",
+        "normalized": "sous",
+        "translation": "bajo, debajo de, de aquí a (+intervalo de tiempo (=",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "sur",
+        "normalized": "sur",
+        "translation": "sobre",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Prepositions",
+        "learnable": "vers",
+        "normalized": "vers",
+        "translation": "hacia",
+        "partOfSpeech": "Preposition"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "eux",
+        "normalized": "eux",
+        "translation": "ellos",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "la",
+        "normalized": "la",
+        "translation": "la",
+        "partOfSpeech": "Feminine Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "le",
+        "normalized": "le",
+        "translation": "el, lo, la",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "lui",
+        "normalized": "lui",
+        "translation": "le, él, se",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "m'",
+        "normalized": "m'",
+        "translation": "me",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "me",
+        "normalized": "me",
+        "translation": "me",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "moi",
+        "normalized": "moi",
+        "translation": "yo, mí",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "nous",
+        "normalized": "nous",
+        "translation": "(pronom réfléchi",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "on",
+        "normalized": "on",
+        "translation": "se (indefinido), uno (indefinido)",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "se",
+        "normalized": "se",
+        "translation": "se",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "t'",
+        "normalized": "t'",
+        "translation": "te",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "te",
+        "normalized": "te",
+        "translation": "te",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "toi",
+        "normalized": "toi",
+        "translation": "ti, tú",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "vous",
+        "normalized": "vous",
+        "translation": "usted, la, (pronom tonique",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns",
+        "learnable": "y",
+        "normalized": "y",
+        "translation": "allá, eso, allí, ahí",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "autres",
+        "normalized": "autres",
+        "translation": "otros, otras",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "ceci",
+        "normalized": "ceci",
+        "translation": "esto",
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "cela",
+        "normalized": "cela",
+        "translation": "eso",
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "celle",
+        "normalized": "celle",
+        "translation": "la",
+        "partOfSpeech": "Feminine Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "celles",
+        "normalized": "celles",
+        "translation": "las",
+        "partOfSpeech": "Feminine Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "celui",
+        "normalized": "celui",
+        "translation": "el",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "ceux",
+        "normalized": "ceux",
+        "translation": "los",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "dont",
+        "normalized": "dont",
+        "translation": "de la que, de los que, de las que, de la cual, de las cuales, de los cuales, del cual, del que, una de ellas, uno de ellos",
+        "partOfSpeech": null
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "quelqu'un",
+        "normalized": "quelqu'un",
+        "translation": "alguien",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Pronouns-2",
+        "learnable": "un",
+        "normalized": "un",
+        "translation": "un (artículo), un (adjetivo), uno (sustantivo), uno (pronombre)",
+        "partOfSpeech": "Masculine Pronoun"
+    },
+    {
+        "category": "Questions",
+        "learnable": "combien",
+        "normalized": "combien",
+        "translation": "cuánto, cuántos, cuántas",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Questions",
+        "learnable": "comment",
+        "normalized": "comment",
+        "translation": "cómo",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Questions",
+        "learnable": "laquelle",
+        "normalized": "laquelle",
+        "translation": "cuál de todas, cual",
+        "partOfSpeech": "Feminine"
+    },
+    {
+        "category": "Questions",
+        "learnable": "lequel",
+        "normalized": "lequel",
+        "translation": "cuál de todos, cual",
+        "partOfSpeech": "Masculine"
+    },
+    {
+        "category": "Questions",
+        "learnable": "lesquelles",
+        "normalized": "lesquelles",
+        "translation": "cuáles de todas, cuales",
+        "partOfSpeech": "Feminine"
+    },
+    {
+        "category": "Questions",
+        "learnable": "lesquels",
+        "normalized": "lesquels",
+        "translation": "cuáles de todos, cuales, cuáles",
+        "partOfSpeech": "Masculine"
+    },
+    {
+        "category": "Questions",
+        "learnable": "où",
+        "normalized": "ou",
+        "translation": "dónde, donde, adónde, en donde, en dónde",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Questions",
+        "learnable": "pourquoi",
+        "normalized": "pourquoi",
+        "translation": "por qué",
+        "partOfSpeech": "Adverb"
+    },
+    {
+        "category": "Questions",
+        "learnable": "quel",
+        "normalized": "quel",
+        "translation": "cuál, qué [exclamativo], (adjetivo) qué",
+        "partOfSpeech": "Masculine Adjective"
+    },
+    {
+        "category": "Questions",
+        "learnable": "quelle",
+        "normalized": "quelle",
+        "translation": "cuál, qué [exclamativo]",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Questions",
+        "learnable": "quelles",
+        "normalized": "quelles",
+        "translation": "(adjetivo) qué, qué [exclamativo]",
+        "partOfSpeech": "Feminine Adjective"
+    },
+    {
+        "category": "Questions",
+        "learnable": "qui",
+        "normalized": "qui",
+        "translation": "quién, que, quiénes, quien, quienes",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Questions",
+        "learnable": "quoi",
+        "normalized": "quoi",
+        "translation": "qué",
+        "partOfSpeech": "Pronoun"
+    },
+    {
+        "category": "Questions",
+        "learnable": "t",
+        "normalized": "t",
+        "translation": "t eufónico",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Science",
+        "learnable": "mathématiques",
+        "normalized": "mathematiques",
+        "translation": "matemáticas",
+        "partOfSpeech": "Feminine Noun"
+    },
+    {
+        "category": "Spiritual",
+        "learnable": "espérer",
+        "normalized": "esperer",
+        "translation": "esperar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Spiritual",
+        "learnable": "paradis",
+        "normalized": "paradis",
+        "translation": "paraíso",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Sports",
+        "learnable": "courir",
+        "normalized": "courir",
+        "translation": "correr",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Sports",
+        "learnable": "football",
+        "normalized": "football",
+        "translation": "fútbol, futbol",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Sports",
+        "learnable": "nager",
+        "normalized": "nager",
+        "translation": "nadar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Sports",
+        "learnable": "sauter",
+        "normalized": "sauter",
+        "translation": "saltar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Sports",
+        "learnable": "tennis",
+        "normalized": "tennis",
+        "translation": "tenis",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Transportation",
+        "learnable": "bus",
+        "normalized": "bus",
+        "translation": "bus, buses, bebidos, tomados",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Transportation",
+        "learnable": "conduire",
+        "normalized": "conduire",
+        "translation": "manejar, conducir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Transportation",
+        "learnable": "portugais",
+        "normalized": "portugais",
+        "translation": "portugués",
+        "partOfSpeech": "Masculine Noun"
+    },
+    {
+        "category": "Verbos:-Futuro",
+        "learnable": "devra",
+        "normalized": "devra",
+        "translation": "tendrá que, deberá",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbos:-Futuro",
+        "learnable": "faudra",
+        "normalized": "faudra",
+        "translation": null,
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbos:-Futuro",
+        "learnable": "pourra",
+        "normalized": "pourra",
+        "translation": "podrá",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbos:-Futuro",
+        "learnable": "pourront",
+        "normalized": "pourront",
+        "translation": "podrán",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbos:-Presente-2",
+        "learnable": "neige",
+        "normalized": "neige",
+        "translation": "nieve, nieva, está nevando",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbos:-Presente-2",
+        "learnable": "pleut",
+        "normalized": "pleut",
+        "translation": "llueve, está lloviendo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "devez",
+        "normalized": "devez",
+        "translation": "(usted) debe, (usted) tiene que, (ustedes) deben, (ustedes) tienen que",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "dois",
+        "normalized": "dois",
+        "translation": "tengo que, tienes que, debo, debes, debes de, debo de",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "doit",
+        "normalized": "doit",
+        "translation": "debe, tiene que, debe de",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "faut",
+        "normalized": "faut",
+        "translation": null,
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "peut",
+        "normalized": "peut",
+        "translation": "puede",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "peuvent",
+        "normalized": "peuvent",
+        "translation": "pueden",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "peux",
+        "normalized": "peux",
+        "translation": "puedo, puedes",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "pouvez",
+        "normalized": "pouvez",
+        "translation": "(usted) puede, (ustedes) pueden",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "veux",
+        "normalized": "veux",
+        "translation": "quiero, quieres",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Present-1",
+        "learnable": "voulez",
+        "normalized": "voulez",
+        "translation": "(usted) quiere, (ustedes) quieren",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Subjunctive-Present",
+        "learnable": "puisse",
+        "normalized": "puisse",
+        "translation": "pueda",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs-Subjunctive-Present",
+        "learnable": "qu'",
+        "normalized": "qu'",
+        "translation": "que, qué, a quienes, a quien",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Verbs-Subjunctive-Present",
+        "learnable": "que",
+        "normalized": "que",
+        "translation": "que, qué, a quien, a quienes",
+        "partOfSpeech": "Conjunction"
+    },
+    {
+        "category": "Verbs:-Gerund",
+        "learnable": "agissant",
+        "normalized": "agissant",
+        "translation": "actuando",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Gerund",
+        "learnable": "ayant",
+        "normalized": "ayant",
+        "translation": "habiendo, teniendo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Gerund",
+        "learnable": "disant",
+        "normalized": "disant",
+        "translation": "diciendo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Gerund",
+        "learnable": "étant",
+        "normalized": "etant",
+        "translation": "siendo, estando",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Gerund",
+        "learnable": "faisant",
+        "normalized": "faisant",
+        "translation": "haciendo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "acheter",
+        "normalized": "acheter",
+        "translation": "comprar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "aimer",
+        "normalized": "aimer",
+        "translation": "amar, querer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "aller",
+        "normalized": "aller",
+        "translation": "ir, ida",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "appeler",
+        "normalized": "appeler",
+        "translation": "llamar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "apporter",
+        "normalized": "apporter",
+        "translation": "traer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "apprendre",
+        "normalized": "apprendre",
+        "translation": "aprender",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "avoir",
+        "normalized": "avoir",
+        "translation": "tener",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "bouillir",
+        "normalized": "bouillir",
+        "translation": "hervir (intransitif)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "cacher",
+        "normalized": "cacher",
+        "translation": "esconder, cubrir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "chercher",
+        "normalized": "chercher",
+        "translation": "buscar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "choisir",
+        "normalized": "choisir",
+        "translation": "elegir, escoger",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "comprendre",
+        "normalized": "comprendre",
+        "translation": "entender, comprender",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "couper",
+        "normalized": "couper",
+        "translation": "cortar, partir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "déjeuner",
+        "normalized": "dejeuner",
+        "translation": "almuerzo (sustantivo), almorzar, comida",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "demander",
+        "normalized": "demander",
+        "translation": "pedir, preguntar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "dîner",
+        "normalized": "diner",
+        "translation": "cena (sustantivo fem.), cenar (infinitivo)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "dire",
+        "normalized": "dire",
+        "translation": "decir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "donner",
+        "normalized": "donner",
+        "translation": "dar, donar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "dormir",
+        "normalized": "dormir",
+        "translation": "dormir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "écrire",
+        "normalized": "ecrire",
+        "translation": "escribir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "emmener",
+        "normalized": "emmener",
+        "translation": "llevar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "être",
+        "normalized": "etre",
+        "translation": "ser, estar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "faire",
+        "normalized": "faire",
+        "translation": "hacer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "goûter",
+        "normalized": "gouter",
+        "translation": "probar, merendar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "griller",
+        "normalized": "griller",
+        "translation": "asar, tostar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "inviter",
+        "normalized": "inviter",
+        "translation": "invitar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "jouer",
+        "normalized": "jouer",
+        "translation": "jugar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "lire",
+        "normalized": "lire",
+        "translation": "leer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "marcher",
+        "normalized": "marcher",
+        "translation": "caminar, andar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "montrer",
+        "normalized": "montrer",
+        "translation": "mostrar, enseñar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "parler",
+        "normalized": "parler",
+        "translation": "hablar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "penser",
+        "normalized": "penser",
+        "translation": "pensar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "porter",
+        "normalized": "porter",
+        "translation": "llevar, [ropa] llevar, [ropa] llevar puesto, traer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "pouvoir",
+        "normalized": "pouvoir",
+        "translation": "poder",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "prendre",
+        "normalized": "prendre",
+        "translation": "tomar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "regarder",
+        "normalized": "regarder",
+        "translation": "mirar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "sauver",
+        "normalized": "sauver",
+        "translation": "salvar, rescatar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "savoir",
+        "normalized": "savoir",
+        "translation": "saber",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "vendre",
+        "normalized": "vendre",
+        "translation": "vender",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "venir",
+        "normalized": "venir",
+        "translation": "venir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "vider",
+        "normalized": "vider",
+        "translation": "vaciar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "vivre",
+        "normalized": "vivre",
+        "translation": "vivir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive",
+        "learnable": "voir",
+        "normalized": "voir",
+        "translation": "ver",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "agir",
+        "normalized": "agir",
+        "translation": "actuar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "aider",
+        "normalized": "aider",
+        "translation": "ayudar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "ajouter",
+        "normalized": "ajouter",
+        "translation": "añadir, agregar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "apparaître",
+        "normalized": "apparaitre",
+        "translation": "aparecer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "arrêter",
+        "normalized": "arreter",
+        "translation": "parar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "arriver",
+        "normalized": "arriver",
+        "translation": "llegar, pasar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "atteindre",
+        "normalized": "atteindre",
+        "translation": "alcanzar, conseguir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "attendre",
+        "normalized": "attendre",
+        "translation": "esperar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "battre",
+        "normalized": "battre",
+        "translation": "derrotar, ganar, batir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "changer",
+        "normalized": "changer",
+        "translation": "cambiar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "compter",
+        "normalized": "compter",
+        "translation": "contar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "connaître",
+        "normalized": "connaitre",
+        "translation": "conocer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "coucher",
+        "normalized": "coucher",
+        "translation": "acostar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "créer",
+        "normalized": "creer",
+        "translation": "crear",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "croire",
+        "normalized": "croire",
+        "translation": "creer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "découvrir",
+        "normalized": "decouvrir",
+        "translation": "descubrir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "définir",
+        "normalized": "definir",
+        "translation": "definir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "devenir",
+        "normalized": "devenir",
+        "translation": "ser, llegar a ser, convertirse, volverse",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "devoir",
+        "normalized": "devoir",
+        "translation": "tener que, deber, tarea",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "écouter",
+        "normalized": "ecouter",
+        "translation": "escuchar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "entendre",
+        "normalized": "entendre",
+        "translation": "oír",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "essayer",
+        "normalized": "essayer",
+        "translation": "intentar, probar, probarme, probarse",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "expliquer",
+        "normalized": "expliquer",
+        "translation": "explicar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "finir",
+        "normalized": "finir",
+        "translation": "terminar, acabar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "gagner",
+        "normalized": "gagner",
+        "translation": "ganar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "garder",
+        "normalized": "garder",
+        "translation": "guardar, mantener",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "imaginer",
+        "normalized": "imaginer",
+        "translation": "imaginar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "jeter",
+        "normalized": "jeter",
+        "translation": "tirar, botar, echar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "laisser",
+        "normalized": "laisser",
+        "translation": "dejar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "lever",
+        "normalized": "lever",
+        "translation": "levantar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "mettre",
+        "normalized": "mettre",
+        "translation": "poner, ponerse, colocar, meter",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "monter",
+        "normalized": "monter",
+        "translation": "subir, montar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "mourir",
+        "normalized": "mourir",
+        "translation": "morir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "obtenir",
+        "normalized": "obtenir",
+        "translation": "obtener, conseguir, lograr",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "occuper",
+        "normalized": "occuper",
+        "translation": "ocupar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "offrir",
+        "normalized": "offrir",
+        "translation": "ofrecer, regalar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "oublier",
+        "normalized": "oublier",
+        "translation": "olvidar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "ouvrir",
+        "normalized": "ouvrir",
+        "translation": "abrir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "partir",
+        "normalized": "partir",
+        "translation": "irnos, irse, irme, irte",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "passer",
+        "normalized": "passer",
+        "translation": "pasar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "payer",
+        "normalized": "payer",
+        "translation": "pagar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "perdre",
+        "normalized": "perdre",
+        "translation": "perder",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "permettre",
+        "normalized": "permettre",
+        "translation": "permitir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "poser",
+        "normalized": "poser",
+        "translation": "poner, posar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "préparer",
+        "normalized": "preparer",
+        "translation": "preparar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "présenter",
+        "normalized": "presenter",
+        "translation": "presentar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "quitter",
+        "normalized": "quitter",
+        "translation": "salir, dejar, abandonar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "réaliser",
+        "normalized": "realiser",
+        "translation": "realizar, darse cuenta",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "recevoir",
+        "normalized": "recevoir",
+        "translation": "recibir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "reconnaître",
+        "normalized": "reconnaitre",
+        "translation": "reconocer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "rendre",
+        "normalized": "rendre",
+        "translation": "devolver",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "rentrer",
+        "normalized": "rentrer",
+        "translation": "volver a entrar, entrar de nuevo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "répondre",
+        "normalized": "repondre",
+        "translation": "responder, contestar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "reprendre",
+        "normalized": "reprendre",
+        "translation": "reanudar, volver a coger, volver a tomar, retomar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "rester",
+        "normalized": "rester",
+        "translation": "quedar, quedarme, quedarnos, quedarse",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "retrouver",
+        "normalized": "retrouver",
+        "translation": "encontrar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "revenir",
+        "normalized": "revenir",
+        "translation": "volver, regresar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "sentir",
+        "normalized": "sentir",
+        "translation": "sentir, oler",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "servir",
+        "normalized": "servir",
+        "translation": "servir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "suivre",
+        "normalized": "suivre",
+        "translation": "seguir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "tenir",
+        "normalized": "tenir",
+        "translation": "tener, aguantar, sostener",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "tirer",
+        "normalized": "tirer",
+        "translation": "tirar, tirar de, disparar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "tomber",
+        "normalized": "tomber",
+        "translation": "caerse, caer, caerme",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "toucher",
+        "normalized": "toucher",
+        "translation": "tocar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "tourner",
+        "normalized": "tourner",
+        "translation": "dar vuelta",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "travailler",
+        "normalized": "travailler",
+        "translation": "trabajar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "trouver",
+        "normalized": "trouver",
+        "translation": "encontrar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "tuer",
+        "normalized": "tuer",
+        "translation": "matar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "utiliser",
+        "normalized": "utiliser",
+        "translation": "usar, utilizar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-2",
+        "learnable": "vouloir",
+        "normalized": "vouloir",
+        "translation": "querer",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "abandonner",
+        "normalized": "abandonner",
+        "translation": "abandonar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "accepter",
+        "normalized": "accepter",
+        "translation": "aceptar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "accompagner",
+        "normalized": "accompagner",
+        "translation": "acompañar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "adopter",
+        "normalized": "adopter",
+        "translation": "adoptar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "avancer",
+        "normalized": "avancer",
+        "translation": "adelantar, avanzar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "bouger",
+        "normalized": "bouger",
+        "translation": "mover, moverme",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "casser",
+        "normalized": "casser",
+        "translation": "romper",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "citer",
+        "normalized": "citer",
+        "translation": "citar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "commencer",
+        "normalized": "commencer",
+        "translation": "empezar, comenzar, iniciar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "constater",
+        "normalized": "constater",
+        "translation": "constatar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "construire",
+        "normalized": "construire",
+        "translation": "construir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "contacter",
+        "normalized": "contacter",
+        "translation": "contactar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "continuer",
+        "normalized": "continuer",
+        "translation": "continuar, seguir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "contrôler",
+        "normalized": "controler",
+        "translation": "controlar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "décider",
+        "normalized": "decider",
+        "translation": "decidir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "décrire",
+        "normalized": "decrire",
+        "translation": "describir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "défendre",
+        "normalized": "defendre",
+        "translation": "defender",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "démarrer",
+        "normalized": "demarrer",
+        "translation": "arrancar, partir, iniciar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "dépenser",
+        "normalized": "depenser",
+        "translation": "gastar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "discuter",
+        "normalized": "discuter",
+        "translation": "discutir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "empêcher",
+        "normalized": "empecher",
+        "translation": "impedir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "entraîner",
+        "normalized": "entrainer",
+        "translation": "entrenar, arrastrar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "entrer",
+        "normalized": "entrer",
+        "translation": "entrar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "envoyer",
+        "normalized": "envoyer",
+        "translation": "mandar, enviar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "éviter",
+        "normalized": "eviter",
+        "translation": "evitar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "fermer",
+        "normalized": "fermer",
+        "translation": "cerrar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "juger",
+        "normalized": "juger",
+        "translation": "juzgar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "lancer",
+        "normalized": "lancer",
+        "translation": "lanzar, tirar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "manquer",
+        "normalized": "manquer",
+        "translation": "echar de menos, faltar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "organiser",
+        "normalized": "organiser",
+        "translation": "organizar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "partager",
+        "normalized": "partager",
+        "translation": "compartir, partir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "pousser",
+        "normalized": "pousser",
+        "translation": "crecer, empujar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "prévenir",
+        "normalized": "prevenir",
+        "translation": "prevenir",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "prévoir",
+        "normalized": "prevoir",
+        "translation": "prever",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "promener",
+        "normalized": "promener",
+        "translation": "pasear",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "protéger",
+        "normalized": "proteger",
+        "translation": "proteger",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "raconter",
+        "normalized": "raconter",
+        "translation": "contar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "réduire",
+        "normalized": "reduire",
+        "translation": "reducir, bajar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "réfléchir",
+        "normalized": "reflechir",
+        "translation": "reflexionar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "refuser",
+        "normalized": "refuser",
+        "translation": "rechazar, rehusar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "relever",
+        "normalized": "relever",
+        "translation": "poner de pie (transitivo), relevar (transitivo)",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "remplacer",
+        "normalized": "remplacer",
+        "translation": "reemplazar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "remplir",
+        "normalized": "remplir",
+        "translation": "llenar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "rencontrer",
+        "normalized": "rencontrer",
+        "translation": "encontrarme, encontrar, reunirme, encontrarse con, reunirse con",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "résoudre",
+        "normalized": "resoudre",
+        "translation": "resolver",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "retourner",
+        "normalized": "retourner",
+        "translation": "regresar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "réussir",
+        "normalized": "reussir",
+        "translation": "lograr, tener éxito, lograrlo, conseguir, pasar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "sortir",
+        "normalized": "sortir",
+        "translation": "salir, sacar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "souligner",
+        "normalized": "souligner",
+        "translation": "subrayar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "soutenir",
+        "normalized": "soutenir",
+        "translation": "apoyar, sostener",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "subir",
+        "normalized": "subir",
+        "translation": "aguantar, soportar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "supporter",
+        "normalized": "supporter",
+        "translation": "soportar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "téléphoner",
+        "normalized": "telephoner",
+        "translation": "llamar por teléfono, telefonear",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "terminer",
+        "normalized": "terminer",
+        "translation": "terminar, acabar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "transformer",
+        "normalized": "transformer",
+        "translation": "transformar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Infinitive-3",
+        "learnable": "vérifier",
+        "normalized": "verifier",
+        "translation": "comprobar, verificar",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "devais",
+        "normalized": "devais",
+        "translation": "debía, tenía que, tenías que, debías",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "devrais",
+        "normalized": "devrais",
+        "translation": "debería, debería de, deberías, deberías de, tendría que, tendrías que",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "devrait",
+        "normalized": "devrait",
+        "translation": "debería",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "fallait",
+        "normalized": "fallait",
+        "translation": null,
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "faudrait",
+        "normalized": "faudrait",
+        "translation": null,
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pourraient",
+        "normalized": "pourraient",
+        "translation": "podrían",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pourrais",
+        "normalized": "pourrais",
+        "translation": "podría, podrías",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pourrait",
+        "normalized": "pourrait",
+        "translation": "podría",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pourrions",
+        "normalized": "pourrions",
+        "translation": "podríamos",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pouvaient",
+        "normalized": "pouvaient",
+        "translation": "podían",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pouvais",
+        "normalized": "pouvais",
+        "translation": "podía, podías",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "pouvait",
+        "normalized": "pouvait",
+        "translation": "podía",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Modal",
+        "learnable": "voudrais",
+        "normalized": "voudrais",
+        "translation": "querría",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Être-_-Avoir",
+        "learnable": "ai",
+        "normalized": "ai",
+        "translation": "tengo",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Être-_-Avoir",
+        "learnable": "as",
+        "normalized": "as",
+        "translation": "tienes",
+        "partOfSpeech": "Verb"
+    },
+    {
+        "category": "Verbs:-Être-_-Avoir",
+        "learnable": "c'",
+        "normalized": "c'",
+        "translation": null,
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Verbs:-Être-_-Avoir",
+        "learnable": "ce",
+        "normalized": "ce",
+        "translation": "ese, este",
+        "partOfSpeech": "Neuter Pronoun"
+    },
+    {
+        "category": "Verbs:-Être-_-Avoir",
+        "learnable": "ont",
+        "normalized": "ont",
+        "translation": "tienen",
+        "partOfSpeech": "Verb"
+    }
+]
