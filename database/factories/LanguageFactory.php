@@ -25,8 +25,6 @@ class LanguageFactory extends Factory
         return [
             'code'    => $this->faker->unique(true)->lexify('??'),
             'name'    => $this->faker->word(),
-            'region'  => $hasRegion ? $this->faker->word() : null,
-            'flag'    => $this->faker->randomElement(['US', 'CA', 'UA', 'FR', 'BR', 'UY']),
         ];
     }
 

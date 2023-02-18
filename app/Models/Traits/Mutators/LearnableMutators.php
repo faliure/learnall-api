@@ -9,7 +9,7 @@ trait LearnableMutators
 {
     use HasAttributeMutators;
 
-    public function type(): Attribute
+    public function part_of_speech(): Attribute
     {
         return Attribute::set($this->mutateToLower(...));
     }

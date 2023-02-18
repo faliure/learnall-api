@@ -7,12 +7,14 @@ use App\Models\Pivots\ExerciseLesson;
 use App\Models\Pivots\LessonUnit;
 use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Enableable;
+use App\Models\Traits\Sluggable;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Lesson extends Model
 {
     use BelongsToLanguage;
     use Enableable;
+    use Sluggable;
 
     public function units(): BelongsToMany
     {

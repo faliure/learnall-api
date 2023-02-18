@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Enums\LearnableType;
+use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
 use App\Models\Traits\Mutators\LanguageMutators;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -49,20 +49,20 @@ class Language extends Model
 
     public function words(): HasMany
     {
-        return $this->learnables()->whereNotIn('type', [
-            LearnableType::Expression,
-            LearnableType::Sentence,
+        return $this->learnables()->whereNotIn('part_of_speech', [
+            PartOfSpeech::Expression,
+            PartOfSpeech::Sentence,
         ]);
     }
 
     public function expressions(): HasMany
     {
-        return $this->learnables()->where('type', LearnableType::Expression);
+        return $this->learnables()->where('part_of_speech', PartOfSpeech::Expression);
     }
 
     public function sentences(): HasMany
     {
-        return $this->learnables()->where('type', LearnableType::Sentence);
+        return $this->learnables()->where('part_of_speech', PartOfSpeech::Sentence);
     }
 
     public function translations(): HasMany

@@ -2,7 +2,7 @@
 
 namespace App\Enums;
 
-enum LearnableType: string
+enum PartOfSpeech: string
 {
     case Adjective    = 'adjective';
 

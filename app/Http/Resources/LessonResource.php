@@ -33,6 +33,7 @@ class LessonResource extends Resource
         return [
             'id'          => $this->id,
             'name'        => $this->name,
+            'slug'        => $this->slug,
             'description' => $this->description,
             'motivation'  => $this->motivation,
             '#units'      => $this->whenCounted('units'),

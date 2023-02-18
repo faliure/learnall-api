@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Enums\LearnableType;
+use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\LearnableLearnable;
@@ -20,7 +20,7 @@ class Learnable extends Model
     use LearnableMutators;
 
     protected $casts = [
-        'type' => LearnableType::class,
+        'part_of_speech' => PartOfSpeech::class,
     ];
 
     public function related(): BelongsToMany

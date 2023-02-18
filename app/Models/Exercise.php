@@ -2,7 +2,7 @@
 
 namespace App\Models;
 
-use App\Enums\LearnableType;
+use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\ExerciseLesson;
@@ -46,20 +46,20 @@ class Exercise extends Model
 
     public function words(): BelongsToMany
     {
-        return $this->learnables()->whereNotIn('type', [
-            LearnableType::Expression,
-            LearnableType::Sentence,
+        return $this->learnables()->whereNotIn('part_of_speech', [
+            PartOfSpeech::Expression,
+            PartOfSpeech::Sentence,
         ]);
     }
 
     public function expressions(): BelongsToMany
     {
-        return $this->learnables()->where('type', LearnableType::Expression);
+        return $this->learnables()->where('part_of_speech', PartOfSpeech::Expression);
     }
 
     public function sentences(): BelongsToMany
     {
-        return $this->learnables()->where('type', LearnableType::Sentence);
+        return $this->learnables()->where('part_of_speech', PartOfSpeech::Sentence);
     }
 
     public function units(): Builder

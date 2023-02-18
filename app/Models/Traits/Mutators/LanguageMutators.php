@@ -18,16 +18,4 @@ trait LanguageMutators
     {
         return Attribute::set($this->mutateToUcwords(...));
     }
-
-    public function region(): Attribute
-    {
-        return Attribute::set($this->mutateToUcwords(...));
-    }
-
-    public function fullName(): Attribute
-    {
-        $region = $this->region ?? 'Standard';
-
-        return Attribute::get(fn () => "{$this->name} ({$region})");
-    }
 }

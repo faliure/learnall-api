@@ -21,7 +21,6 @@ return new class extends Migration
             $table->id();
             $table->string('code', 2)->unique()->comment('ISO-639-1 root code, e.g. "en"');
             $table->string('name')->comment('ISO-639-1 Language base name, e.g. "English"');
-            $table->string('region')->nullable()->comment('ISO-639-1 Region, e.g. "GB" (ommitted for "Standard")');
             $table->string('flag', 3)->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
@@ -40,6 +39,7 @@ return new class extends Migration
         Schema::create('units', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
@@ -51,6 +51,7 @@ return new class extends Migration
         Schema::create('lessons', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug');
             $table->string('description')->nullable();
             $table->string('motivation')->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
@@ -87,12 +88,13 @@ return new class extends Migration
         Schema::create('learnables', function (Blueprint $table) {
             $table->id();
             $table->string('learnable');
-            $table->string('type', 32)->nullable();
+            $table->string('normalized')->nullable();
+            $table->string('part_of_speech', 32)->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
 
-            $table->unique(['learnable', 'language_id', 'type']);
+            $table->unique(['language_id', 'learnable', 'part_of_speech']);
 
             $table->charset   = 'utf8';
             $table->collation = 'utf8_bin';

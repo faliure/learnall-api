@@ -40,7 +40,8 @@ class LearnableResource extends Resource
         return [
             'id'            => $this->id,
             'learnable'     => $this->learnable,
-            'type'          => $this->type,
+            'normalized'    => $this->normalized,
+            'pos'           => $this->part_of_speech,
             'language_id'   => $this->whenNotLoaded('language', $this->language_id),
             'translation'   => $this->whenLoaded('translation', fn () => $this->translation->translation),
             '#related'      => $this->whenCounted('related'),

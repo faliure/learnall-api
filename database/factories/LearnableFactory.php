@@ -2,14 +2,13 @@
 
 namespace Database\Factories;
 
-use App\Enums\LearnableType;
+use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
 use App\Models\Course;
 use App\Models\Language;
 use App\Models\Learnable;
 use App\Models\Translation;
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Throwable;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Learnable>
@@ -22,9 +21,9 @@ class LearnableFactory extends Factory
     public function definition(): array
     {
         return [
-            'type'        => randEnumValue(LearnableType::class),
-            'learnable'   => $this->faker->unique(true)->sentence(),
-            'language_id' => Language::rand()->id,
+            'part_of_speech' => randEnumValue(PartOfSpeech::class),
+            'learnable'      => $this->faker->unique(true)->sentence(),
+            'language_id'    => Language::rand()->id,
         ];
     }
 
