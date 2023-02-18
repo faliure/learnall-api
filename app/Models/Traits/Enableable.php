@@ -15,6 +15,10 @@ trait Enableable
 
     public static function bootEnableable()
     {
+        if (! app()->environment('production')) {
+            return;
+        }
+
         $table = (new static)->getTable();
 
         static::addGlobalScope(
