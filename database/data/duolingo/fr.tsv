@@ -1,0 +1,5633 @@
+learnable	normalized	partOfSpeech	source
+-	-		Duolingo
+-ci	-ci		Duolingo
+-cinq	-cinq		Duolingo
+-deux	-deux		Duolingo
+-dix-sept	-dix-sept		Duolingo
+-douze	-douze		Duolingo
+-huit	-huit		Duolingo
+-là	-la		Duolingo
+-même	-meme		Duolingo
+-même	-meme	adjective	Duolingo
+-mêmes	-memes		Duolingo
+-neuf	-neuf		Duolingo
+-onze	-onze		Duolingo
+-quatre	-quatre		Duolingo
+-sept	-sept		Duolingo
+-six	-six		Duolingo
+-souris	-souris		Duolingo
+-t-	-t-		Duolingo
+-toi	-toi		Duolingo
+-trois	-trois		Duolingo
+-un	-un		Duolingo
+-vous	-vous		Duolingo
+?	?		Duolingo
+1970	1970	numeral	Duolingo
+2050	2050	numeral	Duolingo
+à	a		Duolingo
+à	a	preposition	Duolingo
+a	a	verb	Duolingo
+à bientôt	a bientot		Duolingo
+à boire	a boire		Duolingo
+à bord	a bord		Duolingo
+à café	a cafe		Duolingo
+à cause	a cause		Duolingo
+à cause de	a cause de		Duolingo
+à ce moment-là	a ce moment-la		Duolingo
+à cette époque	a cette epoque		Duolingo
+à clé	a cle		Duolingo
+à côté	a cote		Duolingo
+à côté de	a cote de		Duolingo
+à demain	a demain		Duolingo
+à droite	a droite		Duolingo
+à emporter	a emporter		Duolingo
+à faire	a faire		Duolingo
+à finir	a finir		Duolingo
+à force	a force	conjunction	Duolingo
+à gauche	a gauche		Duolingo
+à haut débit	a haut debit		Duolingo
+a honte	a honte		Duolingo
+à jour	a jour		Duolingo
+à l'	a l'		Duolingo
+à l'abandon	a l'abandon		Duolingo
+à l'aise	a l'aise		Duolingo
+à l'avance	a l'avance		Duolingo
+à l'envers	a l'envers		Duolingo
+à l'étage	a l'etage		Duolingo
+à l'étranger	a l'etranger		Duolingo
+à l'extérieur	a l'exterieur		Duolingo
+à l'heure	a l'heure		Duolingo
+à l'intérieur	a l'interieur		Duolingo
+à la	a la		Duolingo
+à la campagne	a la campagne		Duolingo
+à la dernière minute	a la derniere minute	adverb	Duolingo
+à la fois	a la fois		Duolingo
+à la main	a la main		Duolingo
+à la mode	a la mode		Duolingo
+à la prochaine	a la prochaine		Duolingo
+à la retraite	a la retraite		Duolingo
+à la vapeur	a la vapeur		Duolingo
+à laquelle	a laquelle	pronoun	Duolingo
+à manger	a manger		Duolingo
+à moi	a moi		Duolingo
+à moins	a moins		Duolingo
+à moitié	a moitie		Duolingo
+à mon avis	a mon avis		Duolingo
+à ne pas	a ne pas	preposition	Duolingo
+à nouveau	a nouveau		Duolingo
+à partir	a partir		Duolingo
+à peine	a peine		Duolingo
+à peu près	a peu pres		Duolingo
+à pied	a pied		Duolingo
+à plus tard	a plus tard		Duolingo
+à point	a point		Duolingo
+à propos	a propos		Duolingo
+à soupe	a soupe		Duolingo
+à suspense	a suspense		Duolingo
+à temps	a temps		Duolingo
+à temps partiel	a temps partiel		Duolingo
+à temps plein	a temps plein		Duolingo
+à tout à l'heure	a tout a l'heure		Duolingo
+à tout prix	a tout prix		Duolingo
+à travers	a travers		Duolingo
+à voix haute	a voix haute		Duolingo
+à vrai dire	a vrai dire	adverb	Duolingo
+a-t-elle	a-t-elle		Duolingo
+a-t-il	a-t-il		Duolingo
+abandonner	abandonner	verb	Duolingo
+abeille	abeille	noun	Duolingo
+absence	absence	noun	Duolingo
+absent	absent	adjective	Duolingo
+absente	absente	adjective	Duolingo
+absentes	absentes	adjective	Duolingo
+absolument	absolument	adverb	Duolingo
+accélère	accelere	verb	Duolingo
+accélérer	accelerer	verb	Duolingo
+accepté	accepte	verb	Duolingo
+accepter	accepter	verb	Duolingo
+accès	acces	noun	Duolingo
+accident	accident	noun	Duolingo
+accompagner	accompagner	verb	Duolingo
+accompagnes	accompagnes	verb	Duolingo
+accompagnez	accompagnez	verb	Duolingo
+accord	accord	noun	Duolingo
+accueille	accueille	verb	Duolingo
+accueillent	accueillent	verb	Duolingo
+accueilles	accueilles	verb	Duolingo
+accueillez	accueillez	verb	Duolingo
+accueillir	accueillir	verb	Duolingo
+accueillons	accueillons		Duolingo
+achète	achete		Duolingo
+achète	achete	verb	Duolingo
+achètent	achetent	verb	Duolingo
+acheter	acheter	verb	Duolingo
+achètes	achetes	verb	Duolingo
+achetez	achetez	verb	Duolingo
+achetons	achetons	verb	Duolingo
+acier	acier	noun	Duolingo
+acte	acte	noun	Duolingo
+actes	actes	noun	Duolingo
+acteur	acteur	noun	Duolingo
+acteurs	acteurs	noun	Duolingo
+action	action	noun	Duolingo
+actions	actions	noun	Duolingo
+actrice	actrice	noun	Duolingo
+actrices	actrices	noun	Duolingo
+actuellement	actuellement	adverb	Duolingo
+actuelles	actuelles	adjective	Duolingo
+actuels	actuels	adjective	Duolingo
+adaptateur	adaptateur	noun	Duolingo
+addition	addition	noun	Duolingo
+adn	adn	noun	Duolingo
+adolescent	adolescent	noun	Duolingo
+adolescentes	adolescentes	adjective	Duolingo
+adolescents	adolescents	noun	Duolingo
+adopter	adopter	verb	Duolingo
+adoré	adore	verb	Duolingo
+adorent	adorent	verb	Duolingo
+adorer	adorer	verb	Duolingo
+ados	ados	noun	Duolingo
+adresse	adresse	noun	Duolingo
+adulte	adulte	noun	Duolingo
+adultes	adultes	noun	Duolingo
+aéroport	aeroport	noun	Duolingo
+aéroports	aeroports	noun	Duolingo
+affaires	affaires	noun	Duolingo
+affirme	affirme	verb	Duolingo
+afin	afin		Duolingo
+afin de	afin de		Duolingo
+africaine	africaine	adjective	Duolingo
+africains	africains	adjective	Duolingo
+afrique	afrique	proper noun	Duolingo
+âge	age	noun	Duolingo
+âgée	agee	adjective	Duolingo
+âgées	agees	adjective	Duolingo
+agenda	agenda	noun	Duolingo
+âgés	ages	adjective	Duolingo
+agir	agir	verb	Duolingo
+agis	agis	verb	Duolingo
+agissant	agissant	verb	Duolingo
+agit	agit	verb	Duolingo
+agréable	agreable	adjective	Duolingo
+agréablement	agreablement	adverb	Duolingo
+agréables	agreables	adjective	Duolingo
+agricultrice	agricultrice	noun	Duolingo
+ai	ai	verb	Duolingo
+aidant	aidant	verb	Duolingo
+aide	aide	noun	Duolingo
+aide	aide	verb	Duolingo
+aident	aident	verb	Duolingo
+aider	aider		Duolingo
+aider	aider	verb	Duolingo
+aides	aides		Duolingo
+aides	aides	noun	Duolingo
+aides	aides	verb	Duolingo
+aidez	aidez		Duolingo
+aidez	aidez	verb	Duolingo
+aidons	aidons	verb	Duolingo
+aie	aie	verb	Duolingo
+aient	aient	verb	Duolingo
+aies	aies	verb	Duolingo
+ail	ail	noun	Duolingo
+ailes	ailes	noun	Duolingo
+aille	aille	verb	Duolingo
+aillent	aillent	verb	Duolingo
+ailleurs	ailleurs	adverb	Duolingo
+aimables	aimables	adjective	Duolingo
+aimais	aimais	verb	Duolingo
+aime	aime		Duolingo
+aimé	aime	verb	Duolingo
+aime bien	aime bien		Duolingo
+aiment	aiment	verb	Duolingo
+aimer	aimer	verb	Duolingo
+aimerai	aimerai	verb	Duolingo
+aimerais	aimerais	verb	Duolingo
+aimerait	aimerait	verb	Duolingo
+aimeriez	aimeriez	verb	Duolingo
+aimes	aimes	verb	Duolingo
+aimes-tu	aimes-tu		Duolingo
+aimez	aimez	verb	Duolingo
+aimons	aimons	verb	Duolingo
+ainsi	ainsi	adverb	Duolingo
+ainsi	ainsi	conjunction	Duolingo
+air	air	noun	Duolingo
+aire de jeux	aire de jeux		Duolingo
+ait	ait	verb	Duolingo
+ajoute	ajoute	verb	Duolingo
+ajouter	ajouter	verb	Duolingo
+ajoutes	ajoutes	verb	Duolingo
+ajoutez	ajoutez	verb	Duolingo
+album	album	noun	Duolingo
+albums	albums	noun	Duolingo
+alcool	alcool	noun	Duolingo
+aléatoire	aleatoire	adjective	Duolingo
+algérie	algerie	proper noun	Duolingo
+algérien	algerien	adjective	Duolingo
+algérienne	algerienne	adjective	Duolingo
+algériennes	algeriennes	adjective	Duolingo
+allaient	allaient	verb	Duolingo
+allais	allais	verb	Duolingo
+allait	allait	verb	Duolingo
+allant	allant	verb	Duolingo
+allé	alle		Duolingo
+allemagne	allemagne	proper noun	Duolingo
+allemand	allemand	adjective	Duolingo
+allemand	allemand	noun	Duolingo
+allemande	allemande	adjective	Duolingo
+allemands	allemands	noun	Duolingo
+aller	aller	verb	Duolingo
+allez	allez	verb	Duolingo
+allez-vous	allez-vous		Duolingo
+allez-vous-en	allez-vous-en		Duolingo
+allions	allions	verb	Duolingo
+allô	allo	interjection	Duolingo
+allongé	allonge	verb	Duolingo
+allongée	allongee	verb	Duolingo
+allons	allons	verb	Duolingo
+allons-y	allons-y		Duolingo
+allume	allume	verb	Duolingo
+allumer	allumer	verb	Duolingo
+allumette	allumette	noun	Duolingo
+allumettes	allumettes	noun	Duolingo
+allumez	allumez	verb	Duolingo
+allumons	allumons	verb	Duolingo
+alors	alors	adverb	Duolingo
+alors qu'	alors qu'		Duolingo
+alors que	alors que		Duolingo
+alpes	alpes	proper noun	Duolingo
+alsace	alsace	proper noun	Duolingo
+âme	ame	noun	Duolingo
+améliore	ameliore	verb	Duolingo
+américain	americain	adjective	Duolingo
+américaine	americaine	adjective	Duolingo
+américaines	americaines	adjective	Duolingo
+américains	americains	adjective	Duolingo
+amérique	amerique	proper noun	Duolingo
+ami	ami	noun	Duolingo
+amie	amie	noun	Duolingo
+amies	amies	noun	Duolingo
+amis	amis	noun	Duolingo
+amitié	amitie	noun	Duolingo
+amour	amour	noun	Duolingo
+amoureuse	amoureuse	adjective	Duolingo
+amoureux	amoureux		Duolingo
+amoureux	amoureux	adjective	Duolingo
+amusant	amusant	adjective	Duolingo
+amusante	amusante	adjective	Duolingo
+amusantes	amusantes	adjective	Duolingo
+amusants	amusants	adjective	Duolingo
+an	an	noun	Duolingo
+analyse	analyse	noun	Duolingo
+ananas	ananas	noun	Duolingo
+ancien	ancien	adjective	Duolingo
+ancienne	ancienne	adjective	Duolingo
+ange	ange	noun	Duolingo
+anglais	anglais	adjective	Duolingo
+anglais	anglais	noun	Duolingo
+anglaise	anglaise	adjective	Duolingo
+anglaises	anglaises	adjective	Duolingo
+angleterre	angleterre	proper noun	Duolingo
+animal	animal	noun	Duolingo
+animal de compagnie	animal de compagnie		Duolingo
+animaux	animaux	noun	Duolingo
+année	annee	noun	Duolingo
+années	annees	noun	Duolingo
+anniversaire	anniversaire	noun	Duolingo
+annulation	annulation	noun	Duolingo
+annulations	annulations	noun	Duolingo
+annulé	annule	adjective	Duolingo
+annulée	annulee	adjective	Duolingo
+annuler	annuler	verb	Duolingo
+ans	ans	noun	Duolingo
+août	aout	noun	Duolingo
+apercevoir	apercevoir	verb	Duolingo
+apéritif	aperitif	adjective	Duolingo
+apparaître	apparaitre	verb	Duolingo
+appareil	appareil	noun	Duolingo
+appareil photo	appareil photo		Duolingo
+apparemment	apparemment	adverb	Duolingo
+appartement	appartement	noun	Duolingo
+appartements	appartements	noun	Duolingo
+appartenir	appartenir	verb	Duolingo
+appartiennent	appartiennent	verb	Duolingo
+appartient	appartient	verb	Duolingo
+appel	appel	noun	Duolingo
+appelé	appele	verb	Duolingo
+appeler	appeler	verb	Duolingo
+appelez	appelez		Duolingo
+appelle	appelle	verb	Duolingo
+appellent	appellent	verb	Duolingo
+appelles	appelles		Duolingo
+apporté	apporte	verb	Duolingo
+apporter	apporter	verb	Duolingo
+apportes	apportes	verb	Duolingo
+apportez	apportez	verb	Duolingo
+apportons	apportons	verb	Duolingo
+apprend	apprend		Duolingo
+apprend	apprend	verb	Duolingo
+apprendra	apprendra	verb	Duolingo
+apprendre	apprendre		Duolingo
+apprendre	apprendre	verb	Duolingo
+apprends	apprends		Duolingo
+apprends	apprends	verb	Duolingo
+apprenez	apprenez		Duolingo
+apprenez	apprenez	verb	Duolingo
+apprennent	apprennent		Duolingo
+apprennent	apprennent	verb	Duolingo
+apprenons	apprenons		Duolingo
+apprenons	apprenons	verb	Duolingo
+appris	appris	verb	Duolingo
+après	apres		Duolingo
+après	apres	adverb	Duolingo
+après	apres	preposition	Duolingo
+après avoir	apres avoir		Duolingo
+après être	apres etre		Duolingo
+après leur	apres leur		Duolingo
+après lui	apres lui		Duolingo
+après m'	apres m'		Duolingo
+après nous	apres nous		Duolingo
+après qu'	apres qu'		Duolingo
+après que	apres que		Duolingo
+après s'être	apres s'etre		Duolingo
+après t'	apres t'		Duolingo
+après vous	apres vous		Duolingo
+après-	apres-		Duolingo
+après-demain	apres-demain		Duolingo
+après-midi	apres-midi		Duolingo
+après-midis	apres-midis		Duolingo
+araignée	araignee	noun	Duolingo
+araignées	araignees	noun	Duolingo
+arbre	arbre	noun	Duolingo
+arbres	arbres	noun	Duolingo
+architecture	architecture	noun	Duolingo
+argent	argent		Duolingo
+argent	argent	noun	Duolingo
+argument	argument	noun	Duolingo
+arguments	arguments	noun	Duolingo
+arme	arme	noun	Duolingo
+armée	armee	noun	Duolingo
+armes	armes	noun	Duolingo
+armoire	armoire	noun	Duolingo
+arobase	arobase	noun	Duolingo
+arrête	arrete	verb	Duolingo
+arrêter	arreter	verb	Duolingo
+arrêtés	arretes	verb	Duolingo
+arrêtez	arretez	verb	Duolingo
+arrière-	arriere-		Duolingo
+arrivant	arrivant	verb	Duolingo
+arrivé	arrive	verb	Duolingo
+arrivée	arrivee	noun	Duolingo
+arrivent	arrivent	verb	Duolingo
+arriver	arriver		Duolingo
+arriver	arriver	verb	Duolingo
+arrivera	arrivera	verb	Duolingo
+arrives	arrives	verb	Duolingo
+arrivons	arrivons	verb	Duolingo
+arrondissement	arrondissement	noun	Duolingo
+arrondissements	arrondissements	noun	Duolingo
+art	art	noun	Duolingo
+article	article	noun	Duolingo
+articles	articles	noun	Duolingo
+artiste	artiste	noun	Duolingo
+artistes	artistes	noun	Duolingo
+arts	arts	noun	Duolingo
+as	as	verb	Duolingo
+as besoin	as besoin		Duolingo
+as l'air	as l'air		Duolingo
+as-tu	as-tu		Duolingo
+ascenseur	ascenseur	noun	Duolingo
+asie	asie	proper noun	Duolingo
+assemblée	assemblee	noun	Duolingo
+asseoir	asseoir	verb	Duolingo
+asseyez-vous	asseyez-vous		Duolingo
+assez	assez		Duolingo
+assez	assez	adverb	Duolingo
+assez de	assez de		Duolingo
+assieds-toi	assieds-toi		Duolingo
+assiéraient	assieraient	verb	Duolingo
+assiérait	assierait	verb	Duolingo
+assiette	assiette	noun	Duolingo
+assiettes	assiettes	noun	Duolingo
+association	association	noun	Duolingo
+associations	associations	noun	Duolingo
+athlétisme	athletisme	noun	Duolingo
+atlantique	atlantique	proper noun	Duolingo
+atmosphère	atmosphere	noun	Duolingo
+atteindre	atteindre	verb	Duolingo
+attend	attend		Duolingo
+attend	attend	verb	Duolingo
+attendant	attendant	verb	Duolingo
+attendent	attendent		Duolingo
+attendent	attendent	verb	Duolingo
+attendez	attendez		Duolingo
+attendez	attendez	verb	Duolingo
+attendons	attendons		Duolingo
+attendons	attendons	verb	Duolingo
+attendra	attendra	verb	Duolingo
+attendrai	attendrai	verb	Duolingo
+attendras	attendras	verb	Duolingo
+attendre	attendre		Duolingo
+attendre	attendre	verb	Duolingo
+attendrez	attendrez	verb	Duolingo
+attendrons	attendrons	verb	Duolingo
+attendront	attendront	verb	Duolingo
+attends	attends		Duolingo
+attends	attends	verb	Duolingo
+attendu	attendu	verb	Duolingo
+attention	attention	noun	Duolingo
+attrape	attrape	verb	Duolingo
+attraper	attraper	verb	Duolingo
+au	au		Duolingo
+au	au	preposition	Duolingo
+au bout de	au bout de		Duolingo
+au cas où	au cas ou		Duolingo
+au chômage	au chomage		Duolingo
+au coin de la rue	au coin de la rue		Duolingo
+au courant	au courant		Duolingo
+au début	au debut		Duolingo
+au fait	au fait		Duolingo
+au fond	au fond		Duolingo
+au foyer	au foyer		Duolingo
+au lieu	au lieu		Duolingo
+au lieu de	au lieu de		Duolingo
+au milieu de	au milieu de		Duolingo
+au milieu de nulle part	au milieu de nulle part		Duolingo
+au moins	au moins		Duolingo
+au moins	au moins	adverb	Duolingo
+au petit déjeuner	au petit dejeuner		Duolingo
+au plat	au plat		Duolingo
+au revoir	au revoir		Duolingo
+au secours	au secours		Duolingo
+au téléphone	au telephone		Duolingo
+au-delà	au-dela		Duolingo
+au-delà	au-dela	preposition	Duolingo
+au-delà de	au-dela de		Duolingo
+au-dessous	au-dessous		Duolingo
+au-dessus	au-dessus		Duolingo
+au-dessus	au-dessus	adverb	Duolingo
+au-dessus de	au-dessus de		Duolingo
+aucun	aucun		Duolingo
+aucun	aucun	determiner	Duolingo
+aucun	aucun	pronoun	Duolingo
+aucune	aucune		Duolingo
+aucune	aucune	determiner	Duolingo
+aucune	aucune	pronoun	Duolingo
+augmentation	augmentation	noun	Duolingo
+aujourd'hui	aujourd'hui		Duolingo
+aujourd'hui	aujourd'hui	adverb	Duolingo
+auprès	aupres	preposition	Duolingo
+auprès de	aupres de		Duolingo
+auquel	auquel		Duolingo
+aura	aura	verb	Duolingo
+aurai	aurai	verb	Duolingo
+auraient	auraient		Duolingo
+auraient	auraient	verb	Duolingo
+aurais	aurais	verb	Duolingo
+aurait	aurait		Duolingo
+aurait	aurait	verb	Duolingo
+auras	auras	noun	Duolingo
+auras	auras	verb	Duolingo
+aurez	aurez	verb	Duolingo
+auriez	auriez		Duolingo
+auriez	auriez	verb	Duolingo
+aurions	aurions		Duolingo
+aurions	aurions	verb	Duolingo
+aurons	aurons	verb	Duolingo
+auront	auront	verb	Duolingo
+aussi	aussi		Duolingo
+aussi	aussi	adverb	Duolingo
+aussitôt	aussitot	adverb	Duolingo
+australie	australie	proper noun	Duolingo
+autant	autant		Duolingo
+autant	autant	adverb	Duolingo
+autant de	autant de		Duolingo
+autant que	autant que		Duolingo
+auteur	auteur	noun	Duolingo
+automatiquement	automatiquement	adverb	Duolingo
+automne	automne	noun	Duolingo
+autour	autour	adverb	Duolingo
+autour	autour	preposition	Duolingo
+autour de	autour de		Duolingo
+autre	autre	adjective	Duolingo
+autre	autre	pronoun	Duolingo
+autre chose	autre chose		Duolingo
+autrefois	autrefois	adverb	Duolingo
+autrement	autrement	adverb	Duolingo
+autres	autres	adjective	Duolingo
+autres	autres	pronoun	Duolingo
+autriche	autriche	proper noun	Duolingo
+aux	aux		Duolingo
+aux	aux	preposition	Duolingo
+aux toilettes	aux toilettes		Duolingo
+auxquelles	auxquelles		Duolingo
+auxquels	auxquels		Duolingo
+auxquels	auxquels	pronoun	Duolingo
+avaient	avaient	verb	Duolingo
+avais	avais	verb	Duolingo
+avait	avait	verb	Duolingo
+avancé	avance	adjective	Duolingo
+avance	avance	verb	Duolingo
+avancer	avancer	verb	Duolingo
+avancez	avancez	verb	Duolingo
+avant	avant		Duolingo
+avant	avant	adverb	Duolingo
+avant	avant	preposition	Duolingo
+avant de	avant de		Duolingo
+avant qu'	avant qu'		Duolingo
+avant que	avant que		Duolingo
+avant-hier	avant-hier		Duolingo
+avantage	avantage	noun	Duolingo
+avantages	avantages	noun	Duolingo
+avec	avec		Duolingo
+avec	avec	preposition	Duolingo
+avec enthousiasme	avec enthousiasme		Duolingo
+avec qui	avec qui		Duolingo
+avec un peu de chance	avec un peu de chance		Duolingo
+avenir	avenir	noun	Duolingo
+avez	avez	verb	Duolingo
+avez-vous	avez-vous		Duolingo
+aviez	aviez	verb	Duolingo
+avion	avion	noun	Duolingo
+avions	avions	noun	Duolingo
+avions	avions	verb	Duolingo
+avis	avis	noun	Duolingo
+avocat	avocat	noun	Duolingo
+avocate	avocate	noun	Duolingo
+avoir	avoir	verb	Duolingo
+avons	avons	verb	Duolingo
+avril	avril	noun	Duolingo
+ayant	ayant	verb	Duolingo
+ayez	ayez	verb	Duolingo
+baby-sitting	baby-sitting		Duolingo
+bac	bac	noun	Duolingo
+bagages	bagages		Duolingo
+bagages	bagages	noun	Duolingo
+bague	bague	noun	Duolingo
+bagues	bagues	noun	Duolingo
+baguette	baguette	noun	Duolingo
+baguettes	baguettes	noun	Duolingo
+baie	baie	noun	Duolingo
+baies	baies	noun	Duolingo
+baignoire	baignoire	noun	Duolingo
+bain	bain	noun	Duolingo
+bains	bains	noun	Duolingo
+balcon	balcon	noun	Duolingo
+balcons	balcons	noun	Duolingo
+baleine	baleine	noun	Duolingo
+balle	balle	noun	Duolingo
+ballon	ballon	noun	Duolingo
+banane	banane	noun	Duolingo
+bananes	bananes	noun	Duolingo
+bancaire	bancaire	adjective	Duolingo
+bancaires	bancaires	adjective	Duolingo
+banlieue	banlieue	noun	Duolingo
+banque	banque	noun	Duolingo
+bar	bar	noun	Duolingo
+barbe	barbe	noun	Duolingo
+barbecue	barbecue	noun	Duolingo
+bas	bas	adjective	Duolingo
+bas	bas	adverb	Duolingo
+basket	basket	noun	Duolingo
+baskets	baskets	noun	Duolingo
+bastille	bastille	proper noun	Duolingo
+bateau	bateau	noun	Duolingo
+bateaux	bateaux	noun	Duolingo
+bâtiment	batiment	noun	Duolingo
+bâtiments	batiments	noun	Duolingo
+batterie	batterie		Duolingo
+batterie	batterie	noun	Duolingo
+battre	battre	verb	Duolingo
+bazar	bazar	noun	Duolingo
+beau	beau		Duolingo
+beau	beau	adjective	Duolingo
+beau	beau	adverb	Duolingo
+beau-	beau-		Duolingo
+beaucoup	beaucoup		Duolingo
+beaucoup	beaucoup	adverb	Duolingo
+beaucoup de	beaucoup de		Duolingo
+beaucoup de choses	beaucoup de choses		Duolingo
+beaucoup de monde	beaucoup de monde		Duolingo
+beaucoup trop	beaucoup trop		Duolingo
+beauté	beaute	noun	Duolingo
+beaux	beaux	adjective	Duolingo
+beaux-	beaux-		Duolingo
+beaux-parents	beaux-parents	noun	Duolingo
+bébé	bebe	noun	Duolingo
+bébés	bebes	noun	Duolingo
+bel	bel	adjective	Duolingo
+belge	belge	adjective	Duolingo
+belges	belges	adjective	Duolingo
+belgique	belgique	proper noun	Duolingo
+belle	belle	adjective	Duolingo
+belle-	belle-		Duolingo
+belles	belles	adjective	Duolingo
+bénéfice	benefice	noun	Duolingo
+bénéfices	benefices	noun	Duolingo
+bénin	benin	proper noun	Duolingo
+berceau	berceau	noun	Duolingo
+berlin	berlin	proper noun	Duolingo
+besoin	besoin		Duolingo
+besoin	besoin	noun	Duolingo
+besoin de	besoin de		Duolingo
+besoin que	besoin que		Duolingo
+bête	bete	adjective	Duolingo
+beurre	beurre	noun	Duolingo
+bibliothèque	bibliotheque	noun	Duolingo
+bibliothèques	bibliotheques	noun	Duolingo
+bien	bien		Duolingo
+bien	bien	adjective	Duolingo
+bien	bien	adverb	Duolingo
+bien qu'	bien qu'		Duolingo
+bien qu'	bien qu'	conjunction	Duolingo
+bien que	bien que		Duolingo
+bien que	bien que	conjunction	Duolingo
+bien réussi	bien reussi		Duolingo
+bien s'entendre	bien s'entendre		Duolingo
+bien sûr	bien sur		Duolingo
+bientôt	bientot	adverb	Duolingo
+bienvenu	bienvenu	adjective	Duolingo
+bienvenue	bienvenue	adjective	Duolingo
+bienvenue	bienvenue	noun	Duolingo
+bière	biere	noun	Duolingo
+bières	bieres	noun	Duolingo
+bijou	bijou	noun	Duolingo
+bijoux	bijoux	noun	Duolingo
+billet	billet	noun	Duolingo
+billet d'avion	billet d'avion		Duolingo
+billets	billets		Duolingo
+billets	billets	noun	Duolingo
+bio	bio	adjective	Duolingo
+biologie	biologie	noun	Duolingo
+biscuits	biscuits	noun	Duolingo
+bizarre	bizarre	adjective	Duolingo
+bizarres	bizarres	adjective	Duolingo
+blanc	blanc	adjective	Duolingo
+blanche	blanche	adjective	Duolingo
+blanches	blanches	adjective	Duolingo
+blancs	blancs	adjective	Duolingo
+blancs	blancs	noun	Duolingo
+blessé	blesse	noun	Duolingo
+blessée	blessee	noun	Duolingo
+blessés	blesses	noun	Duolingo
+blessure	blessure	noun	Duolingo
+blessures	blessures	noun	Duolingo
+bleu	bleu	adjective	Duolingo
+bleu clair	bleu clair		Duolingo
+bleu foncé	bleu fonce		Duolingo
+bleue	bleue	adjective	Duolingo
+bleues	bleues	adjective	Duolingo
+bleus	bleus	adjective	Duolingo
+blonde	blonde	adjective	Duolingo
+blondes	blondes	adjective	Duolingo
+blonds	blonds	adjective	Duolingo
+bœuf	boeuf	noun	Duolingo
+boirai	boirai	verb	Duolingo
+boire	boire	verb	Duolingo
+bois	bois		Duolingo
+bois	bois	noun	Duolingo
+bois	bois	verb	Duolingo
+boisson	boisson	noun	Duolingo
+boissons	boissons	noun	Duolingo
+boit	boit	verb	Duolingo
+boîte	boite	noun	Duolingo
+boîtes	boites	noun	Duolingo
+boivent	boivent	verb	Duolingo
+bol	bol	noun	Duolingo
+bols	bols	noun	Duolingo
+bon	bon		Duolingo
+bon	bon	adjective	Duolingo
+bon courage	bon courage		Duolingo
+bon marché	bon marche		Duolingo
+bon voyage	bon voyage		Duolingo
+bonbon	bonbon	noun	Duolingo
+bonbons	bonbons	noun	Duolingo
+bondée	bondee	adjective	Duolingo
+bonheur	bonheur	noun	Duolingo
+bonjour	bonjour	interjection	Duolingo
+bonne	bonne		Duolingo
+bonne	bonne	adjective	Duolingo
+bonne continuation	bonne continuation		Duolingo
+bonne journée	bonne journee		Duolingo
+bonne nuit	bonne nuit		Duolingo
+bonne soirée	bonne soiree		Duolingo
+bonnes	bonnes	adjective	Duolingo
+bons	bons	adjective	Duolingo
+bord	bord	noun	Duolingo
+bordeaux	bordeaux	proper noun	Duolingo
+botte	botte	noun	Duolingo
+bottes	bottes	noun	Duolingo
+bouche	bouche	noun	Duolingo
+bouclé	boucle	adjective	Duolingo
+bouclés	boucles	adjective	Duolingo
+boucles	boucles	noun	Duolingo
+boue	boue	noun	Duolingo
+bouger	bouger	verb	Duolingo
+bougie	bougie	noun	Duolingo
+bougies	bougies	noun	Duolingo
+bouillir	bouillir	verb	Duolingo
+boulanger	boulanger	noun	Duolingo
+boulangère	boulangere	noun	Duolingo
+boulangerie	boulangerie	noun	Duolingo
+boulangeries	boulangeries	noun	Duolingo
+boulot	boulot	noun	Duolingo
+bourgogne	bourgogne	proper noun	Duolingo
+bourse	bourse	noun	Duolingo
+bouteille	bouteille	noun	Duolingo
+bouteilles	bouteilles	noun	Duolingo
+boutique	boutique	noun	Duolingo
+branche	branche	verb	Duolingo
+bras	bras	noun	Duolingo
+bravo	bravo	interjection	Duolingo
+bref	bref	adverb	Duolingo
+brésil	bresil	proper noun	Duolingo
+brésilien	bresilien	adjective	Duolingo
+bretagne	bretagne	proper noun	Duolingo
+bricolage	bricolage	noun	Duolingo
+brillant	brillant	adjective	Duolingo
+brillante	brillante	adjective	Duolingo
+brioche	brioche	noun	Duolingo
+bronze	bronze	verb	Duolingo
+brosse	brosse	noun	Duolingo
+brosse	brosse	verb	Duolingo
+brosse à dents	brosse a dents		Duolingo
+brosser	brosser	verb	Duolingo
+brosses	brosses	verb	Duolingo
+brouillard	brouillard	noun	Duolingo
+bruit	bruit	noun	Duolingo
+bruits	bruits	noun	Duolingo
+brûlé	brule	verb	Duolingo
+brûler	bruler	verb	Duolingo
+brun	brun	adjective	Duolingo
+brune	brune	adjective	Duolingo
+bruxelles	bruxelles	proper noun	Duolingo
+bruyamment	bruyamment	adverb	Duolingo
+bruyant	bruyant	adjective	Duolingo
+bruyante	bruyante	adjective	Duolingo
+bruyantes	bruyantes	adjective	Duolingo
+bu	bu	verb	Duolingo
+budget	budget	noun	Duolingo
+bureau	bureau		Duolingo
+bureau	bureau	noun	Duolingo
+bureau de change	bureau de change		Duolingo
+bureau de poste	bureau de poste		Duolingo
+bureaux	bureaux	noun	Duolingo
+bus	bus	noun	Duolingo
+but	but	noun	Duolingo
+buvant	buvant	verb	Duolingo
+buvez	buvez	verb	Duolingo
+buvons	buvons	verb	Duolingo
+c'	c'	pronoun	Duolingo
+c'est	c'est		Duolingo
+c'est bien	c'est bien		Duolingo
+c'est bon	c'est bon		Duolingo
+c'est l'histoire	c'est l'histoire		Duolingo
+c'est le	c'est le		Duolingo
+c'est ma	c'est ma		Duolingo
+c'est mon	c'est mon		Duolingo
+c'est nul	c'est nul		Duolingo
+c'est un	c'est un		Duolingo
+c'est une	c'est une		Duolingo
+c'est-à-dire	c'est-a-dire		Duolingo
+c'était	c'etait		Duolingo
+ça	ca	pronoun	Duolingo
+ça a l'air	ca a l'air		Duolingo
+ça fait	ca fait		Duolingo
+ça te dit	ca te dit		Duolingo
+ça va	ca va		Duolingo
+ça va bien	ca va bien		Duolingo
+ça vous dit	ca vous dit		Duolingo
+ça y est	ca y est		Duolingo
+cabine d'essayage	cabine d'essayage		Duolingo
+cache	cache	verb	Duolingo
+cacher	cacher	verb	Duolingo
+caches	caches	verb	Duolingo
+cadeau	cadeau	noun	Duolingo
+cadeaux	cadeaux	noun	Duolingo
+cadre	cadre	noun	Duolingo
+cadres	cadres	noun	Duolingo
+café	cafe		Duolingo
+café	cafe	noun	Duolingo
+café au lait	cafe au lait		Duolingo
+cafés	cafes	noun	Duolingo
+cafétéria	cafeteria	noun	Duolingo
+cahier	cahier	noun	Duolingo
+cahier d'activités	cahier d'activites		Duolingo
+cahiers	cahiers	noun	Duolingo
+caisse	caisse	noun	Duolingo
+caisses	caisses	noun	Duolingo
+calcul	calcul	noun	Duolingo
+calculs	calculs	noun	Duolingo
+calédonie	caledonie	proper noun	Duolingo
+calendrier	calendrier	noun	Duolingo
+calme	calme	adjective	Duolingo
+calme	calme	noun	Duolingo
+calmement	calmement	adverb	Duolingo
+calmes	calmes	adjective	Duolingo
+caméra	camera	noun	Duolingo
+caméras	cameras	noun	Duolingo
+cameroun	cameroun	proper noun	Duolingo
+campagne	campagne	noun	Duolingo
+camping	camping	noun	Duolingo
+canada	canada	proper noun	Duolingo
+canadien	canadien	adjective	Duolingo
+canadienne	canadienne	adjective	Duolingo
+canadiennes	canadiennes	adjective	Duolingo
+canadiens	canadiens	adjective	Duolingo
+canapé	canape	noun	Duolingo
+canapés	canapes	noun	Duolingo
+canard	canard	noun	Duolingo
+canards	canards	noun	Duolingo
+candidat	candidat	noun	Duolingo
+candidate	candidate	noun	Duolingo
+candidates	candidates	noun	Duolingo
+candidats	candidats	noun	Duolingo
+capable	capable	adjective	Duolingo
+capital	capital	noun	Duolingo
+capitales	capitales	noun	Duolingo
+car	car	conjunction	Duolingo
+caractère	caractere	noun	Duolingo
+caractères	caracteres	noun	Duolingo
+carotte	carotte	noun	Duolingo
+carottes	carottes	noun	Duolingo
+carré	carre	adjective	Duolingo
+carrément	carrement	adverb	Duolingo
+carrés	carres	adjective	Duolingo
+carrière	carriere	noun	Duolingo
+carrières	carrieres	noun	Duolingo
+carte	carte		Duolingo
+carte	carte	noun	Duolingo
+carte bancaire	carte bancaire		Duolingo
+carte d'identité	carte d'identite		Duolingo
+carte de crédit	carte de credit		Duolingo
+carte postale	carte postale		Duolingo
+cartes	cartes	noun	Duolingo
+cas	cas	noun	Duolingo
+casque	casque	noun	Duolingo
+casquette	casquette	noun	Duolingo
+casquettes	casquettes	noun	Duolingo
+cassé	casse		Duolingo
+cassé	casse	verb	Duolingo
+cassée	cassee	adjective	Duolingo
+cassées	cassees	adjective	Duolingo
+casser	casser	verb	Duolingo
+cassés	casses	adjective	Duolingo
+casses	casses	verb	Duolingo
+catégories	categories	noun	Duolingo
+cathédrale	cathedrale	noun	Duolingo
+cathédrales	cathedrales	noun	Duolingo
+cauchemar	cauchemar	noun	Duolingo
+cauchemars	cauchemars	noun	Duolingo
+cave	cave	noun	Duolingo
+cdd	cdd	noun	Duolingo
+cdi	cdi	noun	Duolingo
+ce	ce		Duolingo
+ce	ce	determiner	Duolingo
+ce	ce	pronoun	Duolingo
+ce dont	ce dont		Duolingo
+ce jour-là	ce jour-la		Duolingo
+ce matin-là	ce matin-la		Duolingo
+ce qu'	ce qu'		Duolingo
+ce qu'	ce qu'	pronoun	Duolingo
+ce que	ce que		Duolingo
+ce que	ce que	pronoun	Duolingo
+ce qui	ce qui		Duolingo
+ce sera tout	ce sera tout		Duolingo
+ce soir	ce soir		Duolingo
+ce sont	ce sont		Duolingo
+ce sont des	ce sont des		Duolingo
+ce sont les	ce sont les		Duolingo
+ce sont mes	ce sont mes		Duolingo
+ceci	ceci	pronoun	Duolingo
+ceinture	ceinture	noun	Duolingo
+ceintures	ceintures	noun	Duolingo
+cela	cela	pronoun	Duolingo
+cela vous dérangerait-il	cela vous derangerait-il		Duolingo
+célèbre	celebre	adjective	Duolingo
+célibataire	celibataire	adjective	Duolingo
+célibataire	celibataire	noun	Duolingo
+celle	celle	pronoun	Duolingo
+celle dont	celle dont		Duolingo
+celle-ci	celle-ci		Duolingo
+celle-là	celle-la		Duolingo
+celles	celles	pronoun	Duolingo
+celles dont	celles dont		Duolingo
+celles-ci	celles-ci		Duolingo
+celles-là	celles-la		Duolingo
+celui	celui	pronoun	Duolingo
+celui dont	celui dont		Duolingo
+celui-ci	celui-ci		Duolingo
+celui-là	celui-la		Duolingo
+cent	cent	numeral	Duolingo
+cent mille	cent mille		Duolingo
+centaine	centaine	noun	Duolingo
+centaines	centaines	noun	Duolingo
+centime	centime	noun	Duolingo
+centimes	centimes	noun	Duolingo
+centimètre	centimetre	noun	Duolingo
+centimètres	centimetres	noun	Duolingo
+centre	centre	noun	Duolingo
+centre-ville	centre-ville		Duolingo
+cents	cents	noun	Duolingo
+cents	cents	numeral	Duolingo
+cependant	cependant	conjunction	Duolingo
+cercle	cercle	noun	Duolingo
+céréales	cereales	noun	Duolingo
+cerf-volant	cerf-volant		Duolingo
+certain	certain	adjective	Duolingo
+certaine	certaine	adjective	Duolingo
+certainement	certainement	adverb	Duolingo
+certains	certains	adjective	Duolingo
+certains	certains	determiner	Duolingo
+cerveau	cerveau	noun	Duolingo
+ces	ces	determiner	Duolingo
+cet	cet	determiner	Duolingo
+cette	cette		Duolingo
+cette	cette	determiner	Duolingo
+cette année-là	cette annee-la		Duolingo
+ceux	ceux	pronoun	Duolingo
+ceux dont	ceux dont		Duolingo
+ceux-ci	ceux-ci		Duolingo
+ceux-là	ceux-la		Duolingo
+chacun	chacun	pronoun	Duolingo
+chagrin	chagrin	noun	Duolingo
+chaise	chaise	noun	Duolingo
+chaises	chaises	noun	Duolingo
+chaleur	chaleur	noun	Duolingo
+chambre	chambre	noun	Duolingo
+chambres	chambres	noun	Duolingo
+champagne	champagne	noun	Duolingo
+champignon	champignon	noun	Duolingo
+champignons	champignons	noun	Duolingo
+champion	champion	noun	Duolingo
+championne	championne	noun	Duolingo
+championnes	championnes	noun	Duolingo
+champs	champs	noun	Duolingo
+champs-élysées	champs-elysees		Duolingo
+chance	chance	noun	Duolingo
+change	change	verb	Duolingo
+changement	changement	noun	Duolingo
+changements	changements	noun	Duolingo
+changer	changer	verb	Duolingo
+chanson	chanson	noun	Duolingo
+chansons	chansons	noun	Duolingo
+chanté	chante	verb	Duolingo
+chantent	chantent	verb	Duolingo
+chanter	chanter	verb	Duolingo
+chantes	chantes	verb	Duolingo
+chanteur	chanteur	noun	Duolingo
+chanteuse	chanteuse	noun	Duolingo
+chantez	chantez	verb	Duolingo
+chapeau	chapeau	noun	Duolingo
+chapeaux	chapeaux	noun	Duolingo
+chapitre	chapitre	noun	Duolingo
+chaque	chaque	determiner	Duolingo
+charge	charge	verb	Duolingo
+chargeons	chargeons	verb	Duolingo
+chargeur	chargeur	noun	Duolingo
+chargeurs	chargeurs	noun	Duolingo
+charlemagne	charlemagne	proper noun	Duolingo
+chat	chat	noun	Duolingo
+château	chateau	noun	Duolingo
+châteaux	chateaux	noun	Duolingo
+chats	chats	noun	Duolingo
+chatte	chatte	noun	Duolingo
+chaud	chaud		Duolingo
+chaud	chaud	adjective	Duolingo
+chaud	chaud	adverb	Duolingo
+chaude	chaude	adjective	Duolingo
+chaudes	chaudes	adjective	Duolingo
+chauffage	chauffage	noun	Duolingo
+chauffeur	chauffeur	noun	Duolingo
+chaussette	chaussette	noun	Duolingo
+chaussettes	chaussettes	noun	Duolingo
+chaussure	chaussure	noun	Duolingo
+chaussures	chaussures	noun	Duolingo
+chef	chef		Duolingo
+chef	chef	noun	Duolingo
+chemise	chemise	noun	Duolingo
+chemises	chemises	noun	Duolingo
+cher	cher	adjective	Duolingo
+cherchaient	cherchaient	verb	Duolingo
+cherchais	cherchais	verb	Duolingo
+cherchait	cherchait	verb	Duolingo
+cherchant	cherchant	verb	Duolingo
+cherche	cherche	verb	Duolingo
+cherchent	cherchent	verb	Duolingo
+chercher	chercher		Duolingo
+chercher	chercher	verb	Duolingo
+cherches	cherches	verb	Duolingo
+cherchez	cherchez	verb	Duolingo
+cherchions	cherchions	verb	Duolingo
+cherchons	cherchons	verb	Duolingo
+chère	chere	adjective	Duolingo
+chères	cheres	adjective	Duolingo
+chers	chers	adjective	Duolingo
+cheval	cheval		Duolingo
+cheval	cheval	noun	Duolingo
+chevaux	chevaux	noun	Duolingo
+cheveu	cheveu	noun	Duolingo
+cheveux	cheveux	noun	Duolingo
+cheville	cheville	noun	Duolingo
+chevilles	chevilles	noun	Duolingo
+chez	chez		Duolingo
+chez	chez	preposition	Duolingo
+chien	chien	noun	Duolingo
+chienne	chienne	noun	Duolingo
+chiennes	chiennes	noun	Duolingo
+chiens	chiens	noun	Duolingo
+chimie	chimie	noun	Duolingo
+chine	chine	proper noun	Duolingo
+chinois	chinois	adjective	Duolingo
+chinois	chinois	noun	Duolingo
+chinoise	chinoise	adjective	Duolingo
+chinoise	chinoise	noun	Duolingo
+choc	choc	noun	Duolingo
+chocolat	chocolat	noun	Duolingo
+chocolats	chocolats	noun	Duolingo
+choisi	choisi	verb	Duolingo
+choisir	choisir	verb	Duolingo
+choisis	choisis	verb	Duolingo
+choisissent	choisissent	verb	Duolingo
+choisissez	choisissez	verb	Duolingo
+choisissons	choisissons	verb	Duolingo
+choisit	choisit	verb	Duolingo
+choix	choix	noun	Duolingo
+chômage	chomage	noun	Duolingo
+chose	chose	noun	Duolingo
+choses	choses	noun	Duolingo
+chouette	chouette	noun	Duolingo
+chouettes	chouettes	noun	Duolingo
+chut	chut		Duolingo
+chut	chut	interjection	Duolingo
+ci	ci		Duolingo
+ci	ci	adverb	Duolingo
+ciel	ciel	noun	Duolingo
+cigarette	cigarette	noun	Duolingo
+cigarettes	cigarettes	noun	Duolingo
+cinéma	cinema	noun	Duolingo
+cinq	cinq	numeral	Duolingo
+cinquante	cinquante	numeral	Duolingo
+cinquante-et-un	cinquante-et-un		Duolingo
+cinquième	cinquieme	adjective	Duolingo
+cinquième	cinquieme	noun	Duolingo
+circulation	circulation	noun	Duolingo
+ciseaux	ciseaux	noun	Duolingo
+citer	citer	verb	Duolingo
+citoyen	citoyen	noun	Duolingo
+citoyenne	citoyenne	noun	Duolingo
+citoyens	citoyens	noun	Duolingo
+citron	citron	noun	Duolingo
+citrons	citrons	noun	Duolingo
+clair	clair	adjective	Duolingo
+claire	claire	adjective	Duolingo
+clairement	clairement	adverb	Duolingo
+clairs	clairs	adjective	Duolingo
+classe	classe	noun	Duolingo
+classique	classique	adjective	Duolingo
+clavier	clavier	noun	Duolingo
+claviers	claviers	noun	Duolingo
+clé	cle	noun	Duolingo
+clés	cles	noun	Duolingo
+client	client	noun	Duolingo
+clientes	clientes	noun	Duolingo
+clients	clients	noun	Duolingo
+climat	climat	noun	Duolingo
+clinique	clinique	noun	Duolingo
+cliqué	clique	verb	Duolingo
+cliquer	cliquer	verb	Duolingo
+clown	clown	noun	Duolingo
+clowns	clowns	noun	Duolingo
+club	club	noun	Duolingo
+cochon	cochon	noun	Duolingo
+cochons	cochons	noun	Duolingo
+code	code	noun	Duolingo
+cœur	coeur	noun	Duolingo
+coiffe	coiffe	verb	Duolingo
+coiffée	coiffee	verb	Duolingo
+coiffées	coiffees	verb	Duolingo
+coiffer	coiffer	verb	Duolingo
+coiffeur	coiffeur	noun	Duolingo
+coiffeurs	coiffeurs	noun	Duolingo
+coiffeuse	coiffeuse	noun	Duolingo
+coiffez	coiffez	verb	Duolingo
+coin	coin	noun	Duolingo
+coins	coins	noun	Duolingo
+colère	colere	noun	Duolingo
+collants	collants	noun	Duolingo
+collègue	collegue	noun	Duolingo
+collègues	collegues	noun	Duolingo
+collier	collier	noun	Duolingo
+colliers	colliers	noun	Duolingo
+collines	collines	noun	Duolingo
+colonne	colonne	noun	Duolingo
+combat	combat	verb	Duolingo
+combattent	combattent	verb	Duolingo
+combien	combien	adverb	Duolingo
+combien	combien	pronoun	Duolingo
+combien de	combien de		Duolingo
+combien de temps	combien de temps		Duolingo
+commande	commande	noun	Duolingo
+commande	commande	verb	Duolingo
+commandent	commandent	verb	Duolingo
+commander	commander	verb	Duolingo
+comme	comme	adverb	Duolingo
+comme	comme	conjunction	Duolingo
+comme ça	comme ca		Duolingo
+comme d'habitude	comme d'habitude		Duolingo
+commencé	commence	verb	Duolingo
+commencé à	commence a		Duolingo
+commencent	commencent	verb	Duolingo
+commencer	commencer	verb	Duolingo
+commencer à	commencer a		Duolingo
+commencez	commencez	verb	Duolingo
+commençons	commencons	verb	Duolingo
+comment	comment		Duolingo
+comment	comment	adverb	Duolingo
+comment ça va	comment ca va		Duolingo
+comment est-ce que	comment est-ce que		Duolingo
+comment est-ce que je fais pour	comment est-ce que je fais pour		Duolingo
+comment tu t'appelles	comment tu t'appelles		Duolingo
+commentaire	commentaire	noun	Duolingo
+commentaires	commentaires	noun	Duolingo
+commode	commode	noun	Duolingo
+communication	communication	noun	Duolingo
+compagnie	compagnie	noun	Duolingo
+compétition	competition	noun	Duolingo
+complet	complet	adjective	Duolingo
+complètement	completement	adverb	Duolingo
+complètent	completent	verb	Duolingo
+compléter	completer	verb	Duolingo
+comprenant	comprenant	verb	Duolingo
+comprend	comprend		Duolingo
+comprend	comprend	verb	Duolingo
+comprendre	comprendre		Duolingo
+comprendre	comprendre	verb	Duolingo
+comprendront	comprendront	verb	Duolingo
+comprends	comprends		Duolingo
+comprends	comprends	verb	Duolingo
+comprenez	comprenez		Duolingo
+comprenez	comprenez	verb	Duolingo
+comprennent	comprennent		Duolingo
+comprennent	comprennent	verb	Duolingo
+comprenons	comprenons		Duolingo
+comprenons	comprenons	verb	Duolingo
+compris	compris	adjective	Duolingo
+compris	compris	verb	Duolingo
+comprises	comprises	adjective	Duolingo
+compte	compte	noun	Duolingo
+compte de	compte de		Duolingo
+compter	compter	verb	Duolingo
+comptes	comptes	noun	Duolingo
+concept	concept	noun	Duolingo
+concepts	concepts	noun	Duolingo
+concernant	concernant	preposition	Duolingo
+concerne	concerne	verb	Duolingo
+concert	concert	noun	Duolingo
+conclure	conclure	verb	Duolingo
+conclusion	conclusion	noun	Duolingo
+concours	concours	noun	Duolingo
+concurrence	concurrence	noun	Duolingo
+condition	condition	noun	Duolingo
+conditions	conditions	noun	Duolingo
+conduire	conduire	verb	Duolingo
+conduirez	conduirez	verb	Duolingo
+conduirons	conduirons	verb	Duolingo
+conduis	conduis	verb	Duolingo
+conduisaient	conduisaient	verb	Duolingo
+conduisais	conduisais	verb	Duolingo
+conduisent	conduisent	verb	Duolingo
+conduisez	conduisez	verb	Duolingo
+conduisons	conduisons	verb	Duolingo
+conduit	conduit	verb	Duolingo
+conférence	conference	noun	Duolingo
+confiance	confiance	noun	Duolingo
+confiture	confiture	noun	Duolingo
+conflit	conflit	noun	Duolingo
+conflits	conflits	noun	Duolingo
+confortable	confortable	adjective	Duolingo
+confortables	confortables	adjective	Duolingo
+congo	congo	proper noun	Duolingo
+congrès	congres	noun	Duolingo
+connais	connais	verb	Duolingo
+connaissais	connaissais	verb	Duolingo
+connaissance	connaissance	noun	Duolingo
+connaissances	connaissances	noun	Duolingo
+connaissent	connaissent	verb	Duolingo
+connaissez	connaissez	verb	Duolingo
+connaissions	connaissions	verb	Duolingo
+connaissons	connaissons	verb	Duolingo
+connaît	connait	verb	Duolingo
+connaître	connaitre	verb	Duolingo
+conseil	conseil	noun	Duolingo
+conseille	conseille	verb	Duolingo
+conseiller	conseiller	verb	Duolingo
+conseils	conseils	noun	Duolingo
+considérablement	considerablement	adverb	Duolingo
+consiste	consiste	verb	Duolingo
+consommateur	consommateur	noun	Duolingo
+consommateurs	consommateurs	noun	Duolingo
+consommation	consommation	noun	Duolingo
+consommer	consommer	verb	Duolingo
+constamment	constamment	adverb	Duolingo
+constater	constater	verb	Duolingo
+construction	construction	noun	Duolingo
+construire	construire	verb	Duolingo
+consulter	consulter	verb	Duolingo
+contact	contact	noun	Duolingo
+contacter	contacter	verb	Duolingo
+contenir	contenir	verb	Duolingo
+content	content		Duolingo
+content	content	adjective	Duolingo
+contente	contente		Duolingo
+contente	contente	adjective	Duolingo
+contentes	contentes	adjective	Duolingo
+contents	contents	adjective	Duolingo
+contient	contient	verb	Duolingo
+continent	continent	noun	Duolingo
+continents	continents	noun	Duolingo
+continué	continue	verb	Duolingo
+continuer	continuer	verb	Duolingo
+continuez	continuez	verb	Duolingo
+contrat	contrat	noun	Duolingo
+contrats	contrats	noun	Duolingo
+contre	contre	adverb	Duolingo
+contre	contre	preposition	Duolingo
+contrôle	controle	noun	Duolingo
+contrôler	controler	verb	Duolingo
+convaincre	convaincre	verb	Duolingo
+conversation	conversation	noun	Duolingo
+conversations	conversations	noun	Duolingo
+copain	copain		Duolingo
+copain	copain	noun	Duolingo
+copains	copains	noun	Duolingo
+copie	copie	verb	Duolingo
+copié sur	copie sur		Duolingo
+copine	copine		Duolingo
+copine	copine	noun	Duolingo
+copines	copines	noun	Duolingo
+coq	coq	noun	Duolingo
+corps	corps	noun	Duolingo
+correctement	correctement	adverb	Duolingo
+correctes	correctes	adjective	Duolingo
+corse	corse	proper noun	Duolingo
+costume	costume	noun	Duolingo
+costumes	costumes	noun	Duolingo
+côté	cote	noun	Duolingo
+côte à côte	cote a cote		Duolingo
+côte à côte	cote a cote	conjunction	Duolingo
+côte d'ivoire	cote d'ivoire		Duolingo
+côtés	cotes	noun	Duolingo
+coton	coton	noun	Duolingo
+cou	cou	noun	Duolingo
+couché	couche	verb	Duolingo
+couchée	couchee	verb	Duolingo
+couchent	couchent	verb	Duolingo
+coucher	coucher	verb	Duolingo
+couches	couches	verb	Duolingo
+coucou	coucou	interjection	Duolingo
+coudre	coudre	verb	Duolingo
+couleur	couleur	noun	Duolingo
+couloir	couloir	noun	Duolingo
+couloirs	couloirs	noun	Duolingo
+coup	coup	noun	Duolingo
+coup d'œil	coup d'oeil		Duolingo
+coup de pied	coup de pied		Duolingo
+coup de soleil	coup de soleil		Duolingo
+coupé	coupe	verb	Duolingo
+coupée	coupee	verb	Duolingo
+couper	couper	verb	Duolingo
+couple	couple	noun	Duolingo
+courage	courage	noun	Duolingo
+couramment	couramment	adverb	Duolingo
+courant	courant	noun	Duolingo
+courent	courent	verb	Duolingo
+courez	courez	verb	Duolingo
+courir	courir	verb	Duolingo
+courons	courons	verb	Duolingo
+cours	cours	noun	Duolingo
+cours	cours	verb	Duolingo
+course	course	noun	Duolingo
+course à pied	course a pied		Duolingo
+courses	courses	noun	Duolingo
+court	court	adjective	Duolingo
+court	court	verb	Duolingo
+courte	courte	adjective	Duolingo
+courtes	courtes	adjective	Duolingo
+courts	courts	adjective	Duolingo
+couru	couru	verb	Duolingo
+cousin	cousin	noun	Duolingo
+cousine	cousine	noun	Duolingo
+cousins	cousins	noun	Duolingo
+coussin	coussin	noun	Duolingo
+coussins	coussins	noun	Duolingo
+coûte	coute	verb	Duolingo
+couteau	couteau	noun	Duolingo
+couteaux	couteaux	noun	Duolingo
+coûtent	coutent	verb	Duolingo
+coûter	couter	verb	Duolingo
+couverts	couverts	noun	Duolingo
+couverture	couverture	noun	Duolingo
+couvertures	couvertures	noun	Duolingo
+couvrent	couvrent	verb	Duolingo
+couvres	couvres	verb	Duolingo
+couvrez	couvrez	verb	Duolingo
+couvrir	couvrir		Duolingo
+couvrons	couvrons	verb	Duolingo
+cravates	cravates	noun	Duolingo
+crayon	crayon	noun	Duolingo
+création	creation	noun	Duolingo
+crédits	credits	noun	Duolingo
+crée	cree	verb	Duolingo
+créer	creer	verb	Duolingo
+crées	crees	verb	Duolingo
+créez	creez	verb	Duolingo
+crème	creme	noun	Duolingo
+crème fraîche	creme fraiche		Duolingo
+crème solaire	creme solaire		Duolingo
+créons	creons	verb	Duolingo
+crêpe	crepe	noun	Duolingo
+crêpes	crepes	noun	Duolingo
+crevettes	crevettes	noun	Duolingo
+crié	crie	verb	Duolingo
+crier	crier	verb	Duolingo
+crime	crime	noun	Duolingo
+cris	cris	noun	Duolingo
+crise	crise	noun	Duolingo
+critique	critique	noun	Duolingo
+critiques	critiques	noun	Duolingo
+croient	croient	verb	Duolingo
+croire	croire	verb	Duolingo
+crois	crois	verb	Duolingo
+croissance	croissance	noun	Duolingo
+croissant	croissant	noun	Duolingo
+croissants	croissants	noun	Duolingo
+croit	croit	verb	Duolingo
+croix	croix	noun	Duolingo
+croyait	croyait	verb	Duolingo
+croyions	croyions	verb	Duolingo
+cru	cru	adjective	Duolingo
+crus	crus	adjective	Duolingo
+cuillère	cuillere	noun	Duolingo
+cuir	cuir	noun	Duolingo
+cuire	cuire	verb	Duolingo
+cuisine	cuisine	noun	Duolingo
+cuisiné	cuisine	verb	Duolingo
+cuisiner	cuisiner	verb	Duolingo
+cuisines	cuisines	verb	Duolingo
+cuisinez	cuisinez	verb	Duolingo
+cuisinier	cuisinier	noun	Duolingo
+cuisinière	cuisiniere	noun	Duolingo
+cuisinons	cuisinons	verb	Duolingo
+cuits	cuits	adjective	Duolingo
+cuivre	cuivre	noun	Duolingo
+culture	culture	noun	Duolingo
+culturel	culturel	adjective	Duolingo
+culturelles	culturelles	adjective	Duolingo
+curieux	curieux	adjective	Duolingo
+curry	curry	noun	Duolingo
+cv	cv	noun	Duolingo
+d'	d'		Duolingo
+d'	d'	preposition	Duolingo
+d'à côté	d'a cote		Duolingo
+d'abord	d'abord		Duolingo
+d'accord	d'accord		Duolingo
+d'accord	d'accord	adverb	Duolingo
+d'âge moyen	d'age moyen		Duolingo
+d'ailleurs	d'ailleurs		Duolingo
+d'amour	d'amour		Duolingo
+d'après	d'apres	preposition	Duolingo
+d'autres	d'autres		Duolingo
+d'avance	d'avance		Duolingo
+d'aventure	d'aventure		Duolingo
+d'habitude	d'habitude		Duolingo
+d'occasion	d'occasion		Duolingo
+d'origine	d'origine		Duolingo
+d'orsay	d'orsay		Duolingo
+d'outre-mer	d'outre-mer		Duolingo
+dame	dame	noun	Duolingo
+danger	danger	noun	Duolingo
+dangereusement	dangereusement	adverb	Duolingo
+dangereuses	dangereuses	adjective	Duolingo
+dangereux	dangereux	adjective	Duolingo
+dans	dans	preposition	Duolingo
+dans ce cas	dans ce cas		Duolingo
+dans deux jours	dans deux jours		Duolingo
+dans la vie	dans la vie		Duolingo
+dans le nord	dans le nord		Duolingo
+dans le sud	dans le sud		Duolingo
+dans un mois	dans un mois		Duolingo
+danse	danse	noun	Duolingo
+dansé	danse	verb	Duolingo
+danse classique	danse classique		Duolingo
+dansent	dansent	verb	Duolingo
+danser	danser	verb	Duolingo
+danseront	danseront	verb	Duolingo
+danses	danses	noun	Duolingo
+danses	danses	verb	Duolingo
+danseur	danseur	noun	Duolingo
+danseuse	danseuse	noun	Duolingo
+dansez	dansez	verb	Duolingo
+dansons	dansons	verb	Duolingo
+date	date	noun	Duolingo
+dates	dates	noun	Duolingo
+dauphin	dauphin	noun	Duolingo
+davantage	davantage	adverb	Duolingo
+de	de		Duolingo
+de	de	preposition	Duolingo
+de cette manière	de cette maniere		Duolingo
+de classe	de classe		Duolingo
+de derrière	de derriere		Duolingo
+de devant	de devant		Duolingo
+de l'	de l'		Duolingo
+de l'après-midi	de l'apres-midi		Duolingo
+de l'autre côté	de l'autre cote		Duolingo
+de l'est	de l'est		Duolingo
+de l'exercice	de l'exercice		Duolingo
+de la	de la		Duolingo
+de la brioche	de la brioche		Duolingo
+de la confiture	de la confiture		Duolingo
+de la famille	de la famille		Duolingo
+de la musique	de la musique		Duolingo
+de laquelle	de laquelle	pronoun	Duolingo
+de manière à	de maniere a		Duolingo
+de moins en moins	de moins en moins		Duolingo
+de nos jours	de nos jours		Duolingo
+de peur	de peur		Duolingo
+de pire en pire	de pire en pire		Duolingo
+de plein air	de plein air		Duolingo
+de plus	de plus		Duolingo
+de plus en plus	de plus en plus		Duolingo
+de rien	de rien		Duolingo
+de sport	de sport		Duolingo
+de toute façon	de toute facon		Duolingo
+de travail	de travail		Duolingo
+de valeur	de valeur		Duolingo
+débarrasser	debarrasser	verb	Duolingo
+débat	debat	noun	Duolingo
+debout	debout	adverb	Duolingo
+début	debut	noun	Duolingo
+débutant	debutant	adjective	Duolingo
+débutant	debutant	noun	Duolingo
+débutante	debutante	adjective	Duolingo
+débutante	debutante	noun	Duolingo
+décalage horaire	decalage horaire	noun	Duolingo
+décembre	decembre	noun	Duolingo
+décès	deces	noun	Duolingo
+décevoir	decevoir	verb	Duolingo
+décider	decider	verb	Duolingo
+décision	decision	noun	Duolingo
+décisions	decisions	noun	Duolingo
+déclarer	declarer	verb	Duolingo
+découverte	decouverte	noun	Duolingo
+découvre	decouvre	verb	Duolingo
+découvrir	decouvrir	verb	Duolingo
+découvrons	decouvrons	verb	Duolingo
+décrire	decrire	verb	Duolingo
+décris	decris	verb	Duolingo
+déçues	decues	adjective	Duolingo
+déçus	decus	adjective	Duolingo
+dedans	dedans	adverb	Duolingo
+défendre	defendre	verb	Duolingo
+défense	defense	noun	Duolingo
+définir	definir	verb	Duolingo
+définition	definition	noun	Duolingo
+définitivement	definitivement	adverb	Duolingo
+dégoûtant	degoutant	adjective	Duolingo
+dégoûtante	degoutante	adjective	Duolingo
+degré	degre	noun	Duolingo
+degrés	degres	noun	Duolingo
+dehors	dehors	adverb	Duolingo
+déjà	deja	adverb	Duolingo
+déjeuné	dejeune	verb	Duolingo
+déjeuner	dejeuner	noun	Duolingo
+déjeuner	dejeuner	verb	Duolingo
+déjeunez	dejeunez	verb	Duolingo
+délicieuse	delicieuse	adjective	Duolingo
+délicieux	delicieux	adjective	Duolingo
+demain	demain	adverb	Duolingo
+demandant	demandant	verb	Duolingo
+demande	demande	noun	Duolingo
+demandé	demande	verb	Duolingo
+demande-lui	demande-lui	verb	Duolingo
+demandent	demandent	verb	Duolingo
+demander	demander	verb	Duolingo
+demandes	demandes	verb	Duolingo
+demandez	demandez	verb	Duolingo
+demandons	demandons	verb	Duolingo
+démarrer	demarrer	verb	Duolingo
+demi	demi	adjective	Duolingo
+demi	demi	noun	Duolingo
+demi-heure	demi-heure	noun	Duolingo
+demie	demie	adjective	Duolingo
+demie	demie	noun	Duolingo
+démocratie	democratie	noun	Duolingo
+démontre	demontre	verb	Duolingo
+dent	dent	noun	Duolingo
+dentiste	dentiste	noun	Duolingo
+dentistes	dentistes	noun	Duolingo
+dents	dents	noun	Duolingo
+départ	depart	noun	Duolingo
+dépêche	depeche	verb	Duolingo
+dépêche-toi	depeche-toi		Duolingo
+dépêchent	depechent	verb	Duolingo
+dépêcher	depecher	verb	Duolingo
+dépêchés	depeches	verb	Duolingo
+dépêchez-vous	depechez-vous		Duolingo
+dépêchons-nous	depechons-nous		Duolingo
+dépend	depend	verb	Duolingo
+dépense	depense	verb	Duolingo
+dépenser	depenser	verb	Duolingo
+dépenses	depenses	verb	Duolingo
+dépensons	depensons	verb	Duolingo
+déplacer	deplacer	verb	Duolingo
+depuis	depuis		Duolingo
+depuis	depuis	adverb	Duolingo
+depuis	depuis	preposition	Duolingo
+depuis longtemps	depuis longtemps		Duolingo
+depuis qu'	depuis qu'		Duolingo
+depuis que	depuis que		Duolingo
+déranger	deranger	verb	Duolingo
+déranges	deranges	verb	Duolingo
+dernier	dernier	adjective	Duolingo
+dernière	derniere	adjective	Duolingo
+dernièrement	dernierement	adverb	Duolingo
+dernières	dernieres	adjective	Duolingo
+derrière	derriere	adverb	Duolingo
+derrière	derriere	preposition	Duolingo
+dès	des	adverb	Duolingo
+des	des	determiner	Duolingo
+des	des	preposition	Duolingo
+dès qu'	des qu'		Duolingo
+dès que	des que		Duolingo
+descend	descend	verb	Duolingo
+descendant	descendant	verb	Duolingo
+descendent	descendent	verb	Duolingo
+descendre	descendre	verb	Duolingo
+descends	descends	verb	Duolingo
+descendu	descendu	verb	Duolingo
+descendues	descendues	verb	Duolingo
+descendus	descendus	verb	Duolingo
+description	description	noun	Duolingo
+désert	desert	noun	Duolingo
+désir	desir	noun	Duolingo
+désirons	desirons	verb	Duolingo
+désolé	desole	adjective	Duolingo
+désolée	desolee	adjective	Duolingo
+désolées	desolees	adjective	Duolingo
+désolés	desoles	adjective	Duolingo
+désormais	desormais	adverb	Duolingo
+desquelles	desquelles	pronoun	Duolingo
+desquels	desquels		Duolingo
+dessert	dessert	noun	Duolingo
+dessin	dessin	noun	Duolingo
+dessin animé	dessin anime		Duolingo
+dessiné	dessine	verb	Duolingo
+dessiner	dessiner	verb	Duolingo
+dessines	dessines	verb	Duolingo
+dessinez	dessinez	verb	Duolingo
+dessins	dessins	noun	Duolingo
+dessous	dessous	adverb	Duolingo
+dessus	dessus	adverb	Duolingo
+destin	destin	noun	Duolingo
+destination	destination	noun	Duolingo
+détail	detail	noun	Duolingo
+détails	details	noun	Duolingo
+détesté	deteste	verb	Duolingo
+détestent	detestent	verb	Duolingo
+détestes	detestes	verb	Duolingo
+détestez	detestez	verb	Duolingo
+détestons	detestons	verb	Duolingo
+détruire	detruire	verb	Duolingo
+dette	dette	noun	Duolingo
+deux	deux	numeral	Duolingo
+deux fois	deux fois		Duolingo
+deux mille	deux mille		Duolingo
+deuxième	deuxieme	adjective	Duolingo
+devais	devais	verb	Duolingo
+devant	devant	adverb	Duolingo
+devant	devant	preposition	Duolingo
+développement	developpement	noun	Duolingo
+développer	developper	verb	Duolingo
+devenez	devenez	verb	Duolingo
+devenir	devenir	verb	Duolingo
+devenons	devenons	verb	Duolingo
+devenu	devenu	verb	Duolingo
+devenue	devenue	verb	Duolingo
+devenues	devenues	verb	Duolingo
+devenus	devenus	verb	Duolingo
+devez	devez	verb	Duolingo
+devez pas	devez pas		Duolingo
+deviennent	deviennent	verb	Duolingo
+deviens	deviens	verb	Duolingo
+devient	devient	verb	Duolingo
+devions	devions	verb	Duolingo
+devoir	devoir	noun	Duolingo
+devoir	devoir	verb	Duolingo
+devoirs	devoirs	noun	Duolingo
+devons	devons	verb	Duolingo
+devra	devra	verb	Duolingo
+devrai	devrai	verb	Duolingo
+devrais	devrais	verb	Duolingo
+devrait	devrait	verb	Duolingo
+devras	devras	verb	Duolingo
+devrez	devrez	verb	Duolingo
+devriez	devriez	verb	Duolingo
+devrons	devrons	verb	Duolingo
+devront	devront	verb	Duolingo
+dictionnaire	dictionnaire	noun	Duolingo
+dictionnaires	dictionnaires	noun	Duolingo
+dieu	dieu	noun	Duolingo
+dieux	dieux	noun	Duolingo
+différemment	differemment	adverb	Duolingo
+différence	difference	noun	Duolingo
+différences	differences	noun	Duolingo
+différent	different	adjective	Duolingo
+différente	differente	adjective	Duolingo
+différentes	differentes	adjective	Duolingo
+différents	differents	adjective	Duolingo
+difficile	difficile	adjective	Duolingo
+difficiles	difficiles	adjective	Duolingo
+difficulté	difficulte	noun	Duolingo
+difficultés	difficultes	noun	Duolingo
+dimanche	dimanche		Duolingo
+dimanche	dimanche	noun	Duolingo
+dimanches	dimanches	noun	Duolingo
+diminuer	diminuer	verb	Duolingo
+diminution	diminution	noun	Duolingo
+dîné	dine	verb	Duolingo
+dîner	diner		Duolingo
+dîner	diner	noun	Duolingo
+dîner	diner	verb	Duolingo
+dînerez	dinerez	verb	Duolingo
+dînerons	dinerons	verb	Duolingo
+dînes	dines	verb	Duolingo
+dînez	dinez	verb	Duolingo
+dînons	dinons	verb	Duolingo
+dinosaure	dinosaure	noun	Duolingo
+diplômé	diplome	adjective	Duolingo
+diplômée	diplomee	adjective	Duolingo
+dirais	dirais	verb	Duolingo
+dirait	dirait		Duolingo
+dirait	dirait	verb	Duolingo
+diras	diras	verb	Duolingo
+dire	dire	verb	Duolingo
+direct	direct	adjective	Duolingo
+directement	directement	adverb	Duolingo
+directeur	directeur	noun	Duolingo
+direction	direction	noun	Duolingo
+directions	directions	noun	Duolingo
+directrice	directrice	noun	Duolingo
+dirige	dirige	verb	Duolingo
+dirigent	dirigent	verb	Duolingo
+dirigeons	dirigeons	verb	Duolingo
+diriger	diriger	verb	Duolingo
+dis	dis	verb	Duolingo
+dis-lui	dis-lui		Duolingo
+dis-moi	dis-moi	verb	Duolingo
+disais	disais	verb	Duolingo
+disait	disait	verb	Duolingo
+disant	disant	verb	Duolingo
+discothèque	discotheque	noun	Duolingo
+discothèques	discotheques	noun	Duolingo
+discours	discours	noun	Duolingo
+discussion	discussion	noun	Duolingo
+discuter	discuter	verb	Duolingo
+dise	dise	verb	Duolingo
+disent	disent	verb	Duolingo
+disions	disions	verb	Duolingo
+disons	disons	verb	Duolingo
+disparaître	disparaitre	verb	Duolingo
+disparition	disparition	noun	Duolingo
+disponibles	disponibles	adjective	Duolingo
+disque	disque	noun	Duolingo
+distance	distance	noun	Duolingo
+distributeur	distributeur	noun	Duolingo
+distributeurs	distributeurs	noun	Duolingo
+dit	dit	verb	Duolingo
+dites	dites	verb	Duolingo
+division	division	noun	Duolingo
+dix	dix		Duolingo
+dix	dix	numeral	Duolingo
+dix-huit	dix-huit	numeral	Duolingo
+dix-neuf	dix-neuf		Duolingo
+dix-sept	dix-sept		Duolingo
+dixième	dixieme	adjective	Duolingo
+dizaine	dizaine	noun	Duolingo
+dj	dj	noun	Duolingo
+docteur	docteur	noun	Duolingo
+docteurs	docteurs	noun	Duolingo
+document	document	noun	Duolingo
+documents	documents	noun	Duolingo
+doigt	doigt	noun	Duolingo
+doigts	doigts	noun	Duolingo
+dois	dois	verb	Duolingo
+dois pas	dois pas		Duolingo
+doit	doit	verb	Duolingo
+doivent	doivent	verb	Duolingo
+dollar	dollar	noun	Duolingo
+dollars	dollars	noun	Duolingo
+dommage	dommage	adverb	Duolingo
+dommage	dommage	noun	Duolingo
+dommages	dommages	noun	Duolingo
+donc	donc	conjunction	Duolingo
+donnant	donnant	verb	Duolingo
+donne	donne		Duolingo
+donne	donne	verb	Duolingo
+donnent	donnent	verb	Duolingo
+donner	donner		Duolingo
+donner	donner	verb	Duolingo
+donnes	donnes		Duolingo
+donnez	donnez	verb	Duolingo
+donnons	donnons	verb	Duolingo
+dont	dont		Duolingo
+dormais	dormais	verb	Duolingo
+dormait	dormait	verb	Duolingo
+dormant	dormant	verb	Duolingo
+dorment	dorment		Duolingo
+dorment	dorment	verb	Duolingo
+dormez	dormez		Duolingo
+dormez	dormez	verb	Duolingo
+dormions	dormions	verb	Duolingo
+dormir	dormir		Duolingo
+dormir	dormir	verb	Duolingo
+dormira	dormira	verb	Duolingo
+dormirai	dormirai	verb	Duolingo
+dormirez	dormirez	verb	Duolingo
+dormirons	dormirons	verb	Duolingo
+dormons	dormons		Duolingo
+dormons	dormons	verb	Duolingo
+dors	dors		Duolingo
+dors	dors	verb	Duolingo
+dort	dort		Duolingo
+dort	dort	verb	Duolingo
+dos	dos	noun	Duolingo
+dossier	dossier	noun	Duolingo
+dossiers	dossiers	noun	Duolingo
+douane	douane	noun	Duolingo
+double	double	adjective	Duolingo
+double	double	noun	Duolingo
+doubles	doubles	adjective	Duolingo
+douce	douce	adjective	Duolingo
+doucement	doucement	adverb	Duolingo
+douceur	douceur	noun	Duolingo
+douche	douche	noun	Duolingo
+douches	douches	noun	Duolingo
+douleur	douleur	noun	Duolingo
+doute	doute	verb	Duolingo
+doux	doux	adjective	Duolingo
+douze	douze	numeral	Duolingo
+drap	drap	noun	Duolingo
+drapeau	drapeau	noun	Duolingo
+draps	draps	noun	Duolingo
+droit	droit	adverb	Duolingo
+droit	droit	noun	Duolingo
+droite	droite	noun	Duolingo
+droits	droits	noun	Duolingo
+drôle	drole	adjective	Duolingo
+drôles	droles	adjective	Duolingo
+du	du		Duolingo
+du	du	preposition	Duolingo
+dû	du	verb	Duolingo
+du café	du cafe		Duolingo
+du café au lait	du cafe au lait		Duolingo
+du lait	du lait		Duolingo
+du mal à	du mal a		Duolingo
+du mal à comprendre	du mal a comprendre		Duolingo
+du matin	du matin		Duolingo
+du miel	du miel		Duolingo
+du monde	du monde		Duolingo
+du pain	du pain		Duolingo
+du soir	du soir		Duolingo
+du sucre	du sucre		Duolingo
+du thé	du the		Duolingo
+du tout	du tout		Duolingo
+du vélo	du velo		Duolingo
+dubois	dubois	proper noun	Duolingo
+duo	duo	noun	Duolingo
+duquel	duquel		Duolingo
+dur	dur	adjective	Duolingo
+durant	durant	preposition	Duolingo
+dure	dure	adjective	Duolingo
+dure	dure	verb	Duolingo
+durée	duree	noun	Duolingo
+durs	durs	adjective	Duolingo
+e-mail	e-mail		Duolingo
+e-mails	e-mails		Duolingo
+eau	eau	noun	Duolingo
+eaux	eaux	noun	Duolingo
+échange	echange	verb	Duolingo
+échapper	echapper	verb	Duolingo
+écharpe	echarpe	noun	Duolingo
+écharpes	echarpes	noun	Duolingo
+échecs	echecs	noun	Duolingo
+échelle	echelle	noun	Duolingo
+école	ecole	noun	Duolingo
+écoles	ecoles	noun	Duolingo
+économie	economie	noun	Duolingo
+économique	economique	adjective	Duolingo
+économiques	economiques	adjective	Duolingo
+économisé	economise	verb	Duolingo
+économiser	economiser	verb	Duolingo
+économisez	economisez	verb	Duolingo
+économisons	economisons	verb	Duolingo
+écosse	ecosse	proper noun	Duolingo
+écoute	ecoute		Duolingo
+écouté	ecoute	verb	Duolingo
+écoutent	ecoutent	verb	Duolingo
+écouter	ecouter	verb	Duolingo
+écoutes	ecoutes	verb	Duolingo
+écoutez	ecoutez	verb	Duolingo
+écoutons	ecoutons	verb	Duolingo
+écran	ecran	noun	Duolingo
+écrire	ecrire		Duolingo
+écrire	ecrire	verb	Duolingo
+écris	ecris		Duolingo
+écris	ecris	verb	Duolingo
+écrit	ecrit	verb	Duolingo
+écrivain	ecrivain	noun	Duolingo
+écrivait	ecrivait	verb	Duolingo
+écrivent	ecrivent	verb	Duolingo
+écrivez	ecrivez		Duolingo
+écrivez	ecrivez	verb	Duolingo
+écrivions	ecrivions	verb	Duolingo
+écrivons	ecrivons		Duolingo
+écrivons	ecrivons	verb	Duolingo
+éducation	education	noun	Duolingo
+effectivement	effectivement	adverb	Duolingo
+effet	effet	noun	Duolingo
+effets	effets	noun	Duolingo
+efficace	efficace	adjective	Duolingo
+effort	effort	noun	Duolingo
+efforts	efforts	noun	Duolingo
+égal	egal	adjective	Duolingo
+égale	egale	verb	Duolingo
+également	egalement	adverb	Duolingo
+égaux	egaux	adjective	Duolingo
+église	eglise	noun	Duolingo
+églises	eglises	noun	Duolingo
+égypte	egypte	proper noun	Duolingo
+élection	election	noun	Duolingo
+électricité	electricite		Duolingo
+électricité	electricite	noun	Duolingo
+électrique	electrique	adjective	Duolingo
+électriques	electriques	adjective	Duolingo
+élément	element	noun	Duolingo
+éléphant	elephant	noun	Duolingo
+éléphants	elephants	noun	Duolingo
+élève	eleve	noun	Duolingo
+élèves	eleves	noun	Duolingo
+elle	elle		Duolingo
+elle	elle	pronoun	Duolingo
+elles	elles		Duolingo
+elles	elles	pronoun	Duolingo
+elles sont	elles sont		Duolingo
+élysée	elysee	proper noun	Duolingo
+embauche	embauche	verb	Duolingo
+embouteillage	embouteillage	noun	Duolingo
+embouteillages	embouteillages	noun	Duolingo
+embrasser	embrasser	verb	Duolingo
+émission	emission	noun	Duolingo
+emmener	emmener	verb	Duolingo
+émotion	emotion	noun	Duolingo
+émotions	emotions	noun	Duolingo
+empêcher	empecher	verb	Duolingo
+emploi	emploi	noun	Duolingo
+emploie	emploie	verb	Duolingo
+employé	employe	noun	Duolingo
+employée	employee	noun	Duolingo
+employés	employes	noun	Duolingo
+emporter	emporter	verb	Duolingo
+emprunté	emprunte	verb	Duolingo
+emprunter	emprunter	verb	Duolingo
+en	en		Duolingo
+en	en	preposition	Duolingo
+en	en	pronoun	Duolingo
+en a	en a		Duolingo
+en achète	en achete		Duolingo
+en ai	en ai		Duolingo
+en arrière	en arriere		Duolingo
+en as	en as		Duolingo
+en attente	en attente		Duolingo
+en avance	en avance		Duolingo
+en bas	en bas		Duolingo
+en bas de	en bas de		Duolingo
+en boîte	en boite		Duolingo
+en boîte	en boite	adjective	Duolingo
+en ce moment	en ce moment		Duolingo
+en changer	en changer		Duolingo
+en colère	en colere		Duolingo
+en commun	en commun		Duolingo
+en congé	en conge	noun	Duolingo
+en cours	en cours		Duolingo
+en danger	en danger		Duolingo
+en dehors de	en dehors de		Duolingo
+en dernier	en dernier		Duolingo
+en désordre	en desordre		Duolingo
+en dessert	en dessert		Duolingo
+en dessous	en dessous	adverb	Duolingo
+en direct	en direct		Duolingo
+en effet	en effet		Duolingo
+en entrée	en entree		Duolingo
+en espèces	en especes		Duolingo
+en est	en est		Duolingo
+en face	en face		Duolingo
+en faisant	en faisant		Duolingo
+en fait	en fait		Duolingo
+en famille	en famille		Duolingo
+en feu	en feu		Duolingo
+en forme	en forme		Duolingo
+en général	en general		Duolingo
+en haut	en haut		Duolingo
+en haut de	en haut de		Duolingo
+en jouant	en jouant		Duolingo
+en libre-service	en libre-service		Duolingo
+en ligne	en ligne		Duolingo
+en mange	en mange		Duolingo
+en même temps	en meme temps		Duolingo
+en occupe	en occupe		Duolingo
+en panne	en panne		Duolingo
+en parlant	en parlant		Duolingo
+en parle	en parle		Duolingo
+en particulier	en particulier		Duolingo
+en pause	en pause		Duolingo
+en plein air	en plein air		Duolingo
+en plus	en plus		Duolingo
+en premier	en premier		Duolingo
+en prépare	en prepare		Duolingo
+en promotion	en promotion		Duolingo
+en raison	en raison	preposition	Duolingo
+en retard	en retard		Duolingo
+en revanche	en revanche	conjunction	Duolingo
+en secret	en secret		Duolingo
+en tout	en tout		Duolingo
+en train	en train		Duolingo
+en train de	en train de		Duolingo
+en urgence	en urgence		Duolingo
+en utilisant	en utilisant		Duolingo
+en vacances	en vacances		Duolingo
+en vente	en vente		Duolingo
+en veux	en veux		Duolingo
+en ville	en ville		Duolingo
+en voie de développement	en voie de developpement		Duolingo
+en-dessous de	en-dessous de		Duolingo
+enchanté	enchante		Duolingo
+enchantée	enchantee	adjective	Duolingo
+encore	encore		Duolingo
+encore	encore	adverb	Duolingo
+encore plus	encore plus		Duolingo
+encore rien	encore rien		Duolingo
+énergie	energie	noun	Duolingo
+enfance	enfance	noun	Duolingo
+enfant	enfant	noun	Duolingo
+enfants	enfants	noun	Duolingo
+enfer	enfer	noun	Duolingo
+enfin	enfin	adverb	Duolingo
+enfuis	enfuis	verb	Duolingo
+enfuit	enfuit	verb	Duolingo
+enfuyez	enfuyez	verb	Duolingo
+enfuyons	enfuyons	verb	Duolingo
+enlever	enlever	verb	Duolingo
+ennemi	ennemi	noun	Duolingo
+ennemie	ennemie	noun	Duolingo
+ennemis	ennemis	noun	Duolingo
+ennuyeuse	ennuyeuse	adjective	Duolingo
+ennuyeux	ennuyeux	adjective	Duolingo
+énorme	enorme	adjective	Duolingo
+enseignant	enseignant	noun	Duolingo
+enseignante	enseignante	noun	Duolingo
+enseigne	enseigne	verb	Duolingo
+enseignement	enseignement	noun	Duolingo
+enseignement secondaire	enseignement secondaire		Duolingo
+enseignons	enseignons	verb	Duolingo
+ensemble	ensemble	adverb	Duolingo
+ensuite	ensuite	adverb	Duolingo
+entend	entend		Duolingo
+entend	entend	verb	Duolingo
+entendent	entendent		Duolingo
+entendent	entendent	verb	Duolingo
+entendez	entendez		Duolingo
+entendez	entendez	verb	Duolingo
+entendons	entendons		Duolingo
+entendons	entendons	verb	Duolingo
+entendre	entendre		Duolingo
+entendre	entendre	verb	Duolingo
+entends	entends		Duolingo
+entends	entends	verb	Duolingo
+entendu	entendu	verb	Duolingo
+entendu parler	entendu parler		Duolingo
+entier	entier	adjective	Duolingo
+entière	entiere	adjective	Duolingo
+entièrement	entierement	adverb	Duolingo
+entraîner	entrainer	verb	Duolingo
+entraîneur	entraineur	noun	Duolingo
+entrant	entrant	verb	Duolingo
+entre	entre	preposition	Duolingo
+entre	entre	verb	Duolingo
+entrée	entree	noun	Duolingo
+entrées	entrees	noun	Duolingo
+entreprise	entreprise	noun	Duolingo
+entreprises	entreprises	noun	Duolingo
+entrer	entrer	verb	Duolingo
+entrés	entres	verb	Duolingo
+entretien	entretien	noun	Duolingo
+entrez	entrez	verb	Duolingo
+entrons	entrons	verb	Duolingo
+enveloppe	enveloppe	noun	Duolingo
+enveloppes	enveloppes	noun	Duolingo
+enverraient	enverraient	verb	Duolingo
+enverrait	enverrait	verb	Duolingo
+envers	envers	noun	Duolingo
+envers	envers	preposition	Duolingo
+envie	envie		Duolingo
+envie	envie	noun	Duolingo
+environ	environ	adverb	Duolingo
+environnement	environnement	noun	Duolingo
+envoie	envoie		Duolingo
+envoie	envoie	verb	Duolingo
+envoient	envoient	verb	Duolingo
+envoies	envoies	verb	Duolingo
+envoyé	envoye	verb	Duolingo
+envoyer	envoyer		Duolingo
+envoyer	envoyer	verb	Duolingo
+envoyez	envoyez	verb	Duolingo
+envoyons	envoyons	verb	Duolingo
+épaule	epaule	noun	Duolingo
+épice	epice	noun	Duolingo
+épices	epices	noun	Duolingo
+épinards	epinards	noun	Duolingo
+épisode	episode	noun	Duolingo
+épisodes	episodes	noun	Duolingo
+éponge	eponge	noun	Duolingo
+éponges	eponges	noun	Duolingo
+époque	epoque	noun	Duolingo
+équipe	equipe	noun	Duolingo
+équipement	equipement	noun	Duolingo
+équipes	equipes	noun	Duolingo
+erreur	erreur	noun	Duolingo
+erreurs	erreurs	noun	Duolingo
+es	es	verb	Duolingo
+es-tu	es-tu		Duolingo
+escalade	escalade	noun	Duolingo
+escalier	escalier	noun	Duolingo
+escaliers	escaliers	noun	Duolingo
+escargot	escargot	noun	Duolingo
+escargots	escargots	noun	Duolingo
+espace	espace	noun	Duolingo
+espaces	espaces	noun	Duolingo
+espagne	espagne	proper noun	Duolingo
+espagnol	espagnol	adjective	Duolingo
+espagnol	espagnol	noun	Duolingo
+espagnole	espagnole	adjective	Duolingo
+espagnoles	espagnoles	adjective	Duolingo
+espagnols	espagnols	adjective	Duolingo
+espèce	espece	noun	Duolingo
+espèrent	esperent	verb	Duolingo
+espérer	esperer	verb	Duolingo
+espérons	esperons	verb	Duolingo
+espoir	espoir	noun	Duolingo
+esprit	esprit	noun	Duolingo
+essai	essai	noun	Duolingo
+essaie	essaie	verb	Duolingo
+essaies	essaies	verb	Duolingo
+essayé	essaye		Duolingo
+essayer	essayer	verb	Duolingo
+essence	essence	noun	Duolingo
+est	est	noun	Duolingo
+est	est	verb	Duolingo
+est-ce qu'	est-ce qu'		Duolingo
+est-ce que	est-ce que		Duolingo
+est-elle	est-elle		Duolingo
+est-il	est-il		Duolingo
+estomac	estomac	noun	Duolingo
+et	et	conjunction	Duolingo
+et alors	et alors		Duolingo
+et demi	et demi		Duolingo
+et demie	et demie		Duolingo
+et en plus	et en plus		Duolingo
+et onze	et onze		Duolingo
+et un	et un		Duolingo
+étage	etage	noun	Duolingo
+étagère	etagere	noun	Duolingo
+étages	etages	noun	Duolingo
+étaient	etaient	verb	Duolingo
+étais	etais	verb	Duolingo
+était	etait	verb	Duolingo
+étant	etant	verb	Duolingo
+étape	etape	noun	Duolingo
+étapes	etapes	noun	Duolingo
+état	etat	noun	Duolingo
+états-unis	etats-unis		Duolingo
+états-unis	etats-unis	proper noun	Duolingo
+été	ete	noun	Duolingo
+été	ete	verb	Duolingo
+éteignent	eteignent	verb	Duolingo
+éteignez	eteignez	verb	Duolingo
+éteindraient	eteindraient	verb	Duolingo
+éteindrait	eteindrait	verb	Duolingo
+éteindre	eteindre	verb	Duolingo
+éteins	eteins	verb	Duolingo
+éteint	eteint	verb	Duolingo
+êtes	etes	verb	Duolingo
+êtes-vous	etes-vous		Duolingo
+étiez	etiez	verb	Duolingo
+étions	etions	verb	Duolingo
+étoile	etoile	noun	Duolingo
+étrange	etrange	adjective	Duolingo
+étranger	etranger	adjective	Duolingo
+étrangère	etrangere	adjective	Duolingo
+étrangères	etrangeres	adjective	Duolingo
+étrangers	etrangers	adjective	Duolingo
+être	etre	verb	Duolingo
+étroit	etroit	adjective	Duolingo
+étroite	etroite	adjective	Duolingo
+étroits	etroits	adjective	Duolingo
+étude	etude	noun	Duolingo
+études	etudes	noun	Duolingo
+étudiais	etudiais	verb	Duolingo
+étudiant	etudiant	noun	Duolingo
+étudiante	etudiante	noun	Duolingo
+étudiantes	etudiantes	noun	Duolingo
+étudiants	etudiants	noun	Duolingo
+étudié	etudie	verb	Duolingo
+étudient	etudient		Duolingo
+étudient	etudient	verb	Duolingo
+étudier	etudier	verb	Duolingo
+étudies	etudies	verb	Duolingo
+étudiez	etudiez		Duolingo
+étudiez	etudiez	verb	Duolingo
+étudiez-vous	etudiez-vous		Duolingo
+étudions	etudions	verb	Duolingo
+eu	eu	verb	Duolingo
+euro	euro	noun	Duolingo
+europe	europe	proper noun	Duolingo
+européen	europeen	adjective	Duolingo
+européenne	europeenne	adjective	Duolingo
+européennes	europeennes	adjective	Duolingo
+européens	europeens	adjective	Duolingo
+européens	europeens	noun	Duolingo
+euros	euros	noun	Duolingo
+eux	eux	pronoun	Duolingo
+événement	evenement	noun	Duolingo
+événements	evenements	noun	Duolingo
+évidemment	evidemment	adverb	Duolingo
+éviter	eviter	verb	Duolingo
+évolution	evolution	noun	Duolingo
+ex	ex	noun	Duolingo
+exact	exact	adjective	Duolingo
+exactement	exactement	adverb	Duolingo
+examen	examen	noun	Duolingo
+examens	examens	noun	Duolingo
+excellent	excellent	adjective	Duolingo
+excellente	excellente	adjective	Duolingo
+excellentes	excellentes	adjective	Duolingo
+excursion	excursion	noun	Duolingo
+excursions	excursions	noun	Duolingo
+excuse	excuse	verb	Duolingo
+excuse-moi	excuse-moi		Duolingo
+excuses	excuses	noun	Duolingo
+excusez	excusez	verb	Duolingo
+excusez-moi	excusez-moi		Duolingo
+exemple	exemple	noun	Duolingo
+exemples	exemples	noun	Duolingo
+exercice	exercice	noun	Duolingo
+exercices	exercices	noun	Duolingo
+existe	existe	verb	Duolingo
+expérience	experience	noun	Duolingo
+expériences	experiences	noun	Duolingo
+explication	explication	noun	Duolingo
+explique	explique		Duolingo
+explique	explique	verb	Duolingo
+expliquer	expliquer	verb	Duolingo
+expliques	expliques	verb	Duolingo
+expliquez	expliquez	verb	Duolingo
+expliquons	expliquons	verb	Duolingo
+exprès	expres	adverb	Duolingo
+extérieur	exterieur	adjective	Duolingo
+extérieur	exterieur	noun	Duolingo
+extraordinaire	extraordinaire	adjective	Duolingo
+extrême	extreme	adjective	Duolingo
+extrêmement	extremement	adverb	Duolingo
+face	face	noun	Duolingo
+facile	facile	adjective	Duolingo
+facilement	facilement	adverb	Duolingo
+façon	facon	noun	Duolingo
+facture	facture	noun	Duolingo
+faible	faible	adjective	Duolingo
+faim	faim	noun	Duolingo
+faire	faire	verb	Duolingo
+faire de la plongée	faire de la plongee		Duolingo
+faire du ski	faire du ski		Duolingo
+faire mal	faire mal		Duolingo
+faire plaisir	faire plaisir		Duolingo
+faire plaisir à	faire plaisir a		Duolingo
+faire un voyage	faire un voyage		Duolingo
+faire-part	faire-part	noun	Duolingo
+fais	fais	verb	Duolingo
+fais-tu	fais-tu		Duolingo
+faisaient	faisaient	verb	Duolingo
+faisais	faisais	verb	Duolingo
+faisait	faisait		Duolingo
+faisait	faisait	verb	Duolingo
+faisant	faisant	verb	Duolingo
+faisiez	faisiez	verb	Duolingo
+faisons	faisons	verb	Duolingo
+fait	fait		Duolingo
+fait	fait	noun	Duolingo
+fait	fait	verb	Duolingo
+fait mal	fait mal		Duolingo
+fait tomber	fait tomber		Duolingo
+fait-il	fait-il		Duolingo
+faites	faites	verb	Duolingo
+faites-vous	faites-vous		Duolingo
+faits	faits	noun	Duolingo
+fallait	fallait	verb	Duolingo
+falloir	falloir	verb	Duolingo
+famille	famille	noun	Duolingo
+familles	familles	noun	Duolingo
+fantômes	fantomes	noun	Duolingo
+farine	farine	noun	Duolingo
+fasse	fasse	verb	Duolingo
+fassiez	fassiez	verb	Duolingo
+fatigué	fatigue	adjective	Duolingo
+fatigue	fatigue	noun	Duolingo
+fatiguée	fatiguee	adjective	Duolingo
+fatiguées	fatiguees	adjective	Duolingo
+fatigués	fatigues	adjective	Duolingo
+faudra	faudra	verb	Duolingo
+faudrait	faudrait	verb	Duolingo
+fausse	fausse	adjective	Duolingo
+faut	faut		Duolingo
+faut	faut	verb	Duolingo
+faute	faute	noun	Duolingo
+faute	faute	preposition	Duolingo
+fauteuil	fauteuil	noun	Duolingo
+fauteuil roulant	fauteuil roulant		Duolingo
+faux	faux	adjective	Duolingo
+félicitations	felicitations	interjection	Duolingo
+femme	femme		Duolingo
+femme	femme	noun	Duolingo
+femme de ménage	femme de menage		Duolingo
+femmes	femmes	noun	Duolingo
+fenêtre	fenetre	noun	Duolingo
+fenêtres	fenetres	noun	Duolingo
+fer	fer	noun	Duolingo
+fera	fera	verb	Duolingo
+ferai	ferai	verb	Duolingo
+feraient	feraient	verb	Duolingo
+ferais	ferais	verb	Duolingo
+ferait	ferait	verb	Duolingo
+feras	feras	verb	Duolingo
+fermé	ferme	adjective	Duolingo
+ferme	ferme	verb	Duolingo
+fermée	fermee	adjective	Duolingo
+fermer	fermer	verb	Duolingo
+fermés	fermes	verb	Duolingo
+fermions	fermions	verb	Duolingo
+fermons	fermons	verb	Duolingo
+feront	feront	verb	Duolingo
+fête	fete	noun	Duolingo
+fêter	feter	verb	Duolingo
+fêtes	fetes	noun	Duolingo
+fêtes	fetes	verb	Duolingo
+feu	feu	noun	Duolingo
+feuille	feuille	noun	Duolingo
+feuilles	feuilles	noun	Duolingo
+février	fevrier	noun	Duolingo
+fièvre	fievre	noun	Duolingo
+fil	fil	noun	Duolingo
+filer	filer	verb	Duolingo
+fille	fille		Duolingo
+fille	fille	noun	Duolingo
+filles	filles		Duolingo
+filles	filles	noun	Duolingo
+film	film	noun	Duolingo
+films	films	noun	Duolingo
+fils	fils	noun	Duolingo
+fin	fin	adjective	Duolingo
+fin	fin	noun	Duolingo
+final	final	adjective	Duolingo
+finalement	finalement	adverb	Duolingo
+fine	fine	adjective	Duolingo
+fini	fini	verb	Duolingo
+finir	finir	verb	Duolingo
+finira	finira	verb	Duolingo
+finirons	finirons	verb	Duolingo
+finiront	finiront	verb	Duolingo
+finis	finis	verb	Duolingo
+finissent	finissent	verb	Duolingo
+finissez	finissez	verb	Duolingo
+finissons	finissons	verb	Duolingo
+finit	finit	verb	Duolingo
+fixe	fixe	adjective	Duolingo
+fleur	fleur	noun	Duolingo
+fleurs	fleurs	noun	Duolingo
+fleuve	fleuve	noun	Duolingo
+foi	foi	noun	Duolingo
+fois	fois	noun	Duolingo
+folie	folie	noun	Duolingo
+folies	folies	noun	Duolingo
+folle	folle	adjective	Duolingo
+fonction	fonction	noun	Duolingo
+fonctionner	fonctionner	verb	Duolingo
+fond	fond	noun	Duolingo
+fondre	fondre	verb	Duolingo
+font	font	verb	Duolingo
+foot	foot	noun	Duolingo
+football	football	noun	Duolingo
+football américain	football americain		Duolingo
+force	force	noun	Duolingo
+forces	forces	noun	Duolingo
+forêt	foret	noun	Duolingo
+formation	formation	noun	Duolingo
+forme	forme	noun	Duolingo
+formulaire	formulaire	noun	Duolingo
+formulaires	formulaires	noun	Duolingo
+formule	formule	noun	Duolingo
+fort	fort	adjective	Duolingo
+fort	fort	adverb	Duolingo
+forte	forte	adjective	Duolingo
+fortement	fortement	adverb	Duolingo
+forts	forts	adjective	Duolingo
+fortune	fortune	noun	Duolingo
+fou	fou	adjective	Duolingo
+foule	foule	noun	Duolingo
+four	four	noun	Duolingo
+fourchette	fourchette	noun	Duolingo
+fourchettes	fourchettes	noun	Duolingo
+fourmi	fourmi	noun	Duolingo
+fragile	fragile	adjective	Duolingo
+fragiles	fragiles	adjective	Duolingo
+fraîche	fraiche	adjective	Duolingo
+fraîches	fraiches	adjective	Duolingo
+frais	frais	adjective	Duolingo
+frais	frais	noun	Duolingo
+fraise	fraise	noun	Duolingo
+fraises	fraises	noun	Duolingo
+franc	franc	adjective	Duolingo
+français	francais	adjective	Duolingo
+français	francais	noun	Duolingo
+française	francaise	adjective	Duolingo
+françaises	francaises	adjective	Duolingo
+france	france	proper noun	Duolingo
+franchement	franchement	adverb	Duolingo
+francophone	francophone	adjective	Duolingo
+francophones	francophones	adjective	Duolingo
+frappé	frappe		Duolingo
+frappé	frappe	verb	Duolingo
+frapper	frapper	verb	Duolingo
+freine	freine	verb	Duolingo
+freiner	freiner	verb	Duolingo
+fréquemment	frequemment	adverb	Duolingo
+frère	frere	noun	Duolingo
+frères	freres	noun	Duolingo
+frire	frire	verb	Duolingo
+frites	frites	noun	Duolingo
+froid	froid		Duolingo
+froid	froid	adjective	Duolingo
+froid	froid	adverb	Duolingo
+froide	froide	adjective	Duolingo
+froids	froids	adjective	Duolingo
+fromage	fromage	noun	Duolingo
+front	front	noun	Duolingo
+frontière	frontiere	noun	Duolingo
+fruits	fruits	noun	Duolingo
+fruits de mer	fruits de mer		Duolingo
+fumée	fumee	noun	Duolingo
+fumer	fumer	verb	Duolingo
+funérailles	funerailles	noun	Duolingo
+furieuse	furieuse	adjective	Duolingo
+furieux	furieux	adjective	Duolingo
+futur	futur	adjective	Duolingo
+futur	futur	noun	Duolingo
+gagné	gagne		Duolingo
+gagne	gagne	verb	Duolingo
+gagner	gagner	verb	Duolingo
+gagnes	gagnes	verb	Duolingo
+gagnons	gagnons	verb	Duolingo
+gant	gant	noun	Duolingo
+gants	gants	noun	Duolingo
+garage	garage	noun	Duolingo
+garant	garant	verb	Duolingo
+garçon	garcon	noun	Duolingo
+garçons	garcons	noun	Duolingo
+garde	garde	verb	Duolingo
+garder	garder	verb	Duolingo
+gare	gare	noun	Duolingo
+garé	gare	verb	Duolingo
+gare-toi	gare-toi		Duolingo
+garée	garee	verb	Duolingo
+garer	garer		Duolingo
+gares	gares	noun	Duolingo
+garés	gares	verb	Duolingo
+garez	garez	verb	Duolingo
+garonne	garonne	proper noun	Duolingo
+garons	garons	verb	Duolingo
+garons-nous	garons-nous		Duolingo
+gâteau	gateau		Duolingo
+gâteau	gateau	noun	Duolingo
+gâteaux	gateaux	noun	Duolingo
+gauche	gauche	noun	Duolingo
+gauches	gauches	adjective	Duolingo
+gaule	gaule	proper noun	Duolingo
+gaz	gaz	noun	Duolingo
+gazeuse	gazeuse	adjective	Duolingo
+gèle	gele	verb	Duolingo
+geler	geler	verb	Duolingo
+gêné	gene	adjective	Duolingo
+général	general	adjective	Duolingo
+généralement	generalement	adverb	Duolingo
+génération	generation	noun	Duolingo
+genève	geneve	proper noun	Duolingo
+génial	genial	adjective	Duolingo
+géniales	geniales	adjective	Duolingo
+géniaux	geniaux	adjective	Duolingo
+génie	genie	noun	Duolingo
+genoux	genoux	noun	Duolingo
+genre	genre		Duolingo
+genre	genre	noun	Duolingo
+gens	gens	noun	Duolingo
+gentil	gentil	adjective	Duolingo
+gentille	gentille	adjective	Duolingo
+gentilles	gentilles	adjective	Duolingo
+gentils	gentils	adjective	Duolingo
+géographie	geographie	noun	Duolingo
+gérant	gerant	noun	Duolingo
+gérante	gerante	noun	Duolingo
+gestion	gestion	noun	Duolingo
+glace	glace	noun	Duolingo
+glaces	glaces	noun	Duolingo
+glaçons	glacons	noun	Duolingo
+glisser	glisser	verb	Duolingo
+golf	golf	noun	Duolingo
+gomme	gomme	noun	Duolingo
+gommes	gommes	noun	Duolingo
+gorge	gorge	noun	Duolingo
+goût	gout	noun	Duolingo
+goûte	goute	verb	Duolingo
+goûter	gouter	verb	Duolingo
+gouvernement	gouvernement	noun	Duolingo
+gouvernements	gouvernements	noun	Duolingo
+gps	gps	noun	Duolingo
+grâce	grace	noun	Duolingo
+grâce à	grace a		Duolingo
+graines	graines	noun	Duolingo
+grammaire	grammaire	noun	Duolingo
+grammes	grammes	noun	Duolingo
+grand	grand		Duolingo
+grand	grand	adjective	Duolingo
+grand frère	grand frere		Duolingo
+grand-mère	grand-mere		Duolingo
+grand-mère	grand-mere	noun	Duolingo
+grand-père	grand-pere		Duolingo
+grande	grande		Duolingo
+grande	grande	adjective	Duolingo
+grande sœur	grande soeur		Duolingo
+grande-bretagne	grande-bretagne		Duolingo
+grandes	grandes	adjective	Duolingo
+grandes vacances	grandes vacances		Duolingo
+grandi	grandi	verb	Duolingo
+grandir	grandir	verb	Duolingo
+grandis	grandis	verb	Duolingo
+grandissent	grandissent	verb	Duolingo
+grandit	grandit	verb	Duolingo
+grands	grands	adjective	Duolingo
+grands-mères	grands-meres		Duolingo
+grands-parents	grands-parents		Duolingo
+grands-pères	grands-peres		Duolingo
+gras	gras	adjective	Duolingo
+gratuit	gratuit	adjective	Duolingo
+gratuitement	gratuitement	adverb	Duolingo
+gratuits	gratuits	adjective	Duolingo
+grave	grave	adjective	Duolingo
+gravement	gravement	adverb	Duolingo
+grec	grec	noun	Duolingo
+grèce	grece	proper noun	Duolingo
+grenouille	grenouille	noun	Duolingo
+grève	greve		Duolingo
+grèves	greves	noun	Duolingo
+grignote	grignote	verb	Duolingo
+grignoter	grignoter	verb	Duolingo
+grignotes	grignotes	verb	Duolingo
+grignotez	grignotez	verb	Duolingo
+grignotons	grignotons	verb	Duolingo
+grillé	grille	adjective	Duolingo
+grillée	grillee	adjective	Duolingo
+griller	griller	verb	Duolingo
+grillés	grilles	adjective	Duolingo
+gris	gris	adjective	Duolingo
+grise	grise	adjective	Duolingo
+grises	grises	adjective	Duolingo
+gros	gros	adjective	Duolingo
+grosse	grosse	adjective	Duolingo
+grosses	grosses	adjective	Duolingo
+grossi	grossi	verb	Duolingo
+grossir	grossir	verb	Duolingo
+groupe	groupe	noun	Duolingo
+groupes	groupes	noun	Duolingo
+guadeloupe	guadeloupe	proper noun	Duolingo
+guère	guere	adverb	Duolingo
+guerre	guerre	noun	Duolingo
+guide	guide	noun	Duolingo
+guides	guides	noun	Duolingo
+guinée	guinee	noun	Duolingo
+guitare	guitare	noun	Duolingo
+guitares	guitares	noun	Duolingo
+guyane	guyane	proper noun	Duolingo
+gymnase	gymnase	noun	Duolingo
+habillé	habille	verb	Duolingo
+habitais	habitais	verb	Duolingo
+habitants	habitants	noun	Duolingo
+habité	habite	verb	Duolingo
+habitent	habitent	verb	Duolingo
+habiter	habiter	verb	Duolingo
+habites	habites	verb	Duolingo
+habites-tu	habites-tu		Duolingo
+habitez	habitez	verb	Duolingo
+habitez-vous	habitez-vous		Duolingo
+habitons	habitons	verb	Duolingo
+habitude	habitude	noun	Duolingo
+habitudes	habitudes	noun	Duolingo
+habituel	habituel	adjective	Duolingo
+habituelle	habituelle	adjective	Duolingo
+habituent	habituent	verb	Duolingo
+habituer	habituer	verb	Duolingo
+haïr	hair	verb	Duolingo
+hall	hall	noun	Duolingo
+hamburgers	hamburgers	noun	Duolingo
+handball	handball	noun	Duolingo
+haricot	haricot	noun	Duolingo
+haricots	haricots	noun	Duolingo
+hasard	hasard	noun	Duolingo
+hâte	hate	noun	Duolingo
+haut	haut	adjective	Duolingo
+haut	haut	adverb	Duolingo
+haut-parleur	haut-parleur		Duolingo
+haute	haute	adjective	Duolingo
+hauteur	hauteur	noun	Duolingo
+hebdomadaire	hebdomadaire	adjective	Duolingo
+hebdomadaires	hebdomadaires	adjective	Duolingo
+hélicoptère	helicoptere	noun	Duolingo
+hélicoptères	helicopteres	noun	Duolingo
+herbe	herbe	noun	Duolingo
+héros	heros	noun	Duolingo
+heure	heure	noun	Duolingo
+heures	heures	noun	Duolingo
+heureuse	heureuse	adjective	Duolingo
+heureusement	heureusement	adverb	Duolingo
+heureusement	heureusement	noun	Duolingo
+heureux	heureux	adjective	Duolingo
+hibou	hibou	noun	Duolingo
+hiboux	hiboux	noun	Duolingo
+hier	hier	adverb	Duolingo
+hip-hop	hip-hop		Duolingo
+histoire	histoire	noun	Duolingo
+historique	historique	adjective	Duolingo
+hiver	hiver	noun	Duolingo
+hockey	hockey	noun	Duolingo
+hommage	hommage	noun	Duolingo
+homme	homme	noun	Duolingo
+homme d'affaires	homme d'affaires		Duolingo
+homme de ménage	homme de menage		Duolingo
+hommes	hommes	noun	Duolingo
+honnêtement	honnetement	adverb	Duolingo
+honneur	honneur	noun	Duolingo
+honte	honte	noun	Duolingo
+hôpital	hopital	noun	Duolingo
+hôpitaux	hopitaux	noun	Duolingo
+horloge	horloge	noun	Duolingo
+horreur	horreur	noun	Duolingo
+horrible	horrible	adjective	Duolingo
+horribles	horribles	adjective	Duolingo
+hors	hors	preposition	Duolingo
+hors de	hors de		Duolingo
+hôtel	hotel	noun	Duolingo
+hôtel de ville	hotel de ville		Duolingo
+hôtels	hotels	noun	Duolingo
+huile	huile	noun	Duolingo
+huiles	huiles	noun	Duolingo
+huit	huit	numeral	Duolingo
+huitième	huitieme	adjective	Duolingo
+humains	humains	noun	Duolingo
+humeur	humeur	noun	Duolingo
+humoriste	humoriste	noun	Duolingo
+humour	humour	noun	Duolingo
+ici	ici	adverb	Duolingo
+ici même	ici meme	adverb	Duolingo
+idéal	ideal	adjective	Duolingo
+idéale	ideale	adjective	Duolingo
+idée	idee	noun	Duolingo
+idées	idees	noun	Duolingo
+identité	identite	noun	Duolingo
+ième	ieme		Duolingo
+il	il	pronoun	Duolingo
+il est	il est		Duolingo
+il faut	il faut		Duolingo
+il n'y a	il n'y a		Duolingo
+il n'y a plus de	il n'y a plus de		Duolingo
+il n'y avait	il n'y avait		Duolingo
+il ne faut pas	il ne faut pas		Duolingo
+il paraît	il parait		Duolingo
+il va y avoir	il va y avoir		Duolingo
+il y a	il y a		Duolingo
+il y a eu	il y a eu		Duolingo
+il y a trois	il y a trois		Duolingo
+il y avait	il y avait		Duolingo
+île	ile	noun	Duolingo
+îles	iles	noun	Duolingo
+ils	ils	pronoun	Duolingo
+ils sont	ils sont		Duolingo
+ils y	ils y		Duolingo
+image	image	noun	Duolingo
+images	images	noun	Duolingo
+imagination	imagination	noun	Duolingo
+imagine	imagine	verb	Duolingo
+imaginer	imaginer	verb	Duolingo
+immédiatement	immediatement	adverb	Duolingo
+immense	immense	adjective	Duolingo
+immeuble	immeuble	noun	Duolingo
+imperméable	impermeable	adjective	Duolingo
+importance	importance	noun	Duolingo
+important	important		Duolingo
+important	important	adjective	Duolingo
+importante	importante	adjective	Duolingo
+importants	importants	adjective	Duolingo
+importe	importe	verb	Duolingo
+importent	importent	verb	Duolingo
+impose	impose	verb	Duolingo
+impossible	impossible	adjective	Duolingo
+impôt	impot	noun	Duolingo
+impôts	impots	noun	Duolingo
+impression	impression	noun	Duolingo
+imprimante	imprimante	noun	Duolingo
+imprime	imprime	verb	Duolingo
+imprimer	imprimer	verb	Duolingo
+imprimez	imprimez	verb	Duolingo
+inconnu	inconnu	adjective	Duolingo
+inconnue	inconnue	adjective	Duolingo
+incroyable	incroyable	adjective	Duolingo
+incroyablement	incroyablement	adverb	Duolingo
+incroyables	incroyables	adjective	Duolingo
+inde	inde	proper noun	Duolingo
+indépendant	independant	adjective	Duolingo
+indépendante	independante	adjective	Duolingo
+indépendantes	independantes	adjective	Duolingo
+indépendants	independants	adjective	Duolingo
+indien	indien	adjective	Duolingo
+indiens	indiens	adjective	Duolingo
+indispensable	indispensable	adjective	Duolingo
+industrie	industrie	noun	Duolingo
+industrielle	industrielle	adjective	Duolingo
+infirmier	infirmier	adjective	Duolingo
+infirmière	infirmiere	noun	Duolingo
+influence	influence	noun	Duolingo
+information	information	noun	Duolingo
+informations	informations	noun	Duolingo
+informatique	informatique	noun	Duolingo
+ingénieur	ingenieur	noun	Duolingo
+injustement	injustement	adverb	Duolingo
+inquiet	inquiet	adjective	Duolingo
+inquiète	inquiete	adjective	Duolingo
+inquiéter	inquieter	verb	Duolingo
+inquiètes	inquietes	adjective	Duolingo
+inquiètes	inquietes	verb	Duolingo
+inquiétons	inquietons	verb	Duolingo
+inquiets	inquiets	adjective	Duolingo
+insecte	insecte	noun	Duolingo
+instant	instant	noun	Duolingo
+instructions	instructions	noun	Duolingo
+instrument	instrument	noun	Duolingo
+instruments	instruments	noun	Duolingo
+insupportable	insupportable	adjective	Duolingo
+insupportables	insupportables	adjective	Duolingo
+intellectuel	intellectuel	adjective	Duolingo
+intelligence	intelligence	noun	Duolingo
+intelligent	intelligent	adjective	Duolingo
+intelligente	intelligente	adjective	Duolingo
+intelligentes	intelligentes	adjective	Duolingo
+intelligents	intelligents	adjective	Duolingo
+intention	intention	noun	Duolingo
+interdit	interdit	adjective	Duolingo
+intéressant	interessant	adjective	Duolingo
+intéressante	interessante	adjective	Duolingo
+intéressants	interessants	adjective	Duolingo
+intéressé	interesse	adjective	Duolingo
+intéresse	interesse	verb	Duolingo
+intéressée	interessee	adjective	Duolingo
+intéressent	interessent	verb	Duolingo
+intéresser	interesser	verb	Duolingo
+intéresses	interesses	verb	Duolingo
+intéressez	interessez	verb	Duolingo
+intérêt	interet	noun	Duolingo
+intérêts	interets	noun	Duolingo
+intérieur	interieur	noun	Duolingo
+international	international	adjective	Duolingo
+internationale	internationale	adjective	Duolingo
+internationales	internationales	adjective	Duolingo
+internationaux	internationaux	adjective	Duolingo
+internet	internet	noun	Duolingo
+interrompre	interrompre	verb	Duolingo
+inutile	inutile	adjective	Duolingo
+inutiles	inutiles	adjective	Duolingo
+invention	invention	noun	Duolingo
+inverse	inverse	adjective	Duolingo
+investissement	investissement	noun	Duolingo
+invitation	invitation	noun	Duolingo
+invitations	invitations	noun	Duolingo
+invité	invite	noun	Duolingo
+invité	invite	verb	Duolingo
+invitées	invitees	noun	Duolingo
+inviter	inviter	verb	Duolingo
+invitera	invitera	verb	Duolingo
+inviterons	inviterons	verb	Duolingo
+inviteront	inviteront	verb	Duolingo
+invités	invites	noun	Duolingo
+invites	invites	verb	Duolingo
+invitez	invitez	verb	Duolingo
+ira	ira	verb	Duolingo
+irai	irai	verb	Duolingo
+iraient	iraient	verb	Duolingo
+irait	irait	verb	Duolingo
+iras	iras	verb	Duolingo
+irlande	irlande	proper noun	Duolingo
+irons	irons	verb	Duolingo
+iront	iront	verb	Duolingo
+italie	italie	proper noun	Duolingo
+italien	italien	adjective	Duolingo
+italien	italien	noun	Duolingo
+italienne	italienne	adjective	Duolingo
+italiennes	italiennes	adjective	Duolingo
+italiens	italiens	noun	Duolingo
+j'	j'	pronoun	Duolingo
+j'achète	j'achete		Duolingo
+j'ai	j'ai		Duolingo
+j'ai envie	j'ai envie		Duolingo
+j'y	j'y		Duolingo
+jamaïcain	jamaicain	adjective	Duolingo
+jamaïcaine	jamaicaine	adjective	Duolingo
+jamais	jamais		Duolingo
+jamais	jamais	adverb	Duolingo
+jambe	jambe	noun	Duolingo
+jambes	jambes	noun	Duolingo
+jambon	jambon	noun	Duolingo
+janvier	janvier	noun	Duolingo
+japon	japon	proper noun	Duolingo
+japonais	japonais	adjective	Duolingo
+japonais	japonais	noun	Duolingo
+japonaise	japonaise	adjective	Duolingo
+japonaise	japonaise	noun	Duolingo
+jardin	jardin	noun	Duolingo
+jardins	jardins	noun	Duolingo
+jaune	jaune	adjective	Duolingo
+jaunes	jaunes	adjective	Duolingo
+jazz	jazz	noun	Duolingo
+je	je	pronoun	Duolingo
+je me perds	je me perds		Duolingo
+je ne sais pas	je ne sais pas		Duolingo
+je vous en prie	je vous en prie		Duolingo
+jean	jean	noun	Duolingo
+jeanne	jeanne	proper noun	Duolingo
+jeans	jeans	noun	Duolingo
+jeter	jeter	verb	Duolingo
+jettent	jettent	verb	Duolingo
+jetteraient	jetteraient	verb	Duolingo
+jetterait	jetterait	verb	Duolingo
+jettes	jettes	verb	Duolingo
+jeu	jeu	noun	Duolingo
+jeu de société	jeu de societe		Duolingo
+jeu vidéo	jeu video		Duolingo
+jeudi	jeudi	noun	Duolingo
+jeudis	jeudis	noun	Duolingo
+jeune	jeune	adjective	Duolingo
+jeunes	jeunes	adjective	Duolingo
+jeunesse	jeunesse	noun	Duolingo
+jeux	jeux	noun	Duolingo
+joie	joie	noun	Duolingo
+joindre	joindre	verb	Duolingo
+joli	joli	adjective	Duolingo
+jolie	jolie	adjective	Duolingo
+jouant	jouant	verb	Duolingo
+joue	joue		Duolingo
+joue	joue	verb	Duolingo
+jouent	jouent	verb	Duolingo
+jouer	jouer	verb	Duolingo
+joues	joues	noun	Duolingo
+joues	joues	verb	Duolingo
+jouet	jouet	noun	Duolingo
+jouets	jouets	noun	Duolingo
+joueur	joueur	noun	Duolingo
+joueurs	joueurs	noun	Duolingo
+joueuse	joueuse	noun	Duolingo
+jouez	jouez	verb	Duolingo
+jouiez	jouiez	verb	Duolingo
+jour	jour	noun	Duolingo
+jour férié	jour ferie		Duolingo
+journal	journal		Duolingo
+journal	journal	noun	Duolingo
+journaliste	journaliste	noun	Duolingo
+journalistes	journalistes	noun	Duolingo
+journaux	journaux	noun	Duolingo
+journée	journee	noun	Duolingo
+jours	jours	noun	Duolingo
+juge	juge	noun	Duolingo
+juger	juger	verb	Duolingo
+juges	juges	noun	Duolingo
+juillet	juillet	noun	Duolingo
+juin	juin	noun	Duolingo
+jupe	jupe	noun	Duolingo
+jupes	jupes	noun	Duolingo
+jus	jus	noun	Duolingo
+jus d'orange	jus d'orange		Duolingo
+jusqu'	jusqu'		Duolingo
+jusqu'	jusqu'	preposition	Duolingo
+jusqu'à	jusqu'a		Duolingo
+jusqu'à	jusqu'a	preposition	Duolingo
+jusqu'à ce	jusqu'a ce		Duolingo
+jusque	jusque	preposition	Duolingo
+juste	juste	adjective	Duolingo
+juste	juste	adverb	Duolingo
+justement	justement	adverb	Duolingo
+justice	justice	noun	Duolingo
+juteuses	juteuses	adjective	Duolingo
+juteux	juteux	adjective	Duolingo
+kilo	kilo	noun	Duolingo
+kilogramme	kilogramme	noun	Duolingo
+kilomètre	kilometre	noun	Duolingo
+kilomètres	kilometres	noun	Duolingo
+kilos	kilos	noun	Duolingo
+l'	l'		Duolingo
+l'	l'	determiner	Duolingo
+l'	l'	pronoun	Duolingo
+l'ai	l'ai		Duolingo
+l'air	l'air		Duolingo
+l'année où	l'annee ou		Duolingo
+l'as	l'as		Duolingo
+l'aspirateur	l'aspirateur		Duolingo
+l'avez	l'avez		Duolingo
+l'eau	l'eau		Duolingo
+l'habitude	l'habitude		Duolingo
+l'y	l'y		Duolingo
+la	la		Duolingo
+là	la	adverb	Duolingo
+la	la	determiner	Duolingo
+la	la	pronoun	Duolingo
+la leur	la leur		Duolingo
+la même	la meme		Duolingo
+la mienne	la mienne		Duolingo
+la nôtre	la notre		Duolingo
+la plus	la plus		Duolingo
+la saison où	la saison ou		Duolingo
+la sienne	la sienne		Duolingo
+la tienne	la tienne		Duolingo
+la vaisselle	la vaisselle		Duolingo
+la vôtre	la votre		Duolingo
+là-bas	la-bas		Duolingo
+là-haut	la-haut	adverb	Duolingo
+lac	lac	noun	Duolingo
+lacs	lacs	noun	Duolingo
+laid	laid	adjective	Duolingo
+laine	laine	noun	Duolingo
+laisse	laisse	verb	Duolingo
+laissent	laissent	verb	Duolingo
+laisser	laisser	verb	Duolingo
+laissez	laissez	verb	Duolingo
+lait	lait	noun	Duolingo
+lait écrémé	lait ecreme	noun	Duolingo
+lait entier	lait entier	noun	Duolingo
+lampe	lampe	noun	Duolingo
+lance	lance	verb	Duolingo
+lancer	lancer	verb	Duolingo
+langage	langage	noun	Duolingo
+langue	langue	noun	Duolingo
+langues	langues	noun	Duolingo
+lapin	lapin	noun	Duolingo
+lapins	lapins	noun	Duolingo
+laquelle	laquelle		Duolingo
+laquelle	laquelle	pronoun	Duolingo
+large	large	adjective	Duolingo
+largement	largement	adverb	Duolingo
+largeur	largeur	noun	Duolingo
+larmes	larmes	noun	Duolingo
+latin	latin	noun	Duolingo
+laurie	laurie	proper noun	Duolingo
+lavabo	lavabo	noun	Duolingo
+lavé	lave	verb	Duolingo
+lave-	lave-		Duolingo
+lavée	lavee	verb	Duolingo
+lavent	lavent	verb	Duolingo
+laver	laver	verb	Duolingo
+laves	laves	verb	Duolingo
+lavez	lavez	verb	Duolingo
+le	le		Duolingo
+le	le	determiner	Duolingo
+le	le	pronoun	Duolingo
+le balai	le balai		Duolingo
+le droit	le droit		Duolingo
+le jour où	le jour ou		Duolingo
+le leur	le leur		Duolingo
+le long	le long		Duolingo
+le lundi	le lundi		Duolingo
+le matin	le matin		Duolingo
+le même	le meme		Duolingo
+le mien	le mien		Duolingo
+le mieux	le mieux		Duolingo
+le nôtre	le notre		Duolingo
+le plus	le plus		Duolingo
+le plus tôt possible	le plus tot possible		Duolingo
+le quatorze juillet	le quatorze juillet		Duolingo
+le sien	le sien		Duolingo
+le soir	le soir		Duolingo
+le tien	le tien		Duolingo
+le vendredi	le vendredi		Duolingo
+le vôtre	le votre		Duolingo
+le week-end	le week-end		Duolingo
+leçon	lecon	noun	Duolingo
+leçons	lecons	noun	Duolingo
+lecteur mp3	lecteur mp3		Duolingo
+lecture	lecture	noun	Duolingo
+légende	legende	noun	Duolingo
+léger	leger	adjective	Duolingo
+légère	legere	adjective	Duolingo
+légèrement	legerement	adverb	Duolingo
+légume	legume	noun	Duolingo
+légumes	legumes	noun	Duolingo
+lendemain	lendemain	noun	Duolingo
+lente	lente	adjective	Duolingo
+lentement	lentement	adverb	Duolingo
+lequel	lequel		Duolingo
+lequel	lequel	pronoun	Duolingo
+les	les	determiner	Duolingo
+les	les	pronoun	Duolingo
+les courses	les courses		Duolingo
+les leur	les leur		Duolingo
+les leurs	les leurs		Duolingo
+les magasins	les magasins		Duolingo
+les mains vides	les mains vides	adverb	Duolingo
+les miennes	les miennes		Duolingo
+les miens	les miens		Duolingo
+les nôtres	les notres		Duolingo
+les plus	les plus		Duolingo
+les siennes	les siennes		Duolingo
+les siens	les siens		Duolingo
+les tiennes	les tiennes		Duolingo
+les tiens	les tiens		Duolingo
+les vôtres	les votres		Duolingo
+les y	les y		Duolingo
+lesquelles	lesquelles		Duolingo
+lesquelles	lesquelles	pronoun	Duolingo
+lesquels	lesquels		Duolingo
+lesquels	lesquels	pronoun	Duolingo
+lettre	lettre	noun	Duolingo
+lettres	lettres	noun	Duolingo
+leur	leur		Duolingo
+leur	leur	determiner	Duolingo
+leur	leur	pronoun	Duolingo
+leur en	leur en		Duolingo
+leurs	leurs	determiner	Duolingo
+leurs	leurs	pronoun	Duolingo
+levé	leve	verb	Duolingo
+lève-toi	leve-toi		Duolingo
+levée	levee	verb	Duolingo
+lèvent	levent	verb	Duolingo
+lever	lever	verb	Duolingo
+levés	leves	verb	Duolingo
+levez	levez	verb	Duolingo
+levons	levons	verb	Duolingo
+lèvres	levres	noun	Duolingo
+libanaise	libanaise	adjective	Duolingo
+libanaises	libanaises	adjective	Duolingo
+liberté	liberte	noun	Duolingo
+librairie	librairie	noun	Duolingo
+libre	libre	adjective	Duolingo
+libres	libres	adjective	Duolingo
+lieu	lieu	noun	Duolingo
+lieux	lieux	noun	Duolingo
+ligne	ligne	noun	Duolingo
+lignes	lignes	noun	Duolingo
+limites	limites	noun	Duolingo
+limonade	limonade	noun	Duolingo
+linge	linge	noun	Duolingo
+lion	lion	noun	Duolingo
+lions	lions	noun	Duolingo
+liquide	liquide	adjective	Duolingo
+liquide	liquide	noun	Duolingo
+lira	lira	verb	Duolingo
+lire	lire		Duolingo
+lire	lire	verb	Duolingo
+liront	liront	verb	Duolingo
+lis	lis	verb	Duolingo
+lisant	lisant	verb	Duolingo
+lisent	lisent	verb	Duolingo
+lisez	lisez	verb	Duolingo
+lisons	lisons	verb	Duolingo
+liste	liste	noun	Duolingo
+lit	lit	noun	Duolingo
+lit	lit	verb	Duolingo
+litre	litre	noun	Duolingo
+litres	litres	noun	Duolingo
+lits	lits	noun	Duolingo
+littérature	litterature	noun	Duolingo
+livre	livre	noun	Duolingo
+livres	livres	noun	Duolingo
+locale	locale	adjective	Duolingo
+logique	logique	adjective	Duolingo
+loi	loi	noun	Duolingo
+loin	loin	adverb	Duolingo
+loin	loin	preposition	Duolingo
+loin de	loin de		Duolingo
+loire	loire	proper noun	Duolingo
+lois	lois	noun	Duolingo
+loisir	loisir	noun	Duolingo
+loisirs	loisirs	noun	Duolingo
+londres	londres	proper noun	Duolingo
+long	long	adjective	Duolingo
+longtemps	longtemps	adverb	Duolingo
+longue	longue	adjective	Duolingo
+longues	longues	adjective	Duolingo
+longueur	longueur	noun	Duolingo
+lors	lors	adverb	Duolingo
+lors	lors	preposition	Duolingo
+lorsqu'	lorsqu'	conjunction	Duolingo
+lorsque	lorsque	conjunction	Duolingo
+loto	loto	noun	Duolingo
+loue	loue	verb	Duolingo
+louent	louent	verb	Duolingo
+louer	louer		Duolingo
+louer	louer	verb	Duolingo
+louis	louis	proper noun	Duolingo
+louons	louons	verb	Duolingo
+loup	loup	noun	Duolingo
+lourd	lourd	adjective	Duolingo
+louvre	louvre	proper noun	Duolingo
+loyer	loyer	noun	Duolingo
+lu	lu	verb	Duolingo
+lui	lui		Duolingo
+lui	lui	pronoun	Duolingo
+lui écrire	lui ecrire		Duolingo
+lui en	lui en		Duolingo
+lumière	lumiere	noun	Duolingo
+lumières	lumieres	noun	Duolingo
+lundi	lundi		Duolingo
+lundi	lundi	noun	Duolingo
+lundis	lundis	noun	Duolingo
+lune	lune	noun	Duolingo
+lune de miel	lune de miel		Duolingo
+lunettes	lunettes	noun	Duolingo
+lunettes de soleil	lunettes de soleil		Duolingo
+lutter	lutter	verb	Duolingo
+luxe	luxe	noun	Duolingo
+lycée	lycee	noun	Duolingo
+m'	m'		Duolingo
+m'	m'	pronoun	Duolingo
+m'appelle	m'appelle		Duolingo
+m'en	m'en		Duolingo
+m'en fiche	m'en fiche		Duolingo
+m'y	m'y		Duolingo
+ma	ma	determiner	Duolingo
+ma place	ma place		Duolingo
+machine à café	machine a cafe		Duolingo
+machine à laver	machine a laver		Duolingo
+madagascar	madagascar	proper noun	Duolingo
+madame	madame	noun	Duolingo
+mademoiselle	mademoiselle	noun	Duolingo
+magasin	magasin	noun	Duolingo
+magasins	magasins	noun	Duolingo
+magazine	magazine	noun	Duolingo
+magazines	magazines	noun	Duolingo
+maghreb	maghreb	proper noun	Duolingo
+magique	magique	adjective	Duolingo
+magnifique	magnifique	adjective	Duolingo
+magnifiques	magnifiques	adjective	Duolingo
+mai	mai	noun	Duolingo
+maigri	maigri	verb	Duolingo
+maigrir	maigrir	verb	Duolingo
+maillot de bain	maillot de bain		Duolingo
+main	main	noun	Duolingo
+mains	mains	noun	Duolingo
+maintenant	maintenant	adverb	Duolingo
+maire	maire	noun	Duolingo
+mairie	mairie	noun	Duolingo
+mais	mais	conjunction	Duolingo
+maïs	mais	noun	Duolingo
+maison	maison	noun	Duolingo
+maisons	maisons	noun	Duolingo
+majeur	majeur	adjective	Duolingo
+majeurs	majeurs	adjective	Duolingo
+majorité	majorite	noun	Duolingo
+mal	mal	adverb	Duolingo
+mal	mal	noun	Duolingo
+mal à	mal a		Duolingo
+mal à l'aise	mal a l'aise		Duolingo
+mal au	mal au		Duolingo
+malade	malade	adjective	Duolingo
+malades	malades	adjective	Duolingo
+maladie	maladie	noun	Duolingo
+malgré	malgre	preposition	Duolingo
+malheureusement	malheureusement	adverb	Duolingo
+mali	mali	proper noun	Duolingo
+maman	maman	noun	Duolingo
+mamie	mamie		Duolingo
+manche	manche	proper noun	Duolingo
+mange	mange	verb	Duolingo
+mangeant	mangeant	verb	Duolingo
+mangent	mangent	verb	Duolingo
+mangeons	mangeons	verb	Duolingo
+manger	manger	verb	Duolingo
+mangeras	mangeras	verb	Duolingo
+mangeront	mangeront	verb	Duolingo
+manges	manges	verb	Duolingo
+mangez	mangez	verb	Duolingo
+mangue	mangue	noun	Duolingo
+mangues	mangues	noun	Duolingo
+manière	maniere	noun	Duolingo
+manifestation	manifestation	noun	Duolingo
+manifestations	manifestations	noun	Duolingo
+manifestent	manifestent	verb	Duolingo
+manifester	manifester	verb	Duolingo
+manquer	manquer	verb	Duolingo
+manquez	manquez	verb	Duolingo
+manteau	manteau	noun	Duolingo
+manteaux	manteaux	noun	Duolingo
+manuels	manuels	adjective	Duolingo
+maquillage	maquillage	noun	Duolingo
+maquiller	maquiller	verb	Duolingo
+marchait	marchait	verb	Duolingo
+marchant	marchant	verb	Duolingo
+marche	marche		Duolingo
+marché	marche	noun	Duolingo
+marche	marche	verb	Duolingo
+marchent	marchent	verb	Duolingo
+marcher	marcher		Duolingo
+marcher	marcher	verb	Duolingo
+marcheras	marcheras	verb	Duolingo
+marchés	marches	noun	Duolingo
+marches	marches	verb	Duolingo
+mardi	mardi	noun	Duolingo
+mardi gras	mardi gras		Duolingo
+mardis	mardis	noun	Duolingo
+mari	mari	noun	Duolingo
+mariage	mariage	noun	Duolingo
+mariages	mariages	noun	Duolingo
+marié	marie	adjective	Duolingo
+marié	marie	verb	Duolingo
+mariée	mariee	adjective	Duolingo
+mariée	mariee	verb	Duolingo
+mariées	mariees	adjective	Duolingo
+mariés	maries	adjective	Duolingo
+mariés	maries	noun	Duolingo
+maris	maris	noun	Duolingo
+maroc	maroc	proper noun	Duolingo
+marron	marron		Duolingo
+marron	marron	adjective	Duolingo
+mars	mars	noun	Duolingo
+martinique	martinique	proper noun	Duolingo
+masque	masque	noun	Duolingo
+match	match	noun	Duolingo
+matelas	matelas	noun	Duolingo
+matériel	materiel	noun	Duolingo
+matériel informatique	materiel informatique	noun	Duolingo
+mathématiques	mathematiques	noun	Duolingo
+maths	maths	noun	Duolingo
+matière	matiere	noun	Duolingo
+matin	matin	noun	Duolingo
+matins	matins	noun	Duolingo
+mauvais	mauvais	adjective	Duolingo
+mauvais	mauvais	adverb	Duolingo
+mauvaise	mauvaise		Duolingo
+mauvaise	mauvaise	adjective	Duolingo
+maximum	maximum	noun	Duolingo
+mayotte	mayotte	proper noun	Duolingo
+me	me	pronoun	Duolingo
+me suis	me suis		Duolingo
+mécanicien	mecanicien	noun	Duolingo
+mécanicienne	mecanicienne	noun	Duolingo
+méchant	mechant	adjective	Duolingo
+méchante	mechante	adjective	Duolingo
+méchantes	mechantes	adjective	Duolingo
+méchants	mechants	adjective	Duolingo
+médecin	medecin	noun	Duolingo
+médecine	medecine	noun	Duolingo
+médecins	medecins	noun	Duolingo
+médias	medias	noun	Duolingo
+médicament	medicament	noun	Duolingo
+médicaments	medicaments	noun	Duolingo
+méditerranée	mediterranee	proper noun	Duolingo
+meilleur	meilleur	adjective	Duolingo
+meilleur	meilleur	noun	Duolingo
+meilleure	meilleure	adjective	Duolingo
+meilleures	meilleures	adjective	Duolingo
+meilleurs	meilleurs	adjective	Duolingo
+mélange	melange	noun	Duolingo
+mélange	melange	verb	Duolingo
+mélanger	melanger	verb	Duolingo
+mélangez	melangez	verb	Duolingo
+melon	melon	noun	Duolingo
+melons	melons	noun	Duolingo
+membre	membre	noun	Duolingo
+membres	membres	noun	Duolingo
+même	meme		Duolingo
+même	meme	adjective	Duolingo
+même	meme	adverb	Duolingo
+même chose	meme chose		Duolingo
+même pas	meme pas	adverb	Duolingo
+mêmes	memes	adjective	Duolingo
+mémoire	memoire	noun	Duolingo
+ménage	menage	noun	Duolingo
+mensonge	mensonge	noun	Duolingo
+ment	ment	verb	Duolingo
+mentionner	mentionner	verb	Duolingo
+mentons	mentons	verb	Duolingo
+menu	menu	noun	Duolingo
+mer	mer	noun	Duolingo
+merci	merci	interjection	Duolingo
+merci beaucoup	merci beaucoup		Duolingo
+merci de	merci de		Duolingo
+mercredi	mercredi	noun	Duolingo
+mercredis	mercredis	noun	Duolingo
+mère	mere	noun	Duolingo
+mérite	merite	verb	Duolingo
+merveilleuse	merveilleuse	adjective	Duolingo
+merveilleuses	merveilleuses	adjective	Duolingo
+merveilleux	merveilleux	adjective	Duolingo
+mes	mes	determiner	Duolingo
+mesdames	mesdames		Duolingo
+message	message	noun	Duolingo
+messages	messages	noun	Duolingo
+messieurs	messieurs		Duolingo
+messieurs	messieurs	noun	Duolingo
+messieurs-dames	messieurs-dames		Duolingo
+mesure	mesure	noun	Duolingo
+mesures	mesures	noun	Duolingo
+met	met	verb	Duolingo
+métal	metal	noun	Duolingo
+météo	meteo	noun	Duolingo
+méthode	methode	noun	Duolingo
+méthodes	methodes	noun	Duolingo
+métier	metier	noun	Duolingo
+mètre	metre	noun	Duolingo
+mètres	metres	noun	Duolingo
+métro	metro	noun	Duolingo
+mets	mets	noun	Duolingo
+mets	mets	verb	Duolingo
+mettant	mettant	verb	Duolingo
+mettent	mettent	verb	Duolingo
+mettez	mettez	verb	Duolingo
+mettons	mettons	verb	Duolingo
+mettrai	mettrai	verb	Duolingo
+mettre	mettre	verb	Duolingo
+mettront	mettront	verb	Duolingo
+meuble	meuble	noun	Duolingo
+meubles	meubles	noun	Duolingo
+meurent	meurent	verb	Duolingo
+meurs	meurs	verb	Duolingo
+meurt	meurt	verb	Duolingo
+mexicain	mexicain	adjective	Duolingo
+mexicaine	mexicaine	adjective	Duolingo
+mexicaines	mexicaines	adjective	Duolingo
+mexicains	mexicains	adjective	Duolingo
+mexique	mexique	proper noun	Duolingo
+micro-ondes	micro-ondes		Duolingo
+midi	midi	noun	Duolingo
+miel	miel	noun	Duolingo
+mien	mien	pronoun	Duolingo
+mienne	mienne	pronoun	Duolingo
+miens	miens	pronoun	Duolingo
+mieux	mieux	adverb	Duolingo
+mignon	mignon	adjective	Duolingo
+mignonne	mignonne	adjective	Duolingo
+mignonnes	mignonnes	adjective	Duolingo
+milieu	milieu	noun	Duolingo
+mille	mille	noun	Duolingo
+mille	mille	numeral	Duolingo
+mille neuf cent	mille neuf cent		Duolingo
+milliard	milliard	noun	Duolingo
+milliards	milliards	noun	Duolingo
+million	million	noun	Duolingo
+millions	millions	noun	Duolingo
+mince	mince		Duolingo
+mince	mince	adjective	Duolingo
+minérale	minerale	adjective	Duolingo
+minimum	minimum	noun	Duolingo
+ministère	ministere	noun	Duolingo
+ministre	ministre	noun	Duolingo
+ministres	ministres	noun	Duolingo
+minuit	minuit	noun	Duolingo
+minute	minute	noun	Duolingo
+minutes	minutes	noun	Duolingo
+miroir	miroir	noun	Duolingo
+mis	mis	verb	Duolingo
+mission	mission	noun	Duolingo
+missions	missions	noun	Duolingo
+mode	mode	noun	Duolingo
+modèle	modele	noun	Duolingo
+moderne	moderne	adjective	Duolingo
+modernes	modernes	adjective	Duolingo
+modes	modes	noun	Duolingo
+moi	moi	pronoun	Duolingo
+moi-même	moi-meme		Duolingo
+moins	moins		Duolingo
+moins	moins	adverb	Duolingo
+moins	moins	preposition	Duolingo
+moins bien	moins bien		Duolingo
+moins de	moins de		Duolingo
+moins le quart	moins le quart		Duolingo
+mois	mois	noun	Duolingo
+moitié	moitie	noun	Duolingo
+moment	moment	noun	Duolingo
+moments	moments	noun	Duolingo
+mon	mon	determiner	Duolingo
+monde	monde	noun	Duolingo
+mondial	mondial	adjective	Duolingo
+mondiale	mondiale	adjective	Duolingo
+monnaie	monnaie		Duolingo
+monnaie	monnaie	noun	Duolingo
+monsieur	monsieur	noun	Duolingo
+montagne	montagne	noun	Duolingo
+monté	monte		Duolingo
+monté	monte	verb	Duolingo
+montées	montees	verb	Duolingo
+monter	monter	verb	Duolingo
+montés	montes	verb	Duolingo
+montre	montre		Duolingo
+montre	montre	noun	Duolingo
+montré	montre	verb	Duolingo
+montrent	montrent	verb	Duolingo
+montrer	montrer		Duolingo
+montrer	montrer	verb	Duolingo
+montres	montres	noun	Duolingo
+montres	montres	verb	Duolingo
+montrez	montrez	verb	Duolingo
+monument	monument	noun	Duolingo
+monuments	monuments	noun	Duolingo
+morale	morale	noun	Duolingo
+morceau	morceau	noun	Duolingo
+morceaux	morceaux	noun	Duolingo
+morel	morel	proper noun	Duolingo
+mort	mort	adjective	Duolingo
+mort	mort	noun	Duolingo
+morte	morte	adjective	Duolingo
+morts	morts	adjective	Duolingo
+morts	morts	noun	Duolingo
+mosquée	mosquee	noun	Duolingo
+mosquées	mosquees	noun	Duolingo
+mot	mot	noun	Duolingo
+mot de passe	mot de passe		Duolingo
+moteur	moteur	noun	Duolingo
+moteurs	moteurs	noun	Duolingo
+motive	motive	verb	Duolingo
+moto	moto	noun	Duolingo
+mots	mots	noun	Duolingo
+mouche	mouche	noun	Duolingo
+mouillé	mouille	adjective	Duolingo
+mouillée	mouillee	adjective	Duolingo
+mouillés	mouilles	adjective	Duolingo
+mourir	mourir	verb	Duolingo
+mourra	mourra	verb	Duolingo
+moutarde	moutarde	noun	Duolingo
+mouton	mouton	noun	Duolingo
+moutons	moutons	noun	Duolingo
+mouvement	mouvement	noun	Duolingo
+mouvements	mouvements	noun	Duolingo
+moyen	moyen	adjective	Duolingo
+moyen	moyen	noun	Duolingo
+moyen âge	moyen age		Duolingo
+moyen âge	moyen age	proper noun	Duolingo
+moyens	moyens	noun	Duolingo
+mur	mur	noun	Duolingo
+murs	murs	noun	Duolingo
+muscle	muscle	noun	Duolingo
+musée	musee	noun	Duolingo
+musées	musees	noun	Duolingo
+musicien	musicien	noun	Duolingo
+musicienne	musicienne	noun	Duolingo
+musiciennes	musiciennes	noun	Duolingo
+musiciens	musiciens	noun	Duolingo
+musique	musique	noun	Duolingo
+mystère	mystere	noun	Duolingo
+n'	n'		Duolingo
+n'	n'	adverb	Duolingo
+n'ai pas	n'ai pas		Duolingo
+n'aime pas	n'aime pas		Duolingo
+n'allez pas	n'allez pas		Duolingo
+n'as pas	n'as pas		Duolingo
+n'en	n'en		Duolingo
+n'importe	n'importe		Duolingo
+n'importe où	n'importe ou		Duolingo
+n'importe quand	n'importe quand		Duolingo
+n'importe quel	n'importe quel		Duolingo
+n'importe quelle	n'importe quelle		Duolingo
+n'importe qui	n'importe qui		Duolingo
+n'importe quoi	n'importe quoi		Duolingo
+n'y	n'y		Duolingo
+n'y a plus de	n'y a plus de		Duolingo
+n'y avait	n'y avait		Duolingo
+n'y en a pas	n'y en a pas		Duolingo
+n'y en a plus	n'y en a plus		Duolingo
+nagé	nage	verb	Duolingo
+nagent	nagent	verb	Duolingo
+nageons	nageons	verb	Duolingo
+nager	nager	verb	Duolingo
+nageras	nageras	verb	Duolingo
+nageront	nageront	verb	Duolingo
+nagez	nagez	verb	Duolingo
+naissance	naissance	noun	Duolingo
+naissances	naissances	noun	Duolingo
+naître	naitre	verb	Duolingo
+napoléon	napoleon	proper noun	Duolingo
+nation	nation	noun	Duolingo
+national	national	adjective	Duolingo
+nationale	nationale	adjective	Duolingo
+nationalité	nationalite	noun	Duolingo
+nationaux	nationaux	adjective	Duolingo
+nature	nature	adjective	Duolingo
+nature	nature	noun	Duolingo
+naturel	naturel	adjective	Duolingo
+naturellement	naturellement	adverb	Duolingo
+naviguer	naviguer	verb	Duolingo
+navigues	navigues	verb	Duolingo
+ne	ne		Duolingo
+ne	ne	adverb	Duolingo
+né	ne	verb	Duolingo
+ne faisait	ne faisait		Duolingo
+ne la	ne la		Duolingo
+ne le	ne le		Duolingo
+ne me	ne me		Duolingo
+ne me suis	ne me suis		Duolingo
+ne nous	ne nous		Duolingo
+ne nous garons	ne nous garons		Duolingo
+ne nous perdons	ne nous perdons		Duolingo
+ne pas	ne pas		Duolingo
+ne peut plus	ne peut plus		Duolingo
+ne peux plus	ne peux plus		Duolingo
+ne plus	ne plus		Duolingo
+ne porte pas	ne porte pas		Duolingo
+ne s'est	ne s'est		Duolingo
+ne sais plus	ne sais plus		Duolingo
+ne se	ne se		Duolingo
+ne se sont	ne se sont		Duolingo
+ne t'es	ne t'es		Duolingo
+ne te	ne te		Duolingo
+ne te gare pas	ne te gare pas		Duolingo
+ne te lève pas	ne te leve pas		Duolingo
+ne te perds	ne te perds		Duolingo
+ne veux plus	ne veux plus		Duolingo
+ne vous	ne vous		Duolingo
+ne vous garez pas	ne vous garez pas		Duolingo
+ne vous perdez	ne vous perdez		Duolingo
+nécessaire	necessaire	adjective	Duolingo
+nécessairement	necessairement	adverb	Duolingo
+nécessaires	necessaires	adjective	Duolingo
+née	nee	verb	Duolingo
+nées	nees	verb	Duolingo
+négatif	negatif	adjective	Duolingo
+négatifs	negatifs	adjective	Duolingo
+négative	negative	adjective	Duolingo
+négatives	negatives	adjective	Duolingo
+neige	neige	noun	Duolingo
+neige	neige	verb	Duolingo
+neigeait	neigeait	verb	Duolingo
+neiger	neiger	verb	Duolingo
+nerveuses	nerveuses	adjective	Duolingo
+nerveux	nerveux	adjective	Duolingo
+nés	nes	verb	Duolingo
+nettoie	nettoie	verb	Duolingo
+nettoient	nettoient	verb	Duolingo
+nettoies	nettoies	verb	Duolingo
+nettoyé	nettoye	verb	Duolingo
+nettoyer	nettoyer	verb	Duolingo
+neuf	neuf	adjective	Duolingo
+neuf	neuf	numeral	Duolingo
+neufs	neufs	adjective	Duolingo
+neuve	neuve	adjective	Duolingo
+neuves	neuves	adjective	Duolingo
+neuvième	neuvieme	adjective	Duolingo
+neveu	neveu	noun	Duolingo
+neveux	neveux	noun	Duolingo
+nez	nez	noun	Duolingo
+ni	ni	conjunction	Duolingo
+nièce	niece	noun	Duolingo
+nièces	nieces	noun	Duolingo
+niveau	niveau	noun	Duolingo
+niveaux	niveaux	noun	Duolingo
+noël	noel	noun	Duolingo
+noir	noir	adjective	Duolingo
+noire	noire	adjective	Duolingo
+noires	noires	adjective	Duolingo
+noirs	noirs	adjective	Duolingo
+noix	noix	noun	Duolingo
+noix de coco	noix de coco		Duolingo
+nom	nom	noun	Duolingo
+nom d'utilisateur	nom d'utilisateur		Duolingo
+nombre	nombre	noun	Duolingo
+nombreux	nombreux	adjective	Duolingo
+noms	noms	noun	Duolingo
+non	non	adverb	Duolingo
+non plus	non plus		Duolingo
+non plus	non plus	adverb	Duolingo
+non-fumeur	non-fumeur		Duolingo
+nord	nord		Duolingo
+nord	nord	noun	Duolingo
+nord-est	nord-est		Duolingo
+nord-ouest	nord-ouest		Duolingo
+normal	normal	adjective	Duolingo
+normale	normale	adjective	Duolingo
+normalement	normalement	adverb	Duolingo
+normandie	normandie	proper noun	Duolingo
+norvège	norvege	proper noun	Duolingo
+nos	nos	determiner	Duolingo
+notamment	notamment	adverb	Duolingo
+note	note	noun	Duolingo
+notes	notes	noun	Duolingo
+notre	notre	determiner	Duolingo
+nôtre	notre	pronoun	Duolingo
+notre-dame	notre-dame		Duolingo
+nôtres	notres	pronoun	Duolingo
+nourriture	nourriture	noun	Duolingo
+nous	nous		Duolingo
+nous	nous	pronoun	Duolingo
+nous appelons	nous appelons		Duolingo
+nous en	nous en		Duolingo
+nous nous sommes	nous nous sommes		Duolingo
+nous-mêmes	nous-memes		Duolingo
+nouveau	nouveau	adjective	Duolingo
+nouveaux	nouveaux	adjective	Duolingo
+nouvel	nouvel	adjective	Duolingo
+nouvel an	nouvel an		Duolingo
+nouvelle	nouvelle	adjective	Duolingo
+nouvelle	nouvelle	noun	Duolingo
+nouvelles	nouvelles		Duolingo
+nouvelles	nouvelles	adjective	Duolingo
+nouvelles	nouvelles	noun	Duolingo
+novembre	novembre	noun	Duolingo
+nu	nu	adjective	Duolingo
+nuage	nuage	noun	Duolingo
+nuages	nuages	noun	Duolingo
+nuageux	nuageux	adjective	Duolingo
+nue	nue	adjective	Duolingo
+nuit	nuit	noun	Duolingo
+nuits	nuits		Duolingo
+nuits	nuits	noun	Duolingo
+nul	nul	adjective	Duolingo
+nul	nul	determiner	Duolingo
+nulle	nulle	determiner	Duolingo
+nulle part	nulle part		Duolingo
+numérique	numerique	adjective	Duolingo
+numéro	numero	noun	Duolingo
+objectif	objectif	noun	Duolingo
+objet	objet	noun	Duolingo
+objets	objets	noun	Duolingo
+obligé	oblige	adjective	Duolingo
+obtenir	obtenir	verb	Duolingo
+occasion	occasion	noun	Duolingo
+occupé	occupe	adjective	Duolingo
+occupe	occupe	verb	Duolingo
+occupée	occupee	adjective	Duolingo
+occupées	occupees	adjective	Duolingo
+occuper	occuper	verb	Duolingo
+occupés	occupes	adjective	Duolingo
+occupes	occupes	verb	Duolingo
+occupons	occupons	verb	Duolingo
+océan	ocean		Duolingo
+océan	ocean	noun	Duolingo
+océanie	oceanie	proper noun	Duolingo
+octobre	octobre	noun	Duolingo
+odeur	odeur	noun	Duolingo
+œil	oeil	noun	Duolingo
+œuf	oeuf	noun	Duolingo
+œufs	oeufs	noun	Duolingo
+œuvre	oeuvre	noun	Duolingo
+œuvres	oeuvres	noun	Duolingo
+offert	offert	verb	Duolingo
+office de tourisme	office de tourisme		Duolingo
+offrant	offrant	verb	Duolingo
+offre	offre	noun	Duolingo
+offre	offre	verb	Duolingo
+offrent	offrent	verb	Duolingo
+offres	offres	verb	Duolingo
+offrez	offrez	verb	Duolingo
+offrir	offrir		Duolingo
+offrir	offrir	verb	Duolingo
+offrons	offrons	verb	Duolingo
+oh là là	oh la la		Duolingo
+oignon	oignon	noun	Duolingo
+oignons	oignons	noun	Duolingo
+oiseau	oiseau	noun	Duolingo
+oiseaux	oiseaux	noun	Duolingo
+olympique	olympique	adjective	Duolingo
+olympiques	olympiques	adjective	Duolingo
+ombre	ombre	noun	Duolingo
+on	on		Duolingo
+on	on	pronoun	Duolingo
+on apporte	on apporte		Duolingo
+on devrait	on devrait		Duolingo
+on mange	on mange		Duolingo
+on se voit	on se voit		Duolingo
+on sort	on sort		Duolingo
+on va	on va		Duolingo
+on y va	on y va		Duolingo
+oncle	oncle	noun	Duolingo
+oncles	oncles	noun	Duolingo
+ongles	ongles	noun	Duolingo
+ont	ont	verb	Duolingo
+ont-ils	ont-ils		Duolingo
+onze	onze	numeral	Duolingo
+opéra	opera	noun	Duolingo
+opéras	operas	noun	Duolingo
+opération	operation	noun	Duolingo
+opinion	opinion	noun	Duolingo
+opinions	opinions	noun	Duolingo
+opposition	opposition	noun	Duolingo
+option	option	noun	Duolingo
+options	options	noun	Duolingo
+or	or	noun	Duolingo
+orange	orange		Duolingo
+orange	orange	adjective	Duolingo
+orange	orange	noun	Duolingo
+oranges	oranges	noun	Duolingo
+ordinaire	ordinaire	adjective	Duolingo
+ordinateur	ordinateur	noun	Duolingo
+ordre	ordre	noun	Duolingo
+ordres	ordres	noun	Duolingo
+oreille	oreille	noun	Duolingo
+oreiller	oreiller	noun	Duolingo
+oreilles	oreilles	noun	Duolingo
+organe	organe	noun	Duolingo
+organisation	organisation	noun	Duolingo
+organisations	organisations	noun	Duolingo
+organiser	organiser	verb	Duolingo
+organismes	organismes	noun	Duolingo
+orientation	orientation	noun	Duolingo
+original	original	adjective	Duolingo
+origine	origine	noun	Duolingo
+os	os	noun	Duolingo
+où	ou		Duolingo
+où	ou	adverb	Duolingo
+ou	ou	conjunction	Duolingo
+où	ou	pronoun	Duolingo
+ou bien	ou bien		Duolingo
+où est-ce que	ou est-ce que		Duolingo
+oublié	oublie	verb	Duolingo
+oublier	oublier	verb	Duolingo
+oublies	oublies	verb	Duolingo
+ouest	ouest	noun	Duolingo
+oui	oui	adverb	Duolingo
+ours	ours	noun	Duolingo
+outil	outil	noun	Duolingo
+outils	outils	noun	Duolingo
+ouvert	ouvert	adjective	Duolingo
+ouvert	ouvert	verb	Duolingo
+ouverte	ouverte	adjective	Duolingo
+ouverts	ouverts	adjective	Duolingo
+ouvrage	ouvrage	noun	Duolingo
+ouvrant	ouvrant	verb	Duolingo
+ouvre	ouvre		Duolingo
+ouvre	ouvre	verb	Duolingo
+ouvre-	ouvre-		Duolingo
+ouvrent	ouvrent		Duolingo
+ouvrent	ouvrent	verb	Duolingo
+ouvres	ouvres		Duolingo
+ouvres	ouvres	verb	Duolingo
+ouvrez	ouvrez		Duolingo
+ouvrez	ouvrez	verb	Duolingo
+ouvrières	ouvrieres	noun	Duolingo
+ouvriers	ouvriers	adjective	Duolingo
+ouvrir	ouvrir		Duolingo
+ouvrir	ouvrir	verb	Duolingo
+ouvrons	ouvrons		Duolingo
+ouvrons	ouvrons	verb	Duolingo
+ovni	ovni	noun	Duolingo
+pacs	pacs	noun	Duolingo
+page	page	noun	Duolingo
+pages	pages	noun	Duolingo
+pain	pain	noun	Duolingo
+pain grillé	pain grille		Duolingo
+paire	paire	noun	Duolingo
+paires	paires	noun	Duolingo
+paix	paix	noun	Duolingo
+palais	palais	noun	Duolingo
+pâle	pale	adjective	Duolingo
+panne	panne	noun	Duolingo
+panneau	panneau	noun	Duolingo
+pantalon	pantalon	noun	Duolingo
+pantalons	pantalons	noun	Duolingo
+papa	papa	noun	Duolingo
+papier	papier	noun	Duolingo
+papiers	papiers	noun	Duolingo
+papillon	papillon	noun	Duolingo
+pâques	paques	noun	Duolingo
+par	par		Duolingo
+par	par	preposition	Duolingo
+par cœur	par coeur		Duolingo
+par conséquent	par consequent	conjunction	Duolingo
+par contre	par contre		Duolingo
+par exemple	par exemple		Duolingo
+par hasard	par hasard		Duolingo
+par qui	par qui		Duolingo
+par terre	par terre		Duolingo
+par-dessus	par-dessus		Duolingo
+par-dessus	par-dessus	preposition	Duolingo
+paradis	paradis	noun	Duolingo
+parapluie	parapluie	noun	Duolingo
+parc	parc	noun	Duolingo
+parce qu'	parce qu'		Duolingo
+parce que	parce que		Duolingo
+parcs	parcs	noun	Duolingo
+pardon	pardon	interjection	Duolingo
+pardon	pardon	noun	Duolingo
+pardonner	pardonner	verb	Duolingo
+pareil	pareil	adjective	Duolingo
+pareilles	pareilles	adjective	Duolingo
+pareils	pareils	adjective	Duolingo
+parent	parent	noun	Duolingo
+parents	parents	noun	Duolingo
+paresseuses	paresseuses	adjective	Duolingo
+paresseux	paresseux	adjective	Duolingo
+parfait	parfait	adjective	Duolingo
+parfaite	parfaite	adjective	Duolingo
+parfaitement	parfaitement	adverb	Duolingo
+parfois	parfois	adverb	Duolingo
+parfum	parfum	noun	Duolingo
+paris	paris	proper noun	Duolingo
+parking	parking	noun	Duolingo
+parkings	parkings	noun	Duolingo
+parlais	parlais	verb	Duolingo
+parlant	parlant	verb	Duolingo
+parle	parle		Duolingo
+parle	parle	verb	Duolingo
+parle de	parle de		Duolingo
+parlement	parlement	noun	Duolingo
+parlent	parlent	verb	Duolingo
+parlent-ils	parlent-ils		Duolingo
+parler	parler	verb	Duolingo
+parlerai	parlerai	verb	Duolingo
+parleras	parleras	verb	Duolingo
+parles	parles	verb	Duolingo
+parles-tu	parles-tu		Duolingo
+parlez	parlez	verb	Duolingo
+parlez-vous	parlez-vous		Duolingo
+parlions	parlions	verb	Duolingo
+parlons	parlons	verb	Duolingo
+parmi	parmi	preposition	Duolingo
+parole	parole	noun	Duolingo
+paroles	paroles	noun	Duolingo
+pars	pars		Duolingo
+pars	pars	verb	Duolingo
+part	part		Duolingo
+part	part	noun	Duolingo
+part	part	verb	Duolingo
+partage	partage	verb	Duolingo
+partagent	partagent	verb	Duolingo
+partager	partager	verb	Duolingo
+partant	partant	verb	Duolingo
+partent	partent		Duolingo
+partent	partent	verb	Duolingo
+partez	partez		Duolingo
+partez	partez	verb	Duolingo
+parti	parti	noun	Duolingo
+participé	participe	verb	Duolingo
+participer	participer	verb	Duolingo
+particulier	particulier	adjective	Duolingo
+particulièrement	particulierement	adverb	Duolingo
+partie	partie	noun	Duolingo
+parties	parties	noun	Duolingo
+partir	partir		Duolingo
+partir	partir	verb	Duolingo
+partira	partira	verb	Duolingo
+partiras	partiras	verb	Duolingo
+partons	partons		Duolingo
+partons	partons	verb	Duolingo
+partout	partout	adverb	Duolingo
+pas	pas		Duolingo
+pas	pas	adverb	Duolingo
+pas	pas	noun	Duolingo
+pas assez	pas assez		Duolingo
+pas bien	pas bien		Duolingo
+pas d'	pas d'		Duolingo
+pas de	pas de		Duolingo
+pas de poisson	pas de poisson		Duolingo
+pas de viande	pas de viande		Duolingo
+pas du tout	pas du tout		Duolingo
+pas encore	pas encore		Duolingo
+pas envie	pas envie		Duolingo
+pas ici	pas ici		Duolingo
+pas maintenant	pas maintenant		Duolingo
+pas mal	pas mal		Duolingo
+pas moi	pas moi		Duolingo
+pas que	pas que		Duolingo
+pas un	pas un		Duolingo
+pas une	pas une		Duolingo
+passager	passager	noun	Duolingo
+passagère	passagere	adjective	Duolingo
+passagères	passageres	adjective	Duolingo
+passagers	passagers	noun	Duolingo
+passant	passant	verb	Duolingo
+passe	passe		Duolingo
+passé	passe	noun	Duolingo
+passé	passe	verb	Duolingo
+passe par	passe par		Duolingo
+passent	passent	verb	Duolingo
+passeport	passeport	noun	Duolingo
+passeports	passeports	noun	Duolingo
+passer	passer		Duolingo
+passer	passer	verb	Duolingo
+passera	passera	verb	Duolingo
+passeras	passeras	verb	Duolingo
+passion	passion	noun	Duolingo
+passionnément	passionnement	adverb	Duolingo
+passions	passions	noun	Duolingo
+passons	passons	verb	Duolingo
+pastèque	pasteque	noun	Duolingo
+pastèques	pasteques	noun	Duolingo
+pâte	pate	noun	Duolingo
+pâtes	pates	noun	Duolingo
+patience	patience	noun	Duolingo
+patient	patient	adjective	Duolingo
+patiente	patiente	adjective	Duolingo
+patiente	patiente	noun	Duolingo
+patients	patients	noun	Duolingo
+patine	patine	verb	Duolingo
+patiner	patiner	verb	Duolingo
+pâtisserie	patisserie		Duolingo
+pâtisserie	patisserie	noun	Duolingo
+pâtisseries	patisseries	noun	Duolingo
+patron	patron	noun	Duolingo
+pause	pause	noun	Duolingo
+pauses	pauses	noun	Duolingo
+pauvre	pauvre	adjective	Duolingo
+pauvres	pauvres	adjective	Duolingo
+pauvreté	pauvrete	noun	Duolingo
+payé	paye	verb	Duolingo
+payer	payer		Duolingo
+payer	payer	verb	Duolingo
+payes	payes	verb	Duolingo
+payez	payez	verb	Duolingo
+pays	pays	noun	Duolingo
+paysage	paysage	noun	Duolingo
+peau	peau	noun	Duolingo
+pêche	peche	noun	Duolingo
+pêché	peche	verb	Duolingo
+pêcher	pecher	verb	Duolingo
+peindre	peindre	verb	Duolingo
+peine	peine	noun	Duolingo
+peint	peint	verb	Duolingo
+peintres	peintres	noun	Duolingo
+peinture	peinture	noun	Duolingo
+peintures	peintures	noun	Duolingo
+pelouse	pelouse	noun	Duolingo
+pendant	pendant	adverb	Duolingo
+pendant	pendant	preposition	Duolingo
+pendant ce temps-là	pendant ce temps-la		Duolingo
+pendant qu'	pendant qu'		Duolingo
+pendant que	pendant que		Duolingo
+pensaient	pensaient	verb	Duolingo
+pensais	pensais	verb	Duolingo
+pensait	pensait	verb	Duolingo
+pense	pense	verb	Duolingo
+pense à	pense a		Duolingo
+pense pas que	pense pas que		Duolingo
+pense que	pense que		Duolingo
+pensée	pensee	noun	Duolingo
+pensées	pensees	noun	Duolingo
+penser	penser	verb	Duolingo
+penser à	penser a		Duolingo
+penseras	penseras	verb	Duolingo
+penserez	penserez	verb	Duolingo
+pensez	pensez	verb	Duolingo
+pensiez	pensiez	verb	Duolingo
+perd	perd	verb	Duolingo
+perdent	perdent	verb	Duolingo
+perdez	perdez	verb	Duolingo
+perdons	perdons	verb	Duolingo
+perdre	perdre	verb	Duolingo
+perds	perds	verb	Duolingo
+perdu	perdu	verb	Duolingo
+perdue	perdue	adjective	Duolingo
+perdue	perdue	verb	Duolingo
+perdus	perdus	adjective	Duolingo
+perdus	perdus	verb	Duolingo
+père	pere	noun	Duolingo
+père noël	pere noel		Duolingo
+périmé	perime	adjective	Duolingo
+périmés	perimes	adjective	Duolingo
+période	periode	noun	Duolingo
+permettez	permettez	verb	Duolingo
+permettre	permettre	verb	Duolingo
+permis	permis	noun	Duolingo
+personnalité	personnalite	noun	Duolingo
+personne	personne		Duolingo
+personne	personne	noun	Duolingo
+personne	personne	pronoun	Duolingo
+personnel	personnel	adjective	Duolingo
+personnel	personnel	noun	Duolingo
+personnellement	personnellement	adverb	Duolingo
+personnes	personnes	noun	Duolingo
+pèse	pese	verb	Duolingo
+pèsent	pesent	verb	Duolingo
+petit	petit		Duolingo
+petit	petit	adjective	Duolingo
+petit ami	petit ami		Duolingo
+petit déjeuner	petit dejeuner		Duolingo
+petit frère	petit frere		Duolingo
+petit-déjeuner	petit-dejeuner	noun	Duolingo
+petit-fils	petit-fils		Duolingo
+petit-fils	petit-fils	noun	Duolingo
+petite	petite		Duolingo
+petite	petite	adjective	Duolingo
+petite amie	petite amie		Duolingo
+petite sœur	petite soeur		Duolingo
+petite-fille	petite-fille		Duolingo
+petites	petites	adjective	Duolingo
+petits	petits	adjective	Duolingo
+petits-enfants	petits-enfants		Duolingo
+pétrole	petrole	noun	Duolingo
+peu	peu	adverb	Duolingo
+peu à peu	peu a peu		Duolingo
+peu après	peu apres		Duolingo
+peu importe	peu importe		Duolingo
+peu probable	peu probable		Duolingo
+peuple	peuple	noun	Duolingo
+peur	peur		Duolingo
+peur	peur	noun	Duolingo
+peur de	peur de		Duolingo
+peut	peut	verb	Duolingo
+peut-être	peut-etre		Duolingo
+peuvent	peuvent	verb	Duolingo
+peux	peux	verb	Duolingo
+peux plus	peux plus		Duolingo
+pharmacie	pharmacie	noun	Duolingo
+pharmacies	pharmacies	noun	Duolingo
+phénix	phenix	noun	Duolingo
+phénomène	phenomene	noun	Duolingo
+philosophie	philosophie	noun	Duolingo
+photo	photo	noun	Duolingo
+photographes	photographes	noun	Duolingo
+photographie	photographie	noun	Duolingo
+photographie	photographie	verb	Duolingo
+photographies	photographies	noun	Duolingo
+photographies	photographies	verb	Duolingo
+photos	photos	noun	Duolingo
+phrase	phrase	noun	Duolingo
+phrases	phrases	noun	Duolingo
+physique	physique	adjective	Duolingo
+piano	piano	noun	Duolingo
+pièce	piece	noun	Duolingo
+pièce de théâtre	piece de theatre		Duolingo
+pièces	pieces		Duolingo
+pièces	pieces	noun	Duolingo
+pied	pied	noun	Duolingo
+pieds	pieds	noun	Duolingo
+pierre	pierre	noun	Duolingo
+pierres	pierres	noun	Duolingo
+pilote	pilote	noun	Duolingo
+pique-nique	pique-nique		Duolingo
+pire	pire	adjective	Duolingo
+pire	pire	noun	Duolingo
+pires	pires	adjective	Duolingo
+piscine	piscine	noun	Duolingo
+piscines	piscines	noun	Duolingo
+pizza	pizza	noun	Duolingo
+pizzas	pizzas	noun	Duolingo
+placards	placards	noun	Duolingo
+place	place		Duolingo
+place	place	noun	Duolingo
+places	places	noun	Duolingo
+plafond	plafond	noun	Duolingo
+plafonds	plafonds	noun	Duolingo
+plage	plage	noun	Duolingo
+plaire	plaire	verb	Duolingo
+plaisent	plaisent	verb	Duolingo
+plaisez	plaisez	verb	Duolingo
+plaisir	plaisir	noun	Duolingo
+plaît	plait	verb	Duolingo
+plan	plan	noun	Duolingo
+planète	planete	noun	Duolingo
+plans	plans	noun	Duolingo
+plante	plante	noun	Duolingo
+plante	plante	verb	Duolingo
+plantes	plantes	noun	Duolingo
+plastique	plastique	adjective	Duolingo
+plastique	plastique	noun	Duolingo
+plat	plat	adjective	Duolingo
+plateau	plateau	noun	Duolingo
+plein	plein		Duolingo
+plein	plein	adjective	Duolingo
+plein de	plein de		Duolingo
+pleine	pleine	adjective	Duolingo
+pleuraient	pleuraient	verb	Duolingo
+pleurais	pleurais	verb	Duolingo
+pleurait	pleurait	verb	Duolingo
+pleuré	pleure	verb	Duolingo
+pleurer	pleurer	verb	Duolingo
+pleures	pleures	verb	Duolingo
+pleurez	pleurez	verb	Duolingo
+pleurions	pleurions	verb	Duolingo
+pleut	pleut	verb	Duolingo
+pleuvait	pleuvait	verb	Duolingo
+pleuve	pleuve	verb	Duolingo
+pleuvoir	pleuvoir	verb	Duolingo
+plu	plu	verb	Duolingo
+pluie	pluie	noun	Duolingo
+plupart	plupart	noun	Duolingo
+plus	plus		Duolingo
+plus	plus	adverb	Duolingo
+plus	plus	conjunction	Duolingo
+plus de	plus de		Duolingo
+plus jamais	plus jamais		Duolingo
+plus maintenant	plus maintenant		Duolingo
+plus personne	plus personne		Duolingo
+plus rien	plus rien		Duolingo
+plusieurs	plusieurs	adjective	Duolingo
+plusieurs	plusieurs	determiner	Duolingo
+plutôt	plutot	adverb	Duolingo
+pneu	pneu	noun	Duolingo
+pneus	pneus	noun	Duolingo
+poche	poche	noun	Duolingo
+poches	poches	noun	Duolingo
+poème	poeme	noun	Duolingo
+poèmes	poemes	noun	Duolingo
+poésie	poesie	noun	Duolingo
+poids	poids	noun	Duolingo
+poil	poil	noun	Duolingo
+point	point	noun	Duolingo
+poire	poire	noun	Duolingo
+poires	poires	noun	Duolingo
+pois	pois	noun	Duolingo
+poisson	poisson	noun	Duolingo
+poissons	poissons	noun	Duolingo
+poitrine	poitrine	noun	Duolingo
+poivre	poivre	noun	Duolingo
+pôle nord	pole nord		Duolingo
+police	police	noun	Duolingo
+policier	policier	noun	Duolingo
+policiers	policiers	adjective	Duolingo
+policiers	policiers	noun	Duolingo
+poliment	poliment	adverb	Duolingo
+politique	politique	noun	Duolingo
+pollution	pollution	noun	Duolingo
+polynésie	polynesie	proper noun	Duolingo
+pomme	pomme	noun	Duolingo
+pommes	pommes	noun	Duolingo
+pommes de terre	pommes de terre		Duolingo
+pompiers	pompiers	noun	Duolingo
+pont	pont	noun	Duolingo
+ponts	ponts	noun	Duolingo
+pop	pop	noun	Duolingo
+populaire	populaire	adjective	Duolingo
+populaires	populaires	adjective	Duolingo
+population	population	noun	Duolingo
+porc	porc	noun	Duolingo
+port	port	noun	Duolingo
+portables	portables		Duolingo
+portail	portail	noun	Duolingo
+porte	porte	noun	Duolingo
+porte	porte	verb	Duolingo
+porte-monnaie	porte-monnaie		Duolingo
+portefeuille	portefeuille	noun	Duolingo
+portefeuilles	portefeuilles	noun	Duolingo
+portent	portent	verb	Duolingo
+porter	porter	verb	Duolingo
+portes	portes	noun	Duolingo
+portes	portes	verb	Duolingo
+portez	portez	verb	Duolingo
+portons	portons	verb	Duolingo
+ports	ports	noun	Duolingo
+portugais	portugais	noun	Duolingo
+portugal	portugal	proper noun	Duolingo
+pose	pose	verb	Duolingo
+poser	poser	verb	Duolingo
+poses	poses	verb	Duolingo
+positif	positif	adjective	Duolingo
+positifs	positifs	adjective	Duolingo
+position	position	noun	Duolingo
+positions	positions	noun	Duolingo
+positive	positive	adjective	Duolingo
+posons	posons	verb	Duolingo
+possède	possede	verb	Duolingo
+possibilité	possibilite	noun	Duolingo
+possibilités	possibilites	noun	Duolingo
+possible	possible	adjective	Duolingo
+poste	poste		Duolingo
+poste	poste	noun	Duolingo
+postérieurement	posterieurement	adverb	Duolingo
+poubelle	poubelle	noun	Duolingo
+poudre	poudre	noun	Duolingo
+poule	poule	noun	Duolingo
+poulet	poulet	noun	Duolingo
+pouls	pouls	noun	Duolingo
+poupée	poupee	noun	Duolingo
+poupées	poupees	noun	Duolingo
+pour	pour		Duolingo
+pour	pour	preposition	Duolingo
+pour cent	pour cent		Duolingo
+pour cette raison	pour cette raison	conjunction	Duolingo
+pour en revenir	pour en revenir		Duolingo
+pour l'instant	pour l'instant		Duolingo
+pour la santé	pour la sante		Duolingo
+pour le moment	pour le moment		Duolingo
+pour qu'	pour qu'		Duolingo
+pour qu'	pour qu'	conjunction	Duolingo
+pour que	pour que		Duolingo
+pour que	pour que	conjunction	Duolingo
+pour toujours	pour toujours	adverb	Duolingo
+pourboire	pourboire	noun	Duolingo
+pourquoi	pourquoi	adverb	Duolingo
+pourra	pourra	verb	Duolingo
+pourrai	pourrai	verb	Duolingo
+pourraient	pourraient	verb	Duolingo
+pourrais	pourrais	verb	Duolingo
+pourrait	pourrait	verb	Duolingo
+pourras	pourras	verb	Duolingo
+pourrez	pourrez	verb	Duolingo
+pourriez	pourriez	verb	Duolingo
+pourrions	pourrions		Duolingo
+pourrions	pourrions	verb	Duolingo
+pourrons	pourrons	verb	Duolingo
+pourront	pourront	verb	Duolingo
+pourtant	pourtant	adverb	Duolingo
+pourvu	pourvu		Duolingo
+poussé	pousse	verb	Duolingo
+pousser	pousser	verb	Duolingo
+poussière	poussiere	noun	Duolingo
+pouvaient	pouvaient	verb	Duolingo
+pouvais	pouvais	verb	Duolingo
+pouvait	pouvait	verb	Duolingo
+pouvez	pouvez	verb	Duolingo
+pouvez-vous	pouvez-vous		Duolingo
+pouvez-vous me dire	pouvez-vous me dire		Duolingo
+pouviez	pouviez	verb	Duolingo
+pouvoir	pouvoir	verb	Duolingo
+pouvoirs	pouvoirs	noun	Duolingo
+pouvons	pouvons		Duolingo
+pouvons	pouvons	verb	Duolingo
+pratique	pratique	adjective	Duolingo
+pratique	pratique	noun	Duolingo
+pratiques	pratiques	adjective	Duolingo
+pratiques	pratiques	noun	Duolingo
+précédemment	precedemment	adverb	Duolingo
+précieux	precieux	adjective	Duolingo
+précis	precis	adjective	Duolingo
+précisément	precisement	adverb	Duolingo
+préféré	prefere	adjective	Duolingo
+préféré	prefere	verb	Duolingo
+préférée	preferee	adjective	Duolingo
+préfèrent	preferent	verb	Duolingo
+préférer	preferer	verb	Duolingo
+préfères	preferes	verb	Duolingo
+préférez	preferez	verb	Duolingo
+préférons	preferons	verb	Duolingo
+premier	premier	adjective	Duolingo
+première	premiere	adjective	Duolingo
+première fois que	premiere fois que		Duolingo
+premiers	premiers	adjective	Duolingo
+prenait	prenait	verb	Duolingo
+prenant	prenant	verb	Duolingo
+prend	prend	verb	Duolingo
+prendra	prendra	verb	Duolingo
+prendrai	prendrai	verb	Duolingo
+prendras	prendras	verb	Duolingo
+prendre	prendre	verb	Duolingo
+prendrez	prendrez	verb	Duolingo
+prendrons	prendrons	verb	Duolingo
+prendront	prendront		Duolingo
+prends	prends		Duolingo
+prends	prends	verb	Duolingo
+prends-tu	prends-tu		Duolingo
+prenez	prenez		Duolingo
+prenez	prenez	verb	Duolingo
+prenez-vous	prenez-vous		Duolingo
+prennent	prennent		Duolingo
+prennent	prennent	verb	Duolingo
+prénom	prenom	noun	Duolingo
+prenons	prenons		Duolingo
+prenons	prenons	verb	Duolingo
+préparation	preparation	noun	Duolingo
+prépare	prepare		Duolingo
+prépare	prepare	verb	Duolingo
+préparée	preparee	verb	Duolingo
+préparent	preparent	verb	Duolingo
+préparer	preparer	verb	Duolingo
+prépares	prepares	verb	Duolingo
+préparez	preparez	verb	Duolingo
+préparons	preparons	verb	Duolingo
+près	pres		Duolingo
+près	pres	adverb	Duolingo
+près de	pres de		Duolingo
+près du	pres du		Duolingo
+présent	present	adjective	Duolingo
+présente	presente	adjective	Duolingo
+présente	presente	verb	Duolingo
+présentent	presentent	verb	Duolingo
+présenter	presenter	verb	Duolingo
+présentes	presentes	verb	Duolingo
+présentez	presentez	verb	Duolingo
+présentons	presentons	verb	Duolingo
+présents	presents	adjective	Duolingo
+président	president	noun	Duolingo
+presque	presque		Duolingo
+presque	presque	adverb	Duolingo
+pressé	presse	adjective	Duolingo
+presse	presse	noun	Duolingo
+pressée	pressee	adjective	Duolingo
+pressés	presses	adjective	Duolingo
+prêt	pret	adjective	Duolingo
+prête	prete		Duolingo
+prête	prete	adjective	Duolingo
+prête	prete	verb	Duolingo
+prêter	preter	verb	Duolingo
+prêtez	pretez	verb	Duolingo
+prêts	prets	adjective	Duolingo
+preuve	preuve	noun	Duolingo
+preuves	preuves	noun	Duolingo
+prévenir	prevenir	verb	Duolingo
+prévoir	prevoir	verb	Duolingo
+prévois	prevois	verb	Duolingo
+prévoyez	prevoyez	verb	Duolingo
+prévu	prevu	verb	Duolingo
+prie	prie	verb	Duolingo
+prier	prier	verb	Duolingo
+pries	pries	verb	Duolingo
+prince	prince	noun	Duolingo
+princesse	princesse	noun	Duolingo
+principal	principal	adjective	Duolingo
+principale	principale	adjective	Duolingo
+principalement	principalement	adverb	Duolingo
+principales	principales	adjective	Duolingo
+principes	principes	noun	Duolingo
+printemps	printemps	noun	Duolingo
+prise	prise	noun	Duolingo
+prison	prison	noun	Duolingo
+prisonnier	prisonnier	noun	Duolingo
+prisonniers	prisonniers	noun	Duolingo
+privé	prive	adjective	Duolingo
+privée	privee	adjective	Duolingo
+prix	prix		Duolingo
+prix	prix	noun	Duolingo
+probablement	probablement	adverb	Duolingo
+problème	probleme	noun	Duolingo
+problèmes	problemes	noun	Duolingo
+procès	proces	noun	Duolingo
+processus	processus	noun	Duolingo
+prochain	prochain	adjective	Duolingo
+prochaine	prochaine	adjective	Duolingo
+production	production	noun	Duolingo
+produire	produire	verb	Duolingo
+produit	produit	noun	Duolingo
+produits	produits	noun	Duolingo
+prof	prof	noun	Duolingo
+professeur	professeur		Duolingo
+professeur	professeur	noun	Duolingo
+professeurs	professeurs	noun	Duolingo
+professionnel	professionnel	adjective	Duolingo
+professionnelle	professionnelle	adjective	Duolingo
+professionnelles	professionnelles	adjective	Duolingo
+professionnels	professionnels	adjective	Duolingo
+profit	profit	noun	Duolingo
+profond	profond	adjective	Duolingo
+profonde	profonde	adjective	Duolingo
+profondément	profondement	adverb	Duolingo
+programme	programme	verb	Duolingo
+progrès	progres	noun	Duolingo
+projet	projet	noun	Duolingo
+projets	projets	noun	Duolingo
+promenade	promenade	noun	Duolingo
+promenades	promenades	noun	Duolingo
+promené	promene	verb	Duolingo
+promenée	promenee	verb	Duolingo
+promènent	promenent	verb	Duolingo
+promener	promener	verb	Duolingo
+promènes	promenes	verb	Duolingo
+promenez	promenez	verb	Duolingo
+promenons	promenons	verb	Duolingo
+promotion	promotion	noun	Duolingo
+propos	propos	noun	Duolingo
+propose	propose	verb	Duolingo
+proposes	proposes	verb	Duolingo
+proposition	proposition	noun	Duolingo
+propre	propre	adjective	Duolingo
+propriétaire	proprietaire	noun	Duolingo
+propriété	propriete	noun	Duolingo
+propriétés	proprietes	noun	Duolingo
+protection	protection	noun	Duolingo
+protéger	proteger	verb	Duolingo
+protestant	protestant	verb	Duolingo
+provence	provence	proper noun	Duolingo
+province	province	noun	Duolingo
+prudent	prudent	adjective	Duolingo
+prudente	prudente	adjective	Duolingo
+pu	pu	verb	Duolingo
+public	public	adjective	Duolingo
+public	public	noun	Duolingo
+publicité	publicite	noun	Duolingo
+publicités	publicites	noun	Duolingo
+publics	publics	adjective	Duolingo
+publique	publique	adjective	Duolingo
+puis	puis	adverb	Duolingo
+puis	puis	verb	Duolingo
+puisqu'	puisqu'	conjunction	Duolingo
+puisque	puisque	conjunction	Duolingo
+puissant	puissant	adjective	Duolingo
+puisse	puisse	verb	Duolingo
+puissions	puissions	verb	Duolingo
+pulls	pulls	noun	Duolingo
+punir	punir	verb	Duolingo
+pur	pur	adjective	Duolingo
+pure	pure	adjective	Duolingo
+purée	puree	noun	Duolingo
+pyjama	pyjama	noun	Duolingo
+pyjamas	pyjamas	noun	Duolingo
+pyrénées	pyrenees	proper noun	Duolingo
+qu'	qu'		Duolingo
+qu'	qu'	adverb	Duolingo
+qu'	qu'	conjunction	Duolingo
+qu'	qu'	pronoun	Duolingo
+qu'est-ce qu'	qu'est-ce qu'		Duolingo
+qu'est-ce que	qu'est-ce que		Duolingo
+qu'est-ce qui	qu'est-ce qui		Duolingo
+quai	quai	noun	Duolingo
+qualité	qualite	noun	Duolingo
+quand	quand		Duolingo
+quand	quand	adverb	Duolingo
+quand	quand	conjunction	Duolingo
+quand	quand	pronoun	Duolingo
+quand même	quand meme		Duolingo
+quand même	quand meme	adverb	Duolingo
+quant	quant	pronoun	Duolingo
+quantité	quantite	noun	Duolingo
+quarante	quarante	numeral	Duolingo
+quarante-deux	quarante-deux		Duolingo
+quart	quart	noun	Duolingo
+quartier	quartier	noun	Duolingo
+quartier latin	quartier latin		Duolingo
+quasiment	quasiment	adverb	Duolingo
+quatorze	quatorze	numeral	Duolingo
+quatre	quatre	numeral	Duolingo
+quatre-vingt	quatre-vingt		Duolingo
+quatre-vingt-deux	quatre-vingt-deux		Duolingo
+quatre-vingt-dix	quatre-vingt-dix		Duolingo
+quatre-vingt-dix	quatre-vingt-dix	numeral	Duolingo
+quatre-vingt-dix-neuf	quatre-vingt-dix-neuf		Duolingo
+quatre-vingt-neuf	quatre-vingt-neuf		Duolingo
+quatre-vingt-onze	quatre-vingt-onze		Duolingo
+quatre-vingt-un	quatre-vingt-un		Duolingo
+quatre-vingt-une	quatre-vingt-une		Duolingo
+quatre-vingts	quatre-vingts		Duolingo
+quatre-vingts	quatre-vingts	numeral	Duolingo
+quatrième	quatrieme	adjective	Duolingo
+que	que		Duolingo
+que	que	adverb	Duolingo
+que	que	conjunction	Duolingo
+que	que	pronoun	Duolingo
+québec	quebec	proper noun	Duolingo
+québécois	quebecois	adjective	Duolingo
+québécoise	quebecoise	adjective	Duolingo
+québécoises	quebecoises	adjective	Duolingo
+quel	quel		Duolingo
+quel	quel	adjective	Duolingo
+quel	quel	pronoun	Duolingo
+quel âge	quel age		Duolingo
+quel temps	quel temps		Duolingo
+quelle	quelle		Duolingo
+quelle	quelle	adjective	Duolingo
+quelle	quelle	pronoun	Duolingo
+quelles	quelles	adjective	Duolingo
+quelles	quelles	pronoun	Duolingo
+quelqu'un	quelqu'un		Duolingo
+quelqu'un	quelqu'un	pronoun	Duolingo
+quelque chose	quelque chose		Duolingo
+quelque chose de	quelque chose de		Duolingo
+quelque part	quelque part		Duolingo
+quelques	quelques	determiner	Duolingo
+quelques uns	quelques uns		Duolingo
+quelques-unes	quelques-unes		Duolingo
+quelques-uns	quelques-uns		Duolingo
+quels	quels	adjective	Duolingo
+quels	quels	pronoun	Duolingo
+question	question	noun	Duolingo
+questions	questions	noun	Duolingo
+queue	queue	noun	Duolingo
+qui	qui		Duolingo
+qui	qui	pronoun	Duolingo
+qui est-ce qu'	qui est-ce qu'		Duolingo
+qui est-ce que	qui est-ce que		Duolingo
+quinze	quinze	numeral	Duolingo
+quitter	quitter	verb	Duolingo
+quoi	quoi		Duolingo
+quoi	quoi	pronoun	Duolingo
+quoi de neuf	quoi de neuf		Duolingo
+raconter	raconter	verb	Duolingo
+radicalement	radicalement	adverb	Duolingo
+radio	radio	noun	Duolingo
+raides	raides	adjective	Duolingo
+raisin	raisin	noun	Duolingo
+raison	raison	noun	Duolingo
+raisons	raisons	noun	Duolingo
+ralentir	ralentir	verb	Duolingo
+randonnée	randonnee	noun	Duolingo
+range	range	verb	Duolingo
+ranger	ranger	verb	Duolingo
+rap	rap	noun	Duolingo
+rapide	rapide	adjective	Duolingo
+rapidement	rapidement	adverb	Duolingo
+rapides	rapides	adjective	Duolingo
+rappeler	rappeler	verb	Duolingo
+rappelez	rappelez	verb	Duolingo
+rapport	rapport	noun	Duolingo
+rapports	rapports	noun	Duolingo
+rare	rare	adjective	Duolingo
+rarement	rarement	adverb	Duolingo
+rase	rase	verb	Duolingo
+rasent	rasent	verb	Duolingo
+raser	raser	verb	Duolingo
+rases	rases	verb	Duolingo
+rat	rat	noun	Duolingo
+rate	rate	verb	Duolingo
+ratent	ratent		Duolingo
+rater	rater	verb	Duolingo
+rats	rats	noun	Duolingo
+rayon	rayon	noun	Duolingo
+réaction	reaction	noun	Duolingo
+réactions	reactions	noun	Duolingo
+réagisse	reagisse	verb	Duolingo
+réagisses	reagisses	verb	Duolingo
+réagissions	reagissions	verb	Duolingo
+réaliser	realiser	verb	Duolingo
+réalité	realite	noun	Duolingo
+récemment	recemment	adverb	Duolingo
+récent	recent	adjective	Duolingo
+récente	recente	adjective	Duolingo
+récents	recents	adjective	Duolingo
+réception	reception	noun	Duolingo
+réceptionniste	receptionniste	noun	Duolingo
+réceptionnistes	receptionnistes	noun	Duolingo
+recette	recette	noun	Duolingo
+recettes	recettes	noun	Duolingo
+recevoir	recevoir	verb	Duolingo
+recevons	recevons	verb	Duolingo
+recherche	recherche	noun	Duolingo
+recherches	recherches	verb	Duolingo
+reçois	recois	verb	Duolingo
+reçoit	recoit	verb	Duolingo
+reconnaître	reconnaitre	verb	Duolingo
+reçu	recu	verb	Duolingo
+réduire	reduire	verb	Duolingo
+réel	reel	adjective	Duolingo
+réellement	reellement	adverb	Duolingo
+réels	reels	adjective	Duolingo
+réfléchi	reflechi	verb	Duolingo
+réfléchir	reflechir	verb	Duolingo
+réflexion	reflexion	noun	Duolingo
+réfrigérateur	refrigerateur	noun	Duolingo
+refuse	refuse	verb	Duolingo
+refuser	refuser	verb	Duolingo
+regard	regard	noun	Duolingo
+regardaient	regardaient	verb	Duolingo
+regardais	regardais	verb	Duolingo
+regardait	regardait	verb	Duolingo
+regardant	regardant	verb	Duolingo
+regarde	regarde	verb	Duolingo
+regardent	regardent	verb	Duolingo
+regarder	regarder	verb	Duolingo
+regardes	regardes	verb	Duolingo
+regardez	regardez	verb	Duolingo
+regardons	regardons	verb	Duolingo
+régime	regime	noun	Duolingo
+région	region	noun	Duolingo
+registre	registre	noun	Duolingo
+règle	regle	noun	Duolingo
+règles	regles	noun	Duolingo
+régulièrement	regulierement	adverb	Duolingo
+reine	reine	noun	Duolingo
+relation	relation	noun	Duolingo
+relations	relations	noun	Duolingo
+relative	relative	adjective	Duolingo
+relativement	relativement	adverb	Duolingo
+relever	relever	verb	Duolingo
+religieux	religieux	adjective	Duolingo
+religion	religion	noun	Duolingo
+remarque	remarque	verb	Duolingo
+remercié	remercie	verb	Duolingo
+remercions	remercions	verb	Duolingo
+remplacer	remplacer	verb	Duolingo
+rempli	rempli	verb	Duolingo
+remplir	remplir	verb	Duolingo
+remplit	remplit	verb	Duolingo
+rémy	remy	proper noun	Duolingo
+rencontre	rencontre	noun	Duolingo
+rencontré	rencontre	verb	Duolingo
+rencontrer	rencontrer		Duolingo
+rencontrer	rencontrer	verb	Duolingo
+rencontrés	rencontres	verb	Duolingo
+rencontrons	rencontrons	verb	Duolingo
+rend	rend	verb	Duolingo
+rendez-vous	rendez-vous		Duolingo
+rendez-vous	rendez-vous	noun	Duolingo
+rendre	rendre	verb	Duolingo
+rendre visite	rendre visite		Duolingo
+rends	rends	verb	Duolingo
+rendu	rendu	verb	Duolingo
+rénover	renover	verb	Duolingo
+renseignement	renseignement	noun	Duolingo
+renseignements	renseignements	noun	Duolingo
+rentrais	rentrais	verb	Duolingo
+rentrant	rentrant	verb	Duolingo
+rentre	rentre	verb	Duolingo
+rentrées	rentrees	verb	Duolingo
+rentrer	rentrer	verb	Duolingo
+rentreront	rentreront	verb	Duolingo
+rentrés	rentres	verb	Duolingo
+rentrez	rentrez	verb	Duolingo
+rentriez	rentriez	verb	Duolingo
+rentrons	rentrons	verb	Duolingo
+réparé	repare	verb	Duolingo
+réparer	reparer	verb	Duolingo
+repas	repas	noun	Duolingo
+répéter	repeter	verb	Duolingo
+répond	repond		Duolingo
+répond	repond	verb	Duolingo
+répondent	repondent		Duolingo
+répondent	repondent	verb	Duolingo
+répondez	repondez		Duolingo
+répondez	repondez	verb	Duolingo
+répondons	repondons	verb	Duolingo
+répondra	repondra	verb	Duolingo
+répondras	repondras	verb	Duolingo
+répondre	repondre		Duolingo
+répondre	repondre	verb	Duolingo
+réponds	reponds		Duolingo
+réponds	reponds	verb	Duolingo
+répondu	repondu	verb	Duolingo
+réponse	reponse	noun	Duolingo
+réponses	reponses	noun	Duolingo
+reportage	reportage	noun	Duolingo
+reportages	reportages	noun	Duolingo
+repos	repos	noun	Duolingo
+repose	repose	verb	Duolingo
+reposée	reposee	verb	Duolingo
+reposées	reposees	verb	Duolingo
+reposés	reposes	verb	Duolingo
+reprendre	reprendre	verb	Duolingo
+représente	represente	verb	Duolingo
+république	republique	noun	Duolingo
+requin	requin	noun	Duolingo
+réseau	reseau	noun	Duolingo
+réservation	reservation	noun	Duolingo
+réservations	reservations	noun	Duolingo
+réservé	reserve	verb	Duolingo
+réserver	reserver	verb	Duolingo
+réserves	reserves	verb	Duolingo
+réservez	reservez	verb	Duolingo
+réservons	reservons	verb	Duolingo
+résister	resister	verb	Duolingo
+résoudre	resoudre	verb	Duolingo
+respect	respect	noun	Duolingo
+respecte	respecte	verb	Duolingo
+respectes	respectes	verb	Duolingo
+respectons	respectons	verb	Duolingo
+responsabilité	responsabilite	noun	Duolingo
+responsabilités	responsabilites	noun	Duolingo
+responsable	responsable	adjective	Duolingo
+responsables	responsables	adjective	Duolingo
+ressemble	ressemble	verb	Duolingo
+ressemblent	ressemblent	verb	Duolingo
+ressembles	ressembles	verb	Duolingo
+ressemblez	ressemblez	verb	Duolingo
+ressemblons	ressemblons	verb	Duolingo
+ressources	ressources	noun	Duolingo
+ressources humaines	ressources humaines	noun	Duolingo
+restant	restant	verb	Duolingo
+restaurant	restaurant	noun	Duolingo
+restaurants	restaurants	noun	Duolingo
+reste	reste	noun	Duolingo
+resté	reste	verb	Duolingo
+restée	restee	verb	Duolingo
+restées	restees	verb	Duolingo
+restent	restent	verb	Duolingo
+rester	rester	verb	Duolingo
+resterai	resterai	verb	Duolingo
+resterez	resterez	verb	Duolingo
+restes	restes	verb	Duolingo
+restez	restez	verb	Duolingo
+resto	resto	noun	Duolingo
+restons	restons	verb	Duolingo
+résultat	resultat	noun	Duolingo
+résultats	resultats	noun	Duolingo
+retard	retard	noun	Duolingo
+retards	retards	noun	Duolingo
+retenir	retenir	verb	Duolingo
+retire	retire	verb	Duolingo
+retirer	retirer	verb	Duolingo
+retirez	retirez	verb	Duolingo
+retour	retour	noun	Duolingo
+retourné	retourne	verb	Duolingo
+retournée	retournee	verb	Duolingo
+retournent	retournent	verb	Duolingo
+retourner	retourner	verb	Duolingo
+retournons	retournons	verb	Duolingo
+retraite	retraite	noun	Duolingo
+retrouve	retrouve	verb	Duolingo
+retrouver	retrouver	verb	Duolingo
+retrouves	retrouves	verb	Duolingo
+réunies	reunies	verb	Duolingo
+réunion	reunion	noun	Duolingo
+réunion	reunion	proper noun	Duolingo
+réunions	reunions	noun	Duolingo
+réunir	reunir	verb	Duolingo
+réunissons	reunissons	verb	Duolingo
+réussir	reussir	verb	Duolingo
+rêve	reve		Duolingo
+rêve	reve	noun	Duolingo
+rêvé	reve	verb	Duolingo
+réveillant	reveillant	verb	Duolingo
+réveillé	reveille	verb	Duolingo
+réveillée	reveillee	verb	Duolingo
+réveillent	reveillent		Duolingo
+réveiller	reveiller	verb	Duolingo
+revenant	revenant	verb	Duolingo
+revenez	revenez	verb	Duolingo
+revenir	revenir	verb	Duolingo
+revenons	revenons	verb	Duolingo
+rêvent	revent	verb	Duolingo
+revenues	revenues	verb	Duolingo
+revenus	revenus	verb	Duolingo
+rêver	rever	verb	Duolingo
+rêves	reves	noun	Duolingo
+reviennent	reviennent	verb	Duolingo
+reviens	reviens	verb	Duolingo
+revient	revient	verb	Duolingo
+revoir	revoir		Duolingo
+revoir	revoir	verb	Duolingo
+révolution	revolution	noun	Duolingo
+rez-de-chaussée	rez-de-chaussee	noun	Duolingo
+rhin	rhin	proper noun	Duolingo
+rhône	rhone	proper noun	Duolingo
+rhume	rhume	noun	Duolingo
+ri	ri	verb	Duolingo
+riche	riche	adjective	Duolingo
+riches	riches	adjective	Duolingo
+rideau	rideau	noun	Duolingo
+rideaux	rideaux	noun	Duolingo
+ridicule	ridicule	adjective	Duolingo
+rien	rien		Duolingo
+rien	rien	pronoun	Duolingo
+rien d'autre	rien d'autre		Duolingo
+rien de spécial	rien de special		Duolingo
+rien du tout	rien du tout		Duolingo
+rient	rient	verb	Duolingo
+rions	rions	verb	Duolingo
+rire	rire	verb	Duolingo
+ris	ris	verb	Duolingo
+risque	risque	noun	Duolingo
+rit	rit	verb	Duolingo
+rivière	riviere	noun	Duolingo
+rivières	rivieres	noun	Duolingo
+riz	riz	noun	Duolingo
+robe	robe	noun	Duolingo
+robes	robes	noun	Duolingo
+robinet	robinet	noun	Duolingo
+robot	robot	noun	Duolingo
+robots	robots	noun	Duolingo
+rock	rock	noun	Duolingo
+roi	roi	noun	Duolingo
+rois	rois	noun	Duolingo
+rôle	role	noun	Duolingo
+roman	roman	noun	Duolingo
+romans	romans	noun	Duolingo
+rome	rome	proper noun	Duolingo
+rompre	rompre	verb	Duolingo
+ronde	ronde	adjective	Duolingo
+rondes	rondes	adjective	Duolingo
+rose	rose	adjective	Duolingo
+rose	rose	noun	Duolingo
+roses	roses	adjective	Duolingo
+roses	roses	noun	Duolingo
+rôtie	rotie	adjective	Duolingo
+rôties	roties	adjective	Duolingo
+roue	roue	noun	Duolingo
+roues	roues	noun	Duolingo
+rouge	rouge	adjective	Duolingo
+rouge	rouge	noun	Duolingo
+rouges	rouges	adjective	Duolingo
+roule	roule	verb	Duolingo
+rouler	rouler	verb	Duolingo
+rousse	rousse	adjective	Duolingo
+route	route	noun	Duolingo
+routes	routes	noun	Duolingo
+roux	roux	adjective	Duolingo
+royaume-uni	royaume-uni		Duolingo
+rue	rue		Duolingo
+rue	rue	noun	Duolingo
+rues	rues	noun	Duolingo
+rugby	rugby	noun	Duolingo
+russe	russe	adjective	Duolingo
+russe	russe	noun	Duolingo
+rythme	rythme	noun	Duolingo
+s'	s'		Duolingo
+s'	s'	conjunction	Duolingo
+s'	s'	pronoun	Duolingo
+s'agit	s'agit		Duolingo
+s'appelle	s'appelle		Duolingo
+s'appellent	s'appellent		Duolingo
+s'écrit	s'ecrit		Duolingo
+s'en fiche	s'en fiche		Duolingo
+s'est	s'est		Duolingo
+s'il	s'il		Duolingo
+s'il te plaît	s'il te plait		Duolingo
+s'il vous plaît	s'il vous plait		Duolingo
+s'y	s'y		Duolingo
+sa	sa	determiner	Duolingo
+sable	sable	noun	Duolingo
+sac	sac	noun	Duolingo
+sac à dos	sac a dos		Duolingo
+sac à main	sac a main		Duolingo
+sachant	sachant	verb	Duolingo
+sacré-cœur	sacre-coeur		Duolingo
+sacs	sacs	noun	Duolingo
+sage	sage	adjective	Duolingo
+sages	sages	adjective	Duolingo
+saignant	saignant	adjective	Duolingo
+saigné	saigne	verb	Duolingo
+saigner	saigner	verb	Duolingo
+saignes	saignes	verb	Duolingo
+saint	saint	adjective	Duolingo
+sainte	sainte	adjective	Duolingo
+sais	sais	verb	Duolingo
+saisis	saisis	verb	Duolingo
+saisissons	saisissons	verb	Duolingo
+saisit	saisit	verb	Duolingo
+saison	saison	noun	Duolingo
+sait	sait	verb	Duolingo
+salade	salade	noun	Duolingo
+salaire	salaire	noun	Duolingo
+salé	sale	adjective	Duolingo
+salle	salle	noun	Duolingo
+salle d'attente	salle d'attente		Duolingo
+salle de bain	salle de bain		Duolingo
+salle de classe	salle de classe		Duolingo
+salle de sport	salle de sport		Duolingo
+salles	salles	noun	Duolingo
+salon	salon	noun	Duolingo
+salut	salut		Duolingo
+salut	salut	interjection	Duolingo
+samedi	samedi		Duolingo
+samedi	samedi	noun	Duolingo
+samedis	samedis	noun	Duolingo
+samu	samu	noun	Duolingo
+sandales	sandales	noun	Duolingo
+sandwich	sandwich	noun	Duolingo
+sandwichs	sandwichs	noun	Duolingo
+sang	sang	noun	Duolingo
+sans	sans		Duolingo
+sans	sans	preposition	Duolingo
+sans alcool	sans alcool		Duolingo
+sans arrêt	sans arret		Duolingo
+sans aucun doute	sans aucun doute	adverb	Duolingo
+sans contact	sans contact		Duolingo
+sans parler de	sans parler de		Duolingo
+santé	sante	noun	Duolingo
+saucisses	saucisses	noun	Duolingo
+sauf	sauf	preposition	Duolingo
+saurai	saurai	verb	Duolingo
+sauraient	sauraient		Duolingo
+saurait	saurait		Duolingo
+sauras	sauras	verb	Duolingo
+saurez	saurez	verb	Duolingo
+saurons	saurons	verb	Duolingo
+sauront	sauront	verb	Duolingo
+sauté	saute	verb	Duolingo
+sauter	sauter	verb	Duolingo
+sauvage	sauvage	adjective	Duolingo
+sauvages	sauvages	adjective	Duolingo
+sauvegarder	sauvegarder	verb	Duolingo
+sauver	sauver	verb	Duolingo
+savais	savais	verb	Duolingo
+savait	savait	verb	Duolingo
+savent	savent	verb	Duolingo
+savez	savez	verb	Duolingo
+savoir	savoir	noun	Duolingo
+savoir	savoir	verb	Duolingo
+savon	savon	noun	Duolingo
+savons	savons	verb	Duolingo
+scène	scene	noun	Duolingo
+science	science	noun	Duolingo
+science-fiction	science-fiction		Duolingo
+sciences	sciences	noun	Duolingo
+scientifique	scientifique	noun	Duolingo
+scientifiques	scientifiques	noun	Duolingo
+scooter	scooter	noun	Duolingo
+se	se		Duolingo
+se	se	pronoun	Duolingo
+se lever	se lever		Duolingo
+se passe	se passe		Duolingo
+se perd	se perd		Duolingo
+se sont	se sont		Duolingo
+sec	sec	adjective	Duolingo
+sèche	seche	adjective	Duolingo
+sèche-	seche-		Duolingo
+sèche-cheveux	seche-cheveux		Duolingo
+sécher avec	secher avec		Duolingo
+second	second	adjective	Duolingo
+seconde	seconde	adjective	Duolingo
+seconde	seconde	noun	Duolingo
+secondes	secondes	noun	Duolingo
+secours	secours	noun	Duolingo
+secret	secret	adjective	Duolingo
+secret	secret	noun	Duolingo
+secrétaire	secretaire	noun	Duolingo
+secrétaires	secretaires	noun	Duolingo
+secs	secs	adjective	Duolingo
+secteur	secteur	noun	Duolingo
+sécurité	securite	noun	Duolingo
+seine	seine		Duolingo
+seine	seine	proper noun	Duolingo
+seize	seize	numeral	Duolingo
+sel	sel	noun	Duolingo
+selon	selon	preposition	Duolingo
+semaine	semaine	noun	Duolingo
+semaines	semaines	noun	Duolingo
+semble	semble	verb	Duolingo
+semblent	semblent	verb	Duolingo
+semestre	semestre	noun	Duolingo
+sénateur	senateur	noun	Duolingo
+sénégal	senegal	proper noun	Duolingo
+sénégalais	senegalais	adjective	Duolingo
+sénégalaise	senegalaise	adjective	Duolingo
+sens	sens	noun	Duolingo
+sens	sens	verb	Duolingo
+sensible	sensible	adjective	Duolingo
+sent	sent	verb	Duolingo
+sentait	sentait	verb	Duolingo
+sentent	sentent	verb	Duolingo
+sentez	sentez	verb	Duolingo
+sentiez	sentiez	verb	Duolingo
+sentiment	sentiment	noun	Duolingo
+sentiments	sentiments	noun	Duolingo
+sentir	sentir	verb	Duolingo
+sentons	sentons	verb	Duolingo
+séparément	separement	adverb	Duolingo
+sept	sept	numeral	Duolingo
+septembre	septembre	noun	Duolingo
+septième	septieme	adjective	Duolingo
+sera	sera	verb	Duolingo
+serai	serai	verb	Duolingo
+seraient	seraient		Duolingo
+seraient	seraient	verb	Duolingo
+serais	serais	verb	Duolingo
+serait	serait		Duolingo
+serait	serait	verb	Duolingo
+serait-il possible	serait-il possible		Duolingo
+seras	seras	verb	Duolingo
+serez	serez	verb	Duolingo
+série	serie	noun	Duolingo
+séries	series	noun	Duolingo
+sérieusement	serieusement	adverb	Duolingo
+sérieuses	serieuses	adjective	Duolingo
+sérieux	serieux	adjective	Duolingo
+seriez	seriez		Duolingo
+seriez	seriez	verb	Duolingo
+serions	serions		Duolingo
+serions	serions	verb	Duolingo
+serons	serons	verb	Duolingo
+seront	seront	verb	Duolingo
+serpent	serpent	noun	Duolingo
+serpents	serpents	noun	Duolingo
+sers	sers	verb	Duolingo
+sert	sert	verb	Duolingo
+sert à	sert a		Duolingo
+servent	servent	verb	Duolingo
+servent à	servent a		Duolingo
+serveur	serveur	noun	Duolingo
+serveuse	serveuse	noun	Duolingo
+service	service	noun	Duolingo
+services	services	noun	Duolingo
+serviette	serviette	noun	Duolingo
+serviettes	serviettes		Duolingo
+serviettes	serviettes	noun	Duolingo
+servir	servir	verb	Duolingo
+servons	servons	verb	Duolingo
+ses	ses	determiner	Duolingo
+seul	seul	adjective	Duolingo
+seule	seule	adjective	Duolingo
+seulement	seulement	adverb	Duolingo
+seules	seules	adjective	Duolingo
+seuls	seuls	adjective	Duolingo
+sexe	sexe	noun	Duolingo
+shampoing	shampoing	noun	Duolingo
+shampooing	shampooing	noun	Duolingo
+short	short	noun	Duolingo
+si	si		Duolingo
+si	si	adverb	Duolingo
+si	si	conjunction	Duolingo
+siècle	siecle	noun	Duolingo
+siècles	siecles	noun	Duolingo
+signer	signer	verb	Duolingo
+signification	signification	noun	Duolingo
+signifie	signifie	verb	Duolingo
+signifient	signifient	verb	Duolingo
+silence	silence	noun	Duolingo
+simple	simple		Duolingo
+simple	simple	adjective	Duolingo
+simplement	simplement	adverb	Duolingo
+simples	simples	adjective	Duolingo
+sincèrement	sincerement	adverb	Duolingo
+singe	singe	noun	Duolingo
+singes	singes	noun	Duolingo
+sinon	sinon	conjunction	Duolingo
+site	site	noun	Duolingo
+situation	situation	noun	Duolingo
+situations	situations	noun	Duolingo
+six	six	numeral	Duolingo
+sixième	sixieme	adjective	Duolingo
+ski	ski	noun	Duolingo
+skié	skie	verb	Duolingo
+skient	skient	verb	Duolingo
+skier	skier	verb	Duolingo
+skiez	skiez	verb	Duolingo
+sncf	sncf	noun	Duolingo
+snowboard	snowboard	noun	Duolingo
+société	societe	noun	Duolingo
+sociétés	societes	noun	Duolingo
+soda	soda	noun	Duolingo
+sodas	sodas	noun	Duolingo
+sœur	soeur	noun	Duolingo
+sœurs	soeurs	noun	Duolingo
+soi	soi	pronoun	Duolingo
+soient	soient	verb	Duolingo
+soif	soif	noun	Duolingo
+soin	soin	noun	Duolingo
+soins	soins	noun	Duolingo
+soir	soir	noun	Duolingo
+soirée	soiree	noun	Duolingo
+sois	sois	verb	Duolingo
+soit	soit	conjunction	Duolingo
+soit	soit	verb	Duolingo
+soixante	soixante	numeral	Duolingo
+soixante-dix	soixante-dix		Duolingo
+soixante-dix	soixante-dix	numeral	Duolingo
+soixante-douze	soixante-douze		Duolingo
+soixante-et-onze	soixante-et-onze		Duolingo
+soixante-et-une	soixante-et-une		Duolingo
+sol	sol	noun	Duolingo
+soldat	soldat	noun	Duolingo
+soldats	soldats	noun	Duolingo
+soleil	soleil	noun	Duolingo
+solide	solide	adjective	Duolingo
+solution	solution	noun	Duolingo
+solutions	solutions	noun	Duolingo
+sombre	sombre	adjective	Duolingo
+sombres	sombres	adjective	Duolingo
+somme	somme	noun	Duolingo
+sommeil	sommeil	noun	Duolingo
+sommes	sommes	verb	Duolingo
+sommet	sommet	noun	Duolingo
+son	son	determiner	Duolingo
+sont	sont	verb	Duolingo
+sont à	sont a		Duolingo
+sont-elles	sont-elles		Duolingo
+sont-ils	sont-ils		Duolingo
+sophie	sophie	proper noun	Duolingo
+sors	sors		Duolingo
+sors	sors	verb	Duolingo
+sort	sort		Duolingo
+sort	sort	verb	Duolingo
+sortaient	sortaient	verb	Duolingo
+sortant	sortant	verb	Duolingo
+sortent	sortent		Duolingo
+sortent	sortent	verb	Duolingo
+sortez	sortez		Duolingo
+sortez	sortez	verb	Duolingo
+sortie	sortie	noun	Duolingo
+sortiez	sortiez	verb	Duolingo
+sortions	sortions	verb	Duolingo
+sortir	sortir		Duolingo
+sortir	sortir	verb	Duolingo
+sortons	sortons		Duolingo
+sortons	sortons	verb	Duolingo
+souffrir	souffrir	verb	Duolingo
+souhaite	souhaite	verb	Duolingo
+souhaitent	souhaitent	verb	Duolingo
+souhaiter	souhaiter	verb	Duolingo
+souhaitez	souhaitez	verb	Duolingo
+souhaits	souhaits	noun	Duolingo
+souligner	souligner	verb	Duolingo
+soupe	soupe	noun	Duolingo
+source	source	noun	Duolingo
+sources	sources	noun	Duolingo
+sourire	sourire	noun	Duolingo
+sourire	sourire	verb	Duolingo
+souris	souris		Duolingo
+souris	souris	noun	Duolingo
+sous	sous	preposition	Duolingo
+sous la pluie	sous la pluie		Duolingo
+sous-marin	sous-marin		Duolingo
+soutenir	soutenir	verb	Duolingo
+souvenez	souvenez		Duolingo
+souvenez	souvenez	verb	Duolingo
+souvenir	souvenir		Duolingo
+souvenir	souvenir	verb	Duolingo
+souvenirs	souvenirs	noun	Duolingo
+souvenons	souvenons		Duolingo
+souvenons	souvenons	verb	Duolingo
+souvent	souvent	adverb	Duolingo
+souviennent	souviennent		Duolingo
+souviens	souviens		Duolingo
+soyez	soyez	verb	Duolingo
+soyons	soyons	verb	Duolingo
+spécial	special	adjective	Duolingo
+spéciale	speciale	adjective	Duolingo
+spécialement	specialement	adverb	Duolingo
+spéciales	speciales	adjective	Duolingo
+spéciaux	speciaux	adjective	Duolingo
+spectacle	spectacle	noun	Duolingo
+spectacles	spectacles	noun	Duolingo
+sport	sport	noun	Duolingo
+sportif	sportif	adjective	Duolingo
+sportifs	sportifs	adjective	Duolingo
+sports	sports	noun	Duolingo
+stade	stade	noun	Duolingo
+stades	stades	noun	Duolingo
+star	star	noun	Duolingo
+stars	stars	noun	Duolingo
+stations	stations	noun	Duolingo
+stratégies	strategies	noun	Duolingo
+stress	stress	noun	Duolingo
+stylo	stylo	noun	Duolingo
+stylos	stylos	noun	Duolingo
+subir	subir	verb	Duolingo
+succès	succes	noun	Duolingo
+sucre	sucre	noun	Duolingo
+sucrée	sucree	adjective	Duolingo
+sucrés	sucres	adjective	Duolingo
+sud	sud		Duolingo
+sud	sud	noun	Duolingo
+sud-est	sud-est		Duolingo
+sud-ouest	sud-ouest		Duolingo
+suède	suede	proper noun	Duolingo
+suffi	suffi	verb	Duolingo
+suffisamment	suffisamment	adverb	Duolingo
+suffisant	suffisant	adjective	Duolingo
+suffisantes	suffisantes	adjective	Duolingo
+suis	suis	verb	Duolingo
+suisse	suisse	proper noun	Duolingo
+suisses	suisses	adjective	Duolingo
+suit	suit	verb	Duolingo
+suite	suite	noun	Duolingo
+suivante	suivante	adjective	Duolingo
+suivantes	suivantes	adjective	Duolingo
+suivants	suivants	adjective	Duolingo
+suivent	suivent	verb	Duolingo
+suivre	suivre	verb	Duolingo
+sujet	sujet	noun	Duolingo
+sujets	sujets	noun	Duolingo
+super	super	adjective	Duolingo
+supérieur	superieur	adjective	Duolingo
+supérieure	superieure	adjective	Duolingo
+supérieurs	superieurs	adjective	Duolingo
+supermarché	supermarche	noun	Duolingo
+supermarchés	supermarches	noun	Duolingo
+supporter	supporter	noun	Duolingo
+supporter	supporter	verb	Duolingo
+suppose	suppose	verb	Duolingo
+sûr	sur	adjective	Duolingo
+sur	sur	preposition	Duolingo
+sur l'avenue	sur l'avenue		Duolingo
+sur pause	sur pause		Duolingo
+sûre	sure	adjective	Duolingo
+sûrement	surement	adverb	Duolingo
+surfer	surfer	verb	Duolingo
+surprise	surprise	noun	Duolingo
+surprises	surprises	noun	Duolingo
+sûrs	surs	adjective	Duolingo
+surtout	surtout	adverb	Duolingo
+sushi	sushi	noun	Duolingo
+sushis	sushis	noun	Duolingo
+sweat-shirt	sweat-shirt		Duolingo
+sympa	sympa	adjective	Duolingo
+sympathique	sympathique	adjective	Duolingo
+synagogue	synagogue	noun	Duolingo
+synagogues	synagogues	noun	Duolingo
+syndicat	syndicat	noun	Duolingo
+syndicats	syndicats	noun	Duolingo
+système	systeme	noun	Duolingo
+systèmes	systemes	noun	Duolingo
+t	t	noun	Duolingo
+t-shirt	t-shirt		Duolingo
+t-shirts	t-shirts		Duolingo
+t'	t'		Duolingo
+t'	t'	pronoun	Duolingo
+t'ai	t'ai		Duolingo
+t'appelle	t'appelle		Duolingo
+t'en	t'en		Duolingo
+ta	ta	determiner	Duolingo
+ta place	ta place		Duolingo
+table	table	noun	Duolingo
+tableau	tableau		Duolingo
+tableau	tableau	noun	Duolingo
+tableaux	tableaux	noun	Duolingo
+tables	tables	noun	Duolingo
+taille	taille		Duolingo
+taille	taille	noun	Duolingo
+taille unique	taille unique		Duolingo
+tais	tais	verb	Duolingo
+tant	tant	adverb	Duolingo
+tante	tante	noun	Duolingo
+tapis	tapis	noun	Duolingo
+tard	tard	adjective	Duolingo
+tard	tard	adverb	Duolingo
+tas	tas	noun	Duolingo
+tasse	tasse	noun	Duolingo
+tasses	tasses		Duolingo
+tasses	tasses	noun	Duolingo
+tatouer	tatouer	verb	Duolingo
+taux	taux	noun	Duolingo
+taxi	taxi	noun	Duolingo
+taxis	taxis	noun	Duolingo
+te	te	pronoun	Duolingo
+technique	technique	adjective	Duolingo
+techniques	techniques	adjective	Duolingo
+technologie	technologie	noun	Duolingo
+tel	tel	adjective	Duolingo
+télé	tele	noun	Duolingo
+téléchargé	telecharge	verb	Duolingo
+télécharger	telecharger	verb	Duolingo
+téléchargez	telechargez	verb	Duolingo
+téléphone	telephone	noun	Duolingo
+téléphoner	telephoner	verb	Duolingo
+téléphones	telephones	noun	Duolingo
+télévision	television	noun	Duolingo
+telle	telle	adjective	Duolingo
+telle chose	telle chose		Duolingo
+tellement	tellement	adverb	Duolingo
+témoin	temoin	noun	Duolingo
+température	temperature	noun	Duolingo
+tempête	tempete	noun	Duolingo
+temple	temple	noun	Duolingo
+temps	temps	noun	Duolingo
+tenir	tenir	verb	Duolingo
+tennis	tennis	noun	Duolingo
+tenons	tenons	verb	Duolingo
+terme	terme	noun	Duolingo
+termes	termes	noun	Duolingo
+termine	termine	verb	Duolingo
+terminer	terminer	verb	Duolingo
+terrasse	terrasse	noun	Duolingo
+terre	terre	noun	Duolingo
+terrible	terrible	adjective	Duolingo
+terriblement	terriblement	adverb	Duolingo
+territoire	territoire	noun	Duolingo
+tes	tes	determiner	Duolingo
+tête	tete	noun	Duolingo
+têtes	tetes	noun	Duolingo
+texte	texte	noun	Duolingo
+textes	textes	noun	Duolingo
+tgv	tgv	noun	Duolingo
+thaïlande	thailande	proper noun	Duolingo
+thé	the	noun	Duolingo
+théâtre	theatre	noun	Duolingo
+thème	theme	noun	Duolingo
+théorie	theorie	noun	Duolingo
+ticket	ticket		Duolingo
+ticket	ticket	noun	Duolingo
+tickets	tickets	noun	Duolingo
+tien	tien	pronoun	Duolingo
+tienne	tienne	pronoun	Duolingo
+tiens	tiens	verb	Duolingo
+tient	tient	verb	Duolingo
+tiers	tiers	noun	Duolingo
+tigre	tigre	noun	Duolingo
+timbre	timbre	noun	Duolingo
+timide	timide	adjective	Duolingo
+timides	timides	adjective	Duolingo
+tire	tire	verb	Duolingo
+tirer	tirer	verb	Duolingo
+tiroir	tiroir	noun	Duolingo
+tiroirs	tiroirs	noun	Duolingo
+titre	titre	noun	Duolingo
+toi	toi	pronoun	Duolingo
+toi-même	toi-meme		Duolingo
+toilettes	toilettes	noun	Duolingo
+toit	toit	noun	Duolingo
+toits	toits	noun	Duolingo
+tomate	tomate	noun	Duolingo
+tomates	tomates	noun	Duolingo
+tombe	tombe	verb	Duolingo
+tombent	tombent	verb	Duolingo
+tomber	tomber	verb	Duolingo
+tombés	tombes	verb	Duolingo
+ton	ton	determiner	Duolingo
+tondre	tondre	verb	Duolingo
+tonne	tonne	noun	Duolingo
+tonnes	tonnes	noun	Duolingo
+tort	tort	noun	Duolingo
+tortue	tortue	noun	Duolingo
+tôt	tot	adverb	Duolingo
+total	total	adjective	Duolingo
+total	total	noun	Duolingo
+totale	totale	adjective	Duolingo
+totalement	totalement	adverb	Duolingo
+toucher	toucher	verb	Duolingo
+toujours	toujours		Duolingo
+toujours	toujours	adverb	Duolingo
+tour	tour	noun	Duolingo
+tour de france	tour de france		Duolingo
+tour eiffel	tour eiffel		Duolingo
+tourisme	tourisme	noun	Duolingo
+touriste	touriste	noun	Duolingo
+touristes	touristes	noun	Duolingo
+touristiques	touristiques	adjective	Duolingo
+tourné	tourne	verb	Duolingo
+tournent	tournent	verb	Duolingo
+tourner	tourner	verb	Duolingo
+tournes	tournes	verb	Duolingo
+tournez	tournez	verb	Duolingo
+tournons	tournons	verb	Duolingo
+tours	tours	noun	Duolingo
+tous	tous	determiner	Duolingo
+tous les jours	tous les jours		Duolingo
+toussaint	toussaint	noun	Duolingo
+tout	tout	adverb	Duolingo
+tout	tout	determiner	Duolingo
+tout	tout	pronoun	Duolingo
+tout à coup	tout a coup		Duolingo
+tout à fait	tout a fait		Duolingo
+tout à l'heure	tout a l'heure		Duolingo
+tout ce	tout ce		Duolingo
+tout ce dont	tout ce dont		Duolingo
+tout ce qui	tout ce qui		Duolingo
+tout compte fait	tout compte fait	conjunction	Duolingo
+tout de suite	tout de suite		Duolingo
+tout droit	tout droit		Duolingo
+tout le monde	tout le monde		Duolingo
+tout neuf	tout neuf		Duolingo
+tout petit	tout petit		Duolingo
+tout seul	tout seul		Duolingo
+tout va bien	tout va bien		Duolingo
+toute	toute	determiner	Duolingo
+toute la journée	toute la journee		Duolingo
+toute neuve	toute neuve		Duolingo
+toute seule	toute seule		Duolingo
+toutefois	toutefois	adverb	Duolingo
+toutes	toutes	determiner	Duolingo
+toutes les deux	toutes les deux		Duolingo
+tradition	tradition	noun	Duolingo
+traduction	traduction	noun	Duolingo
+traduire	traduire	verb	Duolingo
+traduisent	traduisent	verb	Duolingo
+trafic	trafic	noun	Duolingo
+train	train	noun	Duolingo
+trains	trains	noun	Duolingo
+traitement	traitement	noun	Duolingo
+traiter	traiter	verb	Duolingo
+trajet	trajet	noun	Duolingo
+tram	tram	noun	Duolingo
+tranche	tranche	noun	Duolingo
+tranches	tranches	noun	Duolingo
+tranquille	tranquille	adjective	Duolingo
+tranquilles	tranquilles	adjective	Duolingo
+transformer	transformer	verb	Duolingo
+transport	transport	noun	Duolingo
+travail	travail	noun	Duolingo
+travaillais	travaillais	verb	Duolingo
+travaillait	travaillait	verb	Duolingo
+travaillant	travaillant	verb	Duolingo
+travaillé	travaille	verb	Duolingo
+travaillent	travaillent		Duolingo
+travaillent	travaillent	verb	Duolingo
+travaillent-elles	travaillent-elles		Duolingo
+travailler	travailler		Duolingo
+travailler	travailler	verb	Duolingo
+travailleras	travailleras	verb	Duolingo
+travailles	travailles	verb	Duolingo
+travailles-tu	travailles-tu		Duolingo
+travaillez	travaillez		Duolingo
+travaillez	travaillez	verb	Duolingo
+travaillez-vous	travaillez-vous		Duolingo
+travaillons	travaillons	verb	Duolingo
+travaux	travaux	noun	Duolingo
+traversent	traversent	verb	Duolingo
+traverser	traverser	verb	Duolingo
+traversons	traversons	verb	Duolingo
+treize	treize	numeral	Duolingo
+trente	trente	numeral	Duolingo
+trente-deux	trente-deux		Duolingo
+très	tres	adverb	Duolingo
+trésor	tresor	noun	Duolingo
+tribunal	tribunal	noun	Duolingo
+triste	triste	adjective	Duolingo
+tristes	tristes	adjective	Duolingo
+trois	trois	numeral	Duolingo
+troisième	troisieme	adjective	Duolingo
+trop	trop		Duolingo
+trop	trop	adverb	Duolingo
+trop de	trop de		Duolingo
+trou	trou	noun	Duolingo
+trousse	trousse	noun	Duolingo
+trousses	trousses	noun	Duolingo
+trouvais	trouvais	verb	Duolingo
+trouvait	trouvait	verb	Duolingo
+trouvé	trouve	verb	Duolingo
+trouvent	trouvent	verb	Duolingo
+trouver	trouver	verb	Duolingo
+trouvions	trouvions	verb	Duolingo
+trouvons	trouvons	verb	Duolingo
+truc	truc	noun	Duolingo
+tu	tu	pronoun	Duolingo
+tu marches	tu marches		Duolingo
+tu t'es	tu t'es		Duolingo
+tu vas	tu vas		Duolingo
+tu y	tu y		Duolingo
+tuer	tuer	verb	Duolingo
+tunisie	tunisie	proper noun	Duolingo
+tunisien	tunisien	adjective	Duolingo
+tunisiennes	tunisiennes	adjective	Duolingo
+tunisiens	tunisiens	adjective	Duolingo
+type	type	noun	Duolingo
+typiquement	typiquement	adverb	Duolingo
+un	un	determiner	Duolingo
+un	un	numeral	Duolingo
+un	un	pronoun	Duolingo
+un autre	un autre		Duolingo
+un de ces jours	un de ces jours		Duolingo
+un petit peu de	un petit peu de		Duolingo
+un peu	un peu		Duolingo
+un peu de	un peu de		Duolingo
+un tour	un tour		Duolingo
+un verre	un verre		Duolingo
+une	une	determiner	Duolingo
+une autre	une autre		Duolingo
+une fête	une fete		Duolingo
+une fois	une fois		Duolingo
+uniforme	uniforme	noun	Duolingo
+uniquement	uniquement	adverb	Duolingo
+univers	univers	noun	Duolingo
+universel	universel	adjective	Duolingo
+université	universite	noun	Duolingo
+universités	universites	noun	Duolingo
+urgences	urgences	noun	Duolingo
+urgent	urgent	adjective	Duolingo
+usb	usb	noun	Duolingo
+usine	usine	noun	Duolingo
+utile	utile	adjective	Duolingo
+utiles	utiles	adjective	Duolingo
+utilisation	utilisation	noun	Duolingo
+utilise	utilise	verb	Duolingo
+utilisent	utilisent	verb	Duolingo
+utiliser	utiliser	verb	Duolingo
+utilises	utilises	verb	Duolingo
+utilisez	utilisez	verb	Duolingo
+utilisons	utilisons	verb	Duolingo
+va	va		Duolingo
+va	va	verb	Duolingo
+va-t'en	va-t'en		Duolingo
+vacances	vacances	noun	Duolingo
+vache	vache	noun	Duolingo
+vachement	vachement	adverb	Duolingo
+vaches	vaches	noun	Duolingo
+vague	vague	noun	Duolingo
+vagues	vagues	adjective	Duolingo
+vain	vain	adverb	Duolingo
+vais	vais	verb	Duolingo
+valent	valent	verb	Duolingo
+valeur	valeur	noun	Duolingo
+valise	valise	noun	Duolingo
+valises	valises	noun	Duolingo
+vanille	vanille	noun	Duolingo
+vas	vas		Duolingo
+vas	vas	verb	Duolingo
+vas-tu	vas-tu		Duolingo
+vaut	vaut	verb	Duolingo
+vegan	vegan		Duolingo
+vélo	velo	noun	Duolingo
+vélos	velos	noun	Duolingo
+venait	venait	verb	Duolingo
+venant	venant	verb	Duolingo
+vend	vend	verb	Duolingo
+vendent	vendent	verb	Duolingo
+vendez	vendez	verb	Duolingo
+vendons	vendons	verb	Duolingo
+vendre	vendre	verb	Duolingo
+vendredi	vendredi	noun	Duolingo
+vendredis	vendredis	noun	Duolingo
+vends	vends	verb	Duolingo
+venez	venez	verb	Duolingo
+venez-vous	venez-vous		Duolingo
+veniez	veniez	verb	Duolingo
+venir	venir		Duolingo
+venir	venir	verb	Duolingo
+venons	venons		Duolingo
+venons	venons	verb	Duolingo
+venons de	venons de		Duolingo
+vent	vent		Duolingo
+vent	vent	noun	Duolingo
+vente	vente	noun	Duolingo
+ventilateur	ventilateur	noun	Duolingo
+ventre	ventre	noun	Duolingo
+venu	venu	verb	Duolingo
+venue	venue	verb	Duolingo
+venues	venues	verb	Duolingo
+venus	venus	verb	Duolingo
+vérifié	verifie	verb	Duolingo
+vérifier	verifier	verb	Duolingo
+vérité	verite	noun	Duolingo
+vernis à ongles	vernis a ongles	noun	Duolingo
+verra	verra	verb	Duolingo
+verrai	verrai	verb	Duolingo
+verras	verras	verb	Duolingo
+verre	verre	noun	Duolingo
+verres	verres	noun	Duolingo
+verrez	verrez	verb	Duolingo
+vers	vers		Duolingo
+vers	vers	conjunction	Duolingo
+vers	vers	preposition	Duolingo
+version	version	noun	Duolingo
+version originale	version originale		Duolingo
+versions	versions	noun	Duolingo
+vert	vert	adjective	Duolingo
+vert	vert	noun	Duolingo
+verte	verte	adjective	Duolingo
+vertes	vertes	adjective	Duolingo
+verts	verts	adjective	Duolingo
+veste	veste	noun	Duolingo
+vêtement	vetement	noun	Duolingo
+vêtements	vetements	noun	Duolingo
+veuillez	veuillez	verb	Duolingo
+veulent	veulent	verb	Duolingo
+veut	veut	verb	Duolingo
+veut dire	veut dire		Duolingo
+veux	veux	verb	Duolingo
+viande	viande	noun	Duolingo
+viande hachée	viande hachee	noun	Duolingo
+victoire	victoire	noun	Duolingo
+vide	vide	adjective	Duolingo
+vidéo	video	adjective	Duolingo
+vidéo	video	noun	Duolingo
+vidéos	videos	noun	Duolingo
+vider	vider	verb	Duolingo
+vie	vie		Duolingo
+vie	vie	noun	Duolingo
+vieil	vieil		Duolingo
+vieil	vieil	adjective	Duolingo
+vieille	vieille	adjective	Duolingo
+vienne	vienne	proper noun	Duolingo
+viennent	viennent		Duolingo
+viennent	viennent	verb	Duolingo
+viens	viens	verb	Duolingo
+viens de	viens de		Duolingo
+vient	vient		Duolingo
+vient	vient	verb	Duolingo
+vies	vies	noun	Duolingo
+vieux	vieux		Duolingo
+vieux	vieux	adjective	Duolingo
+vieux	vieux	noun	Duolingo
+village	village	noun	Duolingo
+villages	villages	noun	Duolingo
+ville	ville	noun	Duolingo
+villes	villes	noun	Duolingo
+vin	vin	noun	Duolingo
+vingt	vingt	numeral	Duolingo
+vingt et unième	vingt et unieme		Duolingo
+vingt-et-un	vingt-et-un		Duolingo
+vingt-et-une	vingt-et-une		Duolingo
+vingt-trois	vingt-trois		Duolingo
+vingtième	vingtieme	numeral	Duolingo
+violence	violence	noun	Duolingo
+violet	violet	adjective	Duolingo
+violets	violets	adjective	Duolingo
+violette	violette	adjective	Duolingo
+violettes	violettes	adjective	Duolingo
+violon	violon	noun	Duolingo
+virus	virus	noun	Duolingo
+vis	vis	verb	Duolingo
+visage	visage	noun	Duolingo
+visite	visite	noun	Duolingo
+visité	visite	verb	Duolingo
+visitent	visitent	verb	Duolingo
+visiter	visiter		Duolingo
+visiter	visiter	verb	Duolingo
+visiterai	visiterai	verb	Duolingo
+visiterez	visiterez	verb	Duolingo
+visiterons	visiterons	verb	Duolingo
+visiteront	visiteront	verb	Duolingo
+visites	visites	verb	Duolingo
+visitez	visitez	verb	Duolingo
+visitons	visitons		Duolingo
+visitons	visitons	verb	Duolingo
+vite	vite	adverb	Duolingo
+vitesse	vitesse	noun	Duolingo
+vivant	vivant	adjective	Duolingo
+vivante	vivante	adjective	Duolingo
+vivants	vivants	adjective	Duolingo
+vive	vive	interjection	Duolingo
+vive	vive	verb	Duolingo
+vivez	vivez	verb	Duolingo
+vivre	vivre	verb	Duolingo
+vocabulaire	vocabulaire		Duolingo
+voici	voici	adverb	Duolingo
+voie	voie	verb	Duolingo
+voient	voient	verb	Duolingo
+voies	voies	verb	Duolingo
+voilà	voila	adverb	Duolingo
+voilier	voilier	noun	Duolingo
+voir	voir		Duolingo
+voir	voir	verb	Duolingo
+vois	vois	verb	Duolingo
+voisin	voisin	noun	Duolingo
+voisine	voisine	noun	Duolingo
+voisins	voisins	noun	Duolingo
+voit	voit	verb	Duolingo
+voiture	voiture	noun	Duolingo
+voitures	voitures	noun	Duolingo
+voix	voix	noun	Duolingo
+vol	vol	noun	Duolingo
+volant	volant	noun	Duolingo
+volé	vole	verb	Duolingo
+voler	voler	verb	Duolingo
+voleur	voleur	noun	Duolingo
+voleurs	voleurs	noun	Duolingo
+voleuse	voleuse	noun	Duolingo
+volleyball	volleyball	noun	Duolingo
+volume	volume	noun	Duolingo
+volumes	volumes	noun	Duolingo
+vont	vont	verb	Duolingo
+vos	vos	determiner	Duolingo
+vote	vote	noun	Duolingo
+voter	voter	verb	Duolingo
+votre	votre	determiner	Duolingo
+vôtre	votre	pronoun	Duolingo
+votre place	votre place		Duolingo
+vôtres	votres	pronoun	Duolingo
+voudraient	voudraient	verb	Duolingo
+voudrais	voudrais	verb	Duolingo
+voudrait	voudrait	verb	Duolingo
+voudrez	voudrez	verb	Duolingo
+voudriez	voudriez	verb	Duolingo
+voudriez-vous	voudriez-vous		Duolingo
+voudrions	voudrions	verb	Duolingo
+voudront	voudront	verb	Duolingo
+voulaient	voulaient	verb	Duolingo
+voulais	voulais	verb	Duolingo
+voulait	voulait	verb	Duolingo
+voulant	voulant	verb	Duolingo
+voulez	voulez	verb	Duolingo
+voulez-vous	voulez-vous		Duolingo
+voulions	voulions	verb	Duolingo
+vouloir	vouloir	verb	Duolingo
+voulons	voulons	verb	Duolingo
+voulu	voulu	verb	Duolingo
+vous	vous		Duolingo
+vous	vous	pronoun	Duolingo
+vous en	vous en		Duolingo
+vous vous êtes	vous vous etes		Duolingo
+voyage	voyage	noun	Duolingo
+voyage	voyage	verb	Duolingo
+voyagent	voyagent	verb	Duolingo
+voyageons	voyageons		Duolingo
+voyageons	voyageons	verb	Duolingo
+voyager	voyager		Duolingo
+voyager	voyager	verb	Duolingo
+voyagerai	voyagerai	verb	Duolingo
+voyagerez	voyagerez	verb	Duolingo
+voyagerons	voyagerons	verb	Duolingo
+voyages	voyages	noun	Duolingo
+voyages	voyages	verb	Duolingo
+voyagez	voyagez		Duolingo
+voyagez	voyagez	verb	Duolingo
+voyagez-vous	voyagez-vous		Duolingo
+voyaient	voyaient	verb	Duolingo
+voyais	voyais	verb	Duolingo
+voyait	voyait	verb	Duolingo
+voyez	voyez	verb	Duolingo
+voyiez	voyiez	verb	Duolingo
+voyions	voyions	verb	Duolingo
+voyons	voyons	verb	Duolingo
+vrai	vrai	adjective	Duolingo
+vraie	vraie	adjective	Duolingo
+vraies	vraies	adjective	Duolingo
+vraiment	vraiment		Duolingo
+vraiment	vraiment	adverb	Duolingo
+vu	vu	conjunction	Duolingo
+vu	vu	verb	Duolingo
+vue	vue	noun	Duolingo
+vues	vues	noun	Duolingo
+wallonie	wallonie	proper noun	Duolingo
+web	web	noun	Duolingo
+week-end	week-end		Duolingo
+week-ends	week-ends		Duolingo
+wi-fi	wi-fi		Duolingo
+y	y		Duolingo
+y	y	adverb	Duolingo
+y	y	noun	Duolingo
+y	y	pronoun	Duolingo
+y a-t-il	y a-t-il		Duolingo
+y avait eu	y avait eu		Duolingo
+y en	y en		Duolingo
+y sommes	y sommes		Duolingo
+y suis	y suis		Duolingo
+yaourts	yaourts	noun	Duolingo
+yeux	yeux	adverb	Duolingo
+yeux	yeux	noun	Duolingo
+yoga	yoga	noun	Duolingo
+zéro	zero	noun	Duolingo
+zéro	zero	numeral	Duolingo
+zone	zone	noun	Duolingo
+zones	zones	noun	Duolingo
+zoo	zoo	noun	Duolingo
+zut	zut	interjection	Duolingo
