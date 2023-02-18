@@ -92,7 +92,7 @@ class ApplyImports extends Command
         ]));
 
         collect(explode(',', $item['translation'] ?? ''))
-            ->map(trim(...))
+            ->map(fn ($translation) => trim($translation))
             ->filter()
             ->each(fn ($translation, $index) => Translation::firstOrCreate([
                 'learnable_id' => $learnable->id,
