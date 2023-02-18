@@ -90,6 +90,7 @@ return new class extends Migration
             $table->string('learnable');
             $table->string('normalized')->nullable();
             $table->string('part_of_speech', 32)->nullable();
+            $table->string('source', 32)->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
