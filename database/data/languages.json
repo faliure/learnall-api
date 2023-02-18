@@ -1,0 +1,207 @@
+[
+    {
+        "code": "en",
+        "name": "English",
+        "flag": "US"
+    },
+    {
+        "code": "es",
+        "name": "Spanish",
+        "flag": "ES"
+    },
+    {
+        "code": "fr",
+        "name": "French",
+        "flag": "FR"
+    },
+    {
+        "code": "pt",
+        "name": "Portuguese",
+        "flag": "BR"
+    },
+    {
+        "code": "it",
+        "name": "Italian",
+        "flag": "IT"
+    },
+    {
+        "code": "uk",
+        "name": "Ukrainian",
+        "flag": "UA"
+    },
+    {
+        "code": "ro",
+        "name": "Romanian",
+        "flag": "RO"
+    },
+    {
+        "code": "la",
+        "name": "Latin",
+        "flag": "VA"
+    },
+    {
+        "code": "cs",
+        "name": "Czech",
+        "flag": "CZ"
+    },
+    {
+        "code": "ru",
+        "name": "Russian",
+        "flag": "RU"
+    },
+    {
+        "code": "ja",
+        "name": "Japanese",
+        "flag": "JP"
+    },
+    {
+        "code": "dn",
+        "name": "Dutch",
+        "flag": "NL"
+    },
+    {
+        "code": "de",
+        "name": "German",
+        "flag": "DE"
+    },
+    {
+        "code": "sv",
+        "name": "Swedish",
+        "flag": "SE"
+    },
+    {
+        "code": "ca",
+        "name": "Catalan",
+        "flag": "ES"
+    },
+    {
+        "code": "eo",
+        "name": "Esperanto",
+        "flag": "UN"
+    },
+    {
+        "code": "hu",
+        "name": "Hungarian",
+        "flag": "HU"
+    },
+    {
+        "code": "pl",
+        "name": "Polish",
+        "flag": "PL"
+    },
+    {
+        "code": "ar",
+        "name": "Arabic",
+        "flag": "SA"
+    },
+    {
+        "code": "cy",
+        "name": "Welsh",
+        "flag": "GB"
+    },
+    {
+        "code": "da",
+        "name": "Danish",
+        "flag": "DK"
+    },
+    {
+        "code": "bn",
+        "name": "Bengali",
+        "flag": "BD"
+    },
+    {
+        "code": "no",
+        "name": "Norwegian (Bokmål)",
+        "flag": "NO"
+    },
+    {
+        "code": "el",
+        "name": "Greek",
+        "flag": "GR"
+    },
+    {
+        "code": "fi",
+        "name": "Finnish",
+        "flag": "FI"
+    },
+    {
+        "code": "ga",
+        "name": "Irish",
+        "flag": "IE"
+    },
+    {
+        "code": "gd",
+        "name": "Scottish Gaelic",
+        "flag": "GB"
+    },
+    {
+        "code": "he",
+        "name": "Hebrew",
+        "flag": "IL"
+    },
+    {
+        "code": "hi",
+        "name": "Hindi",
+        "flag": "IN"
+    },
+    {
+        "code": "ht",
+        "name": "Haitian Creole",
+        "flag": "HT"
+    },
+    {
+        "code": "hw",
+        "name": "Hawaiian",
+        "flag": "US"
+    },
+    {
+        "code": "id",
+        "name": "Indonesian",
+        "flag": "ID"
+    },
+    {
+        "code": "ko",
+        "name": "Korean",
+        "flag": "KR"
+    },
+    {
+        "code": "sw",
+        "name": "Swahili",
+        "flag": "TZ"
+    },
+    {
+        "code": "th",
+        "name": "Thai",
+        "flag": "TH"
+    },
+    {
+        "code": "tr",
+        "name": "Turkish",
+        "flag": "TR"
+    },
+    {
+        "code": "vi",
+        "name": "Vietnamese",
+        "flag": "VN"
+    },
+    {
+        "code": "yi",
+        "name": "Yiddish",
+        "flag": "IL"
+    },
+    {
+        "code": "zs",
+        "name": "Chinese",
+        "flag": "CN"
+    },
+    {
+        "code": "zh",
+        "name": "Chinese (Cantonese)",
+        "flag": "CN"
+    },
+    {
+        "code": "zu",
+        "name": "Zulu",
+        "flag": "ZA"
+    }
+]

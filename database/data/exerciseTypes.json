@@ -1,0 +1,106 @@
+[
+    {
+        "type"                     : "ReadAndTranslate",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : true,
+        "spec"                     : "{}",
+        "description"              : "Translate this sentence"
+    },
+    {
+        "type"                     : "ReadAndTranslateBack",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "What does this mean?"
+    },
+    {
+        "type"                     : "ReadAndPickTheWords",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "Translate this sentence"
+    },
+    {
+        "type"                     : "ReadAndPickTheWordsBack",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "What does this mean?"
+    },
+    {
+        "type"                     : "ReadAndSpeak",
+        "requires_listening"       : false,
+        "requires_speaking"        : true,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "Repeat this"
+    },
+    {
+        "type"                     : "ReadAndSpeakTranslation",
+        "requires_listening"       : false,
+        "requires_speaking"        : true,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "Repeat this"
+    },
+    {
+        "type"                     : "ListenAndWrite",
+        "requires_listening"       : true,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : true,
+        "spec"                     : "{}",
+        "description"              : "What do you hear?"
+    },
+    {
+        "type"                     : "ListenAndTranslate",
+        "requires_listening"       : true,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "Translate what you hear"
+    },
+    {
+        "type"                     : "ListenAndPickTheWords",
+        "requires_listening"       : true,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "What do you hear?"
+    },
+    {
+        "type"                     : "ListenAndPickTheWordsBack",
+        "requires_listening"       : true,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "What do you hear?"
+    },
+    {
+        "type"                     : "ListenAndRepeat",
+        "requires_listening"       : true,
+        "requires_speaking"        : true,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "Repeat what you hear"
+    },
+    {
+        "type"                     : "SelectImageOption",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : false,
+        "spec"                     : "{}",
+        "description"              : "What is the correct translation?"
+    },
+    {
+        "type"                     : "TranslateWithImage",
+        "requires_listening"       : false,
+        "requires_speaking"        : false,
+        "requires_target_keyboard" : true,
+        "spec"                     : "{}",
+        "description"              : "What do you call this?"
+    }
+]
