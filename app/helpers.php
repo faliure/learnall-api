@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\User;
+use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
 
@@ -59,20 +60,22 @@ function identity(): Closure
 /**
  * Convert a list into a human-readable concatenated list.
  *
- * @param array $items         The items to concatenate
+ * @param mixed $items         The items to concatenate
  * @param string $conjunction  The conjunction word to use (defaults to "and")
  *
  * @return string  The concatenated list, eg. [1, 2, 3] => "1, 2 and 3"
  */
-function concatenate(array $items, string $conjunction = ' and ')
+function concatenate($items, string $conjunction = ' and ')
 {
+    $items = ($items instanceof Arrayable) ? $items->toArray() : Arr::wrap($items);
+
     return Arr::join($items, ', ', $conjunction);
 }
 
 /**
  * Concatenate items into a string list, as a conjunction (AND).
  */
-function conjunction(array $items)
+function conjunction(mixed $items)
 {
     return concatenate($items, ' and ');
 }
@@ -80,7 +83,7 @@ function conjunction(array $items)
 /**
  * Concatenate items into a string list, as a disjunction (OR).
  */
-function disjunction(array $items)
+function disjunction(mixed $items)
 {
     return concatenate($items, ' or ');
 }
