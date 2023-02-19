@@ -35,7 +35,6 @@ class LessonResource extends Resource
             'name'        => $this->name,
             'slug'        => $this->slug,
             'description' => $this->description,
-            'motivation'  => $this->motivation,
             '#units'      => $this->whenCounted('units'),
             '#exercises'  => $this->whenCounted('exercises'),
             'units'       => UnitResource::collection($this->whenLoaded('units')),

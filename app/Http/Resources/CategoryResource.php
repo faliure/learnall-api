@@ -41,7 +41,6 @@ class CategoryResource extends Resource
             'name'         => $this->name,
             'slug'         => $this->slug,
             'desrcription' => $this->description,
-            'motivation'   => $this->motivation,
             '#learnables'  => $this->whenCounted('learnables'),
             '#words'       => $this->whenCounted('words'),
             '#expressions' => $this->whenCounted('expressions'),

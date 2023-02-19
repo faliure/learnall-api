@@ -25,7 +25,6 @@ class UnitFactory extends Factory
             'language_id' => Language::rand()->id,
             'name'        => $this->faker->sentence(2),
             'description' => $this->faker->sentence(),
-            'motivation'  => $this->faker->sentence(),
             'enabled'     => true,
         ];
     }

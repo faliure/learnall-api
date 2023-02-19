@@ -41,7 +41,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug');
             $table->string('description')->nullable();
-            $table->string('motivation')->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
@@ -53,7 +52,6 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug');
             $table->string('description')->nullable();
-            $table->string('motivation')->nullable();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
@@ -77,7 +75,6 @@ return new class extends Migration
             $table->id();
             $table->json('definition')->nullable();
             $table->string('description')->nullable();
-            $table->string('motivation')->nullable();
             $table->foreignId('type_id')->constrained('exercise_types')->cascadeOnDelete();
             $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->boolean('enabled')->default(false);
@@ -124,7 +121,6 @@ return new class extends Migration
             $table->string('name')->unique();
             $table->string('slug')->unique();
             $table->string('description')->nullable();
-            $table->string('motivation')->nullable();
             $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
@@ -145,7 +141,6 @@ return new class extends Migration
 
         Schema::create('course_unit', function (Blueprint $table) {
             $table->id();
-            $table->string('motivation')->nullable();
             $table->foreignId('course_id')->constrained()->cascadeOnDelete();
             $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
@@ -154,7 +149,6 @@ return new class extends Migration
 
         Schema::create('lesson_unit', function (Blueprint $table) {
             $table->id();
-            $table->string('motivation')->nullable();
             $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
@@ -163,7 +157,6 @@ return new class extends Migration
 
         Schema::create('exercise_lesson', function (Blueprint $table) {
             $table->id();
-            $table->string('motivation')->nullable();
             $table->foreignId('exercise_id')->constrained()->cascadeOnDelete();
             $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
@@ -172,7 +165,6 @@ return new class extends Migration
 
         Schema::create('exercise_learnable', function (Blueprint $table) {
             $table->id();
-            $table->string('motivation')->nullable();
             $table->foreignId('exercise_id')->constrained()->cascadeOnDelete();
             $table->foreignId('learnable_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
@@ -192,7 +184,6 @@ return new class extends Migration
 
         Schema::create('categorizables', function (Blueprint $table) {
             $table->id();
-            $table->string('motivation')->nullable();
             $table->morphs('categorizable');
             $table->foreignId('category_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();

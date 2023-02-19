@@ -22,7 +22,6 @@ class CategoryFactory extends Factory
             'name'        => $this->faker->unique(true)->sentence(3),
             'slug'        => $this->faker->unique(true)->slug(5),
             'description' => $this->faker->sentence(),
-            'motivation'  => $this->faker->sentence(),
         ];
     }
 

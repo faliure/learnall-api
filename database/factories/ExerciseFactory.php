@@ -27,7 +27,6 @@ class ExerciseFactory extends Factory
             'definition'  => [$this->faker->word() => $this->faker->sentence()],
             'language_id' => Language::rand()->id,
             'description' => $this->faker->sentence(),
-            'motivation'  => $this->faker->sentence(),
             'enabled'     => true,
         ];
     }

@@ -5,7 +5,6 @@ namespace Database\Factories;
 use App\Enums\CefrLevel;
 use App\Extensions\Model;
 use App\Models\Course;
-use App\Models\Language;
 use App\Models\Unit;
 use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;

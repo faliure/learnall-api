@@ -37,7 +37,6 @@ class UnitResource extends Resource
             'name'        => $this->name,
             'slug'        => $this->slug,
             'description' => $this->description,
-            'motivation'  => $this->motivation,
             'language_id' => $this->whenNotLoaded('language', $this->language_id),
             '#courses'    => $this->whenCounted('courses'),
             '#lessons'    => $this->whenCounted('lessons'),

@@ -40,7 +40,6 @@ class ExerciseResource extends Resource
             'id'           => $this->id,
             'definition'   => $this->definition,
             'description'  => $this->description,
-            'motivation'   => $this->motivation,
             'language_id'  => $this->whenNotLoaded('language', $this->language_id),
             'type_id'      => $this->whenNotLoaded('type', $this->type_id),
             '#learnables'  => $this->whenCounted('learnables'),
