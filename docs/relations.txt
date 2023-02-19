@@ -1,50 +1,62 @@
+User
+	BelongsTo		Course (active)
+	BelongsToMany	Courses
+	... // Define progress-related models and relations
+
 Language
-	HasMany		Language (variants)
-	HasMany		Courses (to)
-	HasMany		Courses (from)
-	HasMany		Units
-	HasMany		Lessons
-	HasMany 	Exercises
-	HasMany		Learnables (with subclasses words, expressions, sentences)
-	HasMany 	Translations (from)
+	HasMany			Courses (to)
+	HasMany			Courses (from)
+	HasManyThrough	Levels (through Courses-to)
+	HasMany			Learnables (with subclasses words, expressions, sentences)
+	HasMany 		Translations (from)
 
 Course
-	BelongsTo 	Language (to)
-	BelongsTo 	Language (from)
-	BelongsToMany 	Units
+	HasMany			Users
+	HasMany			Users (w/ this Course active)
+	BelongsTo 		Language (to)
+	BelongsTo 		Language (from)
+	HasMany 		Levels
+	HasManyThrough	Units (through Levels)
+
+Level
+	BelongsTo		Course
+	HasMany			Units
+	HasManyThrough	Lessons (through Units)
+	MorphToMany 	Categories
 
 Unit
-	BelongsTo	Language
-	BelongsToMany	Courses
-	BelongsToMany 	Lessons
+	BelongsTo		Level
+	HasMany			Lessons
+	HasManyThrough 	Exercises (through Lessons)
+	MorphToMany 	Categories
 
 Lesson
-	BelongsToMany	Units
-	BelongsToMany 	Exercises
+	BelongsTo		Unit
+	HasMany 		Exercises
+	MorphToMany 	Categories
 
 ExerciseType
 	HasMany		Exercises
 
 Exercise
-	BelongsTo 	Language
-	BelongsTo 	ExerciseType
-	BelongsToMany 	Lessons
+	BelongsTo 		Lesson
+	BelongsTo 		ExerciseType
 	BelongsToMany	Learnables
 	MorphToMany 	Categories
 
 Learnable
-	BelongsTo 	Language
-	HasMany		Learnables (related, with subclasses words, expressions, sentences)
+	BelongsTo 		Language
+	HasMany			Learnables (related, with subclasses words, expressions, sentences)
 	BelongsToMany	Exercises
-	HasMany 	Translations
+	HasMany 		Translations
 	MorphToMany 	Categories
 
 Translation
-	BelongsTo	Learnable
-	BelongsTo	Language (to)
+	BelongsTo		Learnable
+	BelongsTo		Language (to)
 
 Category
-	MorphsTo 	Categorizables (Exercise, Learnable)
+	MorphsTo 	Categorizables (Level, Unit, Lesson, Exercise, Learnable)
 
 
 ----------------------------------------------------------------------

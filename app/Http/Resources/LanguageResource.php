@@ -13,11 +13,9 @@ class LanguageResource extends Resource
      * On-demand loadable relations.
      */
     protected array $loadableRelations = [
-        'variants',
         'courses',
         'coursesFrom',
-        'units',
-        'exercises',
+        'levels',
         'learnables',
         'words',
         'expressions',
@@ -29,11 +27,9 @@ class LanguageResource extends Resource
      * On-demand loadable counts.
      */
     protected array $loadableCounts = [
-        'variants',
         'courses',
         'coursesFrom',
-        'units',
-        'exercises',
+        'levels',
         'learnables',
         'words',
         'expressions',
@@ -51,28 +47,24 @@ class LanguageResource extends Resource
             'code'          => $this->code,
             'name'          => $this->name,
             'flag'          => $this->flag,
-            '#variants'     => $this->whenCounted('variants'),
             '#courses'      => $this->whenCounted('courses'),
             '#coursesFrom'  => $this->whenCounted('coursesFrom'),
-            '#units'        => $this->whenCounted('units'),
-            '#exercises'    => $this->whenCounted('exercises'),
+            '#levels'       => $this->whenCounted('levels'),
             '#learnables'   => $this->whenCounted('learnables'),
             '#words'        => $this->whenCounted('words'),
             '#expressions'  => $this->whenCounted('expressions'),
             '#sentences'    => $this->whenCounted('sentences'),
             '#translations' => $this->whenCounted('translations'),
-            'variants'      => LanguageResource::collection($this->whenLoaded('variants')),
             'courses'       => CourseResource::collection($this->whenLoaded('courses')),
             'coursesFrom'   => CourseResource::collection($this->whenLoaded('coursesFrom')),
-            'units'         => UnitResource::collection($this->whenLoaded('units')),
-            'exercises'     => ExerciseResource::collection($this->whenLoaded('exercises')),
+            'levels'        => LevelResource::collection($this->whenLoaded('levels')),
             'learnables'    => LearnableResource::collection($this->whenLoaded('learnables')),
             'words'         => LearnableResource::collection($this->whenLoaded('words')),
             'expressions'   => LearnableResource::collection($this->whenLoaded('expressions')),
             'sentences'     => LearnableResource::collection($this->whenLoaded('sentences')),
             'translations'  => TranslationResource::collection($this->whenLoaded('translations')),
-            '#created_at'   => $this->created_at->toDateTimeString(),
-            '#updated_at'   => $this->updated_at->toDateTimeString(),
+            'createdAt'     => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'     => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

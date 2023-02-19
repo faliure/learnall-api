@@ -4,6 +4,9 @@ namespace App\Providers;
 
 use App\Models\Exercise;
 use App\Models\Learnable;
+use App\Models\Lesson;
+use App\Models\Level;
+use App\Models\Unit;
 use App\Models\User;
 use Illuminate\Database\Eloquent\Relations\Relation;
 use Illuminate\Http\Resources\Json\JsonResource;
@@ -36,6 +39,9 @@ class AppServiceProvider extends ServiceProvider
         Relation::enforceMorphMap([
             'Exercise'  => Exercise::class,
             'Learnable' => Learnable::class,
+            'Lesson'    => Lesson::class,
+            'Level'     => Level::class,
+            'Unit'      => Unit::class,
             'User'      => User::class,
         ]);
     }

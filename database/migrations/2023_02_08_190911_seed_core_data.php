@@ -45,11 +45,12 @@ return new class extends Migration
             ->map(fn (array $pair) => [
                 'from_language' => $languages[ $pair[0] ],
                 'language_id'   => $languages[ $pair[1] ],
+                'slug'          => $pair[0] . '-' . $pair[1],
                 'enabled'       => in_array($pair, $enabled),
             ])
             ->toArray();
 
-        Course::upsert($courses, [ 'language_id', 'from_language' ], [ 'enabled' ]);
+        Course::upsert($courses, [ 'language_id', 'from_language', 'slug' ], [ 'enabled' ]);
     }
 
     private function seedExerciseTypes()

@@ -7,14 +7,15 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Request;
 use JsonSerializable;
 
-class LessonResource extends Resource
+class LevelResource extends Resource
 {
     /**
      * On-demand loadable relations.
      */
     protected array $loadableRelations = [
-        'unit',
-        'exercises',
+        'course',
+        'units',
+        'lessons',
         'categories',
     ];
 
@@ -22,7 +23,8 @@ class LessonResource extends Resource
      * On-demand loadable counts.
      */
     protected array $loadableCounts = [
-        'exercises',
+        'units',
+        'lessons',
         'categories',
     ];
 
@@ -33,14 +35,16 @@ class LessonResource extends Resource
     {
         return [
             'id'          => $this->id,
-            'name'        => $this->name,
             'slug'        => $this->slug,
+            'name'        => $this->name,
             'description' => $this->description,
-            'unitId'      => $this->whenNotLoaded('unit', $this->unit_id),
-            '#exercises'  => $this->whenCounted('exercises'),
+            'courseId'    => $this->whenNotLoaded('course', $this->course_id),
+            '#units'      => $this->whenCounted('units'),
+            '#lessons'    => $this->whenCounted('lessons'),
             '#categories' => $this->whenCounted('categories'),
-            'unit'        => UnitResource::make($this->whenLoaded('unit')),
-            'exercises'   => ExerciseResource::collection($this->whenLoaded('exercises')),
+            'course'      => CourseResource::make($this->whenLoaded('course')),
+            'units'       => UnitResource::collection($this->whenLoaded('units')),
+            'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),
             'categories'  => CategoryResource::collection($this->whenLoaded('categories')),
             'enabled'     => $this->when($request->showEnabled, $this->enabled),
             'createdAt'   => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),

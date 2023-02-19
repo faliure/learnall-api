@@ -3,32 +3,27 @@
 namespace App\Models;
 
 use App\Extensions\Model;
-use App\Models\Pivots\ExerciseLesson;
-use App\Models\Pivots\LessonUnit;
-use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\Enableable;
+use App\Models\Traits\Mutators\LessonMutators;
 use App\Models\Traits\Sluggable;
-use Illuminate\Database\Eloquent\Relations\BelongsToMany;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Lesson extends Model
 {
-    use BelongsToLanguage;
     use Categorizable;
     use Enableable;
+    use LessonMutators;
     use Sluggable;
 
-    public function units(): BelongsToMany
+    public function unit(): BelongsTo
     {
-        return $this->belongsToMany(Unit::class)
-            ->using(LessonUnit::class)
-            ->withTimestamps();
+        return $this->belongsTo(Unit::class);
     }
 
-    public function exercises(): BelongsToMany
+    public function exercises(): HasMany
     {
-        return $this->belongsToMany(Exercise::class)
-            ->using(ExerciseLesson::class)
-            ->withTimestamps();
+        return $this->hasMany(Exercise::class);
     }
 }

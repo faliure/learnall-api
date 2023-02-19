@@ -20,7 +20,7 @@ return new class extends Migration
         Schema::create('languages', function (Blueprint $table) {
             $table->id();
             $table->string('code', 2)->unique()->comment('ISO-639-1 root code, e.g. "en"');
-            $table->string('name')->comment('ISO-639-1 Language base name, e.g. "English"');
+            $table->string('name')->unique()->comment('ISO-639-1 Language base name, e.g. "English"');
             $table->string('flag', 3)->nullable();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
@@ -28,32 +28,46 @@ return new class extends Migration
 
         Schema::create('courses', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('from_language')->constrained('languages')->cascadeOnDelete();
+            $table->string('slug', 10);
             $table->string('cefr_level', 2)->default('A0');
             $table->boolean('enabled')->default(false);
+            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('from_language')->constrained('languages')->cascadeOnDelete();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['from_language', 'language_id']);
+        });
+
+        Schema::create('levels', function (Blueprint $table) {
+            $table->id();
+            $table->string('slug');
+            $table->string('name');
+            $table->string('description')->nullable();
+            $table->boolean('enabled')->default(false);
+            $table->foreignId('course_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('units', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
             $table->string('slug');
+            $table->string('name');
             $table->string('description')->nullable();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->boolean('enabled')->default(false);
+            $table->foreignId('level_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('lessons', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
             $table->string('slug');
+            $table->string('name');
             $table->string('description')->nullable();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
             $table->boolean('enabled')->default(false);
+            $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -73,11 +87,11 @@ return new class extends Migration
 
         Schema::create('exercises', function (Blueprint $table) {
             $table->id();
-            $table->json('definition')->nullable();
             $table->string('description')->nullable();
-            $table->foreignId('type_id')->constrained('exercise_types')->cascadeOnDelete();
-            $table->foreignId('language_id')->constrained()->cascadeOnDelete();
+            $table->json('definition')->nullable();
             $table->boolean('enabled')->default(false);
+            $table->foreignId('type_id')->constrained('exercise_types')->cascadeOnDelete();
+            $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
@@ -118,8 +132,8 @@ return new class extends Migration
 
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
             $table->string('slug')->unique();
+            $table->string('name')->unique();
             $table->string('description')->nullable();
             $table->boolean('enabled')->default(false);
             $table->timestamp('created_at')->useCurrent();
@@ -137,30 +151,6 @@ return new class extends Migration
             $table->timestamps();
 
             $table->unique(['course_id', 'user_id']);
-        });
-
-        Schema::create('course_unit', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('course_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
-            $table->timestamp('created_at')->useCurrent();
-            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
-        });
-
-        Schema::create('lesson_unit', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
-            $table->timestamp('created_at')->useCurrent();
-            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
-        });
-
-        Schema::create('exercise_lesson', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId('exercise_id')->constrained()->cascadeOnDelete();
-            $table->foreignId('lesson_id')->constrained()->cascadeOnDelete();
-            $table->timestamp('created_at')->useCurrent();
-            $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
 
         Schema::create('exercise_learnable', function (Blueprint $table) {
@@ -208,6 +198,7 @@ return new class extends Migration
 
         Schema::dropIfExists('languages');
         Schema::dropIfExists('courses');
+        Schema::dropIfExists('levels');
         Schema::dropIfExists('units');
         Schema::dropIfExists('lessons');
         Schema::dropIfExists('exercise_types');
@@ -217,9 +208,6 @@ return new class extends Migration
         Schema::dropIfExists('categories');
 
         Schema::dropIfExists('course_user');
-        Schema::dropIfExists('course_unit');
-        Schema::dropIfExists('lesson_unit');
-        Schema::dropIfExists('exercise_lesson');
         Schema::dropIfExists('exercise_learnable');
         Schema::dropIfExists('learnable_learnable');
         Schema::dropIfExists('categorizables');

@@ -19,7 +19,7 @@ trait BelongsToLanguage
             ? me()?->activeCourse?->from_language
             : me()?->activeCourse?->language_id;
 
-        $table = (new static)->getTable();
+        $table = (new static())->getTable();
 
         $builder->where("$table.language_id", $scopingId);
     }

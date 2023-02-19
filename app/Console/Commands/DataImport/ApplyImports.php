@@ -33,11 +33,18 @@ class ApplyImports extends Command
     protected $description = 'Import Learnables, Translations and Categories from scrapped data';
 
     /**
+     * Mapping from Language code to id.
+     */
+    protected Collection $languageMap;
+
+    /**
      * Execute the console command.
      */
     public function handle(): int
     {
-        // $this->storeDuomeImports();
+        $this->languageMap = Language::pluck('id', 'code');
+
+        $this->storeDuomeImports();
 
         $this->storeDuolingoImports();
 
@@ -46,38 +53,36 @@ class ApplyImports extends Command
 
     protected function storeDuomeImports(): void
     {
-        $pairs = collect(File::glob(database_path('data/duome/*.json')));
+        $paths = collect(File::glob(database_path('data/duome/*.json')));
 
         $this->info(
-            "Importing {$pairs->count()} pairs: "
-            . conjunction($pairs->map(fn (string $path) => basename($path, '.json')))
+            "Importing {$paths->count()} pairs: "
+            . conjunction($paths->map(fn (string $path) => basename($path, '.json')))
             . '...' . PHP_EOL
         );
 
-        $pairs->each($this->storeDuomePair(...));
+        $paths->each($this->storeDuomePair(...));
     }
 
     protected function storeDuomePair(string $path): void
     {
         $this->info('Importing ' . basename($path) . '...');
 
-        $languageMap = Language::pluck('id', 'code');
-
         [ $fromCode, $toCode ] = explode('-', basename($path, '.json'));
 
         collect(readJsonFile($path))->each(
             fn (array $item) => DB::transaction(
-                fn () => $this->createDuomeLearnable($item, $languageMap, $fromCode, $toCode)
+                fn () => $this->createDuomeLearnable($item, $fromCode, $toCode)
             )
         );
     }
 
-    protected function createDuomeLearnable(array $item, Collection $languageMap, string $fromCode, string $toCode): void
+    protected function createDuomeLearnable(array $item, string $fromCode, string $toCode): void
     {
         $learnable = Learnable::firstOrCreate([
             'learnable'      => $item['learnable'],
             'part_of_speech' => PartOfSpeech::tryFrom(strtolower($item['partOfSpeech'])),
-            'language_id'    => $languageMap[ $toCode ],
+            'language_id'    => $this->languageMap[ $toCode ],
         ], [
             'normalized' => $item['normalized'],
             'source'     => 'Duome',
@@ -96,7 +101,7 @@ class ApplyImports extends Command
             ->filter()
             ->each(fn ($translation, $index) => Translation::firstOrCreate([
                 'learnable_id' => $learnable->id,
-                'language_id'  => $languageMap[ $fromCode ],
+                'language_id'  => $this->languageMap[ $fromCode ],
                 'translation'  => $translation,
             ], [
                 'authoritative' => ($index === 0) ?: null,

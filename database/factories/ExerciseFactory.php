@@ -2,11 +2,8 @@
 
 namespace Database\Factories;
 
-use App\Extensions\Model;
-use App\Models\Exercise;
 use App\Models\ExerciseType;
-use App\Models\Language;
-use App\Models\Learnable;
+use App\Models\Lesson;
 use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
@@ -23,21 +20,11 @@ class ExerciseFactory extends Factory
     public function definition(): array
     {
         return [
-            'type_id'     => ExerciseType::rand()->id,
-            'definition'  => [$this->faker->word() => $this->faker->sentence()],
-            'language_id' => Language::rand()->id,
             'description' => $this->faker->sentence(),
+            'definition'  => [$this->faker->word() => $this->faker->sentence()],
             'enabled'     => true,
+            'lesson_id'   => Lesson::rand()->id,
+            'type_id'     => ExerciseType::rand()->id,
         ];
-    }
-
-    /**
-     * Configure the model factory.
-     */
-    public function configure(): self
-    {
-        Model::disableGlobalScopes();
-
-        return $this;
     }
 }

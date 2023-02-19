@@ -42,7 +42,7 @@ class LearnableResource extends Resource
             'learnable'     => $this->learnable,
             'normalized'    => $this->normalized,
             'pos'           => $this->part_of_speech,
-            'language_id'   => $this->whenNotLoaded('language', $this->language_id),
+            'languageId'    => $this->whenNotLoaded('language', $this->language_id),
             'translation'   => $this->whenLoaded('translation', fn () => $this->translation->translation),
             '#related'      => $this->whenCounted('related'),
             '#exercises'    => $this->whenCounted('exercises'),
@@ -53,8 +53,8 @@ class LearnableResource extends Resource
             'exercises'     => ExerciseResource::collection($this->whenLoaded('exercises')),
             'translations'  => TranslationResource::collection($this->whenLoaded('translations')),
             'categories'    => CategoryResource::collection($this->whenLoaded('categories')),
-            'created_at'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'createdAt'     => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'     => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

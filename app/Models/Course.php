@@ -4,13 +4,13 @@ namespace App\Models;
 
 use App\Enums\CefrLevel;
 use App\Extensions\Model;
-use App\Models\Pivots\CourseUnit;
 use App\Models\Traits\Enableable;
 use App\Models\Traits\Mutators\CourseMutators;
 use App\Models\Traits\Sluggable;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
 class Course extends Model
 {
@@ -42,10 +42,18 @@ class Course extends Model
         return $this->belongsTo(Language::class, 'from_language');
     }
 
-    public function units(): BelongsToMany
+    public function levels(): HasMany
     {
-        return $this->belongsToMany(Unit::class)
-            ->using(CourseUnit::class)
-            ->withTimestamps();
+        return $this->hasMany(Level::class);
+    }
+
+    public function units(): HasManyThrough
+    {
+        return $this->hasManyThrough(Unit::class, Level::class);
+    }
+
+    protected function sluggable(): string
+    {
+        return $this->fromLanguage->code . ' ' . $this->language->code;
     }
 }

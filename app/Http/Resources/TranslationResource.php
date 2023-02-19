@@ -35,13 +35,13 @@ class TranslationResource extends Resource
             'translation'   => $this->translation,
             'authoritative' => $this->authoritative,
             'is_regex'      => $this->is_regex,
-            'language_id'   => $this->whenNotLoaded('language', $this->language_id),
-            'learnable_id'  => $this->whenNotLoaded('learnable', $this->learnable_id),
+            'languageId'    => $this->whenNotLoaded('language', $this->language_id),
+            'learnableId'   => $this->whenNotLoaded('learnable', $this->learnable_id),
             'language'      => LanguageResource::make($this->whenLoaded('language')),
             'learnable'     => LearnableResource::make($this->whenLoaded('learnable')),
             'enabled'       => $this->when($request->showEnabled, $this->enabled),
-            'created_at'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'createdAt'     => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'     => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

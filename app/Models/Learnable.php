@@ -9,6 +9,7 @@ use App\Models\Pivots\LearnableLearnable;
 use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\Mutators\LearnableMutators;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
@@ -51,5 +52,23 @@ class Learnable extends Model
         return $this->hasOne(Translation::class)
             ->forLearnedLanguage()
             ->where([ 'authoritative' => true ]);
+    }
+
+    public function scopeWords(Builder $builder): void
+    {
+        $builder->whereNotIn('part_of_speech', [
+            PartOfSpeech::Expression,
+            PartOfSpeech::Sentence,
+        ]);
+    }
+
+    public function scopeExpressions(Builder $builder): void
+    {
+        $builder->where('part_of_speech', PartOfSpeech::Expression);
+    }
+
+    public function scopeSentences(Builder $builder): void
+    {
+        $builder->where('part_of_speech', PartOfSpeech::Sentence);
     }
 }

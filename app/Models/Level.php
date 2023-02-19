@@ -5,31 +5,31 @@ namespace App\Models;
 use App\Extensions\Model;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\Enableable;
-use App\Models\Traits\Mutators\UnitMutators;
+use App\Models\Traits\Mutators\LevelMutators;
 use App\Models\Traits\Sluggable;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 
-class Unit extends Model
+class Level extends Model
 {
     use Categorizable;
     use Enableable;
+    use LevelMutators;
     use Sluggable;
-    use UnitMutators;
 
-    public function level(): BelongsTo
+    public function course(): BelongsTo
     {
-        return $this->belongsTo(Level::class);
+        return $this->belongsTo(Course::class);
     }
 
-    public function lessons(): HasMany
+    public function units(): HasMany
     {
-        return $this->hasMany(Lesson::class);
+        return $this->hasMany(Unit::class);
     }
 
-    public function exercises(): HasManyThrough
+    public function lessons(): HasManyThrough
     {
-        return $this->hasManyThrough(Exercise::class, Lesson::class);
+        return $this->hasManyThrough(Lesson::class, Unit::class);
     }
 }

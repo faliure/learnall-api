@@ -3,21 +3,20 @@
 namespace Database\Factories;
 
 use App\Extensions\Model;
-use App\Models\Exercise;
-use App\Models\Lesson;
+use App\Models\Course;
+use App\Models\Level;
 use App\Models\Unit;
-use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Lesson>
+ * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Level>
  */
-class LessonFactory extends Factory
+class LevelFactory extends Factory
 {
-    use CanBeDisabled;
-
     /**
      * Define the model's default state.
+     *
+     * @return array<string, mixed>
      */
     public function definition(): array
     {
@@ -25,7 +24,7 @@ class LessonFactory extends Factory
             'name'        => $this->faker->sentence(2),
             'description' => $this->faker->sentence(),
             'enabled'     => true,
-            'unit_id'     => Unit::rand()->id,
+            'course_id'   => Course::rand()->id,
         ];
     }
 
@@ -37,8 +36,8 @@ class LessonFactory extends Factory
         Model::disableGlobalScopes();
 
         return $this->afterCreating(
-            fn (Lesson $lesson) => $lesson->saveMany(
-                Exercise::factory()->count(5)->make()
+            fn (Level $level) => $level->saveMany(
+                Unit::factory()->count(2)->make()
             )
         );
     }

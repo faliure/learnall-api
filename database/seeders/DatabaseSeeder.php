@@ -12,15 +12,10 @@ class DatabaseSeeder extends Seeder
         $this->seedLukeSkywalker();
 
         $this->call([
-            CategorySeeder::class,
             // UserSeeder::class,
-            // LanguageSeeder::class,
-            // CourseSeeder::class,
-            UnitSeeder::class,
+            // LevelSeeder::class,
+            // UnitSeeder::class,
             // LessonSeeder::class,
-            // LearnableSeeder::class,
-            // TranslationSeeder::class,
-            // ExerciseTypeSeeder::class,
             // ExerciseSeeder::class,
         ]);
     }

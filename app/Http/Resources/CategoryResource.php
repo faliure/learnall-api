@@ -13,22 +13,28 @@ class CategoryResource extends Resource
      * On-demand loadable relations.
      */
     protected array $loadableRelations = [
+        'levels',
+        'units',
+        'lessons',
+        'exercises',
         'learnables',
         'words',
         'expressions',
         'sentences',
-        'exercises',
     ];
 
     /**
      * On-demand loadable counts.
      */
     protected array $loadableCounts = [
+        'levels',
+        'units',
+        'lessons',
+        'exercises',
         'learnables',
         'words',
         'expressions',
         'sentences',
-        'exercises',
     ];
 
     /**
@@ -38,21 +44,27 @@ class CategoryResource extends Resource
     {
         return [
             'id'           => $this->id,
-            'name'         => $this->name,
             'slug'         => $this->slug,
+            'name'         => $this->name,
             'desrcription' => $this->description,
+            '#levels'      => $this->whenCounted('levels'),
+            '#units'       => $this->whenCounted('units'),
+            '#lessons'     => $this->whenCounted('lessons'),
+            '#exercises'   => $this->whenCounted('exercises'),
             '#learnables'  => $this->whenCounted('learnables'),
             '#words'       => $this->whenCounted('words'),
             '#expressions' => $this->whenCounted('expressions'),
             '#sentences'   => $this->whenCounted('sentences'),
-            '#exercises'   => $this->whenCounted('exercises'),
+            'levels'       => LevelResource::collection($this->whenLoaded('levels')),
+            'units'        => UnitResource::collection($this->whenLoaded('units')),
+            'lessons'      => LessonResource::collection($this->whenLoaded('lessons')),
+            'exercises'    => ExerciseResource::collection($this->whenLoaded('exercises')),
             'learnables'   => LearnableResource::collection($this->whenLoaded('learnables')),
             'words'        => LearnableResource::collection($this->whenLoaded('words')),
             'expressions'  => LearnableResource::collection($this->whenLoaded('expressions')),
             'sentences'    => LearnableResource::collection($this->whenLoaded('sentences')),
-            'exercises'    => ExerciseResource::collection($this->whenLoaded('exercises')),
-            'created_at'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'createdAt'    => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'    => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

@@ -15,6 +15,7 @@ class CourseResource extends Resource
     protected array $loadableRelations = [
         'language',
         'fromLanguage',
+        'levels',
         'units',
     ];
 
@@ -22,9 +23,10 @@ class CourseResource extends Resource
      * On-demand loadable counts.
      */
     protected array $loadableCounts = [
-        'language',
-        'fromLanguage',
+        'levels',
         'units',
+        'users',
+        'activeUsers',
     ];
 
     /**
@@ -33,17 +35,22 @@ class CourseResource extends Resource
     public function toArray(Request $request): array|Arrayable|JsonSerializable
     {
         return [
-            'id'               => $this->id,
-            'cefrLevel'        => $this->cefr_level,
-            'language_id'      => $this->whenNotLoaded('language', $this->language_id),
-            'fromLanguage_id'  => $this->whenNotLoaded('fromLanguage', $this->from_language),
-            '#units'           => $this->whenCounted('units'),
-            'language'         => LanguageResource::make($this->whenLoaded('language')),
-            'fromLanguage'     => LanguageResource::make($this->whenLoaded('fromLanguage')),
-            'units'            => UnitResource::collection($this->whenLoaded('units')),
-            'enabled'          => $this->when($request->showEnabled, $this->enabled),
-            'created_at'       => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'       => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'id'             => $this->id,
+            'slug'           => $this->slug,
+            'cefrLevel'      => $this->cefr_level,
+            'languageId'     => $this->whenNotLoaded('language', $this->language_id),
+            'fromLanguageId' => $this->whenNotLoaded('fromLanguage', $this->from_language),
+            '#levels'        => $this->whenCounted('levels'),
+            '#units'         => $this->whenCounted('units'),
+            '#users'         => $this->whenCounted('users'),
+            '#activeUsers'   => $this->whenCounted('activeUsers'),
+            'language'       => LanguageResource::make($this->whenLoaded('language')),
+            'fromLanguage'   => LanguageResource::make($this->whenLoaded('fromLanguage')),
+            'levels'         => LevelResource::collection($this->whenLoaded('levels')),
+            'units'          => UnitResource::collection($this->whenLoaded('units')),
+            'enabled'        => $this->when($request->showEnabled, $this->enabled),
+            'createdAt'      => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'      => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

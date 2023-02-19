@@ -19,7 +19,7 @@ trait Enableable
             return;
         }
 
-        $table = (new static)->getTable();
+        $table = (new static())->getTable();
 
         static::addGlobalScope(
             'enableable',

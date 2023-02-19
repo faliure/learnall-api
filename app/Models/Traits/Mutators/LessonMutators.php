@@ -2,7 +2,7 @@
 
 namespace App\Models\Traits\Mutators;
 
-trait UnitMutators
+trait LessonMutators
 {
     use UcWordsNameMutator;
 }

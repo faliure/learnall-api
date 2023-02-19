@@ -39,8 +39,8 @@ class ExerciseTypeResource extends Resource
             '#exercises'               => $this->whenCounted('exercises'),
             'exercises'                => ExerciseResource::collection($this->whenLoaded('exercises')),
             'enabled'                  => $this->when($request->showEnabled, $this->enabled),
-            'created_at'               => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'               => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'createdAt'                => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'                => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

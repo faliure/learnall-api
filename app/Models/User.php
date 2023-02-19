@@ -18,8 +18,8 @@ class User extends Authenticatable implements Resourceable
     use HasApiTokens;
     use HasFactory;
     use HasResources;
-    use UserMutators;
     use Notifiable;
+    use UserMutators;
     use Validator;
 
     /**
@@ -53,13 +53,13 @@ class User extends Authenticatable implements Resourceable
         'email_verified_at' => 'datetime',
     ];
 
-    public function activeCourse(): BelongsTo
-    {
-        return $this->belongsTo(Course::class, 'active_course');
-    }
-
     public function courses(): BelongsToMany
     {
         return $this->belongsToMany(Course::class);
+    }
+
+    public function activeCourse(): BelongsTo
+    {
+        return $this->belongsTo(Course::class, 'active_course');
     }
 }

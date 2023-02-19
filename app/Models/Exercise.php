@@ -2,24 +2,20 @@
 
 namespace App\Models;
 
-use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
 use App\Models\Pivots\ExerciseLearnable;
-use App\Models\Pivots\ExerciseLesson;
-use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\Enableable;
-use Illuminate\Database\Eloquent\Builder;
+use App\Models\Traits\RelatesToLearnables;
 use Illuminate\Database\Eloquent\Casts\AsArrayObject;
-use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Exercise extends Model
 {
-    use BelongsToLanguage;
     use Categorizable;
     use Enableable;
+    use RelatesToLearnables;
 
     protected $casts = [
         'definition' => AsArrayObject::class,
@@ -30,11 +26,9 @@ class Exercise extends Model
         return $this->belongsTo(ExerciseType::class);
     }
 
-    public function lessons(): BelongsToMany
+    public function lesson(): BelongsTo
     {
-        return $this->belongsToMany(Lesson::class)
-            ->using(ExerciseLesson::class)
-            ->withTimestamps();
+        return $this->belongsTo(Lesson::class);
     }
 
     public function learnables(): BelongsToMany
@@ -42,38 +36,5 @@ class Exercise extends Model
         return $this->belongsToMany(Learnable::class)
             ->using(ExerciseLearnable::class)
             ->withTimestamps();
-    }
-
-    public function words(): BelongsToMany
-    {
-        return $this->learnables()->whereNotIn('part_of_speech', [
-            PartOfSpeech::Expression,
-            PartOfSpeech::Sentence,
-        ]);
-    }
-
-    public function expressions(): BelongsToMany
-    {
-        return $this->learnables()->where('part_of_speech', PartOfSpeech::Expression);
-    }
-
-    public function sentences(): BelongsToMany
-    {
-        return $this->learnables()->where('part_of_speech', PartOfSpeech::Sentence);
-    }
-
-    public function units(): Builder
-    {
-        $lessonIdsBuilder = $this->lessons()->select('lessons.id');
-
-        return Unit::whereHas(
-            'lessons',
-            fn ($q) => $q->whereIn('id', $lessonIdsBuilder)
-        );
-    }
-
-    public function getUnitsAttribute(): Collection
-    {
-        return Unit::find($this->lessons()->pluck('unit_id'));
     }
 }

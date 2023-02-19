@@ -36,14 +36,4 @@ class UserFactory extends Factory
             'email_verified_at' => null,
         ]);
     }
-
-    /**
-     * Configure the model factory.
-     */
-    public function configure(): self
-    {
-        Model::disableGlobalScopes();
-
-        return $this;
-    }
 }

@@ -8,14 +8,15 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 trait LanguageMutators
 {
     use HasAttributeMutators;
+    use UcWordsNameMutator;
 
     public function code(): Attribute
     {
         return Attribute::set($this->mutateToLower(...));
     }
 
-    public function name(): Attribute
+    public function flag(): Attribute
     {
-        return Attribute::set($this->mutateToUcwords(...));
+        return Attribute::set($this->mutateToUpper(...));
     }
 }

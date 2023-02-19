@@ -10,11 +10,6 @@ trait CourseMutators
 {
     use HasAttributeMutators;
 
-    public function name(): Attribute
-    {
-        return Attribute::set($this->mutateToUcwords(...));
-    }
-
     public function cefrLevel(): Attribute
     {
         return Attribute::set(function (CefrLevel|string $attribute) {

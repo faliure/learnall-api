@@ -8,11 +8,7 @@ use Illuminate\Database\Eloquent\Casts\Attribute;
 trait UserMutators
 {
     use HasAttributeMutators;
-
-    public function name(): Attribute
-    {
-        return Attribute::set($this->mutateToUcwords(...));
-    }
+    use UcWordsNameMutator;
 
     public function email(): Attribute
     {

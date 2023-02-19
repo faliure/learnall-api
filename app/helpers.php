@@ -45,13 +45,13 @@ function identity(): Closure
  *** File System Tools ********************************************************
  *****************************************************************************/
 
- /**
-  * Read a json file's contents and decode it into an array or object.
-  */
- function readJsonFile(string $path, bool $associative = true): array|object
- {
+/**
+ * Read a json file's contents and decode it into an array or object.
+ */
+function readJsonFile(string $path, bool $associative = true): array|object
+{
     return json_decode(File::get($path), $associative);
- }
+}
 
 /******************************************************************************
  *** String Tools *************************************************************

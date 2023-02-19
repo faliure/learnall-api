@@ -13,18 +13,19 @@ class UnitResource extends Resource
      * On-demand loadable relations.
      */
     protected array $loadableRelations = [
-        'language',
-        'courses',
+        'level',
         'lessons',
+        'exercises',
+        'categories',
     ];
 
     /**
      * On-demand loadable counts.
      */
     protected array $loadableCounts = [
-        'language',
-        'courses',
         'lessons',
+        'exercises',
+        'categories',
     ];
 
     /**
@@ -34,18 +35,20 @@ class UnitResource extends Resource
     {
         return [
             'id'          => $this->id,
-            'name'        => $this->name,
             'slug'        => $this->slug,
+            'name'        => $this->name,
             'description' => $this->description,
-            'language_id' => $this->whenNotLoaded('language', $this->language_id),
-            '#courses'    => $this->whenCounted('courses'),
+            'levelId'     => $this->whenNotLoaded('level', $this->level_id),
             '#lessons'    => $this->whenCounted('lessons'),
-            'language'    => LanguageResource::make($this->whenLoaded('language')),
-            'courses'     => CourseResource::collection($this->whenLoaded('courses')),
+            '#exercises'  => $this->whenCounted('exercises'),
+            '#categories' => $this->whenCounted('categories'),
+            'level'       => LevelResource::make($this->whenLoaded('level')),
             'lessons'     => LessonResource::collection($this->whenLoaded('lessons')),
+            'exercises'   => ExerciseResource::collection($this->whenLoaded('exercises')),
+            'categories'  => CategoryResource::collection($this->whenLoaded('categories')),
             'enabled'     => $this->when($request->showEnabled, $this->enabled),
-            'created_at'  => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
-            'updated_at'  => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
+            'createdAt'   => $this->when($request->showTimestamps, $this->created_at->toDateTimeString()),
+            'updatedAt'   => $this->when($request->showTimestamps, $this->updated_at->toDateTimeString()),
         ];
     }
 }

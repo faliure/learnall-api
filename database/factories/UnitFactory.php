@@ -3,8 +3,8 @@
 namespace Database\Factories;
 
 use App\Extensions\Model;
-use App\Models\Language;
 use App\Models\Lesson;
+use App\Models\Level;
 use App\Models\Unit;
 use Database\Factories\Traits\CanBeDisabled;
 use Illuminate\Database\Eloquent\Factories\Factory;
@@ -22,10 +22,10 @@ class UnitFactory extends Factory
     public function definition(): array
     {
         return [
-            'language_id' => Language::rand()->id,
             'name'        => $this->faker->sentence(2),
             'description' => $this->faker->sentence(),
             'enabled'     => true,
+            'level_id'    => Level::rand()->id,
         ];
     }
 
@@ -36,12 +36,10 @@ class UnitFactory extends Factory
     {
         Model::disableGlobalScopes();
 
-        return $this->afterCreating(function (Unit $unit) {
-            $lessons = Lesson::factory()->count(5)->create([
-                'language_id' => $unit->language_id,
-            ]);
-
-            $unit->lessons()->sync($lessons->pluck('id'));
-        });
+        return $this->afterCreating(
+            fn (Unit $unit) => $unit->saveMany(
+                Lesson::factory()->count(2)->make()
+            )
+        );
     }
 }
