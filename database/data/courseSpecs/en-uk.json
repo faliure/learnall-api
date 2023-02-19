@@ -1,0 +1,1398 @@
+[
+    {
+        "name": "Letters",
+        "units": [
+            {
+                "name": "Letters 1",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "enabled": true,
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Letters 2",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Letters 3",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Phrases and Animals",
+        "units": [
+            {
+                "name": "Phrases",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Animals",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Family and Numbers",
+        "units": [
+            {
+                "name": "Family",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Numbers 1",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Numbers 2",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hobbies and Occupations",
+        "units": [
+            {
+                "name": "Hobbies",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Occupations",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Food",
+        "units": [
+            {
+                "name": "Food 1. Nominative and Accusative Case",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Food 2. Accusative Case",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Instrumental and Genitive",
+        "units": [
+            {
+                "name": "Instrumental",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Genitive",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Cafe",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Present Tense",
+        "units": [
+            {
+                "name": "Present Tense 1",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Places",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Objects",
+        "units": [
+            {
+                "name": "Objects",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Clothes",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Past Tense",
+        "units": [
+            {
+                "name": "Colors",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Past Tense",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Present Tense 2",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Shopping and Calendar",
+        "units": [
+            {
+                "name": "Shopping",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Calendar 1",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Future Tense",
+        "units": [
+            {
+                "name": "Future Tense",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Verbs of Motion",
+        "units": [
+            {
+                "name": "Verbs of Motion",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Calendar 2",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Dative Case",
+        "units": [
+            {
+                "name": "Transport",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Traveling",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Pronouns. Dative Case",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Accusative Case",
+        "units": [
+            {
+                "name": "Pronouns. Accusative Case",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Modal Verbs",
+        "units": [
+            {
+                "name": "Sports",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Modal Verbs",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Adverbs",
+        "units": [
+            {
+                "name": "People",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Adverbs",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Ordinal Numbers",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Questions",
+        "units": [
+            {
+                "name": "Appearance",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Questions",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Arts and Nature",
+        "units": [
+            {
+                "name": "Arts",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Nature",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Indefinite Pronouns",
+        "units": [
+            {
+                "name": "Indefinite Pronouns",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Health and Education",
+        "units": [
+            {
+                "name": "Health",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Education",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Business",
+        "units": [
+            {
+                "name": "Business",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Verb Aspects",
+        "units": [
+            {
+                "name": "Verb Aspects",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Spiritual",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cases",
+        "units": [
+            {
+                "name": "Complex Sentences",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Cases Revision",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Events",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Abstract",
+        "units": [
+            {
+                "name": "Abstract",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            },
+            {
+                "name": "Communication",
+                "lessons": [
+                    {
+                        "name": "Lesson 1",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 2",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 3",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 4",
+                        "exercises": []
+                    },
+                    {
+                        "name": "Lesson 5",
+                        "exercises": []
+                    }
+                ]
+            }
+        ]
+    }
+]

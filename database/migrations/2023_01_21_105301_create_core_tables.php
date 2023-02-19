@@ -48,6 +48,9 @@ return new class extends Migration
             $table->foreignId('course_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['course_id', 'name']);
+            $table->unique(['course_id', 'slug']);
         });
 
         Schema::create('units', function (Blueprint $table) {
@@ -59,6 +62,9 @@ return new class extends Migration
             $table->foreignId('level_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['level_id', 'name']);
+            $table->unique(['level_id', 'slug']);
         });
 
         Schema::create('lessons', function (Blueprint $table) {
@@ -70,6 +76,9 @@ return new class extends Migration
             $table->foreignId('unit_id')->constrained()->cascadeOnDelete();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
+
+            $table->unique(['unit_id', 'name']);
+            $table->unique(['unit_id', 'slug']);
         });
 
         Schema::create('exercise_types', function (Blueprint $table) {
@@ -128,6 +137,9 @@ return new class extends Migration
                 'language_id',
                 'authoritative',
             ], 'authoritative_unique');
+
+            $table->charset   = 'utf8';
+            $table->collation = 'utf8_bin';
         });
 
         Schema::create('categories', function (Blueprint $table) {
