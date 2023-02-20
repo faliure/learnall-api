@@ -1,6 +1,7 @@
 [
     {
         "name": "Letters",
+        "description": "Learn the alphabet, recognize sounds",
         "units": [
             {
                 "name": "Letters 1",
@@ -82,6 +83,7 @@
     },
     {
         "name": "Phrases and Animals",
+        "description": "Use unique letters, make small talk",
         "units": [
             {
                 "name": "Phrases",
@@ -110,6 +112,7 @@
             },
             {
                 "name": "Animals",
+                "description": "Identify animals, talk about family",
                 "lessons": [
                     {
                         "name": "Lesson 1",
@@ -137,6 +140,7 @@
     },
     {
         "name": "Family and Numbers",
+        "description": "Use basic numbers, form large numbers",
         "units": [
             {
                 "name": "Family",
@@ -217,6 +221,7 @@
     },
     {
         "name": "Hobbies and Occupations",
+        "description": "Describe hobbies, talk about work",
         "units": [
             {
                 "name": "Hobbies",
@@ -272,6 +277,7 @@
     },
     {
         "name": "Food",
+        "description": "Describe food, talk about cooking",
         "units": [
             {
                 "name": "Food 1. Nominative and Accusative Case",
@@ -327,6 +333,7 @@
     },
     {
         "name": "Instrumental and Genitive",
+        "description": "Use the instrumental case, talk about food",
         "units": [
             {
                 "name": "Instrumental",
@@ -407,6 +414,7 @@
     },
     {
         "name": "Present Tense",
+        "description": "Order food and drinks, use present tense",
         "units": [
             {
                 "name": "Present Tense 1",
@@ -462,6 +470,7 @@
     },
     {
         "name": "Objects",
+        "description": "Identify places, talk about common objects and clothes",
         "units": [
             {
                 "name": "Objects",
@@ -517,6 +526,7 @@
     },
     {
         "name": "Past Tense",
+        "description": "Describe colors, talk about the past, use present tense",
         "units": [
             {
                 "name": "Colors",
@@ -597,6 +607,7 @@
     },
     {
         "name": "Shopping and Calendar",
+        "description": "Discuss shopping, refer to the seasons",
         "units": [
             {
                 "name": "Shopping",
@@ -652,6 +663,7 @@
     },
     {
         "name": "Future Tense",
+        "description": "Talk about the future",
         "units": [
             {
                 "name": "Future Tense",
@@ -682,6 +694,7 @@
     },
     {
         "name": "Verbs of Motion",
+        "description": "Use motion verbs",
         "units": [
             {
                 "name": "Verbs of Motion",
@@ -737,6 +750,7 @@
     },
     {
         "name": "Dative Case",
+        "description": "Talk about travel and transport, use the dative case",
         "units": [
             {
                 "name": "Transport",
@@ -817,6 +831,7 @@
     },
     {
         "name": "Accusative Case",
+        "description": "Use the accusative case, talk about sports",
         "units": [
             {
                 "name": "Pronouns. Accusative Case",
@@ -847,6 +862,7 @@
     },
     {
         "name": "Modal Verbs",
+        "description": "Use modal verbs, describe people",
         "units": [
             {
                 "name": "Sports",
@@ -902,6 +918,7 @@
     },
     {
         "name": "Adverbs",
+        "description": "Use adverbs, use ordinal numbers",
         "units": [
             {
                 "name": "People",
@@ -982,6 +999,7 @@
     },
     {
         "name": "Questions",
+        "description": "Describe appearance, ask questions",
         "units": [
             {
                 "name": "Appearance",
@@ -1037,6 +1055,7 @@
     },
     {
         "name": "Arts and Nature",
+        "description": "Talk about the arts, describe nature",
         "units": [
             {
                 "name": "Arts",
@@ -1092,6 +1111,7 @@
     },
     {
         "name": "Indefinite Pronouns",
+        "description": "Use indefinite articles",
         "units": [
             {
                 "name": "Indefinite Pronouns",
@@ -1122,6 +1142,7 @@
     },
     {
         "name": "Health and Education",
+        "description": "Ask about health, talk about Education",
         "units": [
             {
                 "name": "Health",
@@ -1177,6 +1198,7 @@
     },
     {
         "name": "Business",
+        "description": "Talk about school, discuss business",
         "units": [
             {
                 "name": "Business",
@@ -1207,6 +1229,7 @@
     },
     {
         "name": "Verb Aspects",
+        "description": "Use verb forms, discuss spirituality",
         "units": [
             {
                 "name": "Verb Aspects",
@@ -1262,6 +1285,7 @@
     },
     {
         "name": "Cases",
+        "description": "Use complex sentences, review cases",
         "units": [
             {
                 "name": "Complex Sentences",
@@ -1342,6 +1366,7 @@
     },
     {
         "name": "Abstract",
+        "description": "Talk about events, discuss abstract ideas",
         "units": [
             {
                 "name": "Abstract",

@@ -12,6 +12,7 @@ environments:
             - 'php artisan event:cache'
         deploy:
             - 'php artisan migrate --force'
+            - 'php artisan spec:courses'
     staging:
         domain: 'playground-api.learnall.online'
         memory: 1024
@@ -23,3 +24,4 @@ environments:
             - 'php artisan event:cache'
         deploy:
             - 'php artisan migrate'
+            - 'php artisan spec:courses'
