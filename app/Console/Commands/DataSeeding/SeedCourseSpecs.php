@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands\DataSeeding;
 
+use App\Extensions\Model;
 use App\Models\Course;
 use App\Models\Exercise;
 use App\Models\ExerciseType;
@@ -48,6 +49,8 @@ class SeedCourseSpecs extends Command
         // TODO: add JSON Schema Validation
         // @see https://github.com/justinrainbow/json-schema
 
+        Model::disableGlobalScopes();
+
         $this->languageMap     = Language::pluck('id', 'code');
         $this->exerciseTypeMap = ExerciseType::pluck('id', 'type');
 
@@ -60,6 +63,8 @@ class SeedCourseSpecs extends Command
         );
 
         $paths->each($this->processSpec(...));
+
+        Model::enableGlobalScopes();
     }
 
     protected function processSpec(string $path): void
