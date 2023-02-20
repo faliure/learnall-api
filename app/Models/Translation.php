@@ -19,8 +19,6 @@ class Translation extends Model
         'is_regex'      => 'boolean',
     ];
 
-    protected $useFromLanguageForScope;
-
     public function learnable(): BelongsTo
     {
         return $this->belongsTo(Learnable::class);

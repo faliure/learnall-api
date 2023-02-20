@@ -8,8 +8,17 @@
                 "lessons": [
                     {
                         "name": "Lesson 1",
-                        "enabled": true,
-                        "exercises": []
+                        "exercises": [
+                            {
+                                "type": "ReadAndTranslateBack",
+                                "learnables": [
+                                    {
+                                        "learnable": "мама",
+                                        "part_of_speech": null
+                                    }
+                                ]
+                            }
+                        ]
                     },
                     {
                         "name": "Lesson 2",

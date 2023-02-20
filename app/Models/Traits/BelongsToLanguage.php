@@ -15,12 +15,24 @@ trait BelongsToLanguage
 
     public function scopeForLearnedLanguage(Builder $builder): void
     {
-        $scopingId = property_exists(static::class, 'useFromLanguageForScope')
-            ? me()?->activeCourse?->from_language
-            : me()?->activeCourse?->language_id;
+        /** Without eager loading, it loads the first course always, instead */
+        me()->load('activeCourse');
 
-        $table = (new static())->getTable();
+        $table  = (new static())->getTable();
+        $langId = me()?->activeCourse?->language_id;
 
-        $builder->where("$table.language_id", $scopingId);
+
+        $builder->where("$table.language_id", $langId);
+    }
+
+    public function scopeForSpokenLanguage(Builder $builder): void
+    {
+        /** Without eager loading, it loads the first course always, instead */
+        me()->load('activeCourse');
+
+        $table  = (new static())->getTable();
+        $langId = me()?->activeCourse?->from_language;
+
+        $builder->where("$table.language_id", $langId);
     }
 }

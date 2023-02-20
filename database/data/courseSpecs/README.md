@@ -7,10 +7,16 @@ type ExerciseDefinition {
     // Variable structure, depends on the Exercise's ExerciseType
 }
 
+type LearnableSpec {
+    name: String
+    part_of_speech: ?String // If ommitted, match any pos
+}
+
 type ExerciseSpec {
     type: String    // ExerciseType.name
     description: String
-    definition: ExerciseDefinition
+    definition: ?ExerciseDefinition
+    learnables: ?LearnableSpec[]
     enabled: ?Boolean // Default: TRUE
 }
 
@@ -60,16 +66,22 @@ Example:
                             {
                                 "type": "ReadAndTranslate",
                                 "description": "Exercise 1-1",
-                                "definition": {
-                                    "learnable": 123
-                                },
+                                // No definition required for this type
+                                "learnables": [
+                                    "learnable": "мама",
+                                    "part_of_speech": "noun"
+                                ]
                             },
                             {
                                 "type": "ReadAndSpeak",
                                 "description": "Exercise 1-2",
                                 "definition": {
-                                    "learnable": 124
+                                    "check_id": 1234
                                 },
+                                "learnables": [
+                                    "learnable": "тато",
+                                    // No part of speech, i.e. match all by learnable
+                                ]
                             }
                         ]
                     },

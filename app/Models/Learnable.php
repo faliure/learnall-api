@@ -4,7 +4,6 @@ namespace App\Models;
 
 use App\Enums\PartOfSpeech;
 use App\Extensions\Model;
-use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Pivots\LearnableLearnable;
 use App\Models\Traits\BelongsToLanguage;
 use App\Models\Traits\Categorizable;
@@ -36,21 +35,19 @@ class Learnable extends Model
 
     public function exercises(): BelongsToMany
     {
-        return $this->belongsToMany(Exercise::class)
-            ->using(ExerciseLearnable::class)
-            ->withTimestamps();
+        return $this->belongsToMany(Exercise::class);
     }
 
     public function translations(): HasMany
     {
         return $this->hasMany(Translation::class)
-            ->forLearnedLanguage();
+            ->forSpokenLanguage();
     }
 
     public function translation(): HasOne
     {
         return $this->hasOne(Translation::class)
-            ->forLearnedLanguage()
+            ->forSpokenLanguage()
             ->where([ 'authoritative' => true ]);
     }
 

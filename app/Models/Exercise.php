@@ -3,7 +3,6 @@
 namespace App\Models;
 
 use App\Extensions\Model;
-use App\Models\Pivots\ExerciseLearnable;
 use App\Models\Traits\Categorizable;
 use App\Models\Traits\Enableable;
 use App\Models\Traits\RelatesToLearnables;
@@ -16,6 +15,10 @@ class Exercise extends Model
     use Categorizable;
     use Enableable;
     use RelatesToLearnables;
+
+    protected $with = [
+        'type',
+    ];
 
     protected $casts = [
         'definition' => AsArrayObject::class,
@@ -33,8 +36,6 @@ class Exercise extends Model
 
     public function learnables(): BelongsToMany
     {
-        return $this->belongsToMany(Learnable::class)
-            ->using(ExerciseLearnable::class)
-            ->withTimestamps();
+        return $this->belongsToMany(Learnable::class);
     }
 }

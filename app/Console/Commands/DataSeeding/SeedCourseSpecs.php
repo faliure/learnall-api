@@ -7,10 +7,12 @@ use App\Models\Course;
 use App\Models\Exercise;
 use App\Models\ExerciseType;
 use App\Models\Language;
+use App\Models\Learnable;
 use App\Models\Lesson;
 use App\Models\Level;
 use App\Models\Unit;
 use Illuminate\Console\Command;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
@@ -40,6 +42,11 @@ class SeedCourseSpecs extends Command
      * Mapping from ExerciseType type to id.
      */
     protected Collection $exerciseTypeMap;
+
+    /**
+     * The Course currently being processed.
+     */
+    protected Course $processingCourse;
 
     /**
      * Execute the console command.
@@ -83,6 +90,8 @@ class SeedCourseSpecs extends Command
 
     protected function buildCourse(Course $course, array $courseSpec): void
     {
+        $this->processingCourse = $course;
+
         collect($courseSpec)->each(
             fn (array $levelSpec) => $this->buildLevel($course, $levelSpec)
         );
@@ -142,16 +151,35 @@ class SeedCourseSpecs extends Command
     protected function buildExercise(Lesson $lesson, array $spec)
     {
         $this->enforceSpecHas($spec, 'type', 'Exercise');
-        $this->enforceSpecHas($spec, 'definition', 'Exercise');
 
-        $lesson = Exercise::updateOrCreate([
+        $exercise = Exercise::updateOrCreate([
             'lesson_id'   => $lesson->id,
-            'type'        => $this->exerciseTypeMap[ $spec['type'] ],
-            'definition'  => $spec['definition'] ?? null,
+            'type_id'     => $this->exerciseTypeMap[ $spec['type'] ],
+            'definition'  => json_encode($spec['definition'] ?? null),
         ], [
+            'definition'  => $spec['definition'] ?? null,
             'description' => $spec['description'] ?? null,
             'enabled'     => $spec['enabled'] ?? true,
         ]);
+
+        collect($spec['learnables'] ?? [])->each(
+            fn (array $learnableSpec) => $this->linkLearnables($exercise, $learnableSpec)
+        );
+    }
+
+    protected function linkLearnables(Exercise $exercise, array $spec)
+    {
+        $this->enforceSpecHas($spec, 'learnable', 'Learnable');
+
+        $learnables = Learnable::where([
+            'language_id' => $this->processingCourse->language_id,
+            'learnable' => $spec['learnable'],
+        ])->when(
+            array_key_exists('part_of_speech', $spec),
+            fn (Builder $q) => $q->where('part_of_speech', $spec['part_of_speech'])
+        )->get();
+
+        $exercise->learnables()->syncWithoutDetaching($learnables->pluck('id'));
     }
 
     protected function enforceSpecHas(array $spec, string $key, string $specType): void

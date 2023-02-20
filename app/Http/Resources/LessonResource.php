@@ -15,6 +15,9 @@ class LessonResource extends Resource
     protected array $loadableRelations = [
         'unit',
         'exercises',
+        'exercises.learnables',
+        'exercises.learnables.translation',
+        'exercises.learnables.translations',
         'categories',
     ];
 
@@ -24,6 +27,7 @@ class LessonResource extends Resource
     protected array $loadableCounts = [
         'exercises',
         'categories',
+        'exercises.learnables',
     ];
 
     /**
