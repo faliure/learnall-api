@@ -17,6 +17,19 @@
                                         "part_of_speech": null
                                     }
                                 ]
+                            },
+                            {
+                                "type": "ReadAndPickTheWords",
+                                "definition": {
+                                    "fillerCount": 2,
+                                    "fillers": [ "mom", "dad", "uncle", "here", "home" ]
+                                },
+                                "learnables": [
+                                    {
+                                        "learnable": "тітка ліза там",
+                                        "part_of_speech": "sentence"
+                                    }
+                                ]
                             }
                         ]
                     },

@@ -17,14 +17,14 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use InvalidArgumentException;
 
-class SeedCourseSpecs extends Command
+class SeedCourses extends Command
 {
     /**
      * The name and signature of the console command.
      *
      * @var string
      */
-    protected $signature = 'spec:courses';
+    protected $signature = 'seed:courses';
 
     /**
      * The console command description.

@@ -1,0 +1,16 @@
+[
+    {
+        "category": "Letters 1",
+        "learnable": "Тітка Ліза там",
+        "normalized": "titka liza tam",
+        "translation": "Aunt Liza is there",
+        "partOfSpeech": "Sentence"
+    },
+    {
+        "category": "People Names",
+        "learnable": "ліза",
+        "normalized": "liza",
+        "translation": "Liza",
+        "partOfSpeech": "Proper Noun"
+    }
+]
